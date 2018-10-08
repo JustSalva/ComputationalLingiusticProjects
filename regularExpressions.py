@@ -22,11 +22,11 @@ class regularExpressions:
         __STRING_NUMBERS = '((([1-9][0-9]*)|[1-9]|0[1-9]))'
         __STRING_ORDINAL_NUMBERS = __STRING_NUMBERS + __STRING_ORDINAL_TAGS
         self.reList.append(('ORDINAL_NUMBERS',
-                            re.compile('(' + __STRING_ORDINAL_NUMBERS + ')|(' + constants.ORDINALS_IN_LETTER + ')',
+                            re.compile('(' + __STRING_ORDINAL_NUMBERS + ')|(' + '\b('+constants.ORDINALS_IN_LETTER + ')\b'+')',
                                        flags=re.IGNORECASE)))
 
         self.reList.append(('NUMBER',
-                            re.compile('(' + __STRING_NUMBERS + ')|(' + constants.NUMBERS_IN_LETTER + ')',
+                            re.compile('(' + __STRING_NUMBERS + ')|(' + '\b('+constants.NUMBERS_IN_LETTER + ')\b'+')',
                                        flags=re.IGNORECASE)))  # NB check always after ordinal numbers!
 
         __STRING_ORDINAL_NUMBERS_DAY = __STRING_NUMBER_DAY + __STRING_ORDINAL_TAGS
@@ -35,8 +35,8 @@ class regularExpressions:
         self.reList.append(('NOT_AMBIGUOUS_DAY',
                             re.compile(__STRING_NOT_AMBIGUOUS_NUMBER_DAY + __STRING_ORDINAL_TAGS + '?',
                                        flags=re.IGNORECASE)))  # NB ambiguous to be handled
-
-        self.reList.append(('AGES', re.compile('(?<!\S)(A\.?D\.?|B\.?C\.?|C\.?E\.?|B\.?C\.?E\.?)(?!\S)', flags=re.IGNORECASE)))
+        __STRING_AGES = 'A\.?D\.?|B\.?C\.?|C\.?E\.?|B\.?C\.?E\.?'
+        self.reList.append(('AGES', re.compile('(?<!\S)('+__STRING_AGES+')(?!\S)', flags=re.IGNORECASE)))
 
         __STRING_TRIAD = 'present|future|past'
         __STRING_TEMPORAL_POSITION = 'next|last|previous|following|final|' + __STRING_TRIAD
@@ -51,10 +51,12 @@ class regularExpressions:
         self.reList.append(('TIME_UNIT_PLURAL', re.compile('hours|days|weeks|months|years|hrs',
                                                            flags=re.IGNORECASE)))  # NB match before singular
         self.reList.append(('TIME_UNIT_SINGULAR', re.compile(
-            'day|month|year|decade|century|week|' + constants.MONTHS + '|' + constants.SEASON + '|' + constants.DAYTIMES_SINGULAR)))
+            'day|month|year|decade|century|week| ' + constants.DAYTIMES_SINGULAR)))
 
-        self.reList.append(('NOT_AMBIGUOUS_YEARS', re.compile('[1-9][0-9]{3,10}|(3[2-9]|[4-9][0-9])')))  # TODO
-
+        self.reList.append(('NOT_AMBIGUOUS_YEARS',
+                            re.compile('([1-9][0-9]{3,10}|(3[2-9]|[4-9][0-9])('+__STRING_AGES+')?)|\'[0-9][0-9]')))
+        self.reList.append(('DECADES',
+                            re.compile('[1-9][0-9]{3,10}s')))
         self.reList.append(('ITERATION', re.compile('(?<!\S)(every|each)(?!\S)', flags=re.IGNORECASE)))
 
         self.reList.append(('COMPARATOR', re.compile('(?<!\S)(more|less)(?!\S)', flags=re.IGNORECASE)))
@@ -67,7 +69,7 @@ class regularExpressions:
             '((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))(' + __STRING_AM_PM + ')?',
             flags=re.IGNORECASE)))
 
-        self.reList.append(('HOLIDAY', re.compile(constants.HOLIDAYS, flags=re.IGNORECASE)))
+        self.reList.append(('HOLIDAY', re.compile('\b('+constants.HOLIDAYS+')\b', flags=re.IGNORECASE)))
 
         self.reList.append(('THAN', re.compile('(?<!\S)than(?!\S)', flags=re.IGNORECASE)))
         self.reList.append(('AT', re.compile('(?<!\S)at(?!\S)', flags=re.IGNORECASE)))
@@ -93,6 +95,7 @@ class regularExpressions:
         self.reList.append(('COLUMN', re.compile(':')))
         self.reList.append(('DOT', re.compile('\.')))
         self.reList.append(('SLASH', re.compile('/')))
+        self.reList.append(('DURATION', re.compile('[1-9][0-9]{3}-[1-9][0-9]{3}')))
         pass
 
     def checkRE(self, string):
@@ -111,20 +114,19 @@ class regularExpressions:
         if tag is None:
             return "NO_MATCH"
         if elementExtracted != string:
-            print constants.WARNING_COLOR + 'WARNING: ' + elementExtracted + ' does not entirely match the string: ' + string
+            print constants.WARNING_COLOR + 'WARNING: \"' + elementExtracted + '\" does not entirely match the string: \"' + string +'\"'+ constants.STANDARD_COLOR
             print tag
-            return None
-        print tag
+            return "PARTIAL_MATCH"
         return tag
 
 
 # TEST LINES
 """
-for elem in re.finditer(TIME_ZONES, '5:58'):
+for elem in re.finditer(re.compile('[1-9][0-9]{3,10}s'), '1880s'):
     print elem.group(), elem.span()
 """
-"""
+
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "5:34"))
-"""
+print (regularExpressions.checkRE(a, "1995-1996"))
+
 

@@ -39,7 +39,6 @@ def tokenizer(text, tokenized_text):
                 print "ERROR: something went wrong...!"
                 print length, offset, len(usedWord)
                 exit(0)
-
             # print usedWord, offset, length, len(usedWord)
             tokenized_sentence.append((usedWord, offset, length, tagText(usedWord)))
 
@@ -60,10 +59,12 @@ def tokenize(input_file_path, tokenized_text):
 
 def tagText(word):
     regExpr = re.regularExpressions()
-    re.regularExpressions.checkRE(regExpr, word)
-    return
+    return re.regularExpressions.checkRE(regExpr, word)
 
 # test line
 text = []
-tokenizer(XMLparsing.reader("data/train/input/train_07.input.tml"), text)
-print text
+tokenizer(XMLparsing.reader("data/train/input/train_01.input.tml"), text)
+for sentence in text:
+    for word in sentence:
+        if word[3] == 'NO_MATCH':
+            print word[0], word[3]
