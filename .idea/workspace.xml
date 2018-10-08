@@ -2,12 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c1bc8d-e7e1-41da-80f4-3c3a896afe2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstAssignement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XMLparsing/XMLparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XMLparsing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XMLparsing/typeValues.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corpusUtilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/corpusUtilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_01.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_02.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_03.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_04.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_05.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_06.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_07.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_08.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_09.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_10.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_11.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_12.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_13.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_14.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_15.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_16.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_17.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_18.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_19.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/annotated/test_20.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_01.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_02.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_03.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_04.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_05.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_06.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_07.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_08.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_09.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_10.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_11.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_12.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_13.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_14.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_15.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_16.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_17.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_18.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_19.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/input/test_20.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_01.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_02.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_03.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_04.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_05.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_06.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_07.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_08.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_09.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_10.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_11.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_12.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_13.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_14.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_15.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_16.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_17.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_18.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_19.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_20.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_21.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/annotated/train_22.gold.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_01.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_02.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_03.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_04.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_05.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_06.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_07.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_08.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_09.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_10.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_11.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_12.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_13.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_14.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_15.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_16.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_17.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_18.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_19.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_20.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_21.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/input/train_22.input.tml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/printNumbersInLetters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/regular expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/regular expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timextractor.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +170,8 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -90,8 +181,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regular expressions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="272">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -102,21 +193,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/corpusUtilities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="825">
               <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
-                <marker date="1539007539228" expanded="true" signature="172:173" ph="..." />
+                <marker date="1539012051751" expanded="true" signature="172:173" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/printNumbersInLetters.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -126,36 +208,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="10" selection-start-line="9" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XMLparsing/typeValues.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/timextractor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding>
-                <element signature="e#24#45#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -237,6 +289,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,7 +301,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,9 +476,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18126889" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18353474" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.2190016" />
@@ -436,7 +489,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49924472" weight="0.25120774" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49924472" visible="true" weight="0.25120774" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -550,6 +603,34 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/regular expressions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpusUtilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+            <marker date="1539012051751" expanded="true" signature="172:173" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printNumbersInLetters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -577,34 +658,6 @@
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/printNumbersInLetters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/corpusUtilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-            <marker date="1539007539228" expanded="true" signature="172:173" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regular expressions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

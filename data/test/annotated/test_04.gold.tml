@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TimeML>
-  <TIMEX3 char_begin="415" char_end="433" tid="t1000" type="TIME" value="2013-03-23T15:00">15:00 GMT Saturday</TIMEX3>
-  <TIMEX3 char_begin="580" char_end="586" tid="t1" type="DURATION" value="P1W">a week</TIMEX3>
-  <TIMEX3 char_begin="723" char_end="729" tid="t2" type="DATE" value="2013-03-22">Friday</TIMEX3>
-</TimeML>

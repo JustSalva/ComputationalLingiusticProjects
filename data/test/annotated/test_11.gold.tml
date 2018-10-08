@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TimeML>
-  <TIMEX3 char_begin="60" char_end="66" tid="t1" type="DATE" value="2013-03-22">Friday</TIMEX3>
-  <TIMEX3 char_begin="192" char_end="196" tid="t2" type="DATE" value="2010">2010</TIMEX3>
-  <TIMEX3 char_begin="581" char_end="588" tid="t3" type="DURATION" value="PXM">minutes</TIMEX3>
-  <TIMEX3 char_begin="713" char_end="724" tid="t4" type="DURATION" value="P4Y">second term</TIMEX3>
-</TimeML>
