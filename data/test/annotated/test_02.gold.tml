@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="71" char_end="75" tid="t1" type="DATE" value="1953">1953</TIMEX3>
+  <TIMEX3 char_begin="150" char_end="159" tid="t2" type="DATE" value="2013-03-20">Wednesday</TIMEX3>
+  <TIMEX3 char_begin="332" char_end="336" tid="t3" type="DATE" value="1953">1953</TIMEX3>
+  <TIMEX3 char_begin="521" char_end="525" tid="t2000" type="DATE" value="1957">1957</TIMEX3>
+  <TIMEX3 char_begin="526" char_end="528" tid="t2001" type="DATE" value="1958">58</TIMEX3>
+  <TIMEX3 char_begin="698" char_end="702" tid="t4" type="DATE" value="1995">1995</TIMEX3>
+  <TIMEX3 char_begin="777" char_end="785" tid="t5" type="DURATION" value="P100D">100 days</TIMEX3>
+  <TIMEX3 char_begin="808" char_end="820" tid="t6" type="DATE" value="XXXX-XX-XX">the 99th day</TIMEX3>
+  <TIMEX3 char_begin="1391" char_end="1395" tid="t7" type="DATE" value="2005">2005</TIMEX3>
+  <TIMEX3 char_begin="1640" char_end="1643" tid="t8" type="DATE" value="2013-05">May</TIMEX3>
+  <TIMEX3 char_begin="1727" char_end="1735" tid="t9" type="DURATION" value="P60Y">60 years</TIMEX3>
+  <TIMEX3 char_begin="1862" char_end="1874" tid="t2002" type="DATE" value="19">20th Century</TIMEX3>
+  <TIMEX3 char_begin="1986" char_end="1990" tid="t10" type="DATE" value="1984">1984</TIMEX3>
+  <TIMEX3 char_begin="2205" char_end="2214" tid="t11" type="DATE" value="2012-06">last June</TIMEX3>
+</TimeML>

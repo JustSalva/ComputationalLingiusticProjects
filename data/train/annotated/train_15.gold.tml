@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="22" char_end="26" tid="t3" type="DURATION" value="PT298032H">1876</TIMEX3>
+  <TIMEX3 char_begin="27" char_end="31" tid="t3" type="DURATION" value="PT298032H">1910</TIMEX3>
+  <TIMEX3 char_begin="65" char_end="69" tid="t4" type="DATE" value="1872">1872</TIMEX3>
+  <TIMEX3 char_begin="297" char_end="301" tid="t6" type="DATE" value="1876">1876</TIMEX3>
+  <TIMEX3 char_begin="319" char_end="323" tid="t7" type="DATE" value="1910">1910</TIMEX3>
+  <TIMEX3 char_begin="381" char_end="385" tid="t8" type="DATE" value="1911">1911</TIMEX3>
+  <TIMEX3 char_begin="688" char_end="697" tid="t11" type="DURATION" value="P35Y">1876-1910</TIMEX3>
+  <TIMEX3 char_begin="688" char_end="692" tid="t11" type="DURATION" value="PT298032H">1876</TIMEX3>
+  <TIMEX3 char_begin="693" char_end="697" tid="t11" type="DURATION" value="PT298032H">1910</TIMEX3>
+  <TIMEX3 char_begin="885" char_end="889" tid="t12" type="DATE" value="1880">1880</TIMEX3>
+  <TIMEX3 char_begin="1108" char_end="1112" tid="t13" type="DATE" value="1884">1884</TIMEX3>
+  <TIMEX3 char_begin="1148" char_end="1154" tid="t14" type="DATE" value="FUTURE_REF">future</TIMEX3>
+  <TIMEX3 char_begin="2732" char_end="2735" tid="t15" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="3927" char_end="3931" tid="t16" type="DATE" value="1911">1911</TIMEX3>
+  <TIMEX3 char_begin="3981" char_end="3985" tid="t17" type="DATE" value="1908">1908</TIMEX3>
+  <TIMEX3 char_begin="4370" char_end="4374" tid="t18" type="DATE" value="1910">1910</TIMEX3>
+  <TIMEX3 char_begin="4501" char_end="4505" tid="t19" type="DATE" value="1910">1910</TIMEX3>
+  <TIMEX3 char_begin="4941" char_end="4945" tid="t24" type="DURATION" value="PT17544H">1911</TIMEX3>
+  <TIMEX3 char_begin="4946" char_end="4950" tid="t24" type="DURATION" value="PT17544H">1913</TIMEX3>
+  <TIMEX3 char_begin="5053" char_end="5057" tid="t25" type="DATE" value="1910">1910</TIMEX3>
+  <TIMEX3 char_begin="5347" char_end="5362" tid="t26" type="DATE" value="1910-10-05">October 5, 1910</TIMEX3>
+  <TIMEX3 char_begin="5604" char_end="5615" tid="t27" type="DATE" value="1910-11-20">November 20</TIMEX3>
+  <TIMEX3 char_begin="6251" char_end="6260" tid="t28" type="DATE" value="1910">late 1910</TIMEX3>
+  <TIMEX3 char_begin="6782" char_end="6794" tid="t29" type="DATE" value="1911-05-21">May 21, 1911</TIMEX3>
+  <TIMEX3 char_begin="6974" char_end="6983" tid="t30" type="DATE" value="1911">late 1911</TIMEX3>
+  <TIMEX3 char_begin="7964" char_end="7969" tid="t31" type="DURATION" value="XXXX-XX-XXTDT">hours</TIMEX3>
+  <TIMEX3 char_begin="8043" char_end="8046" tid="t32" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="8441" char_end="8445" tid="t33" type="DATE" value="1913">1913</TIMEX3>
+  <TIMEX3 char_begin="8519" char_end="8541" tid="t34" type="DATE" value="1913-WXX">less than a week later</TIMEX3>
+  <TIMEX3 char_begin="8667" char_end="8671" tid="t37" type="DURATION" value="PT8760H">1913</TIMEX3>
+  <TIMEX3 char_begin="8672" char_end="8676" tid="t37" type="DURATION" value="PT8760H">1914</TIMEX3>
+  <TIMEX3 char_begin="8682" char_end="8692" tid="t38" type="DATE" value="1913">early 1913</TIMEX3>
+  <TIMEX3 char_begin="8895" char_end="8903" tid="t39" type="DURATION" value="P10D">ten days</TIMEX3>
+  <TIMEX3 char_begin="9948" char_end="9962" tid="t40" type="DATE" value="1913-03-26">March 26, 1913</TIMEX3>
+  <TIMEX3 char_begin="10214" char_end="10224" tid="t41" type="DATE" value="1914-04">April 1914</TIMEX3>
+  <TIMEX3 char_begin="10389" char_end="10398" tid="t42" type="DATE" value="1914-07">late July</TIMEX3>
+  <TIMEX3 char_begin="11665" char_end="11675" tid="t43" type="DATE" value="1916">early 1916</TIMEX3>
+  <TIMEX3 char_begin="11699" char_end="11703" tid="t46" type="DURATION" value="PT78888H">1911</TIMEX3>
+  <TIMEX3 char_begin="11704" char_end="11708" tid="t46" type="DURATION" value="PT78888H">1920</TIMEX3>
+  <TIMEX3 char_begin="12028" char_end="12032" tid="t47" type="DATE" value="1911">1911</TIMEX3>
+  <TIMEX3 char_begin="12113" char_end="12117" tid="t48" type="DATE" value="1911">1911</TIMEX3>
+  <TIMEX3 char_begin="12237" char_end="12241" tid="t49" type="DATE" value="1912">1912</TIMEX3>
+  <TIMEX3 char_begin="12616" char_end="12620" tid="t50" type="DATE" value="1913">1913</TIMEX3>
+  <TIMEX3 char_begin="12998" char_end="13002" tid="t51" type="DATE" value="1914">1914</TIMEX3>
+  <TIMEX3 char_begin="13175" char_end="13193" tid="t52" type="DATE" value="1914-WI">the winter of 1914</TIMEX3>
+  <TIMEX3 char_begin="13389" char_end="13399" tid="t53" type="DATE" value="1915">early 1915</TIMEX3>
+  <TIMEX3 char_begin="13404" char_end="13408" tid="t54" type="DATE" value="1915">1915</TIMEX3>
+  <TIMEX3 char_begin="13534" char_end="13539" tid="t55" type="DATE" value="1915-04-06">April</TIMEX3>
+  <TIMEX3 char_begin="13553" char_end="13558" tid="t56" type="DATE" value="1915-04-13">April</TIMEX3>
+  <TIMEX3 char_begin="13799" char_end="13812" tid="t57" type="DATE" value="1916-03-09">March 9, 1916</TIMEX3>
+  <TIMEX3 char_begin="14365" char_end="14378" tid="t58" type="DURATION" value="P1Y">nearly a year</TIMEX3>
+  <TIMEX3 char_begin="14779" char_end="14783" tid="t59" type="DATE" value="1920">1920</TIMEX3>
+  <TIMEX3 char_begin="14898" char_end="14902" tid="t60" type="DATE" value="1923">1923</TIMEX3>
+  <TIMEX3 char_begin="15109" char_end="15113" tid="t61" type="DATE" value="1920">1920</TIMEX3>
+  <TIMEX3 char_begin="15147" char_end="15151" tid="t64" type="DURATION" value="PT52584H">1914</TIMEX3>
+  <TIMEX3 char_begin="15152" char_end="15156" tid="t64" type="DURATION" value="PT52584H">1920</TIMEX3>
+  <TIMEX3 char_begin="15199" char_end="15203" tid="t65" type="DATE" value="1914">1914</TIMEX3>
+  <TIMEX3 char_begin="15307" char_end="15311" tid="t66" type="DATE" value="1915">1915</TIMEX3>
+  <TIMEX3 char_begin="15447" char_end="15451" tid="t67" type="DATE" value="1917">1917</TIMEX3>
+  <TIMEX3 char_begin="15721" char_end="15725" tid="t68" type="DATE" value="1917">1917</TIMEX3>
+  <TIMEX3 char_begin="16393" char_end="16397" tid="t69" type="DATE" value="1917">1917</TIMEX3>
+  <TIMEX3 char_begin="16540" char_end="16544" tid="t70" type="DATE" value="1920">1920</TIMEX3>
+  <TIMEX3 char_begin="16727" char_end="16739" tid="t71" type="DATE" value="1920-05-21">May 21, 1920</TIMEX3>
+  <TIMEX3 char_begin="16766" char_end="16770" tid="t74" type="DURATION" value="PT78888H">1910</TIMEX3>
+  <TIMEX3 char_begin="16771" char_end="16775" tid="t74" type="DURATION" value="PT78888H">1919</TIMEX3>
+  <TIMEX3 char_begin="17737" char_end="17741" tid="t75" type="DATE" value="1919">1919</TIMEX3>
+  <TIMEX3 char_begin="18068" char_end="18078" tid="t76" type="DATE" value="1910">about 1910</TIMEX3>
+  <TIMEX3 char_begin="18803" char_end="18814" tid="t77" type="DURATION" value="PXY">a few years</TIMEX3>
+  <TIMEX3 char_begin="20253" char_end="20266" tid="t78" type="DATE" value="1911-07-12">July 12, 1911</TIMEX3>
+</TimeML>

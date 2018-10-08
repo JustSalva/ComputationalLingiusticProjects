@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="11" char_end="17" tid="t1" type="DATE" value="2013-03-22">Friday</TIMEX3>
+  <TIMEX3 char_begin="176" char_end="185" tid="t15" type="DURATION" value="P4W">four-week</TIMEX3>
+  <TIMEX3 char_begin="242" char_end="249" tid="t2" type="DATE" value="2013-04-07">April 7</TIMEX3>
+  <TIMEX3 char_begin="384" char_end="390" tid="t3" type="DATE" value="2013-03-22">Friday</TIMEX3>
+  <TIMEX3 char_begin="631" char_end="647" tid="t4" type="DATE" value="2013">this fiscal year</TIMEX3>
+</TimeML>

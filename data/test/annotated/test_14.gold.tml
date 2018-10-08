@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="46" char_end="54" tid="t1" type="DATE" value="2013-03-21">Thursday</TIMEX3>
+  <TIMEX3 char_begin="244" char_end="248" tid="t1000" type="DATE" value="2007">2007</TIMEX3>
+  <TIMEX3 char_begin="754" char_end="762" tid="t2" type="DATE" value="2012-05">last May</TIMEX3>
+</TimeML>

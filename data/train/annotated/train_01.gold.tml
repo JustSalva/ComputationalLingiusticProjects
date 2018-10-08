@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="48" char_end="65" tid="t1" type="DATE" value="1939-09-01">September 1, 1939</TIMEX3>
+  <TIMEX3 char_begin="108" char_end="112" tid="t2" type="DATE" value="1939">1939</TIMEX3>
+  <TIMEX3 char_begin="340" char_end="358" tid="t3" type="DATE" value="1939-09-17">September 17, 1939</TIMEX3>
+  <TIMEX3 char_begin="453" char_end="466" tid="t4" type="DATE" value="1939-10">early October</TIMEX3>
+  <TIMEX3 char_begin="822" char_end="836" tid="t5" type="DATE" value="1939-09">late September</TIMEX3>
+  <TIMEX3 char_begin="1133" char_end="1146" tid="t6" type="DATE" value="1939-11">November 1939</TIMEX3>
+  <TIMEX3 char_begin="1180" char_end="1190" tid="t7" type="DATE" value="1940-03">March 1940</TIMEX3>
+  <TIMEX3 char_begin="1440" char_end="1449" tid="t8" type="DATE" value="1940-06">June 1940</TIMEX3>
+  <TIMEX3 char_begin="1735" char_end="1745" tid="t9" type="DATE" value="1940-04">April 1940</TIMEX3>
+  <TIMEX3 char_begin="1800" char_end="1816" tid="t10" type="DATE" value="1940-02">February of 1940</TIMEX3>
+  <TIMEX3 char_begin="1991" char_end="1996" tid="t11" type="DATE" value="1940-04">April</TIMEX3>
+  <TIMEX3 char_begin="2206" char_end="2216" tid="t12" type="DURATION" value="P2M">two months</TIMEX3>
+  <TIMEX3 char_begin="2350" char_end="2362" tid="t13" type="DATE" value="1940-05-10">May 10, 1940</TIMEX3>
+  <TIMEX3 char_begin="2393" char_end="2396" tid="t14" type="DURATION" value="1940-05-10">day</TIMEX3>
+  <TIMEX3 char_begin="2532" char_end="2542" tid="t15" type="DURATION" value="PXD">a few days</TIMEX3>
+  <TIMEX3 char_begin="2547" char_end="2552" tid="t16" type="DURATION" value="PXW">weeks</TIMEX3>
+  <TIMEX3 char_begin="2888" char_end="2908" tid="t17" type="DATE" value="1940-05">the end of the month</TIMEX3>
+  <TIMEX3 char_begin="2913" char_end="2920" tid="t18" type="DATE" value="1940-06-10">June 10</TIMEX3>
+  <TIMEX3 char_begin="2990" char_end="3007" tid="t19" type="DATE" value="1940-06-22">twelve days later</TIMEX3>
+  <TIMEX3 char_begin="3146" char_end="3153" tid="t20" type="DATE" value="1940-07-14">July 14</TIMEX3>
+  <TIMEX3 char_begin="3407" char_end="3416" tid="t21" type="DATE" value="1940-09">September</TIMEX3>
+  <TIMEX3 char_begin="3687" char_end="3691" tid="t22" type="DATE" value="1940-06">June</TIMEX3>
+  <TIMEX3 char_begin="3726" char_end="3732" tid="t23" type="DATE" value="1940-08">August</TIMEX3>
+  <TIMEX3 char_begin="3785" char_end="3799" tid="t24" type="DATE" value="1940-09">September 1940</TIMEX3>
+  <TIMEX3 char_begin="3842" char_end="3851" tid="t25" type="DATE" value="1940-09">September</TIMEX3>
+  <TIMEX3 char_begin="4044" char_end="4057" tid="t26" type="DATE" value="1939-11">November 1939</TIMEX3>
+  <TIMEX3 char_begin="4153" char_end="4157" tid="t27" type="DATE" value="1940">1940</TIMEX3>
+  <TIMEX3 char_begin="4390" char_end="4399" tid="t28" type="DATE" value="1940-09">September</TIMEX3>
+  <TIMEX3 char_begin="4615" char_end="4619" tid="t29" type="DATE" value="1941">1941</TIMEX3>
+  <TIMEX3 char_begin="4624" char_end="4649" tid="t30" type="DATE" value="1940-09">the end of September 1940</TIMEX3>
+  <TIMEX3 char_begin="5363" char_end="5375" tid="t31" type="DATE" value="1941-10">October 1941</TIMEX3>
+  <TIMEX3 char_begin="5457" char_end="5470" tid="t32" type="DATE" value="1940-11">November 1940</TIMEX3>
+  <TIMEX3 char_begin="5759" char_end="5771" tid="t33" type="DATE" value="1940-10">October 1940</TIMEX3>
+  <TIMEX3 char_begin="5805" char_end="5809" tid="t34" type="DURATION" value="PXD">days</TIMEX3>
+  <TIMEX3 char_begin="5889" char_end="5902" tid="t35" type="DATE" value="1940-12">December 1940</TIMEX3>
+  <TIMEX3 char_begin="6017" char_end="6027" tid="t36" type="DATE" value="1941">early 1941</TIMEX3>
+  <TIMEX3 char_begin="6472" char_end="6480" tid="t37" type="DATE" value="1941-02">February</TIMEX3>
+  <TIMEX3 char_begin="6489" char_end="6505" tid="t38" type="DATE" value="1941-03">the end of March</TIMEX3>
+  <TIMEX3 char_begin="6590" char_end="6597" tid="t39" type="DURATION" value="P1M">a month</TIMEX3>
+  <TIMEX3 char_begin="6752" char_end="6755" tid="t40" type="DATE" value="1941-05">May</TIMEX3>
+  <TIMEX3 char_begin="6769" char_end="6773" tid="t41" type="DATE" value="1941-06">June</TIMEX3>
+  <TIMEX3 char_begin="6808" char_end="6819" tid="t42" type="DATE" value="1941-04">early April</TIMEX3>
+  <TIMEX3 char_begin="7094" char_end="7108" tid="t43" type="DATE" value="1941-05">the end of May</TIMEX3>
+  <TIMEX3 char_begin="7671" char_end="7683" tid="t44" type="DATE" value="1941-05-11">May 11, 1941</TIMEX3>
+  <TIMEX3 char_begin="7826" char_end="7830" tid="t45" type="DATE" value="1940">1940</TIMEX3>
+  <TIMEX3 char_begin="7835" char_end="7841" tid="t46" type="DATE" value="1940-08">August</TIMEX3>
+  <TIMEX3 char_begin="7850" char_end="7854" tid="t47" type="DURATION" value="1940-08">year</TIMEX3>
+  <TIMEX3 char_begin="8164" char_end="8176" tid="t48" type="DATE" value="1941-01">January 1941</TIMEX3>
+  <TIMEX3 char_begin="8576" char_end="8586" tid="t49" type="DATE" value="1941-04">April 1941</TIMEX3>
+  <TIMEX3 char_begin="8748" char_end="8761" tid="t50" type="DATE" value="1941-06-22">June 22, 1941</TIMEX3>
+  <TIMEX3 char_begin="9002" char_end="9006" tid="t51" type="DATE" value="1941">1941</TIMEX3>
+  <TIMEX3 char_begin="9528" char_end="9534" tid="t52" type="DATE" value="1941-SU">summer</TIMEX3>
+  <TIMEX3 char_begin="9656" char_end="9676" tid="t53" type="DATE" value="1941-08">the middle of August</TIMEX3>
+  <TIMEX3 char_begin="10344" char_end="10348" tid="t55" type="DATE" value="1941-07">July</TIMEX3>
+  <TIMEX3 char_begin="10516" char_end="10522" tid="t56" type="DATE" value="1941-08">August</TIMEX3>
+  <TIMEX3 char_begin="10605" char_end="10612" tid="t57" type="DATE" value="1941-10">October</TIMEX3>
+  <TIMEX3 char_begin="10813" char_end="10823" tid="t58" type="DURATION" value="P2M">two months</TIMEX3>
+  <TIMEX3 char_begin="11288" char_end="11302" tid="t59" type="DATE" value="1941-12">early December</TIMEX3>
+  <TIMEX3 char_begin="11632" char_end="11642" tid="t60" type="DATE" value="1941-12-05">December 5</TIMEX3>
+  <TIMEX3 char_begin="11801" char_end="11818" tid="t61" type="DATE" value="1940">the previous year</TIMEX3>
+  <TIMEX3 char_begin="12156" char_end="12165" tid="t62" type="DATE" value="1941-06">June 1941</TIMEX3>
+  <TIMEX3 char_begin="13204" char_end="13214" tid="t63" type="DATE" value="1941-12-07">December 7</TIMEX3>
+  <TIMEX3 char_begin="13216" char_end="13226" tid="t64" type="DATE" value="1941-12-08">December 8</TIMEX3>
+  <TIMEX3 char_begin="13249" char_end="13253" tid="t65" type="DATE" value="1941">1941</TIMEX3>
+  <TIMEX3 char_begin="13772" char_end="13779" tid="t66" type="DATE" value="1942-01">January</TIMEX3>
+  <TIMEX3 char_begin="14134" char_end="14155" tid="t67" type="DATE" value="1942-04">the end of April 1942</TIMEX3>
+  <TIMEX3 char_begin="14437" char_end="14445" tid="t68" type="DATE" value="1942-05">May 1942</TIMEX3>
+  <TIMEX3 char_begin="14736" char_end="14754" tid="t69" type="DATE" value="1942-01">early January 1942</TIMEX3>
+  <TIMEX3 char_begin="15198" char_end="15215" tid="t61" type="DATE" value="1941">the previous year</TIMEX3>
+  <TIMEX3 char_begin="15271" char_end="15278" tid="t70" type="DATE" value="1942-01">January</TIMEX3>
+  <TIMEX3 char_begin="15340" char_end="15354" tid="t71" type="DATE" value="1942-02">early February</TIMEX3>
+  <TIMEX3 char_begin="15476" char_end="15490" tid="t72" type="DATE" value="1942-05">early May 1942</TIMEX3>
+  <TIMEX3 char_begin="15975" char_end="15985" tid="t73" type="DATE" value="1942-06">early June</TIMEX3>
+  <TIMEX3 char_begin="16081" char_end="16089" tid="t74" type="DATE" value="1942-05">late May</TIMEX3>
+  <TIMEX3 char_begin="16669" char_end="16673" tid="t75" type="DATE" value="1942-07">July</TIMEX3>
+  <TIMEX3 char_begin="17080" char_end="17097" tid="t76" type="DATE" value="1943">the start of 1943</TIMEX3>
+  <TIMEX3 char_begin="17271" char_end="17280" tid="t77" type="DATE" value="1942">late 1942</TIMEX3>
+  <TIMEX3 char_begin="17335" char_end="17343" tid="t78" type="DATE" value="1943-05">May 1943</TIMEX3>
+  <TIMEX3 char_begin="17425" char_end="17433" tid="t80" type="DATE" value="1943-02">February</TIMEX3>
+  <TIMEX3 char_begin="17444" char_end="17460" tid="t81" type="DATE" value="1943-04">the end of April</TIMEX3>
+  <TIMEX3 char_begin="17625" char_end="17631" tid="t82" type="DATE" value="1942-SU">summer</TIMEX3>
+  <TIMEX3 char_begin="17669" char_end="17678" tid="t83" type="DATE" value="1942-06">June 1942</TIMEX3>
+  <TIMEX3 char_begin="18125" char_end="18144" tid="t86" type="DATE" value="1943-02">early February 1943</TIMEX3>
+  <TIMEX3 char_begin="18319" char_end="18325" tid="t87" type="DATE" value="1943-SU">summer</TIMEX3>
+  <TIMEX3 char_begin="18519" char_end="18532" tid="t88" type="DATE" value="1941-11">November 1941</TIMEX3>
+  <TIMEX3 char_begin="18811" char_end="18825" tid="t89" type="DATE" value="1942-05">early May 1942</TIMEX3>
+  <TIMEX3 char_begin="19247" char_end="19258" tid="t90" type="DATE" value="1942-08">August 1942</TIMEX3>
+  <TIMEX3 char_begin="19416" char_end="19434" tid="t92" type="DATE" value="FUTURE_REF">A few months later</TIMEX3>
+  <TIMEX3 char_begin="19947" char_end="19950" tid="t93" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="20042" char_end="20050" tid="t94" type="DATE" value="1943-05">May 1943</TIMEX3>
+  <TIMEX3 char_begin="20184" char_end="20192" tid="t95" type="DATE" value="1943-05">May 1943</TIMEX3>
+  <TIMEX3 char_begin="20452" char_end="20473" tid="t96" type="DATE" value="1944-03">the end of March 1944</TIMEX3>
+  <TIMEX3 char_begin="20611" char_end="20616" tid="t97" type="DATE" value="1944-04">April</TIMEX3>
+  <TIMEX3 char_begin="20751" char_end="20757" tid="t98" type="DATE" value="1943-SP">spring</TIMEX3>
+  <TIMEX3 char_begin="20762" char_end="20782" tid="t99" type="DATE" value="1943-SU">early summer of 1943</TIMEX3>
+  <TIMEX3 char_begin="20846" char_end="20858" tid="t100" type="DATE" value="1943-07-04">July 4, 1943</TIMEX3>
+  <TIMEX3 char_begin="20922" char_end="20928" tid="t101" type="DURATION" value="P1W">a week</TIMEX3>
+  <TIMEX3 char_begin="21251" char_end="21257" tid="t102" type="DATE" value="1943-07-09">July 9</TIMEX3>
+  <TIMEX3 char_begin="21365" char_end="21370" tid="t39" type="DURATION" value="1943-07-XX">month</TIMEX3>
+  <TIMEX3 char_begin="21375" char_end="21388" tid="t103" type="DATE" value="1943-07-12">July 12, 1943</TIMEX3>
+  <TIMEX3 char_begin="21865" char_end="21885" tid="t104" type="DATE" value="1943-09">early September 1943</TIMEX3>
+  <TIMEX3 char_begin="22430" char_end="22438" tid="t105" type="DATE" value="1943-05">May 1943</TIMEX3>
+  <TIMEX3 char_begin="22611" char_end="22624" tid="t106" type="DATE" value="1943-11">November 1943</TIMEX3>
+  <TIMEX3 char_begin="22901" char_end="22905" tid="t107" type="DATE" value="1944">1944</TIMEX3>
+  <TIMEX3 char_begin="22966" char_end="22978" tid="t108" type="DURATION" value="P3M">three months</TIMEX3>
+  <TIMEX3 char_begin="23003" char_end="23015" tid="t109" type="DATE" value="1944-01">January 1944</TIMEX3>
+  <TIMEX3 char_begin="23156" char_end="23174" tid="t110" type="DATE" value="1944-01">the end of January</TIMEX3>
+  <TIMEX3 char_begin="23549" char_end="23562" tid="t111" type="DATE" value="1944-05">late May 1944</TIMEX3>
+  <TIMEX3 char_begin="23831" char_end="23837" tid="t112" type="DATE" value="1944-06-04">June 4</TIMEX3>
+  <TIMEX3 char_begin="23917" char_end="23927" tid="t113" type="DATE" value="1944-03">March 1944</TIMEX3>
+  <TIMEX3 char_begin="24101" char_end="24109" tid="t114" type="DATE" value="1944-05">May 1944</TIMEX3>
+  <TIMEX3 char_begin="24250" char_end="24259" tid="t115" type="DATE" value="1943">late 1943</TIMEX3>
+  <TIMEX3 char_begin="24460" char_end="24464" tid="t116" type="DATE" value="1944-06">June</TIMEX3>
+  <TIMEX3 char_begin="24604" char_end="24616" tid="t117" type="DATE" value="1944-06-06">June 6, 1944</TIMEX3>
+  <TIMEX3 char_begin="24927" char_end="24936" tid="t118" type="DATE" value="1944-08-25">August 25</TIMEX3>
+  <TIMEX3 char_begin="25280" char_end="25287" tid="t120" type="DATE" value="1944-06-22">June 22</TIMEX3>
+  <TIMEX3 char_begin="26070" char_end="26084" tid="t121" type="DATE" value="1944-09">September 1944</TIMEX3>
+  <TIMEX3 char_begin="26621" char_end="26631" tid="t122" type="DATE" value="1944-10-20">October 20</TIMEX3>
+  <TIMEX3 char_begin="26633" char_end="26649" tid="t123" type="DATE" value="FUTURE_REF">A few days later</TIMEX3>
+  <TIMEX3 char_begin="26764" char_end="26777" tid="t125" type="DATE" value="1945-02">February 1945</TIMEX3>
+  <TIMEX3 char_begin="27095" char_end="27112" tid="t126" type="DATE" value="1944-07">the start of July</TIMEX3>
+  <TIMEX3 char_begin="27408" char_end="27420" tid="t127" type="DATE" value="1944-08">early August</TIMEX3>
+  <TIMEX3 char_begin="27554" char_end="27573" tid="t128" type="DATE" value="1944-11">the end of November</TIMEX3>
+  <TIMEX3 char_begin="27641" char_end="27663" tid="t129" type="DATE" value="1944-12">the middle of December</TIMEX3>
+  <TIMEX3 char_begin="27757" char_end="27761" tid="t130" type="DATE" value="1944-06">1944</TIMEX3>
+  <TIMEX3 char_begin="27908" char_end="27918" tid="t131" type="DURATION" value="PXD">a few days</TIMEX3>
+  <TIMEX3 char_begin="28109" char_end="28121" tid="t132" type="DATE" value="1944-10">late October</TIMEX3>
+  <TIMEX3 char_begin="28343" char_end="28360" tid="t133" type="DATE" value="1944-12-16">December 16, 1944</TIMEX3>
+  <TIMEX3 char_begin="28741" char_end="28748" tid="t134" type="DATE" value="1945-01">January</TIMEX3>
+  <TIMEX3 char_begin="28883" char_end="28887" tid="t135" type="DATE" value="1945-01">1945</TIMEX3>
+  <TIMEX3 char_begin="29005" char_end="29015" tid="t136" type="DATE" value="1945-02-04">February 4</TIMEX3>
+  <TIMEX3 char_begin="29179" char_end="29187" tid="t137" type="DATE" value="1945-02">February</TIMEX3>
+  <TIMEX3 char_begin="29318" char_end="29323" tid="t138" type="DATE" value="1945-03">March</TIMEX3>
+  <TIMEX3 char_begin="29476" char_end="29487" tid="t139" type="DATE" value="1945-04">early April</TIMEX3>
+  <TIMEX3 char_begin="29582" char_end="29592" tid="t140" type="DATE" value="1945-04">late April</TIMEX3>
+  <TIMEX3 char_begin="29665" char_end="29673" tid="t141" type="DATE" value="1945-04-25">April 25</TIMEX3>
+  <TIMEX3 char_begin="29738" char_end="29746" tid="t142" type="DATE" value="1945-04-12">April 12</TIMEX3>
+  <TIMEX3 char_begin="29865" char_end="29873" tid="t143" type="DATE" value="1945-04-28">April 28</TIMEX3>
+  <TIMEX3 char_begin="29875" char_end="29889" tid="t144" type="DATE" value="1945-04-30">Two days later</TIMEX3>
+  <TIMEX3 char_begin="30003" char_end="30011" tid="t145" type="DATE" value="1945-04-19">April 29</TIMEX3>
+  <TIMEX3 char_begin="30037" char_end="30042" tid="t146" type="DATE" value="1945-05-07">May 7</TIMEX3>
+  <TIMEX3 char_begin="30104" char_end="30109" tid="t147" type="DATE" value="1945-05-08">May 8</TIMEX3>
+  <TIMEX3 char_begin="30163" char_end="30169" tid="t148" type="DATE" value="1945-05-11">May 11</TIMEX3>
+  <TIMEX3 char_begin="30315" char_end="30330" tid="t149" type="DATE" value="1944">the end of 1944</TIMEX3>
+  <TIMEX3 char_begin="30356" char_end="30368" tid="t150" type="DATE" value="1945-01">January 1945</TIMEX3>
+  <TIMEX3 char_begin="30390" char_end="30395" tid="t151" type="DATE" value="1945-03">March</TIMEX3>
+  <TIMEX3 char_begin="30450" char_end="30455" tid="t39" type="DURATION" value="1945-03">month</TIMEX3>
+  <TIMEX3 char_begin="30529" char_end="30536" tid="t152" type="DATE" value="1944-10">October</TIMEX3>
+  <TIMEX3 char_begin="30540" char_end="30545" tid="t153" type="DATE" value="1945-03">March</TIMEX3>
+  <TIMEX3 char_begin="30588" char_end="30593" tid="t154" type="DATE" value="1945-05-03">May 3</TIMEX3>
+  <TIMEX3 char_begin="30655" char_end="30660" tid="t155" type="DATE" value="1945-03">March</TIMEX3>
+  <TIMEX3 char_begin="30677" char_end="30681" tid="t156" type="DATE" value="1945-06">June</TIMEX3>
+  <TIMEX3 char_begin="30780" char_end="30787" tid="t157" type="DATE" value="1945-07-11">July 11</TIMEX3>
+  <TIMEX3 char_begin="31327" char_end="31339" tid="t158" type="DATE" value="1945-08">early August</TIMEX3>
+  <TIMEX3 char_begin="31432" char_end="31447" tid="t159" type="DATE" value="1945-08-15">August 15, 1945</TIMEX3>
+  <TIMEX3 char_begin="31570" char_end="31587" tid="t160" type="DATE" value="1945-09-02">September 2, 1945</TIMEX3>
+</TimeML>

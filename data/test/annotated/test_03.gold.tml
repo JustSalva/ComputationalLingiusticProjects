@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="575" char_end="583" tid="t1" type="DATE" value="PAST_REF">the past</TIMEX3>
+  <TIMEX3 char_begin="879" char_end="887" tid="t2" type="DATE" value="2010-05">May 2010</TIMEX3>
+  <TIMEX3 char_begin="1216" char_end="1227" tid="t4" type="DATE" value="PAST_REF">at the time</TIMEX3>
+  <TIMEX3 char_begin="1379" char_end="1395" tid="t3" type="TIME" value="2013-03-22TAF">Friday afternoon</TIMEX3>
+</TimeML>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="21" char_end="25" tid="t3" type="DURATION" value="PT17520H">1926</TIMEX3>
+  <TIMEX3 char_begin="26" char_end="30" tid="t3" type="DURATION" value="PT17520H">1928</TIMEX3>
+  <TIMEX3 char_begin="92" char_end="96" tid="t6" type="DATE" value="XXXX-XX">1925</TIMEX3>
+  <TIMEX3 char_begin="212" char_end="216" tid="t7" type="DATE" value="1926">1926</TIMEX3>
+  <TIMEX3 char_begin="336" char_end="346" tid="t8" type="DATE" value="1926-03">March 1926</TIMEX3>
+  <TIMEX3 char_begin="564" char_end="574" tid="t9" type="DATE" value="1927">early 1927</TIMEX3>
+  <TIMEX3 char_begin="1172" char_end="1179" tid="t10" type="DATE" value="1927-04-07">April 7</TIMEX3>
+  <TIMEX3 char_begin="1393" char_end="1401" tid="t11" type="DATE" value="1927-04-12">April 12</TIMEX3>
+  <TIMEX3 char_begin="1548" char_end="1556" tid="t12" type="DATE" value="1927-04-12">April 12</TIMEX3>
+  <TIMEX3 char_begin="1805" char_end="1811" tid="t13" type="DATE" value="1927-FA">Autumn</TIMEX3>
+  <TIMEX3 char_begin="1955" char_end="1958" tid="t14" type="DATE" value="">now</TIMEX3>
+  <TIMEX3 char_begin="2161" char_end="2176" tid="t15" type="DATE" value="P10Y">the next decade</TIMEX3>
+  <TIMEX3 char_begin="2361" char_end="2370" tid="t16" type="DATE" value="1928-06">June 1928</TIMEX3>
+  <TIMEX3 char_begin="2783" char_end="2787" tid="t20" type="DURATION" value="PT87672H">1927</TIMEX3>
+  <TIMEX3 char_begin="2788" char_end="2792" tid="t20" type="DURATION" value="PT87672H">1937</TIMEX3>
+  <TIMEX3 char_begin="2802" char_end="2811" tid="t21" type="DATE" value="192">the 1920s</TIMEX3>
+  <TIMEX3 char_begin="2966" char_end="2980" tid="t22" type="DATE" value="1927-08-01">August 1, 1927</TIMEX3>
+  <TIMEX3 char_begin="3157" char_end="3167" tid="t23" type="DURATION" value="P3D">three days</TIMEX3>
+  <TIMEX3 char_begin="3282" char_end="3290" tid="t24" type="DURATION" value="P10Y">ten year</TIMEX3>
+  <TIMEX3 char_begin="3335" char_end="3343" tid="t25" type="DURATION" value="P10Y">Ten Year</TIMEX3>
+  <TIMEX3 char_begin="3543" char_end="3547" tid="t26" type="DATE" value="1930">1930</TIMEX3>
+  <TIMEX3 char_begin="3947" char_end="3951" tid="t29" type="DURATION" value="PT8784H">1932</TIMEX3>
+  <TIMEX3 char_begin="3952" char_end="3956" tid="t29" type="DURATION" value="PT8784H">1933</TIMEX3>
+  <TIMEX3 char_begin="4292" char_end="4301" tid="t30" type="DATE" value="1933">late 1933</TIMEX3>
+  <TIMEX3 char_begin="4684" char_end="4696" tid="t31" type="DATE" value="1934-10">October 1934</TIMEX3>
+  <TIMEX3 char_begin="5192" char_end="5198" tid="t32" type="DURATION" value="P1Y">a year</TIMEX3>
+  <TIMEX3 char_begin="6150" char_end="6154" tid="t38" type="DURATION" value="PT70128H">1937</TIMEX3>
+  <TIMEX3 char_begin="6155" char_end="6159" tid="t38" type="DURATION" value="PT70128H">1945</TIMEX3>
+  <TIMEX3 char_begin="6337" char_end="6354" tid="t39" type="DATE" value="1936-12-12">December 12, 1936</TIMEX3>
+  <TIMEX3 char_begin="6640" char_end="6644" tid="t41" type="DATE" value="1937">1937</TIMEX3>
+  <TIMEX3 char_begin="7248" char_end="7257" tid="t42" type="DATE" value="1940">late 1940</TIMEX3>
+  <TIMEX3 char_begin="7262" char_end="7272" tid="t43" type="DATE" value="1941">early 1941</TIMEX3>
+  <TIMEX3 char_begin="7344" char_end="7357" tid="t44" type="DATE" value="1940-12">December 1940</TIMEX3>
+  <TIMEX3 char_begin="7521" char_end="7525" tid="t45" type="DATE" value="1941">1941</TIMEX3>
+  <TIMEX3 char_begin="7839" char_end="7843" tid="t46" type="DATE" value="1944">1944</TIMEX3>
+  <TIMEX3 char_begin="7962" char_end="7966" tid="t49" type="DURATION" value="PT8760H">1945</TIMEX3>
+  <TIMEX3 char_begin="7967" char_end="7971" tid="t49" type="DURATION" value="PT8760H">1946</TIMEX3>
+  <TIMEX3 char_begin="8029" char_end="8033" tid="t50" type="DATE" value="1945">1945</TIMEX3>
+  <TIMEX3 char_begin="8588" char_end="8603" tid="t52" type="DATE" value="1945-08-28">August 28, 1945</TIMEX3>
+  <TIMEX3 char_begin="8607" char_end="8619" tid="t53" type="DATE" value="1945-10-10">Oct 10, 1945</TIMEX3>
+  <TIMEX3 char_begin="8864" char_end="8876" tid="t54" type="DATE" value="1946-01">January 1946</TIMEX3>
+  <TIMEX3 char_begin="10086" char_end="10095" tid="t57" type="DATE" value="1946-06">June 1946</TIMEX3>
+  <TIMEX3 char_begin="10150" char_end="10157" tid="t58" type="DATE" value="1946-06-26">June 26</TIMEX3>
+  <TIMEX3 char_begin="10211" char_end="10232" tid="t59" type="DURATION" value="P3Y">more than three years</TIMEX3>
+  <TIMEX3 char_begin="10263" char_end="10267" tid="t62" type="DURATION" value="PT35064H">1946</TIMEX3>
+  <TIMEX3 char_begin="10268" char_end="10272" tid="t62" type="DURATION" value="PT35064H">1950</TIMEX3>
+  <TIMEX3 char_begin="12383" char_end="12393" tid="t63" type="DATE" value="1946-03">March 1946</TIMEX3>
+  <TIMEX3 char_begin="12803" char_end="12813" tid="t64" type="DATE" value="1947-03">March 1947</TIMEX3>
+  <TIMEX3 char_begin="12894" char_end="12903" tid="t65" type="DATE" value="1948">late 1948</TIMEX3>
+  <TIMEX3 char_begin="13229" char_end="13236" tid="t66" type="DURATION" value="P6M">6-month</TIMEX3>
+  <TIMEX3 char_begin="13507" char_end="13517" tid="t67" type="DATE" value="1948-04">April 1948</TIMEX3>
+  <TIMEX3 char_begin="13656" char_end="13674" tid="t68" type="DATE" value="1948-09-28">September 28, 1948</TIMEX3>
+  <TIMEX3 char_begin="13700" char_end="13709" tid="t69" type="DATE" value="1948">late 1948</TIMEX3>
+  <TIMEX3 char_begin="13714" char_end="13724" tid="t70" type="DATE" value="1949">early 1949</TIMEX3>
+  <TIMEX3 char_begin="13944" char_end="13951" tid="t71" type="DATE" value="1949-01-24">64 days</TIMEX3>
+  <TIMEX3 char_begin="13957" char_end="13974" tid="t71" type="DATE" value="1949-01-24">November 21, 1948</TIMEX3>
+  <TIMEX3 char_begin="13978" char_end="13994" tid="t72" type="DATE" value="1949-01-31">January 31, 1949</TIMEX3>
+  <TIMEX3 char_begin="14365" char_end="14373" tid="t73" type="DATE" value="1949-04-21">April 21</TIMEX3>
+  <TIMEX3 char_begin="14599" char_end="14608" tid="t74" type="DATE" value="1949">late 1949</TIMEX3>
+  <TIMEX3 char_begin="14750" char_end="14758" tid="t75" type="DATE" value="1949-04-23">April 23</TIMEX3>
+  <TIMEX3 char_begin="14800" char_end="14810" tid="t76" type="DATE" value="1949-10-15">October 15</TIMEX3>
+  <TIMEX3 char_begin="14828" char_end="14839" tid="t77" type="DATE" value="1949-11-25">November 25</TIMEX3>
+  <TIMEX3 char_begin="14884" char_end="14895" tid="t78" type="DATE" value="1949-12-10">December 10</TIMEX3>
+  <TIMEX3 char_begin="14936" char_end="14943" tid="t79" type="DURATION" value="P4Y">4 Years</TIMEX3>
+  <TIMEX3 char_begin="14966" char_end="14975" tid="t80" type="DATE" value="1946-07">July 1946</TIMEX3>
+  <TIMEX3 char_begin="14979" char_end="14988" tid="t81" type="DATE" value="1950-06">June 1950</TIMEX3>
+  <TIMEX3 char_begin="15341" char_end="15356" tid="t82" type="DATE" value="1949-10-01">October 1, 1949</TIMEX3>
+  <TIMEX3 char_begin="15699" char_end="15716" tid="t84" type="DATE" value="1949-12-10">December 10, 1949</TIMEX3>
+  <TIMEX3 char_begin="15881" char_end="15894" tid="t85" type="DATE" value="1949-12">December 1949</TIMEX3>
+  <TIMEX3 char_begin="16106" char_end="16110" tid="t86" type="DATE" value="1950">1950</TIMEX3>
+  <TIMEX3 char_begin="16188" char_end="16198" tid="t87" type="DATE" value="1950-04">April 1950</TIMEX3>
+  <TIMEX3 char_begin="16263" char_end="16267" tid="t88" type="DATE" value="1950-08">1950</TIMEX3>
+  <TIMEX3 char_begin="16306" char_end="16314" tid="t89" type="DATE" value="1950-05">May 1950</TIMEX3>
+  <TIMEX3 char_begin="16359" char_end="16363" tid="t90" type="DATE" value="1950">1950</TIMEX3>
+  <TIMEX3 char_begin="16641" char_end="16650" tid="t91" type="DATE" value="1950-06">June 1950</TIMEX3>
+  <TIMEX3 char_begin="16917" char_end="16926" tid="t92" type="DATE" value="1949-06">June 1949</TIMEX3>
+  <TIMEX3 char_begin="17803" char_end="17807" tid="t94" type="DATE" value="1953">1953</TIMEX3>
+  <TIMEX3 char_begin="17873" char_end="17888" tid="t95" type="DATE" value="1954">the end of 1954</TIMEX3>
+  <TIMEX3 char_begin="18240" char_end="18256" tid="t96" type="DATE" value="1952-02-01">February 1, 1952</TIMEX3>
+  <TIMEX3 char_begin="18410" char_end="18416" tid="t97" type="DATE" value="FUTURE_REF">future</TIMEX3>
+  <TIMEX3 char_begin="18474" char_end="18491" tid="t98" type="DATE" value="1954-09-03">September 3, 1954</TIMEX3>
+  <TIMEX3 char_begin="18613" char_end="18629" tid="t99" type="DATE" value="1955-01-20">January 20, 1955</TIMEX3>
+  <TIMEX3 char_begin="18757" char_end="18784" tid="t100" type="DATE" value="1955-01-24">January 24 of the same year</TIMEX3>
+  <TIMEX3 char_begin="18948" char_end="18958" tid="t101" type="DATE" value="1955-03">March 1955</TIMEX3>
+  <TIMEX3 char_begin="19102" char_end="19117" tid="t102" type="DATE" value="1958-08-23">August 23, 1958</TIMEX3>
+  <TIMEX3 char_begin="19294" char_end="19319" tid="t103" type="DATE" value="1958-11">November of the same year</TIMEX3>
+  <TIMEX3 char_begin="19682" char_end="19693" tid="t104" type="DATE" value="1958-09-07">September 7</TIMEX3>
+  <TIMEX3 char_begin="19789" char_end="19799" tid="t105" type="DATE" value="1958-10-25">October 25</TIMEX3>
+  <TIMEX3 char_begin="19893" char_end="19897" tid="t106" type="DURATION" value="XXXX-XX-XX">days</TIMEX3>
+  <TIMEX3 char_begin="20033" char_end="20038" tid="t107" type="SET" value="198">1980s</TIMEX3>
+  <TIMEX3 char_begin="20343" char_end="20365" tid="t108" type="DATE" value="20">the early 21st century</TIMEX3>
+  <TIMEX3 char_begin="20504" char_end="20508" tid="t109" type="DATE" value="2005">2005</TIMEX3>
+  <TIMEX3 char_begin="20670" char_end="20678" tid="t110" type="DATE" value="2009">recently</TIMEX3>
+  <TIMEX3 char_begin="20682" char_end="20691" tid="t111" type="DATE" value="2009">late 2009</TIMEX3>
+</TimeML>

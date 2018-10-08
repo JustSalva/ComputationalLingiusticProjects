@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="50" char_end="59" tid="t1" type="DATE" value="2013-W12">this week</TIMEX3>
+</TimeML>
