@@ -55,4 +55,4 @@ def tokenizer(text):
 
 
 # test line
-tokenizer(XMLparsing.reader("data/train/input/train_02.input.tml"))
+tokenizer(XMLparsing.reader("data/train/input/train_07.input.tml"))
