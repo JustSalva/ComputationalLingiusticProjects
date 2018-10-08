@@ -32,9 +32,9 @@ NOT_AMBIGUOUS_DAY = re.compile(STRING_NOT_AMBIGUOUS_NUMBER_DAY+STRING_ORDINAL_TA
 
 AGES = re.compile('A\.?D\.?|B\.?C\.?|C\.?E\.?|B\.?C\.?E\.?', flags=re.IGNORECASE)
 
-STRING_TERNA = 'present|future|past'
-TEMPORAL_POSITION = re.compile('next|last|previous|following|final|'+STRING_TERNA, flags=re.IGNORECASE)
-TERNA = re.compile(STRING_TERNA, flags=re.IGNORECASE)
+STRING_TRIAD = 'present|future|past'
+TEMPORAL_POSITION = re.compile('next|last|previous|following|final|'+STRING_TRIAD, flags=re.IGNORECASE)
+TRIAD = re.compile(STRING_TRIAD, flags=re.IGNORECASE)
 
 MONTH_IN_LETTERS = re.compile(constants.MONTHS, flags=re.IGNORECASE)  # NB rules for ambiguity
 DAYTIMES = re.compile(constants.DAYTIMES, flags=re.IGNORECASE)
