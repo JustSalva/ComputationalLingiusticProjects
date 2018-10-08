@@ -52,13 +52,14 @@ def prettify(string):
     return pretty_xml_as_string
 
 
-def saveFile(filename, content):
-    # type: (str, str) -> None
+def saveFile(filename, tree):
+    # type: (str, ET.ElementTree) -> None
     """
-    Saves a string to a file
+    Saves a tree to a file
     :param filename: name of the file to be saved
-    :param content: content of the file
+    :param tree: tree to print
     """
+    content = writer(tree)
     with open(filename, "w") as f:
         f.write(content)
 
@@ -96,7 +97,7 @@ def addItem(tree, char_begin, char_end, type, content):
 
 
 #print reader("data/train/input/train_01.input.tml")
-# test_tree = createTimeML()
-# addItem(test_tree, 10, 13, 'dddd', 'ciao')
-# saveFile("prova", writer(test_tree))
-# print writer(test_tree)
+#test_tree = createTimeML()
+#addItem(test_tree, 10, 13, 'dddd', 'ciao')
+#saveFile("prova", test_tree)
+#print writer(test_tree)

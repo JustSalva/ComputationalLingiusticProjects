@@ -1,13 +1,13 @@
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk import pos_tag
 import XMLparsing.XMLparser as XMLparsing
+import regularExpressions as re
 
 
-def tokenizer(text):
+def tokenizer(text, tokenized_text):
     totalLength = len(text)
     offset, length = 0, 0
     sent_text = sent_tokenize(text)  # this gives us a list of sentences
-    tokenized_text = []
     # now loop over each sentence and tokenize it separately
     for sentence in sent_text:
         words = word_tokenize(sentence)
@@ -41,18 +41,29 @@ def tokenizer(text):
                 exit(0)
 
             # print usedWord, offset, length, len(usedWord)
-            tokenized_sentence.append((usedWord, offset, length))
+            tokenized_sentence.append((usedWord, offset, length, tagText(usedWord)))
 
             offset = offset + len(word)
 
         # print tokenized_sentence
         tokenized_text.append(tokenized_sentence)
 
-    print tokenized_text
     if length != totalLength:
         print "ERROR: the total lenght does not match the index of the last token!"
         exit(0)
+    return tokenized_text
 
+
+def tokenize(input_file_path, tokenized_text):
+    tokenizer(XMLparsing.reader(input_file_path), tokenized_text)
+
+
+def tagText(word):
+    regExpr = re.regularExpressions()
+    re.regularExpressions.checkRE(regExpr, word)
+    return
 
 # test line
-tokenizer(XMLparsing.reader("data/train/input/train_07.input.tml"))
+text = []
+tokenizer(XMLparsing.reader("data/train/input/train_07.input.tml"), text)
+print text
