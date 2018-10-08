@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="407" char_end="413" tid="t1" type="DURATION" value="P5Y">tenure</TIMEX3>
+</TimeML>

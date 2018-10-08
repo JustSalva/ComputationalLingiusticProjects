@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="121" char_end="128" tid="t1" type="DURATION" value="P1M">a month</TIMEX3>
+  <TIMEX3 char_begin="199" char_end="207" tid="t1000" type="DURATION" value="P10Y">a decade</TIMEX3>
+  <TIMEX3 char_begin="394" char_end="407" tid="t2" type="DATE" value="2013-W11">the last week</TIMEX3>
+  <TIMEX3 char_begin="485" char_end="491" tid="t3" type="DATE" value="2013-03-22">Friday</TIMEX3>
+  <TIMEX3 char_begin="588" char_end="592" tid="t4" type="DATE" value="2009">2009</TIMEX3>
+  <TIMEX3 char_begin="593" char_end="597" tid="t2000" type="DATE" value="2010">2010</TIMEX3>
+  <TIMEX3 char_begin="710" char_end="721" tid="t5" type="SET" value="XXXX-WI">each season</TIMEX3>
+  <TIMEX3 char_begin="916" char_end="925" tid="t6" type="DATE" value="XXXX-WI">This year</TIMEX3>
+  <TIMEX3 char_begin="1374" char_end="1397" tid="t8" type="DURATION" value="PXM">the past several months</TIMEX3>
+  <TIMEX3 char_begin="1450" char_end="1463" tid="t2001" type="SET" value="XXXX-WI">recent season</TIMEX3>
+  <TIMEX3 char_begin="1492" char_end="1506" tid="t9" type="DATE" value="2012-12">early December</TIMEX3>
+  <TIMEX3 char_begin="1508" char_end="1515" tid="t10" type="DURATION" value="P1M">a month</TIMEX3>
+  <TIMEX3 char_begin="1550" char_end="1565" tid="t11" type="DATE" value="2012">the end of year</TIMEX3>
+</TimeML>

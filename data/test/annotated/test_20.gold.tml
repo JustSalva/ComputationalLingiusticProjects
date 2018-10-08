@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="125" char_end="134" tid="t1" type="DATE" value="2014">next year</TIMEX3>
+  <TIMEX3 char_begin="496" char_end="505" tid="t2" type="DATE" value="2014">next year</TIMEX3>
+  <TIMEX3 char_begin="811" char_end="815" tid="t2000" type="DATE" value="2009">2009</TIMEX3>
+  <TIMEX3 char_begin="1142" char_end="1161" tid="t3" type="DURATION" value="PXM">the next few months</TIMEX3>
+  <TIMEX3 char_begin="1640" char_end="1649" tid="t4" type="DATE" value="2014">next year</TIMEX3>
+</TimeML>

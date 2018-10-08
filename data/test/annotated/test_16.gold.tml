@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="4" char_end="11" tid="t100" type="DATE" value="PRESENT_REF">digital</TIMEX3>
+  <TIMEX3 char_begin="730" char_end="733" tid="t102" type="DATE" value="PRESENT_REF">Now</TIMEX3>
+  <TIMEX3 char_begin="842" char_end="855" tid="t1" type="DATE" value="2011">two years ago</TIMEX3>
+  <TIMEX3 char_begin="1352" char_end="1357" tid="t2" type="DATE" value="PRESENT_REF">today</TIMEX3>
+  <TIMEX3 char_begin="1725" char_end="1728" tid="t3" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="1734" char_end="1739" tid="t101" type="DURATION" value="PXW">weeks</TIMEX3>
+</TimeML>

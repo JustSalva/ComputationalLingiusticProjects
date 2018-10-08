@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TimeML>
+  <TIMEX3 char_begin="57" char_end="72" tid="t1" type="DATE" value="1904-02-08">8 February 1904</TIMEX3>
+  <TIMEX3 char_begin="83" char_end="94" tid="t2" type="DURATION" value="1904-02-08">three hours</TIMEX3>
+  <TIMEX3 char_begin="491" char_end="507" tid="t3" type="DATE" value="1904-02-16">eight days later</TIMEX3>
+  <TIMEX3 char_begin="643" char_end="655" tid="t4" type="DATE" value="1907-10">October 1907</TIMEX3>
+  <TIMEX3 char_begin="672" char_end="687" tid="t5" type="DATE" value="1910-01-26">26 January 1910</TIMEX3>
+  <TIMEX3 char_begin="1044" char_end="1048" tid="t6" type="DATE" value="1904">1904</TIMEX3>
+  <TIMEX3 char_begin="1383" char_end="1411" tid="t7" type="TIME" value="1904-02-08TNI">the night of 8 February 1904</TIMEX3>
+  <TIMEX3 char_begin="1753" char_end="1769" tid="t8" type="DATE" value="1904-02-09TMO">the next morning</TIMEX3>
+  <TIMEX3 char_begin="2091" char_end="2104" tid="t9" type="DATE" value="1904-04-13">13 April 1904</TIMEX3>
+  <TIMEX3 char_begin="2266" char_end="2282" tid="t10" type="DATE" value="1904-04">the end of April</TIMEX3>
+  <TIMEX3 char_begin="2653" char_end="2657" tid="t11" type="DATE" value="PRESENT_REF">time</TIMEX3>
+  <TIMEX3 char_begin="2686" char_end="2696" tid="t12" type="DATE" value="1904-05-01">1 May 1904</TIMEX3>
+  <TIMEX3 char_begin="3058" char_end="3069" tid="t13" type="DATE" value="1904-05-25">25 May 1904</TIMEX3>
+  <TIMEX3 char_begin="3331" char_end="3355" tid="t14" type="TIME" value="1904-02-13TNI">the night of 13 February</TIMEX3>
+  <TIMEX3 char_begin="3358" char_end="3369" tid="t15" type="DATE" value="1904-02-14">14 February</TIMEX3>
+  <TIMEX3 char_begin="3616" char_end="3621" tid="t16" type="TIME" value="1904-05-03TNI">night</TIMEX3>
+  <TIMEX3 char_begin="3629" char_end="3632" tid="t17" type="DATE" value="1904-05-04">May</TIMEX3>
+  <TIMEX3 char_begin="3649" char_end="3654" tid="t18" type="DATE" value="1904-03">March</TIMEX3>
+  <TIMEX3 char_begin="3816" char_end="3829" tid="t19" type="DATE" value="1904-04-12">12 April 1904</TIMEX3>
+  <TIMEX3 char_begin="4220" char_end="4233" tid="t20" type="DATE" value="1904-04-15">15 April 1904</TIMEX3>
+  <TIMEX3 char_begin="4621" char_end="4632" tid="t21" type="DATE" value="1904-05-15">15 May 1904</TIMEX3>
+  <TIMEX3 char_begin="4707" char_end="4715" tid="t22" type="DATE" value="PAST_REF">recently</TIMEX3>
+  <TIMEX3 char_begin="4814" char_end="4821" tid="t23" type="DURATION" value="PTXM">minutes</TIMEX3>
+  <TIMEX3 char_begin="4921" char_end="4933" tid="t24" type="DATE" value="1904-06-23">23 June 1904</TIMEX3>
+  <TIMEX3 char_begin="4979" char_end="4982" tid="t25" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="5039" char_end="5059" tid="t26" type="DATE" value="1904-06">the end of the month</TIMEX3>
+  <TIMEX3 char_begin="5187" char_end="5201" tid="t27" type="DATE" value="1904-08-10">10 August 1904</TIMEX3>
+  <TIMEX3 char_begin="5403" char_end="5412" tid="t28" type="DATE" value="1904-08-10">August 10</TIMEX3>
+  <TIMEX3 char_begin="6134" char_end="6137" tid="t29" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="6634" char_end="6647" tid="t31" type="DATE" value="1904-12">December 1904</TIMEX3>
+  <TIMEX3 char_begin="7009" char_end="7026" tid="t32" type="DATE" value="FUTURE_REF">a few weeks later</TIMEX3>
+  <TIMEX3 char_begin="7377" char_end="7388" tid="t33" type="DATE" value="1904-08">late August</TIMEX3>
+  <TIMEX3 char_begin="7703" char_end="7716" tid="t34" type="DATE" value="1904-12">late December</TIMEX3>
+  <TIMEX3 char_begin="7955" char_end="7961" tid="t35" type="DURATION" value="PXM">months</TIMEX3>
+  <TIMEX3 char_begin="8067" char_end="8081" tid="t36" type="DATE" value="1905-01-02">2 January 1905</TIMEX3>
+  <TIMEX3 char_begin="8282" char_end="8286" tid="t38" type="DATE" value="1908">1908</TIMEX3>
+  <TIMEX3 char_begin="8691" char_end="8699" tid="t39" type="DATE" value="1905-05">May 1905</TIMEX3>
+  <TIMEX3 char_begin="8704" char_end="8719" tid="t40" type="DATE" value="1904-10-21">21 October 1904</TIMEX3>
+  <TIMEX3 char_begin="8980" char_end="8984" tid="t42" type="DATE" value="1905">1905</TIMEX3>
+  <TIMEX3 char_begin="8992" char_end="8998" tid="t43" type="DATE" value="1905-WI">winter</TIMEX3>
+  <TIMEX3 char_begin="9074" char_end="9077" tid="t45" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="9199" char_end="9205" tid="t46" type="DATE" value="1905-WI">winter</TIMEX3>
+  <TIMEX3 char_begin="9274" char_end="9291" tid="t47" type="DATE" value="1904">the previous year</TIMEX3>
+  <TIMEX3 char_begin="9459" char_end="9466" tid="t49" type="DATE" value="1905-01-25">January</TIMEX3>
+  <TIMEX3 char_begin="9926" char_end="9942" tid="t50" type="DATE" value="1905-02-20">20 February 1905</TIMEX3>
+  <TIMEX3 char_begin="9947" char_end="9965" tid="t51" type="DATE" value="PXD">the following days</TIMEX3>
+  <TIMEX3 char_begin="10187" char_end="10191" tid="t52" type="DURATION" value="PXD">days</TIMEX3>
+  <TIMEX3 char_begin="10511" char_end="10524" tid="t53" type="DATE" value="1905-03-10">10 March 1905</TIMEX3>
+  <TIMEX3 char_begin="10531" char_end="10542" tid="t54" type="DURATION" value="P3W">three weeks</TIMEX3>
+  <TIMEX3 char_begin="11248" char_end="11251" tid="t55" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="11918" char_end="11921" tid="t57" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="12415" char_end="12420" tid="t59" type="TIME" value="XXXX-XX-XXTNI">night</TIMEX3>
+  <TIMEX3 char_begin="12960" char_end="12968" tid="t60" type="DATE" value="1905-05-28">May 1905</TIMEX3>
+  <TIMEX3 char_begin="13536" char_end="13539" tid="t61" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="14416" char_end="14428" tid="t62" type="DATE" value="20">21st century</TIMEX3>
+  <TIMEX3 char_begin="14448" char_end="14451" tid="t63" type="DATE" value="PRESENT_REF">now</TIMEX3>
+  <TIMEX3 char_begin="14636" char_end="14640" tid="t66" type="DURATION" value="PT8784H">1904</TIMEX3>
+  <TIMEX3 char_begin="14641" char_end="14645" tid="t66" type="DURATION" value="PT8784H">1905</TIMEX3>
+</TimeML>
