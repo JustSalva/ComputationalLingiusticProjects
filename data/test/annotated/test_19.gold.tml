@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TimeML>
-  <TIMEX3 char_begin="56" char_end="62" tid="t1" type="DATE" value="2013-03-22">Friday</TIMEX3>
-  <TIMEX3 char_begin="808" char_end="816" tid="t2" type="DATE" value="2010-05">May 2010</TIMEX3>
-  <TIMEX3 char_begin="1576" char_end="1594" tid="t3" type="DURATION" value="P2Y">the past two years</TIMEX3>
-  <TIMEX3 char_begin="1753" char_end="1762" tid="t2000" type="DATE" value="2013-W12">this week</TIMEX3>
-  <TIMEX3 char_begin="1970" char_end="1979" tid="t4" type="DATE" value="2013-W12">this week</TIMEX3>
-</TimeML>
