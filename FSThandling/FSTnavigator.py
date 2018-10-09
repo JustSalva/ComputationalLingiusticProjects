@@ -67,9 +67,10 @@ for state in f.states():
         print arc.ilabel, arc.olabel, arc.nextstate
 """
 """
-for elem in sequence:
-    print "iteration: " + str(current_state) + str(elem)
-    current_state, olabel = nextState(current_state, elem)
+sequenceOfInputs = [1,2,4]
+for inputLabel in sequenceOfInputs:
+    print "iteration: " + str(current_state) + str(inputLabel)
+    current_state, olabel = nextState(current_state, inputLabel)
     print current_state
     if current_state is None:
         print "no path"
