@@ -1,7 +1,8 @@
-DATE = 0
-DURATION = 1
-SET = 2
-TIME = 3
+EPSILON = 0
+DATE = 1
+DURATION = 2
+SET = 3
+TIME = 4
 NO_MATCH = -1
 
 

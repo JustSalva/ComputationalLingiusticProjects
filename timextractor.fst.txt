@@ -1,0 +1,19 @@
+0   1   SEASON  DATE
+1
+1   2   NUMBER  DATE
+2
+2   3   TIME    TIME
+3
+3   4   AM_PM   TIME
+4
+2   3   VB  INTRANSITIVE
+3
+3   4   DT  <eps>
+4   5   NN  TRANSITIVE
+5
+3   6   RB  INTRANSITIVE
+6
+0   7   NNP <eps>
+7   3   VB  INTRANSITIVE
+3   8   NNP TRANSITIVE
+8

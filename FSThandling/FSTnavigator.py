@@ -1,7 +1,7 @@
 import pywrapfst as fst
 import constants.finalStatesConstants as finalStates
 
-PATH_TO_FST = "example.fst"
+PATH_TO_FST = "timextractor.fst"
 
 
 def nextState(state, inputLabel):

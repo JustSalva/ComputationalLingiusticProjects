@@ -9,6 +9,13 @@ class regularExpressions:
 
         __STRING_AM_PM = '(a\.?|p\.?)m\.?'
         self.reList.append(('AM_PM', re.compile('(?<!\S)('+__STRING_AM_PM+')(?!\S)', flags=re.IGNORECASE)))
+        __STRING_NUMBERS = '((([1-9][0-9]*)|[1-9]|0[1-9]))'
+        self.reList.append(('NUMBER',
+                            re.compile('(' + __STRING_NUMBERS + ')',
+                                flags=re.IGNORECASE)))  # NB check always after ordinal numbers!
+        self.reList.append(('NUMBER_IN_LETTER',
+                            re.compile(constants.NUMBERS_IN_LETTER,
+                                flags=re.IGNORECASE)))  # NB check always after ordinal numbers!
 
         # numbers from 1 to 12 even with a zero before for one-digit numbers
         self.reList.append(('AMBIGUOUS_NUMBER', re.compile('0[1-9]|1[0-2]|[1-9]')))
@@ -19,10 +26,9 @@ class regularExpressions:
         self.reList.append(('NUMBER_DAY', re.compile(__STRING_NUMBER_DAY)))
         __STRING_ORDINAL_TAGS = '(st|nd|rd|th)'
 
-        __STRING_NUMBERS = '((([1-9][0-9]*)|[1-9]|0[1-9]))'
         __STRING_ORDINAL_NUMBERS = __STRING_NUMBERS + __STRING_ORDINAL_TAGS
         self.reList.append(('ORDINAL_NUMBERS',
-                            re.compile('(' + __STRING_ORDINAL_NUMBERS + ')|(' + '\b('+constants.ORDINALS_IN_LETTER + ')\b'+')',
+                            re.compile('(' + __STRING_ORDINAL_NUMBERS + ')|('+constants.ORDINALS_IN_LETTER + ')',
                                        flags=re.IGNORECASE)))
 
         self.reList.append(('NUMBER',
@@ -121,12 +127,11 @@ class regularExpressions:
 
 
 # TEST LINES
-"""
-for elem in re.finditer(re.compile('[1-9][0-9]{3,10}s'), '1880s'):
+for elem in re.finditer(re.compile(constants.ORDINALS_IN_LETTER,
+                                       flags=re.IGNORECASE), 'first'):
     print elem.group(), elem.span()
-"""
 
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "deck"))
+print (regularExpressions.checkRE(a, "first"))
 
 
