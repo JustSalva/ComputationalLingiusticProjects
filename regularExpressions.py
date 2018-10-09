@@ -44,7 +44,7 @@ class regularExpressions:
         self.reList.append(('TRIAD', re.compile(__STRING_TRIAD, flags=re.IGNORECASE)))
 
         self.reList.append(
-            ('MONTH_IN_LETTERS', re.compile(constants.MONTHS, flags=re.IGNORECASE)))  # NB rules for ambiguity
+            ('MONTH_IN_LETTERS', re.compile('('+constants.MONTHS+')$', flags=re.IGNORECASE)))  # NB rules for ambiguity
         self.reList.append(('DAYTIMES_PLURAL', re.compile(constants.DAYTIMES_PLURAL, flags=re.IGNORECASE)))
         self.reList.append(('DAYTIMES_SINGULAR', re.compile(constants.DAYTIMES_SINGULAR, flags=re.IGNORECASE)))
         self.reList.append(('SEASON', re.compile(constants.SEASON, flags=re.IGNORECASE)))
@@ -127,6 +127,6 @@ for elem in re.finditer(re.compile('[1-9][0-9]{3,10}s'), '1880s'):
 """
 
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "1995-1996"))
+print (regularExpressions.checkRE(a, "deck"))
 
 
