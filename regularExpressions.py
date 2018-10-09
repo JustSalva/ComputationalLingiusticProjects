@@ -125,8 +125,8 @@ class regularExpressions:
 for elem in re.finditer(re.compile('[1-9][0-9]{3,10}s'), '1880s'):
     print elem.group(), elem.span()
 """
-
+"""
 a = regularExpressions()
 print (regularExpressions.checkRE(a, "1995-1996"))
-
+"""
 

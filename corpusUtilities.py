@@ -61,10 +61,10 @@ def tagText(word):
     regExpr = re.regularExpressions()
     return re.regularExpressions.checkRE(regExpr, word)
 
+
 # test line
 text = []
 tokenizer(XMLparsing.reader("data/train/input/train_01.input.tml"), text)
 for sentence in text:
     for word in sentence:
-        if word[3] == 'NO_MATCH':
-            print word[0], word[3]
+        print word[0], word[3]
