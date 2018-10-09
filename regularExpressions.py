@@ -86,7 +86,7 @@ class regularExpressions:
                                 flags=re.IGNORECASE)))
 
         self.reList.append(('TEMP_EXPRESSION', re.compile(
-            'start|middle|early|late|end|beginning|same|ago|this|later|earlier|' + __STRING_TEMPORAL_POSITION,
+            'later|earlier|start|middle|early|late|end|beginning|same|ago|this|' + __STRING_TEMPORAL_POSITION,
             flags=re.IGNORECASE)))  # NB. sempre dopo temporal position
         # punctuation
         self.reList.append(('TIME_ZONES', re.compile('(?<!\S)('+constants.TIME_ZONES+')(?!\S)', flags=re.IGNORECASE)))
