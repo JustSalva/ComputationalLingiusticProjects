@@ -3,6 +3,7 @@ from nltk import pos_tag
 import XMLparsing.XMLparser as XMLparsing
 import regularExpressions as re
 
+regExpr = re.regularExpressions()
 
 def tokenizer(text, tokenized_text):
     totalLength = len(text)
@@ -40,7 +41,8 @@ def tokenizer(text, tokenized_text):
                 print length, offset, len(usedWord)
                 exit(0)
             # print usedWord, offset, length, len(usedWord)
-            tokenized_sentence.append((usedWord, offset, length, tagText(usedWord)))
+            tag, tagNumber = tagText(usedWord)
+            tokenized_sentence.append((usedWord, offset, length, tag, tagNumber))
 
             offset = offset + len(word)
 
@@ -58,7 +60,6 @@ def tokenize(input_file_path, tokenized_text):
 
 
 def tagText(word):
-    regExpr = re.regularExpressions()
     return re.regularExpressions.checkRE(regExpr, word)
 
 
@@ -66,5 +67,7 @@ def tagText(word):
 text = []
 tokenizer(XMLparsing.reader("data/train/input/train_01.input.tml"), text)
 for sentence in text:
+    print sentence
     for word in sentence:
         print word[0], word[3]
+

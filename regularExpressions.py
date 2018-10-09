@@ -1,6 +1,6 @@
 import re
-import constants
-
+import constants.REconstants as constants
+import constants.REmatches as tagMatch
 
 class regularExpressions:
 
@@ -112,12 +112,12 @@ class regularExpressions:
                     max_length = length
                 # print result.group(), result.span(), elem[0]
         if tag is None:
-            return "NO_MATCH"
+            return "NO_MATCH", tagMatch.getTagCode(tag)
         if elementExtracted != string:
             print constants.WARNING_COLOR + 'WARNING: \"' + elementExtracted + '\" does not entirely match the string: \"' + string +'\"'+ constants.STANDARD_COLOR
             print tag
-            return "PARTIAL_MATCH"
-        return tag
+            return "PARTIAL_MATCH", tagMatch.getTagCode(tag)
+        return tag, tagMatch.getTagCode(tag)
 
 
 # TEST LINES
@@ -125,8 +125,8 @@ class regularExpressions:
 for elem in re.finditer(re.compile('[1-9][0-9]{3,10}s'), '1880s'):
     print elem.group(), elem.span()
 """
-"""
+
 a = regularExpressions()
 print (regularExpressions.checkRE(a, "1995-1996"))
-"""
+
 
