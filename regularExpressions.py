@@ -136,6 +136,6 @@ for elem in re.finditer(re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constan
     print elem.group(), elem.span()
 """
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "the"))
+print (regularExpressions.checkRE(a, "7th"))
 
 

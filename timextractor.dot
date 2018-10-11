@@ -1,0 +1,100 @@
+digraph FST {
+rankdir = LR;
+size = "8.5,11";
+label = "";
+center = 1;
+orientation = Landscape;
+ranksep = "0.4";
+nodesep = "0.25";
+0 [label = "0", shape = circle, style = bold, fontsize = 14]
+	0 -> 1 [label = "SEASON:DATE", fontsize = 14];
+	0 -> 5 [label = "TEMPORAL_MOMENTS:DATE", fontsize = 14];
+	0 -> 6 [label = "TEMP_EXPRESSION:<eps>", fontsize = 14];
+	0 -> 19 [label = "THE:<eps>", fontsize = 14];
+	0 -> 20 [label = "APPROXIMATOR:<eps>", fontsize = 14];
+	0 -> 31 [label = "TIME_UNIT_PLURAL:DURATION", fontsize = 14];
+	0 -> 34 [label = "TIME_UNIT_PLURAL:DATE", fontsize = 14];
+	0 -> 35 [label = "DAYTIMES_SINGULAR:TIME", fontsize = 14];
+	0 -> 36 [label = "DURATION:DURATION", fontsize = 14];
+	0 -> 37 [label = "TIME_UNIT_PLURAL:DURATION", fontsize = 14];
+	0 -> 38 [label = "DAYTIME:TIME", fontsize = 14];
+	0 -> 39 [label = "TIME_UNIT_SINGULAR:DURATION", fontsize = 14];
+	0 -> 40 [label = "DECADES:SET", fontsize = 14];
+1 [label = "1", shape = doublecircle, style = solid, fontsize = 14]
+	1 -> 2 [label = "NUMBER:DATE", fontsize = 14];
+2 [label = "2", shape = doublecircle, style = solid, fontsize = 14]
+	2 -> 3 [label = "TIME:TIME", fontsize = 14];
+3 [label = "3", shape = doublecircle, style = solid, fontsize = 14]
+	3 -> 4 [label = "AM_PM:TIME", fontsize = 14];
+4 [label = "4", shape = doublecircle, style = solid, fontsize = 14]
+5 [label = "5", shape = doublecircle, style = solid, fontsize = 14]
+	5 -> 33 [label = "DATE:DATE", fontsize = 14];
+6 [label = "6", shape = circle, style = solid, fontsize = 14]
+	6 -> 7 [label = "HOLIDAY:DATE", fontsize = 14];
+	6 -> 8 [label = "THE:<eps>", fontsize = 14];
+7 [label = "7", shape = doublecircle, style = solid, fontsize = 14]
+8 [label = "8", shape = circle, style = solid, fontsize = 14]
+	8 -> 9 [label = "SEASON:<eps>", fontsize = 14];
+9 [label = "9", shape = circle, style = solid, fontsize = 14]
+	9 -> 10 [label = "OF:<eps>", fontsize = 14];
+10 [label = "10", shape = circle, style = solid, fontsize = 14]
+	10 -> 2 [label = "NUMBER:DATE", fontsize = 14];
+	10 -> 11 [label = "IN:<eps>", fontsize = 14];
+11 [label = "11", shape = circle, style = solid, fontsize = 14]
+	11 -> 12 [label = "THE:<eps>", fontsize = 14];
+12 [label = "12", shape = circle, style = solid, fontsize = 14]
+	12 -> 13 [label = "DAYTIMES_SINGULAR:<eps>", fontsize = 14];
+13 [label = "13", shape = circle, style = solid, fontsize = 14]
+	13 -> 14 [label = "OF:<eps>", fontsize = 14];
+14 [label = "14", shape = circle, style = solid, fontsize = 14]
+	14 -> 15 [label = "NUMBER:<eps>", fontsize = 14];
+15 [label = "15", shape = circle, style = solid, fontsize = 14]
+	15 -> 16 [label = "NUMBER:TIME", fontsize = 14];
+16 [label = "16", shape = doublecircle, style = solid, fontsize = 14]
+	16 -> 17 [label = "NUMBER:TIME", fontsize = 14];
+	16 -> 18 [label = "COMMA:<eps>", fontsize = 14];
+17 [label = "17", shape = doublecircle, style = solid, fontsize = 14]
+18 [label = "18", shape = circle, style = solid, fontsize = 14]
+	18 -> 17 [label = "NUMBER:TIME", fontsize = 14];
+19 [label = "19", shape = circle, style = solid, fontsize = 14]
+	19 -> 20 [label = "TEMPORAL_POSITION:<eps>", fontsize = 14];
+	19 -> 21 [label = "HOLIDAY:<eps>", fontsize = 14];
+	19 -> 13 [label = "DAYTIMES_SINGULAR:<eps>", fontsize = 14];
+	19 -> 9 [label = "SEASON:<eps>", fontsize = 14];
+	19 -> 23 [label = "TEMP_EXPRESSION:<eps>", fontsize = 14];
+	19 -> 28 [label = "ORDINAL_NUMBERS:<eps>", fontsize = 14];
+20 [label = "20", shape = circle, style = solid, fontsize = 14]
+	20 -> 25 [label = "TIME_UNIT_SINGULAR:DATE", fontsize = 14];
+	20 -> 30 [label = "NUMBER:<eps>", fontsize = 14];
+	20 -> 30 [label = "QUANTITY:<eps>", fontsize = 14];
+21 [label = "21", shape = circle, style = solid, fontsize = 14]
+	21 -> 22 [label = "NUMBER:DATE", fontsize = 14];
+22 [label = "22", shape = doublecircle, style = solid, fontsize = 14]
+23 [label = "23", shape = circle, style = solid, fontsize = 14]
+	23 -> 24 [label = "ORDINAL_NUMBERS:DATE", fontsize = 14];
+24 [label = "24", shape = doublecircle, style = solid, fontsize = 14]
+	24 -> 26 [label = "OF:<eps>", fontsize = 14];
+25 [label = "25", shape = doublecircle, style = solid, fontsize = 14]
+	25 -> 26 [label = "OF:<eps>", fontsize = 14];
+26 [label = "26", shape = circle, style = solid, fontsize = 14]
+	26 -> 27 [label = "DATE:DATE", fontsize = 14];
+27 [label = "27", shape = doublecircle, style = solid, fontsize = 14]
+28 [label = "28", shape = circle, style = solid, fontsize = 14]
+	28 -> 26 [label = "OF:<eps>", fontsize = 14];
+	28 -> 29 [label = "TIME_UNIT_SINGULAR:DURATION", fontsize = 14];
+	28 -> 30 [label = "NUMBER:<eps>", fontsize = 14];
+29 [label = "29", shape = doublecircle, style = solid, fontsize = 14]
+30 [label = "30", shape = circle, style = solid, fontsize = 14]
+31 [label = "31", shape = circle, style = solid, fontsize = 14]
+	31 -> 32 [label = "TEMP_EXPRESSION:DATE", fontsize = 14];
+32 [label = "32", shape = doublecircle, style = solid, fontsize = 14]
+33 [label = "33", shape = doublecircle, style = solid, fontsize = 14]
+34 [label = "34", shape = doublecircle, style = solid, fontsize = 14]
+	34 -> 32 [label = "TEMP_EXPRESSION:DATE", fontsize = 14];
+35 [label = "35", shape = doublecircle, style = solid, fontsize = 14]
+36 [label = "36", shape = doublecircle, style = solid, fontsize = 14]
+37 [label = "37", shape = doublecircle, style = solid, fontsize = 14]
+38 [label = "38", shape = doublecircle, style = solid, fontsize = 14]
+39 [label = "39", shape = doublecircle, style = solid, fontsize = 14]
+40 [label = "40", shape = circle, style = solid, fontsize = 14]
+}
