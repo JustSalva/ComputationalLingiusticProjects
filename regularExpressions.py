@@ -56,8 +56,8 @@ class regularExpressions:
         self.reList.append(('SEASON', re.compile(constants.SEASON, flags=re.IGNORECASE)))
         self.reList.append(('TIME_UNIT_PLURAL', re.compile('hours|days|weeks|months|years|hrs',
                                                            flags=re.IGNORECASE)))  # NB match before singular
-        self.reList.append(('TIME_UNIT_SINGULAR', re.compile(
-            'day|month|year|decade|century|week| ' + constants.DAYTIMES_SINGULAR)))
+        __STRING_TIMEUNIT_SINGULAR = 'day|month|year|decade|century|week| ' + constants.DAYTIMES_SINGULAR
+        self.reList.append(('TIME_UNIT_SINGULAR', re.compile(__STRING_TIMEUNIT_SINGULAR)))
 
         self.reList.append(('NOT_AMBIGUOUS_YEARS',
                             re.compile('([1-9][0-9]{3,10}|(3[2-9]|[4-9][0-9])('+__STRING_AGES+')?)|\'[0-9][0-9]')))
@@ -70,10 +70,8 @@ class regularExpressions:
         self.reList.append(('APPROXIMATOR', re.compile('another|about|nearly|around', flags=re.IGNORECASE)))
 
         self.reList.append(('QUANTITY', re.compile('several|hundred|thousand|(?<!\S)a(?!\S)|few|lot', flags=re.IGNORECASE)))
-
-        self.reList.append(('TIME', re.compile(
-            '((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))(' + __STRING_AM_PM + ')?',
-            flags=re.IGNORECASE)))
+        __STRING_TIME = '((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))(' + __STRING_AM_PM + ')?'
+        self.reList.append(('TIME', re.compile(__STRING_TIME, flags=re.IGNORECASE)))
 
         self.reList.append(('HOLIDAY', re.compile('\b('+constants.HOLIDAYS+')\b', flags=re.IGNORECASE)))
 
@@ -101,7 +99,11 @@ class regularExpressions:
         self.reList.append(('COLUMN', re.compile(':')))
         self.reList.append(('DOT', re.compile('\.')))
         self.reList.append(('SLASH', re.compile('/')))
-        self.reList.append(('DURATION', re.compile('[1-9][0-9]{3}-[1-9][0-9]{3}')))
+        self.reList.append(('DURATION',
+                            re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
+                                       + '[1-9][0-9]*)-' + __STRING_TIMEUNIT_SINGULAR + ')|' + __STRING_TIME
+                                       + '-' + __STRING_TIME + 'hrs)', flags=re.IGNORECASE)))
+        self.reList.append(('THE', re.compile('the')))
         pass
 
     def checkRE(self, string):
@@ -127,11 +129,13 @@ class regularExpressions:
 
 
 # TEST LINES
-for elem in re.finditer(re.compile(constants.ORDINALS_IN_LETTER,
-                                       flags=re.IGNORECASE), 'first'):
+"""
+for elem in re.finditer(re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
+                                       + '[1-9][0-9]*)-' + __STRING_TIMEUNIT_SINGULAR + ')|' + __STRING_TIME
+                                       + '-' + __STRING_TIME + 'hrs)', flags=re.IGNORECASE), '19:00-03:00hrs'):
     print elem.group(), elem.span()
-
+"""
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "first"))
+print (regularExpressions.checkRE(a, "the"))
 
 
