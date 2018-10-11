@@ -70,8 +70,8 @@ class regularExpressions:
         self.reList.append(('APPROXIMATOR', re.compile('another|about|nearly|around', flags=re.IGNORECASE)))
 
         self.reList.append(('QUANTITY', re.compile('several|hundred|thousand|(?<!\S)a(?!\S)|few|lot', flags=re.IGNORECASE)))
-        __STRING_TIME = '((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))(' + __STRING_AM_PM + ')?'
-        self.reList.append(('TIME', re.compile(__STRING_TIME, flags=re.IGNORECASE)))
+        __STRING_HHMM = '((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))(' + __STRING_AM_PM + ')?'
+        self.reList.append(('HHMM', re.compile(__STRING_HHMM, flags=re.IGNORECASE)))
 
         self.reList.append(('HOLIDAY', re.compile('\b('+constants.HOLIDAYS+')\b', flags=re.IGNORECASE)))
 
@@ -101,8 +101,8 @@ class regularExpressions:
         self.reList.append(('SLASH', re.compile('/')))
         self.reList.append(('DURATION',
                             re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
-                                       + '[1-9][0-9]*)-(' + __STRING_TIMEUNIT_SINGULAR + '|hour))|' + __STRING_TIME
-                                       + '-' + __STRING_TIME + 'hrs)', flags=re.IGNORECASE)))
+                                       + '[1-9][0-9]*)-(' + __STRING_TIMEUNIT_SINGULAR + '|hour))|' + __STRING_HHMM
+                                       + '-' + __STRING_HHMM + 'hrs)', flags=re.IGNORECASE)))
         self.reList.append(('THE', re.compile('the')))
         pass
 
@@ -131,8 +131,8 @@ class regularExpressions:
 # TEST LINES
 """
 for elem in re.finditer(re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
-                                       + '[1-9][0-9]*)-' + __STRING_TIMEUNIT_SINGULAR + ')|' + __STRING_TIME
-                                       + '-' + __STRING_TIME + 'hrs)', flags=re.IGNORECASE), 'three-month'):
+                                       + '[1-9][0-9]*)-' + __STRING_TIMEUNIT_SINGULAR + ')|' + __STRING_HHMM
+                                       + '-' + __STRING_HHMM + 'hrs)', flags=re.IGNORECASE), 'three-month'):
     print elem.group(), elem.span()
 """
 a = regularExpressions()
