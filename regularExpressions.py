@@ -101,7 +101,7 @@ class regularExpressions:
         self.reList.append(('SLASH', re.compile('/')))
         self.reList.append(('DURATION',
                             re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
-                                       + '[1-9][0-9]*)-' + __STRING_TIMEUNIT_SINGULAR + ')|' + __STRING_TIME
+                                       + '[1-9][0-9]*)-(' + __STRING_TIMEUNIT_SINGULAR + '))|' + __STRING_TIME
                                        + '-' + __STRING_TIME + 'hrs)', flags=re.IGNORECASE)))
         self.reList.append(('THE', re.compile('the')))
         pass
@@ -132,10 +132,10 @@ class regularExpressions:
 """
 for elem in re.finditer(re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
                                        + '[1-9][0-9]*)-' + __STRING_TIMEUNIT_SINGULAR + ')|' + __STRING_TIME
-                                       + '-' + __STRING_TIME + 'hrs)', flags=re.IGNORECASE), '19:00-03:00hrs'):
+                                       + '-' + __STRING_TIME + 'hrs)', flags=re.IGNORECASE), 'three-month'):
     print elem.group(), elem.span()
 """
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "7th"))
+print (regularExpressions.checkRE(a, "three-year"))
 
 
