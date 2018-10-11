@@ -65,7 +65,7 @@ def tagText(word):
 
 # test line
 text = []
-tokenizer(XMLparsing.reader("data/train/input/train_01.input.tml"), text)
+tokenizer(XMLparsing.reader("data/train/input/train_22.input.tml"), text)
 for sentence in text:
     print sentence
     for word in sentence:
