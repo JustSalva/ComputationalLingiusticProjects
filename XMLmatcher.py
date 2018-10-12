@@ -1,7 +1,6 @@
 #XMLMatcher
 import xml.etree.ElementTree as ET
 from XMLparsing.XMLparser import *
-from timexctractor_for_matcher import *
 
 def list_creator(path_to_file):
     # type: (str) -> str
@@ -31,6 +30,10 @@ file1=list_creator('/home/fabio/Documenti/ComputationalLingiusticProjects/data/t
 file2=list_creator('/home/fabio/Documenti/ComputationalLingiusticProjects/train_output.tml')
 
 #print file2
+print 'NUMBER OF EXPRESSIONS OF ORIGINAL GOLD STANDARD:'
+print length(file1)
+print 'NUMBER OF EXPRESSIONS OF OUR GOLD STANDARD:'
+print length(file2)
 print 'NUMBER OF MATCHED TIME EXPRESSIONS IS:'
 print list_compare_strict(file1,file2)
 #print file1
