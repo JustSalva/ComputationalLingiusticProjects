@@ -48,6 +48,7 @@ DURATION = 44
 
 
 def getTagCode(tag):
+    if tag == "PARTIAL_MATCH": return PARTIAL_MATCH
     if tag == 'AM_PM': return AM_PM
     if tag == 'NUMBER': return NUMBER
     if tag == 'AMBIGUOUS_NUMBER': return AMBIGUOUS_NUMBER

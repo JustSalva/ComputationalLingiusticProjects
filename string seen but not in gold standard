@@ -1,0 +1,5 @@
+file 07
+<TIMEX3 char_begin="2640" char_end="2646" type="DURATION">a year</TIMEX3>
+<TIMEX3 char_begin="7808" char_end="7813" type="DURATION">month</TIMEX3>
+<TIMEX3 char_begin="9091" char_end="9095" type="TIME">Dawn</TIMEX3>
+<TIMEX3 char_begin="13443" char_end="13455" type="DURATION">a 60 Minutes</TIMEX3>

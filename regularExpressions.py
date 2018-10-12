@@ -10,6 +10,9 @@ class regularExpressions:
         __STRING_AM_PM = '(a\.?|p\.?)m\.?'
         self.reList.append(('AM_PM', re.compile('(?<!\S)('+__STRING_AM_PM+')(?!\S)', flags=re.IGNORECASE)))
         __STRING_NUMBERS = '((([1-9][0-9]*)|[1-9]|0[1-9]))'
+        __STRING_AGES = 'A\.?D\.?|B\.?C\.?|C\.?E\.?|B\.?C\.?E\.?'
+        self.reList.append(('NOT_AMBIGUOUS_YEARS',
+                            re.compile('(?<!\S)((([1-9][0-9]{0,2}|(3[2-9]|[4-9][0-9]))(' + __STRING_AGES + '))|(([1-9][0-9]{3,10})(' + __STRING_AGES + ')?)|(\'[0-9][0-9]))', flags=re.IGNORECASE)))
         self.reList.append(('NUMBER',
                             re.compile('(' + __STRING_NUMBERS + ')',
                                 flags=re.IGNORECASE)))  # NB check always after ordinal numbers!
@@ -41,26 +44,24 @@ class regularExpressions:
         self.reList.append(('NOT_AMBIGUOUS_DAY',
                             re.compile(__STRING_NOT_AMBIGUOUS_NUMBER_DAY + __STRING_ORDINAL_TAGS + '?',
                                        flags=re.IGNORECASE)))  # NB ambiguous to be handled
-        __STRING_AGES = 'A\.?D\.?|B\.?C\.?|C\.?E\.?|B\.?C\.?E\.?'
         self.reList.append(('AGES', re.compile('(?<!\S)('+__STRING_AGES+')(?!\S)', flags=re.IGNORECASE)))
 
         __STRING_TRIAD = 'present|future|past'
         __STRING_TEMPORAL_POSITION = 'next|last|previous|following|final|' + __STRING_TRIAD
-        self.reList.append(('TEMPORAL_POSITION', re.compile(__STRING_TEMPORAL_POSITION, flags=re.IGNORECASE)))
         self.reList.append(('TRIAD', re.compile(__STRING_TRIAD, flags=re.IGNORECASE)))
+        self.reList.append(('TEMPORAL_POSITION', re.compile(__STRING_TEMPORAL_POSITION, flags=re.IGNORECASE)))
+
 
         self.reList.append(
             ('MONTH_IN_LETTERS', re.compile('('+constants.MONTHS+')$', flags=re.IGNORECASE)))  # NB rules for ambiguity
         self.reList.append(('DAYTIMES_PLURAL', re.compile(constants.DAYTIMES_PLURAL, flags=re.IGNORECASE)))
         self.reList.append(('DAYTIMES_SINGULAR', re.compile(constants.DAYTIMES_SINGULAR, flags=re.IGNORECASE)))
         self.reList.append(('SEASON', re.compile(constants.SEASON, flags=re.IGNORECASE)))
-        self.reList.append(('TIME_UNIT_PLURAL', re.compile('hours|days|weeks|months|years|hrs',
+        self.reList.append(('TIME_UNIT_PLURAL', re.compile('hours|days|weeks|months|years|hrs|minutes',
                                                            flags=re.IGNORECASE)))  # NB match before singular
         __STRING_TIMEUNIT_SINGULAR = 'day|month|year|decade|century|week| ' + constants.DAYTIMES_SINGULAR
         self.reList.append(('TIME_UNIT_SINGULAR', re.compile(__STRING_TIMEUNIT_SINGULAR)))
 
-        self.reList.append(('NOT_AMBIGUOUS_YEARS',
-                            re.compile('([1-9][0-9]{3,10}|(3[2-9]|[4-9][0-9])('+__STRING_AGES+')?)|\'[0-9][0-9]')))
         self.reList.append(('DECADES',
                             re.compile('[1-9][0-9]{3,10}s')))
         self.reList.append(('ITERATION', re.compile('(?<!\S)(every|each)(?!\S)', flags=re.IGNORECASE)))
@@ -73,7 +74,7 @@ class regularExpressions:
         __STRING_HHMM = '((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))(' + __STRING_AM_PM + ')?'
         self.reList.append(('HHMM', re.compile(__STRING_HHMM, flags=re.IGNORECASE)))
 
-        self.reList.append(('HOLIDAY', re.compile('\b('+constants.HOLIDAYS+')\b', flags=re.IGNORECASE)))
+        self.reList.append(('HOLIDAY', re.compile('('+constants.HOLIDAYS+')', flags=re.IGNORECASE)))
 
         self.reList.append(('THAN', re.compile('(?<!\S)than(?!\S)', flags=re.IGNORECASE)))
         self.reList.append(('AT', re.compile('(?<!\S)at(?!\S)', flags=re.IGNORECASE)))
@@ -103,7 +104,7 @@ class regularExpressions:
                             re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
                                        + '[1-9][0-9]*)-(' + __STRING_TIMEUNIT_SINGULAR + '|hour)(-old)?)|' + __STRING_HHMM
                                        + '-' + __STRING_HHMM + 'hrs)', flags=re.IGNORECASE)))
-        self.reList.append(('THE', re.compile('the')))
+        self.reList.append(('THE', re.compile('the', flags=re.IGNORECASE)))
         pass
 
     def checkRE(self, string):
@@ -124,18 +125,16 @@ class regularExpressions:
         if elementExtracted != string:
             print constants.WARNING_COLOR + 'WARNING: \"' + elementExtracted + '\" does not entirely match the string: \"' + string +'\"'+ constants.STANDARD_COLOR
             print tag
-            return "PARTIAL_MATCH", tagMatch.getTagCode(tag)
+            return "PARTIAL_MATCH", tagMatch.getTagCode("PARTIAL_MATCH")
         return tag, tagMatch.getTagCode(tag)
 
 
 # TEST LINES
 """
-for elem in re.finditer(re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
-                                       + '[1-9][0-9]*)-' + __STRING_TIMEUNIT_SINGULAR + ')|' + __STRING_HHMM
-                                       + '-' + __STRING_HHMM + 'hrs)', flags=re.IGNORECASE), 'three-month'):
+for elem in re.finditer(re.compile('(?<!\S)((([1-9][0-9]{3,10})(' + __STRING_AGES + ')?)|(\'[0-9][0-9]))', flags=re.IGNORECASE)
+        , '99'):
     print elem.group(), elem.span()
 """
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "Forty-year-old"))
-
+print (regularExpressions.checkRE(a, "Christmas"))
 
