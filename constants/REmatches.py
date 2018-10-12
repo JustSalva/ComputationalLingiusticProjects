@@ -24,7 +24,7 @@ ITERATION = 20
 COMPARATOR = 21
 APPROXIMATOR = 22
 QUANTITY = 23
-TIME = 24
+HHMM = 24
 HOLIDAY = 25
 THAN = 26
 AT = 27
@@ -42,8 +42,55 @@ COMMA = 38
 COLUMN = 39
 DOT = 40
 SLASH = 41
-DURATION = 42
+THE = 42
+DATE = 43
+DURATION = 44
 
 
 def getTagCode(tag):
-    return 0  # TODO
+    if tag == 'AM_PM': return AM_PM
+    if tag == 'NUMBER': return NUMBER
+    if tag == 'AMBIGUOUS_NUMBER': return AMBIGUOUS_NUMBER
+    if tag == 'NOT_AMBIGUOUS_NUMBER_DAY': return NOT_AMBIGUOUS_NUMBER_DAY
+    if tag == 'NUMBER_DAY': return NUMBER_DAY
+    if tag == 'ORDINAL_NUMBERS': return ORDINAL_NUMBERS
+    if tag == 'ORDINAL_NUMBERS_DAY': return ORDINAL_NUMBERS_DAY
+    if tag == 'NOT_AMBIGUOUS_DAY': return NOT_AMBIGUOUS_DAY
+    if tag == 'AGES': return AGES
+    if tag == 'TEMPORAL_POSITION': return TEMPORAL_POSITION
+    if tag == 'TRIAD': return TRIAD
+    if tag == 'MONTH_IN_LETTERS': return MONTH_IN_LETTERS
+    if tag == 'DAYTIMES_PLURAL': return DAYTIMES_PLURAL
+    if tag == 'DAYTIMES_SINGULAR': return DAYTIMES_SINGULAR
+    if tag == 'SEASON': return SEASON
+    if tag == 'TIME_UNIT_PLURAL': return TIME_UNIT_PLURAL
+    if tag == 'TIME_UNIT_SINGULAR': return TIME_UNIT_SINGULAR
+    if tag == 'NOT_AMBIGUOUS_YEARS': return NOT_AMBIGUOUS_YEARS
+    if tag == 'DECADES': return DECADES
+    if tag == 'ITERATION': return ITERATION
+    if tag == 'COMPARATOR': return COMPARATOR
+    if tag == 'APPROXIMATOR': return APPROXIMATOR
+    if tag == 'QUANTITY': return QUANTITY
+    if tag == 'HHMM': return HHMM
+    if tag == 'HOLIDAY': return HOLIDAY
+    if tag == 'THAN': return THAN
+    if tag == 'AT': return AT
+    if tag == 'OF': return OF
+    if tag == 'OLD': return OLD
+    if tag == 'LEAST': return LEAST
+    if tag == 'RIGHT': return RIGHT
+    if tag == 'DAYTIME': return DAYTIME
+    if tag == 'IN': return IN
+    if tag == 'TEMPORAL_MOMENTS': return TEMPORAL_MOMENTS
+    if tag == 'TEMP_EXPRESSION': return TEMP_EXPRESSION
+    if tag == 'TIME_ZONES': return TIME_ZONES
+    if tag == 'DASH': return DASH
+    if tag == 'COMMA': return COMMA
+    if tag == 'COLUMN': return COLUMN
+    if tag == 'DOT': return DOT
+    if tag == 'SLASH': return SLASH
+    if tag == 'DURATION': return DURATION
+    if tag == 'THE': return THE
+    if tag == 'DATE': return DATE
+
+    return 0  # no match
