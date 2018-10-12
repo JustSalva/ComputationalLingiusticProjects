@@ -9,13 +9,13 @@ NO_MATCH = -1
 def printName(state):
     # type: (int) -> str
 
-    if state == 0:
-        return "DATE"
     if state == 1:
-        return "DURATION"
+        return "DATE"
     if state == 2:
-        return "SET"
+        return "DURATION"
     if state == 3:
+        return "SET"
+    if state == 4:
         return "TIME"
     return "NO_MATCH"
 

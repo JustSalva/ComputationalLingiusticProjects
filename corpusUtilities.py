@@ -1,9 +1,9 @@
 from nltk.tokenize import sent_tokenize, word_tokenize
-from nltk import pos_tag
 import XMLparsing.XMLparser as XMLparsing
 import regularExpressions as re
 
 regExpr = re.regularExpressions()
+
 
 def tokenizer(text, tokenized_text):
     totalLength = len(text)
@@ -56,7 +56,8 @@ def tokenizer(text, tokenized_text):
 
 
 def tokenize(input_file_path, tokenized_text):
-    tokenizer(XMLparsing.reader(input_file_path), tokenized_text)
+    text = XMLparsing.reader(input_file_path)
+    return tokenizer(text, tokenized_text), text
 
 
 def tagText(word):
@@ -64,10 +65,11 @@ def tagText(word):
 
 
 # test line
+"""
 text = []
 tokenizer(XMLparsing.reader("data/train/input/train_22.input.tml"), text)
 for sentence in text:
     print sentence
     for word in sentence:
         print word[0], word[3]
-
+"""

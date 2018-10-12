@@ -5,6 +5,7 @@ import sys
 # third-party libs go here
 
 # project libs go here
+from FSThandling.FSTnavigator import analyzeEntireText
 from corpusUtilities import tokenize
 import XMLparsing.XMLparser as p
 
@@ -14,16 +15,16 @@ def main(args):
 
     # CHANGE ME
     tokenized_text = []
-    tokenize(args.input_file, tokenized_text)
-    tokenized_text
+    tokenized_text, text = tokenize(args.input_file, tokenized_text)
 
-    test_tree = p.createTimeML()
-    p.addItem(test_tree, 10, 13, 'dddd', 'ciao')
+    tree = analyzeEntireText(tokenized_text, text)
+    for sentence in tokenized_text:
+        print sentence
     # END OF MAIN
     if args.output_file is None:
-        print p.writer(test_tree)
+        print p.writer(tree)
     else:
-        p.saveFile(args.output_file, test_tree)
+        p.saveFile(args.output_file, tree)
 
 
 if __name__ == "__main__":
