@@ -86,7 +86,7 @@ class regularExpressions:
 
         self.reList.append(('TEMPORAL_MOMENTS',
                             re.compile(
-                                'now|time|tonight|current|recently|currently|today|tomorrow|yesterday|coming|previously',
+                                'now|tonight|current|recently|currently|today|tomorrow|yesterday|coming|previously',
                                 flags=re.IGNORECASE)))
 
         self.reList.append(('TEMP_EXPRESSION', re.compile(

@@ -18,8 +18,6 @@ def main(args):
     tokenized_text, text = tokenize(args.input_file, tokenized_text)
 
     tree = analyzeEntireText(tokenized_text, text)
-    for sentence in tokenized_text:
-        print sentence
     # END OF MAIN
     if args.output_file is None:
         print p.writer(tree)

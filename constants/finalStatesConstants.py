@@ -22,6 +22,6 @@ def printName(state):
 
 def isFinalState(state):
     # type: (int) -> bool
-    if 0 < state < 4:
+    if 0 < state <= 4:
         return True
     return False
