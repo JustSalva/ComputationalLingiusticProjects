@@ -12,11 +12,12 @@ class regularExpressions:
         __STRING_NUMBERS = '((([1-9][0-9]*)|[1-9]|0[1-9]))'
         __STRING_AGES = 'A\.?D\.?|B\.?C\.?|C\.?E\.?|B\.?C\.?E\.?'
         self.reList.append(('NOT_AMBIGUOUS_YEARS',
-                            re.compile('(?<!\S)((([1-9][0-9]{0,2}|(3[2-9]|[4-9][0-9]))(' + __STRING_AGES + '))|(([1-9][0-9]{3,10})(' + __STRING_AGES + ')?)|(\'[0-9][0-9]))', flags=re.IGNORECASE)))
+                            re.compile('(?<!\S)((([1-9][0-9]{3,10})-[0-9][0-9])|(([1-9][0-9]{0,2}|(3[2-9]|[4-9][0-9]))(' + __STRING_AGES + '))|(([1-9][0-9]{3,10})(' + __STRING_AGES + ')?)|(\'[0-9][0-9]))', flags=re.IGNORECASE)))
         self.reList.append(('NUMBER',
                             re.compile('(' + __STRING_NUMBERS + ')',
                                 flags=re.IGNORECASE)))  # NB check always after ordinal numbers!
-        self.reList.append(('NUMBER_IN_LETTER',
+        # number in letter not useful anymore !
+        self.reList.append(('NUMBER',
                             re.compile(constants.NUMBERS_IN_LETTER,
                                 flags=re.IGNORECASE)))  # NB check always after ordinal numbers!
 
@@ -105,6 +106,7 @@ class regularExpressions:
                                        + '[1-9][0-9]*)-(' + __STRING_TIMEUNIT_SINGULAR + '|hour)(-old)?)|' + __STRING_HHMM
                                        + '-' + __STRING_HHMM + 'hrs)', flags=re.IGNORECASE)))
         self.reList.append(('THE', re.compile('the', flags=re.IGNORECASE)))
+        self.reList.append(('WEEK_DAY', re.compile(constants.WEEK_DAY, flags=re.IGNORECASE)))
         pass
 
     def checkRE(self, string):
@@ -136,5 +138,5 @@ for elem in re.finditer(re.compile('(?<!\S)((([1-9][0-9]{3,10})(' + __STRING_AGE
     print elem.group(), elem.span()
 """
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "Christmas"))
+print (regularExpressions.checkRE(a, "207BC"))
 

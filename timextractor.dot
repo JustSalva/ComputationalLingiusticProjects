@@ -30,6 +30,7 @@ nodesep = "0.25";
 	0 -> 56 [label = "NOT_AMBIGUOUS_YEARS:DATE", fontsize = 14];
 	0 -> 56 [label = "MONTH_IN_LETTERS:DATE", fontsize = 14];
 	0 -> 57 [label = "QUANTITY:<eps>", fontsize = 14];
+	0 -> 67 [label = "WEEK_DAY:DATE", fontsize = 14];
 1 [label = "1", shape = doublecircle, style = solid, fontsize = 14]
 	1 -> 2 [label = "NUMBER:DATE", fontsize = 14];
 2 [label = "2", shape = doublecircle, style = solid, fontsize = 14]
@@ -182,4 +183,5 @@ nodesep = "0.25";
 65 [label = "65", shape = doublecircle, style = solid, fontsize = 14]
 	65 -> 2 [label = "NUMBER:DATE", fontsize = 14];
 66 [label = "66", shape = circle, style = solid, fontsize = 14]
+67 [label = "67", shape = circle, style = solid, fontsize = 14]
 }

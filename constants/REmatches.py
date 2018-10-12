@@ -45,6 +45,7 @@ SLASH = 41
 THE = 42
 DATE = 43
 DURATION = 44
+WEEK_DAY = 45
 
 
 def getTagCode(tag):
@@ -93,5 +94,6 @@ def getTagCode(tag):
     if tag == 'DURATION': return DURATION
     if tag == 'THE': return THE
     if tag == 'DATE': return DATE
+    if tag == 'WEEK_DAY': return WEEK_DAY
 
     return 0  # no match
