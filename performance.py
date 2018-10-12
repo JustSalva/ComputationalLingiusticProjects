@@ -1,7 +1,8 @@
 from XMLmatcher import *
 
 def all_performances(original_gold_path, my_gold_path):
-
+    """It takes as input the file paths of the two gold standard documents. It runs the matching
+    functions of XMLmatcher.py and do computation for precision, recall and F1 indices."""
     results = counter_matches(original_gold_path, my_gold_path)
     #Computing evaluators
     precision_strict = float(results[2])/results[1]
