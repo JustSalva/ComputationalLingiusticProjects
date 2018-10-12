@@ -88,7 +88,7 @@ class regularExpressions:
 
         self.reList.append(('TEMPORAL_MOMENTS',
                             re.compile(
-                                'now|tonight|current|recently|currently|today|tomorrow|yesterday|coming|previously',
+                                'now|tonight|recently|currently|current|today|tomorrow|yesterday|coming|previously',
                                 flags=re.IGNORECASE)))
 
         self.reList.append(('TEMP_EXPRESSION', re.compile(
@@ -107,6 +107,8 @@ class regularExpressions:
                                        + '-' + __STRING_HHMM + 'hrs)', flags=re.IGNORECASE)))
         self.reList.append(('THE', re.compile('the', flags=re.IGNORECASE)))
         self.reList.append(('WEEK_DAY', re.compile(constants.WEEK_DAY, flags=re.IGNORECASE)))
+        self.reList.append(('FALL', re.compile(constants.FALL, flags=re.IGNORECASE)))
+
         pass
 
     def checkRE(self, string):
@@ -138,5 +140,5 @@ for elem in re.finditer(re.compile('(?<!\S)((([1-9][0-9]{3,10})(' + __STRING_AGE
     print elem.group(), elem.span()
 """
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "207BC"))
+print (regularExpressions.checkRE(a, "currently"))
 

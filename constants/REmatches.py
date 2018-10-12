@@ -46,6 +46,7 @@ THE = 42
 DATE = 43
 DURATION = 44
 WEEK_DAY = 45
+FALL = 46
 
 
 def getTagCode(tag):
@@ -95,5 +96,6 @@ def getTagCode(tag):
     if tag == 'THE': return THE
     if tag == 'DATE': return DATE
     if tag == 'WEEK_DAY': return WEEK_DAY
+    if tag == 'FALL': return FALL
 
     return 0  # no match
