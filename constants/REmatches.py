@@ -1,3 +1,6 @@
+"""
+    file used to store the mapping between tag names and their corresponding integer codification in the FST
+"""
 NO_MATCH = -1
 PARTIAL_MATCH = -2
 EPSILON = 0
@@ -50,6 +53,12 @@ FALL = 46
 
 
 def getTagCode(tag):
+    # type: (str) -> int
+    """
+    return the integer codification of a tag
+    :param tag: tag name
+    :return: its corresponding integer
+    """
     if tag == "PARTIAL_MATCH": return PARTIAL_MATCH
     if tag == 'AM_PM': return AM_PM
     if tag == 'NUMBER': return NUMBER
