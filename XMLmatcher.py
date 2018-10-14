@@ -22,6 +22,7 @@ def list_creator(path_to_file):
 def list_compare_strict(list1,list2):
     '''It takes the two string of expressions and counts how many matches strictly.
     list1 should correspond to the original gold standard file, list2 to our output file.'''
+    print "STRICT MATCHING CALLED:"
     cnt=0
     to_not_be_seen_positions_list2 = []
     to_not_be_seen_positions_list1 = []
@@ -43,6 +44,7 @@ def list_compare_strict(list1,list2):
 def list_compare_relaxed(list1,list2):
     '''It takes the two string of expressions and counts how many matches relaxedly.
     list1 should correspond to the original gold standard file, list2 to our output file.'''
+    print "RELAXED MATCHING CALLED:"
     cnt=0
     to_not_be_seen_positions_list1=[]
     to_not_be_seen_positions_list2=[]
@@ -59,6 +61,8 @@ def list_compare_relaxed(list1,list2):
     for num2 in range(len(list2)):
         begin_2 = int(list2[num2][2])
         end_2 = int(list2[num2][3])
+        max_length = 0
+        memo = None
         for num1 in range(len(list1)):
             begin_1 = int(list1[num1][2])
             end_1 = int(list1[num1][3])
@@ -66,18 +70,16 @@ def list_compare_relaxed(list1,list2):
             overlap = (begin_1<=begin_2 and end_1>=end_2) or (begin_2<=begin_1 and end_2>=end_1) or \
                       (begin_1<=begin_2<=end_1) or (begin_2<=begin_1<=end_2) or \
                       (begin_1<=end_2<=end_1) or (begin_2<=end_1<=end_2)
-            max_length=0
-            memo=None
             if list1[num1][1]==list2[num2][1] and overlap and num1 not in to_not_be_seen_positions_list1 and num2 not in to_not_be_seen_positions_list2:
                 current_length = len(list1[num1][0].split())
                 max_length = max(max_length, current_length)
                 if max_length==current_length:
                     memo = num1
-            if memo!=None:
-                cnt = cnt + 1
-                to_not_be_seen_positions_list1.append(memo)
-                to_not_be_seen_positions_list2.append(num2)
-                print list1[memo],"MATCHES", list2[num2]
+        if memo!=None:
+            cnt = cnt + 1
+            to_not_be_seen_positions_list1.append(memo)
+            to_not_be_seen_positions_list2.append(num2)
+            print list1[memo],"MATCHES", list2[num2]
     for num2 in range(len(list2)):
         if num2 not in to_not_be_seen_positions_list2:
                 print "NOT MATCHED IN OUR FILE: ",list2[num2]
@@ -86,7 +88,7 @@ def list_compare_relaxed(list1,list2):
                 print "NOT MATCHED IN ORIGINAL FILE: ",list1[num1]
     return cnt
 
-
+'''
 file1=list_creator('/home/fabio/Documenti/ComputationalLingiusticProjects/data/train/annotated/train_02.gold.tml')
 file2=list_creator('/home/fabio/Documenti/ComputationalLingiusticProjects/train_02_output.tml')
 
@@ -98,8 +100,7 @@ print len(file2)
 print 'NUMBER OF MATCHED TIME EXPRESSIONS IS:'
 print list_compare_strict(file1 , file2)
 #print file1
-
-
+'''
 def counter_matches(original_file_path, my_file_path):
     '''Creating lists of elements from file path'''
     or_file = list_creator(original_file_path)
