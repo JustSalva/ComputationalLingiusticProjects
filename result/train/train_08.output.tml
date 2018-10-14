@@ -137,6 +137,7 @@
 	<TIMEX3 char_begin="40453" char_end="40470" type="DATE">23 September 1795</TIMEX3>
 	<TIMEX3 char_begin="40512" char_end="40529" type="DATE">27 September 1795</TIMEX3>
 	<TIMEX3 char_begin="40547" char_end="40556" type="DURATION">1795-1799</TIMEX3>
+	<TIMEX3 char_begin="40900" char_end="40908" type="TIME">annually</TIMEX3>
 	<TIMEX3 char_begin="41028" char_end="41032" type="DATE">1793</TIMEX3>
 	<TIMEX3 char_begin="43490" char_end="43494" type="DATE">fall</TIMEX3>
 	<TIMEX3 char_begin="43743" char_end="43758" type="DATE">9 November 1799</TIMEX3>

@@ -75,6 +75,7 @@
 	<TIMEX3 char_begin="29408" char_end="29422" type="DATE">late July 1959</TIMEX3>
 	<TIMEX3 char_begin="29740" char_end="29743" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="30056" char_end="30065" type="DATE">July 1959</TIMEX3>
+	<TIMEX3 char_begin="30699" char_end="30707" type="TIME">Annually</TIMEX3>
 	<TIMEX3 char_begin="30714" char_end="30718" type="DATE">1955</TIMEX3>
 	<TIMEX3 char_begin="31018" char_end="31035" type="DATE">16 September 1959</TIMEX3>
 	<TIMEX3 char_begin="31488" char_end="31492" type="DURATION">week</TIMEX3>

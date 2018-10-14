@@ -234,6 +234,7 @@
 	<TIMEX3 char_begin="54475" char_end="54485" type="DATE">3 November</TIMEX3>
 	<TIMEX3 char_begin="54662" char_end="54672" type="DATE">9 November</TIMEX3>
 	<TIMEX3 char_begin="54713" char_end="54724" type="DATE">11 November</TIMEX3>
+	<TIMEX3 char_begin="54802" char_end="54809" type="TIME">11 a.m.</TIMEX3>
 	<TIMEX3 char_begin="54813" char_end="54824" type="DATE">11 November</TIMEX3>
 	<TIMEX3 char_begin="54852" char_end="54868" type="DURATION">the eleventh day</TIMEX3>
 	<TIMEX3 char_begin="54872" char_end="54890" type="DURATION">the eleventh month</TIMEX3>

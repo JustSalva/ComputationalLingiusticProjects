@@ -151,13 +151,16 @@
 	<TIMEX3 char_begin="47898" char_end="47902" type="DURATION">year</TIMEX3>
 	<TIMEX3 char_begin="48354" char_end="48364" type="DATE">March 1973</TIMEX3>
 	<TIMEX3 char_begin="48728" char_end="48737" type="DURATION">1975-1976</TIMEX3>
+	<TIMEX3 char_begin="48742" char_end="48748" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="49088" char_end="49101" type="DATE">November 1972</TIMEX3>
 	<TIMEX3 char_begin="49227" char_end="49240" type="DATE">15 March 1973</TIMEX3>
 	<TIMEX3 char_begin="49448" char_end="49453" type="DATE">April</TIMEX3>
 	<TIMEX3 char_begin="49699" char_end="49708" type="DATE">June 1973</TIMEX3>
 	<TIMEX3 char_begin="49897" char_end="49908" type="DATE">4 June 1973</TIMEX3>
 	<TIMEX3 char_begin="50013" char_end="50025" type="DATE">October 1973</TIMEX3>
+	<TIMEX3 char_begin="50136" char_end="50142" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="50156" char_end="50168" type="DATE">January 1974</TIMEX3>
+	<TIMEX3 char_begin="50233" char_end="50239" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="50333" char_end="50342" type="DATE">4 January</TIMEX3>
 	<TIMEX3 char_begin="50554" char_end="50567" type="DATE">9 August 1974</TIMEX3>
 	<TIMEX3 char_begin="50703" char_end="50709" type="DURATION">a year</TIMEX3>
@@ -165,7 +168,9 @@
 	<TIMEX3 char_begin="50981" char_end="50985" type="DATE">1975</TIMEX3>
 	<TIMEX3 char_begin="51035" char_end="51039" type="DATE">1976</TIMEX3>
 	<TIMEX3 char_begin="51060" char_end="51069" type="DURATION">1973-1974</TIMEX3>
+	<TIMEX3 char_begin="51074" char_end="51080" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="51126" char_end="51138" type="DATE">October 1974</TIMEX3>
+	<TIMEX3 char_begin="51188" char_end="51194" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="51297" char_end="51301" type="DURATION">days</TIMEX3>
 	<TIMEX3 char_begin="51530" char_end="51534" type="DATE">1976</TIMEX3>
 	<TIMEX3 char_begin="51874" char_end="51890" type="DATE">13 December 1974</TIMEX3>

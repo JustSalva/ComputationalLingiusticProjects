@@ -10,6 +10,7 @@
 	<TIMEX3 char_begin="1226" char_end="1235" type="DURATION">Two years</TIMEX3>
 	<TIMEX3 char_begin="1273" char_end="1281" type="DATE">recently</TIMEX3>
 	<TIMEX3 char_begin="1414" char_end="1424" type="DATE">this month</TIMEX3>
+	<TIMEX3 char_begin="1486" char_end="1493" type="TIME">3:07:35</TIMEX3>
 	<TIMEX3 char_begin="1575" char_end="1579" type="DURATION">days</TIMEX3>
 	<TIMEX3 char_begin="1617" char_end="1627" type="DATE">early 2011</TIMEX3>
 </TimeML>

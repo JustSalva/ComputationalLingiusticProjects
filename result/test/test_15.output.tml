@@ -7,6 +7,7 @@
 	<TIMEX3 char_begin="879" char_end="882" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="972" char_end="988" type="DURATION">the 20th century</TIMEX3>
 	<TIMEX3 char_begin="1072" char_end="1075" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="1310" char_end="1318" type="TIME">annually</TIMEX3>
 	<TIMEX3 char_begin="1629" char_end="1638" type="DATE">last year</TIMEX3>
 	<TIMEX3 char_begin="2055" char_end="2068" type="DATE">six years ago</TIMEX3>
 	<TIMEX3 char_begin="2915" char_end="2919" type="DATE">2010</TIMEX3>

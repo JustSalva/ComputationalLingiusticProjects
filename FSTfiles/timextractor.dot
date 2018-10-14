@@ -33,6 +33,7 @@ nodesep = "0.25";
 	0 -> 72 [label = "WEEK_DAY:DATE", fontsize = 14];
 	0 -> 77 [label = "COMPARATOR:<eps>", fontsize = 14];
 	0 -> 74 [label = "ORDINAL_NUMBERS:<eps>", fontsize = 14];
+	0 -> 83 [label = "PERIODICAL_ADVERB:TIME", fontsize = 14];
 1 [label = "1", shape = doublecircle, style = solid, fontsize = 14]
 	1 -> 2 [label = "NUMBER:DATE", fontsize = 14];
 	1 -> 2 [label = "NOT_AMBIGUOUS_YEARS:DATE", fontsize = 14];
@@ -153,6 +154,7 @@ nodesep = "0.25";
 44 [label = "44", shape = doublecircle, style = solid, fontsize = 14]
 45 [label = "45", shape = doublecircle, style = solid, fontsize = 14]
 46 [label = "46", shape = circle, style = solid, fontsize = 14]
+	46 -> 47 [label = "DAYTIMES_SINGULAR:SET", fontsize = 14];
 	46 -> 47 [label = "TIME_UNIT_SINGULAR:SET", fontsize = 14];
 	46 -> 48 [label = "NUMBER:<eps>", fontsize = 14];
 	46 -> 48 [label = "NOT_AMBIGUOUS_YEARS:<eps>", fontsize = 14];
@@ -193,6 +195,7 @@ nodesep = "0.25";
 	61 -> 67 [label = "MONTH_IN_LETTERS:DATE", fontsize = 14];
 	61 -> 67 [label = "QUANTITY:<eps>", fontsize = 14];
 	61 -> 70 [label = "OF:<eps>", fontsize = 14];
+	61 -> 82 [label = "AM_PM:TIME", fontsize = 14];
 62 [label = "62", shape = circle, style = solid, fontsize = 14]
 	62 -> 35 [label = "TIME_UNIT_PLURAL:DURATION", fontsize = 14];
 	62 -> 12 [label = "TIME_UNIT_SINGULAR:DURATION", fontsize = 14];
@@ -234,4 +237,6 @@ nodesep = "0.25";
 	80 -> 61 [label = "NOT_AMBIGUOUS_YEARS:DATE", fontsize = 14];
 	80 -> 61 [label = "NUMBER:DATE", fontsize = 14];
 81 [label = "81", shape = doublecircle, style = solid, fontsize = 14]
+82 [label = "82", shape = doublecircle, style = solid, fontsize = 14]
+83 [label = "83", shape = circle, style = solid, fontsize = 14]
 }

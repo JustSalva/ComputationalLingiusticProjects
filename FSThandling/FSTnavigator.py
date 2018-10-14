@@ -38,12 +38,12 @@ def analyzeSentence(sentence):
     indexFirstWord = None
     indexLastWord = None
     recursive = False
-    print sentence
+    # print sentence
     for i, word in enumerate(sentence):
         if word[4] > 0:  # word with a match
 
             next_state, nextOLabel = nextState(current_state, word[4], f)
-            print "next_state: "+ str(next_state)
+            # print "next_state: "+ str(next_state)
             if next_state is not None:
                 if indexFirstWord is None:
                     indexFirstWord = i
@@ -52,12 +52,12 @@ def analyzeSentence(sentence):
                 oLabel = nextOLabel
                 if finalStates.isFinalState(oLabel):
                     temporary_match = oLabel
-                    print "temporary match" + str(temporary_match)
+                    # print "temporary match" + str(temporary_match)
                     indexLastWord = i
             else:
                 if indexFirstWord is not None:
                     recursive_index = indexFirstWord + 1
-                    print "match" + str(temporary_match)
+                    # print "match" + str(temporary_match)
                     if temporary_match is not None:
                         matches.append((indexFirstWord, indexLastWord, temporary_match))
                         temporary_match = None
@@ -66,21 +66,21 @@ def analyzeSentence(sentence):
                     current_state = initial_state
                     oLabel = finalStates.NO_MATCH
                     recursive = True
-                    print "recursion index:" + str(recursive_index)
+                    # print "recursion index:" + str(recursive_index)
                     break
         else:
             if temporary_match is not None:
                 matches.append((indexFirstWord, indexLastWord, temporary_match))
-                print "match" + str(temporary_match)
+                # print "match" + str(temporary_match)
                 temporary_match = None
             elif indexFirstWord is not None:
                 recursive_index = indexFirstWord + 1
-                print "no match for path "
+                # print "no match for path "
                 indexFirstWord, indexLastWord = resetSequenceTaggers()
                 current_state = initial_state
                 oLabel = finalStates.NO_MATCH
                 recursive = True
-                print "recursion index:" + str(recursive_index)
+                # print "recursion index:" + str(recursive_index)
                 break
             current_state = initial_state
             oLabel = finalStates.NO_MATCH
@@ -89,12 +89,12 @@ def analyzeSentence(sentence):
         return analyzeSentenceAfterWrongPath(sentence, recursive_index, matches)
     if temporary_match is not None:
         matches.append((indexFirstWord, indexLastWord, temporary_match))
-        print "match" + str(temporary_match)
+        # print "match" + str(temporary_match)
         temporary_match = None
         current_state = initial_state
         oLabel = finalStates.NO_MATCH
         indexFirstWord, indexLastWord = resetSequenceTaggers()
-        print matches
+        # print matches
     return matches
 
 
@@ -120,7 +120,7 @@ def analyzeSentenceAfterWrongPath(sentence, start_index, matches):
         if word[4] > 0:  # word with a match
 
             next_state, nextOLabel = nextState(current_state, word[4], f)
-            print "next_state: " + str(next_state)
+            # print "next_state: " + str(next_state)
             if next_state is not None:
                 if indexFirstWord is None:
                     indexFirstWord = i
@@ -129,12 +129,12 @@ def analyzeSentenceAfterWrongPath(sentence, start_index, matches):
                 oLabel = nextOLabel
                 if finalStates.isFinalState(oLabel):
                     temporary_match = oLabel
-                    print "temporary match" + str(temporary_match)
+                    # print "temporary match" + str(temporary_match)
                     indexLastWord = i
             else:
                 if indexFirstWord is not None:
                     recursive_index = indexFirstWord + 1
-                    print "match" + str(temporary_match)
+                    # print "match" + str(temporary_match)
                     if temporary_match is not None:
                         matches.append((indexFirstWord, indexLastWord, temporary_match))
                         temporary_match = None
@@ -143,21 +143,21 @@ def analyzeSentenceAfterWrongPath(sentence, start_index, matches):
                     current_state = initial_state
                     oLabel = finalStates.NO_MATCH
                     recursive = True
-                    print "recursion index:" + str(recursive_index)
+                    # print "recursion index:" + str(recursive_index)
                     break
         else:
             if temporary_match is not None:
                 matches.append((indexFirstWord, indexLastWord, temporary_match))
-                print "match" + str(temporary_match)
+                # print "match" + str(temporary_match)
                 temporary_match = None
             elif indexFirstWord is not None:
                 recursive_index = indexFirstWord + 1
-                print "no match for path "
+                # print "no match for path "
                 indexFirstWord, indexLastWord = resetSequenceTaggers()
                 current_state = initial_state
                 oLabel = finalStates.NO_MATCH
                 recursive = True
-                print "recursion index:" + str(recursive_index)
+                # print "recursion index:" + str(recursive_index)
                 break
             current_state = initial_state
             oLabel = finalStates.NO_MATCH
@@ -167,12 +167,12 @@ def analyzeSentenceAfterWrongPath(sentence, start_index, matches):
         return analyzeSentenceAfterWrongPath(sentence, recursive_index, matches)
     if temporary_match is not None:
         matches.append((indexFirstWord, indexLastWord, temporary_match))
-        print "match" + str(temporary_match)
+        # print "match" + str(temporary_match)
         temporary_match = None
         current_state = initial_state
         oLabel = finalStates.NO_MATCH
         indexFirstWord, indexLastWord = resetSequenceTaggers()
-    print matches
+    # print matches
     return matches
 
 

@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
+	<TIMEX3 char_begin="8" char_end="14" type="DURATION">season</TIMEX3>
+	<TIMEX3 char_begin="100" char_end="106" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="115" char_end="136" type="DATE">about a month earlier</TIMEX3>
 	<TIMEX3 char_begin="199" char_end="207" type="DURATION">a decade</TIMEX3>
 	<TIMEX3 char_begin="394" char_end="407" type="DATE">the last week</TIMEX3>
 	<TIMEX3 char_begin="485" char_end="491" type="DATE">Friday</TIMEX3>
+	<TIMEX3 char_begin="536" char_end="542" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="588" char_end="597" type="DURATION">2009-2010</TIMEX3>
 	<TIMEX3 char_begin="665" char_end="673" type="DURATION">6 months</TIMEX3>
+	<TIMEX3 char_begin="710" char_end="721" type="SET">each season</TIMEX3>
 	<TIMEX3 char_begin="916" char_end="925" type="DATE">This year</TIMEX3>
+	<TIMEX3 char_begin="1064" char_end="1070" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="1374" char_end="1397" type="DURATION">the past several months</TIMEX3>
+	<TIMEX3 char_begin="1457" char_end="1463" type="DURATION">season</TIMEX3>
+	<TIMEX3 char_begin="1474" char_end="1480" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="1492" char_end="1506" type="DATE">early December</TIMEX3>
 	<TIMEX3 char_begin="1508" char_end="1523" type="DATE">a month earlier</TIMEX3>
 	<TIMEX3 char_begin="1561" char_end="1565" type="DURATION">year</TIMEX3>
+	<TIMEX3 char_begin="1687" char_end="1693" type="DURATION">season</TIMEX3>
 </TimeML>

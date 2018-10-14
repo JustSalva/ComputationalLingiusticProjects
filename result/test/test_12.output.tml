@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
 	<TIMEX3 char_begin="52" char_end="62" type="DATE">this month</TIMEX3>
-	<TIMEX3 char_begin="588" char_end="595" type="TIME">morning</TIMEX3>
+	<TIMEX3 char_begin="582" char_end="595" type="SET">every morning</TIMEX3>
 	<TIMEX3 char_begin="855" char_end="865" type="DATE">Last month</TIMEX3>
 	<TIMEX3 char_begin="1061" char_end="1066" type="DURATION">years</TIMEX3>
 	<TIMEX3 char_begin="1223" char_end="1237" type="DATE">four years ago</TIMEX3>

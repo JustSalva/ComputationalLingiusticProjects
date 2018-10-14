@@ -50,6 +50,7 @@ DATE = 43
 DURATION = 44
 WEEK_DAY = 45
 FALL = 46
+PERIODICAL_ADVERB = 47
 
 
 def getTagCode(tag):
@@ -106,5 +107,6 @@ def getTagCode(tag):
     if tag == 'DATE': return DATE
     if tag == 'WEEK_DAY': return WEEK_DAY
     if tag == 'FALL': return FALL
+    if tag == 'PERIODICAL_ADVERB': return PERIODICAL_ADVERB
 
     return 0  # no match

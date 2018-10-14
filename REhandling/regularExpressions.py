@@ -11,16 +11,16 @@ class regularExpressions:
         """
         self.reList = []
 
-        __PATTER_AM_PM = '(a\.?|p\.?)m\.?'
-        self.reList.append(('AM_PM', re.compile('(?<!\S)(' + __PATTER_AM_PM + ')(?!\S)', flags=re.IGNORECASE)))
-        __PATTER_NUMBERS = '((([1-9][0-9]*)|[1-9]|0[1-9]))'
-        __PATTER_AGES = 'A\.?D\.?|B\.?C\.?|C\.?E\.?|B\.?C\.?E\.?'
+        __PATTERN_AM_PM = '(a\.?|p\.?)m\.?'
+        self.reList.append(('AM_PM', re.compile('(?<!\S)(' + __PATTERN_AM_PM + ')(?!\S)', flags=re.IGNORECASE)))
+        __PATTERN_NUMBERS = '((([1-9][0-9]*)|[1-9]|0[1-9]))'
+        __PATTERN_AGES = 'A\.?D\.?|B\.?C\.?|C\.?E\.?|B\.?C\.?E\.?'
         self.reList.append(('NOT_AMBIGUOUS_YEARS',
                             re.compile(
-                                '(?<!\S)((([1-9][0-9]{3,10})-[0-9][0-9])|(([1-9][0-9]{0,2}|(3[2-9]|[4-9][0-9]))(' + __PATTER_AGES + '))|(([1-9][0-9]{3,10})(' + __PATTER_AGES + ')?)|(\'[0-9][0-9]))',
+                                '(?<!\S)((([1-9][0-9]{3,10})-[0-9][0-9])|(([1-9][0-9]{0,2}|(3[2-9]|[4-9][0-9]))(' + __PATTERN_AGES + '))|(([1-9][0-9]{3,10})(' + __PATTERN_AGES + ')?)|(\'[0-9][0-9]))',
                                 flags=re.IGNORECASE)))
         self.reList.append(('NUMBER',
-                            re.compile('(' + __PATTER_NUMBERS + ')',
+                            re.compile('(' + __PATTERN_NUMBERS + ')',
                                        flags=re.IGNORECASE)))  # NB check always after ordinal numbers!
         # number in letter not useful anymore !
         self.reList.append(('NUMBER',
@@ -29,28 +29,28 @@ class regularExpressions:
 
         # numbers from 1 to 12 even with a zero before for one-digit numbers
         self.reList.append(('AMBIGUOUS_NUMBER', re.compile('0[1-9]|1[0-2]|[1-9]')))
-        __PATTER_NOT_AMBIGUOUS_NUMBER_DAY = '1[3-9]|2[0-9]|3[0-1]'
-        self.reList.append(('NOT_AMBIGUOUS_NUMBER_DAY', re.compile(__PATTER_NOT_AMBIGUOUS_NUMBER_DAY)))
+        __PATTERN_NOT_AMBIGUOUS_NUMBER_DAY = '1[3-9]|2[0-9]|3[0-1]'
+        self.reList.append(('NOT_AMBIGUOUS_NUMBER_DAY', re.compile(__PATTERN_NOT_AMBIGUOUS_NUMBER_DAY)))
 
-        __PATTER_NUMBER_DAY = '([1-2][0-9]|3[0-1]|0[1-9]|((?<!\S)\d{1}(?!\S)))'
-        self.reList.append(('NUMBER_DAY', re.compile(__PATTER_NUMBER_DAY)))
+        __PATTERN_NUMBER_DAY = '([1-2][0-9]|3[0-1]|0[1-9]|((?<!\S)\d{1}(?!\S)))'
+        self.reList.append(('NUMBER_DAY', re.compile(__PATTERN_NUMBER_DAY)))
 
-        __PATTER_ORDINAL_NUMBERS = __PATTER_NUMBERS + constants.ORDINAL_TAGS
+        __PATTERN_ORDINAL_NUMBERS = __PATTERN_NUMBERS + constants.ORDINAL_TAGS
         self.reList.append(('ORDINAL_NUMBERS',
-                            re.compile('(' + __PATTER_ORDINAL_NUMBERS + ')|(' + constants.ORDINALS_IN_LETTER + ')',
+                            re.compile('(' + __PATTERN_ORDINAL_NUMBERS + ')|(' + constants.ORDINALS_IN_LETTER + ')',
                                        flags=re.IGNORECASE)))
 
         self.reList.append(('NUMBER',
                             re.compile(
-                                '(' + __PATTER_NUMBERS + ')|(' + '\b(' + constants.NUMBERS_IN_LETTER + ')\b' + ')',
+                                '(' + __PATTERN_NUMBERS + ')|(' + '\b(' + constants.NUMBERS_IN_LETTER + ')\b' + ')',
                                 flags=re.IGNORECASE)))  # NB check always after ordinal numbers!
 
-        __PATTER_ORDINAL_NUMBERS_DAY = __PATTER_NUMBER_DAY + constants.ORDINAL_TAGS
-        self.reList.append(('ORDINAL_NUMBERS_DAY', re.compile(__PATTER_ORDINAL_NUMBERS_DAY, flags=re.IGNORECASE)))
+        __PATTERN_ORDINAL_NUMBERS_DAY = __PATTERN_NUMBER_DAY + constants.ORDINAL_TAGS
+        self.reList.append(('ORDINAL_NUMBERS_DAY', re.compile(__PATTERN_ORDINAL_NUMBERS_DAY, flags=re.IGNORECASE)))
         self.reList.append(('NOT_AMBIGUOUS_DAY',
-                            re.compile(__PATTER_NOT_AMBIGUOUS_NUMBER_DAY + constants.ORDINAL_TAGS + '?',
+                            re.compile(__PATTERN_NOT_AMBIGUOUS_NUMBER_DAY + constants.ORDINAL_TAGS + '?',
                                        flags=re.IGNORECASE)))  # NB ambiguous to be handled
-        self.reList.append(('AGES', re.compile('(?<!\S)(' + __PATTER_AGES + ')(?!\S)', flags=re.IGNORECASE)))
+        self.reList.append(('AGES', re.compile('(?<!\S)(' + __PATTERN_AGES + ')(?!\S)', flags=re.IGNORECASE)))
         self.reList.append(('TRIAD', re.compile(constants.TRIAD, flags=re.IGNORECASE)))
         self.reList.append(('TEMPORAL_POSITION', re.compile(constants.TEMPORAL_POSITION, flags=re.IGNORECASE)))
 
@@ -71,8 +71,8 @@ class regularExpressions:
         self.reList.append(('APPROXIMATOR', re.compile(constants.APPROXIMATOR, flags=re.IGNORECASE)))
 
         self.reList.append(('QUANTITY', re.compile(constants.QUANTITY, flags=re.IGNORECASE)))
-        __PATTER_HHMM = '((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))(' + __PATTER_AM_PM + ')?'
-        self.reList.append(('HHMM', re.compile(__PATTER_HHMM, flags=re.IGNORECASE)))
+        __PATTERN_HHMM = '((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9]))(:[0-5][0-9]|([1-9](?!\S))))(:[0-5][0-9]|([1-9](?!\S)))?(' + __PATTERN_AM_PM + ')?'
+        self.reList.append(('HHMM', re.compile(__PATTERN_HHMM, flags=re.IGNORECASE)))
 
         self.reList.append(('HOLIDAY', re.compile('(' + constants.HOLIDAYS + ')', flags=re.IGNORECASE)))
 
@@ -100,11 +100,12 @@ class regularExpressions:
         self.reList.append(('SLASH', re.compile('/')))
         self.reList.append(('DURATION',
                             re.compile('(([1-9][0-9]{3}-[1-9][0-9]{3})|((' + constants.NUMBERS_IN_LETTER + '|'
-                                       + '[1-9][0-9]*)-(' + constants.TIMEUNIT_SINGULAR + '|hour)(-old)?)|' + __PATTER_HHMM
-                                       + '-' + __PATTER_HHMM + 'hrs)', flags=re.IGNORECASE)))
+                                       + '[1-9][0-9]*)-(' + constants.TIMEUNIT_SINGULAR + '|hour)(-old)?)|' + __PATTERN_HHMM
+                                       + '-' + __PATTERN_HHMM + 'hrs)', flags=re.IGNORECASE)))
         self.reList.append(('THE', re.compile('the', flags=re.IGNORECASE)))
         self.reList.append(('WEEK_DAY', re.compile(constants.WEEK_DAY, flags=re.IGNORECASE)))
         self.reList.append(('FALL', re.compile(constants.FALL, flags=re.IGNORECASE)))
+        self.reList.append(('PERIODICAL_ADVERB',re.compile(constants.PERIODICAL_ADVERB, flags=re.IGNORECASE)))
 
         pass
 
@@ -129,19 +130,20 @@ class regularExpressions:
         if tag is None:
             return "NO_MATCH", tagMatch.getTagCode(tag)
         if elementExtracted != string:
-            print constants.WARNING_COLOR + 'WARNING: \"' + elementExtracted + '\" does not entirely match the string: \"' + string + '\"' + constants.STANDARD_COLOR
-            print tag
+             # print constants.WARNING_COLOR + 'WARNING: \"' + elementExtracted + '\" does not entirely match the string: \"' + string + '\"' + constants.STANDARD_COLOR
+            # print tag
             return "PARTIAL_MATCH", tagMatch.getTagCode("PARTIAL_MATCH")
         return tag, tagMatch.getTagCode(tag)
 
 
 # TEST LINES
 """
-for elem in re.finditer(re.compile('(?<!\S)((([1-9][0-9]{3,10})(' + __STRING_AGES + ')?)|(\'[0-9][0-9]))', flags=re.IGNORECASE)
-        , '99'):
+for elem in re.finditer(re.compile('((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))(:[0-5][0-9]|([1-9](?!\S)))?', flags=re.IGNORECASE)
+        , '6:00:00'):
     print elem.group(), elem.span()
+'((1[0-9]|2[0-4]|0[0-9]|((?<!\S)[0-9])):([0-5][0-9]|([1-9](?!\S))))([0-5][0-9]|([1-9](?!\S)))?(' + __PATTERN_AM_PM + ')?
 """
 """
 a = regularExpressions()
-print (regularExpressions.checkRE(a, "currently"))
+print (regularExpressions.checkRE(a, "10:00:00PM"))
 """

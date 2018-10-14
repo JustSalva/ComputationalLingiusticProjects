@@ -17,12 +17,13 @@ ORDINAL_TAGS = '(st|nd|rd|th)'
 TRIAD = 'present|future|past'
 TEMPORAL_POSITION = 'next|last|previous|following|final|' + TRIAD
 TIME_UNIT_PLURAL = 'hours|days|weeks|months|years|hrs|minutes|centuries'
-TIMEUNIT_SINGULAR = 'day|month|year|decade|century|week| ' + DAYTIMES_SINGULAR
+TIMEUNIT_SINGULAR = 'day|month|year|decade|century|week|season|' + DAYTIMES_SINGULAR
 ITERATION = 'every|each'
 COMPARATOR = 'more|less'
 APPROXIMATOR = 'another|about|nearly|around'
 QUANTITY = 'several|hundred|thousand|(?<!\S)a(?!\S)|few|lot'
 TEMP_EXPRESSION = 'later|earlier|start|middle|early|late|end|beginning|same|ago|this|' + TEMPORAL_POSITION
+PERIODICAL_ADVERB ='monthly|annually'
 # miscellaneous
 WARNING_COLOR = '\033[93m'
 STANDARD_COLOR = '\033[0m'
