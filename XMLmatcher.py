@@ -23,10 +23,21 @@ def list_compare_strict(list1,list2):
     '''It takes the two string of expressions and counts how many matches strictly.
     list1 should correspond to the original gold standard file, list2 to our output file.'''
     cnt=0
-    for elem1 in list1:
-        for elem2 in list2:
-            if elem1==elem2:
+    to_not_be_seen_positions_list2 = []
+    to_not_be_seen_positions_list1 = []
+    for num1 in range(len(list1)):
+        for num2 in range(len(list2)):
+            if list1[num1]==list2[num2]:
                 cnt = cnt + 1
+                to_not_be_seen_positions_list2.append(num2)
+                to_not_be_seen_positions_list1.append(num1)
+
+    for num2 in range(len(list2)):
+        if num2 not in to_not_be_seen_positions_list2:
+                print "NOT MATCHED IN OUR FILE: ",list2[num2]
+    for num1 in range(len(list1)):
+        if num1 not in to_not_be_seen_positions_list1:
+                print "NOT MATCHED IN ORIGINAL FILE: ",list1[num1]
     return cnt
 
 def list_compare_relaxed(list1,list2):
@@ -47,7 +58,7 @@ def list_compare_relaxed(list1,list2):
     in order to match with maximal length.'''
     for num2 in range(len(list2)):
         begin_2 = int(list2[num2][2])
-        end_2 = int(list1[num2][3])
+        end_2 = int(list2[num2][3])
         for num1 in range(len(list1)):
             begin_1 = int(list1[num1][2])
             end_1 = int(list1[num1][3])
@@ -64,9 +75,15 @@ def list_compare_relaxed(list1,list2):
                     memo = num1
             if memo!=None:
                 cnt = cnt + 1
-                to_not_be_seen_positions_list1.append(num1)
-                to_not_be_seen_positions_list2.append(memo)
-                print list1[num1],"MATCHES", list2[memo]
+                to_not_be_seen_positions_list1.append(memo)
+                to_not_be_seen_positions_list2.append(num2)
+                print list1[memo],"MATCHES", list2[num2]
+    for num2 in range(len(list2)):
+        if num2 not in to_not_be_seen_positions_list2:
+                print "NOT MATCHED IN OUR FILE: ",list2[num2]
+    for num1 in range(len(list1)):
+        if num1 not in to_not_be_seen_positions_list1:
+                print "NOT MATCHED IN ORIGINAL FILE: ",list1[num1]
     return cnt
 
 
@@ -79,7 +96,7 @@ print len(file1)
 print 'NUMBER OF EXPRESSIONS OF OUR GOLD STANDARD:'
 print len(file2)
 print 'NUMBER OF MATCHED TIME EXPRESSIONS IS:'
-print list_compare_relaxed(file1 , file2)
+print list_compare_strict(file1 , file2)
 #print file1
 
 
