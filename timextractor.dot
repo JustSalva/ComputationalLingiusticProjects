@@ -186,6 +186,7 @@ nodesep = "0.25";
 63 [label = "63", shape = doublecircle, style = solid, fontsize = 14]
 	63 -> 64 [label = "TIME_UNIT_PLURAL:DURATION", fontsize = 14];
 	63 -> 2 [label = "NUMBER:DATE", fontsize = 14];
+	63 -> 2 [label = "NOT_AMBIGUOUS_YEARS:DATE", fontsize = 14];
 	63 -> 10 [label = "COMMA:<eps>", fontsize = 14];
 64 [label = "64", shape = doublecircle, style = solid, fontsize = 14]
 65 [label = "65", shape = doublecircle, style = solid, fontsize = 14]
