@@ -12,8 +12,8 @@ def all_performances(original_gold_path, my_gold_path):
     F1_strict = 2 * (precision_strict*recall_strict) / (precision_strict+recall_strict)
     F1_relaxed = 2 * (precision_relaxed*recall_relaxed) / (precision_relaxed+recall_relaxed)
 
-    return str(round(precision_relaxed,2))+ " & "+ str(round(recall_relaxed,2))+ " & "+ str(round(F1_relaxed,2))+ " & "+ str(round(F1_strict,2))
+    return str(round(precision_relaxed*100,2))+ " & "+ str(round(recall_relaxed*100,2))+ " & "+ str(round(F1_relaxed*100,2))+ " & "+ str(round(F1_strict*100,2))
 
-original_file = 'data/test/annotated/test_02.gold.tml'
-my_file =  'result/test/test_02.output.tml'
+original_file = 'data/test/annotated/test_08.gold.tml'
+my_file =  'result/test/test_08.output.tml'
 print all_performances( original_file, my_file)

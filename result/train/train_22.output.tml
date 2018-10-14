@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="21" char_end="35" type="DATE">March 28, 1935</TIMEX3>
+	<TIMEX3 char_begin="1075" char_end="1089" type="DURATION">Forty-year-old</TIMEX3>
+	<TIMEX3 char_begin="1118" char_end="1131" type="DATE">years earlier</TIMEX3>
+	<TIMEX3 char_begin="1191" char_end="1198" type="TIME">5:00 am</TIMEX3>
+	<TIMEX3 char_begin="1202" char_end="1217" type="DATE">October 3, 1935</TIMEX3>
+	<TIMEX3 char_begin="1666" char_end="1675" type="DATE">October 5</TIMEX3>
+	<TIMEX3 char_begin="1718" char_end="1727" type="DATE">October 6</TIMEX3>
+	<TIMEX3 char_begin="1885" char_end="1890" type="DURATION">a day</TIMEX3>
+	<TIMEX3 char_begin="1893" char_end="1898" type="DATE">march</TIMEX3>
+	<TIMEX3 char_begin="2094" char_end="2104" type="DATE">October 11</TIMEX3>
+	<TIMEX3 char_begin="2467" char_end="2477" type="DATE">October 14</TIMEX3>
+	<TIMEX3 char_begin="2834" char_end="2837" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="3025" char_end="3035" type="DATE">October 15</TIMEX3>
+	<TIMEX3 char_begin="3374" char_end="3384" type="DATE">November 8</TIMEX3>
+	<TIMEX3 char_begin="3541" char_end="3552" type="DATE">November 16</TIMEX3>
+	<TIMEX3 char_begin="3638" char_end="3646" type="DATE">December</TIMEX3>
+	<TIMEX3 char_begin="3771" char_end="3780" type="DATE">Christmas</TIMEX3>
+	<TIMEX3 char_begin="3916" char_end="3925" type="DATE">Christmas</TIMEX3>
+	<TIMEX3 char_begin="6525" char_end="6534" type="DATE">Christmas</TIMEX3>
+	<TIMEX3 char_begin="6583" char_end="6592" type="DATE">Christmas</TIMEX3>
+	<TIMEX3 char_begin="6708" char_end="6712" type="DATE">fall</TIMEX3>
+	<TIMEX3 char_begin="7134" char_end="7153" type="DATE">early December 1935</TIMEX3>
+	<TIMEX3 char_begin="7577" char_end="7581" type="DURATION">days</TIMEX3>
+	<TIMEX3 char_begin="7613" char_end="7624" type="DATE">December 13</TIMEX3>
+	<TIMEX3 char_begin="8069" char_end="8080" type="DATE">December 26</TIMEX3>
+	<TIMEX3 char_begin="8509" char_end="8518" type="DATE">Christmas</TIMEX3>
+	<TIMEX3 char_begin="8801" char_end="8811" type="DATE">early 1936</TIMEX3>
+	<TIMEX3 char_begin="8816" char_end="8826" type="DATE">January 20</TIMEX3>
+	<TIMEX3 char_begin="9004" char_end="9014" type="DATE">January 24</TIMEX3>
+	<TIMEX3 char_begin="9191" char_end="9200" type="DATE">Christmas</TIMEX3>
+	<TIMEX3 char_begin="9841" char_end="9844" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="10026" char_end="10039" type="DATE">nine, fifteen</TIMEX3>
+	<TIMEX3 char_begin="10167" char_end="10190" type="DATE">the end of January 1936</TIMEX3>
+	<TIMEX3 char_begin="10519" char_end="10533" type="DATE">early February</TIMEX3>
+	<TIMEX3 char_begin="11102" char_end="11115" type="DATE">late February</TIMEX3>
+	<TIMEX3 char_begin="11298" char_end="11309" type="DATE">early March</TIMEX3>
+	<TIMEX3 char_begin="11571" char_end="11585" type="DATE">March 31, 1936</TIMEX3>
+	<TIMEX3 char_begin="11814" char_end="11821" type="DURATION">one day</TIMEX3>
+	<TIMEX3 char_begin="12186" char_end="12193" type="DATE">April 4</TIMEX3>
+	<TIMEX3 char_begin="12332" char_end="12347" type="DATE">October 3, 1935</TIMEX3>
+	<TIMEX3 char_begin="12617" char_end="12628" type="DURATION">three weeks</TIMEX3>
+	<TIMEX3 char_begin="12721" char_end="12725" type="DURATION">year</TIMEX3>
+	<TIMEX3 char_begin="12986" char_end="12996" type="DATE">January 12</TIMEX3>
+	<TIMEX3 char_begin="13001" char_end="13017" type="DATE">January 16, 1936</TIMEX3>
+	<TIMEX3 char_begin="13302" char_end="13315" type="DATE">February 1936</TIMEX3>
+	<TIMEX3 char_begin="13397" char_end="13405" type="DATE">March 22</TIMEX3>
+	<TIMEX3 char_begin="13556" char_end="13564" type="DATE">April 14</TIMEX3>
+	<TIMEX3 char_begin="13806" char_end="13814" type="DURATION">Ten days</TIMEX3>
+	<TIMEX3 char_begin="13969" char_end="13974" type="DATE">May 2</TIMEX3>
+	<TIMEX3 char_begin="14181" char_end="14186" type="DATE">March</TIMEX3>
+	<TIMEX3 char_begin="14208" char_end="14221" type="DATE">April 26 1936</TIMEX3>
+	<TIMEX3 char_begin="14251" char_end="14256" type="DATE">March</TIMEX3>
+	<TIMEX3 char_begin="14444" char_end="14449" type="DATE">May 2</TIMEX3>
+	<TIMEX3 char_begin="15008" char_end="15021" type="DURATION">the first day</TIMEX3>
+	<TIMEX3 char_begin="15227" char_end="15232" type="DATE">May 5</TIMEX3>
+	<TIMEX3 char_begin="15493" char_end="15507" type="DATE">Months earlier</TIMEX3>
+	<TIMEX3 char_begin="15863" char_end="15868" type="DURATION">years</TIMEX3>
+	<TIMEX3 char_begin="16469" char_end="16485" type="DURATION">thirty centuries</TIMEX3>
+	<TIMEX3 char_begin="16909" char_end="16924" type="DATE">Four days later</TIMEX3>
+	<TIMEX3 char_begin="17793" char_end="17801" type="DATE">tomorrow</TIMEX3>
+	<TIMEX3 char_begin="17935" char_end="17940" type="DATE">May 4</TIMEX3>
+	<TIMEX3 char_begin="18061" char_end="18069" type="DURATION">Two days</TIMEX3>
+	<TIMEX3 char_begin="18471" char_end="18474" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="18914" char_end="18921" type="DATE">June 30</TIMEX3>
+	<TIMEX3 char_begin="19682" char_end="19687" type="DATE">today</TIMEX3>
+	<TIMEX3 char_begin="19704" char_end="19712" type="DATE">tomorrow</TIMEX3>
+	<TIMEX3 char_begin="20127" char_end="20144" type="DATE">November 18, 1936</TIMEX3>
+	<TIMEX3 char_begin="20218" char_end="20222" type="DATE">1938</TIMEX3>
+</TimeML>

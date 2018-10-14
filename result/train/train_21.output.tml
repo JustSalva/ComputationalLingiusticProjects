@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="285" char_end="296" type="DATE">30 May 1967</TIMEX3>
+	<TIMEX3 char_begin="1265" char_end="1276" type="DATE">6 July 1967</TIMEX3>
+	<TIMEX3 char_begin="1621" char_end="1628" type="DATE">14 July</TIMEX3>
+	<TIMEX3 char_begin="1696" char_end="1703" type="DATE">12 July</TIMEX3>
+	<TIMEX3 char_begin="1962" char_end="1968" type="DATE">9 July</TIMEX3>
+	<TIMEX3 char_begin="2122" char_end="2129" type="DATE">present</TIMEX3>
+	<TIMEX3 char_begin="2130" char_end="2133" type="DURATION">day</TIMEX3>
+	<TIMEX3 char_begin="2178" char_end="2187" type="DATE">21 August</TIMEX3>
+	<TIMEX3 char_begin="3103" char_end="3115" type="DATE">19 September</TIMEX3>
+	<TIMEX3 char_begin="3169" char_end="3181" type="DATE">22 September</TIMEX3>
+	<TIMEX3 char_begin="3985" char_end="3992" type="DATE">October</TIMEX3>
+	<TIMEX3 char_begin="4121" char_end="4131" type="DATE">12 October</TIMEX3>
+	<TIMEX3 char_begin="4524" char_end="4528" type="DATE">1968</TIMEX3>
+	<TIMEX3 char_begin="4714" char_end="4719" type="DATE">April</TIMEX3>
+	<TIMEX3 char_begin="4723" char_end="4732" type="DATE">June 1968</TIMEX3>
+	<TIMEX3 char_begin="4862" char_end="4873" type="DATE">19 May 1968</TIMEX3>
+	<TIMEX3 char_begin="8207" char_end="8211" type="DATE">1971</TIMEX3>
+	<TIMEX3 char_begin="8242" char_end="8251" type="DATE">June 1969</TIMEX3>
+	<TIMEX3 char_begin="8767" char_end="8770" type="DATE">May</TIMEX3>
+	<TIMEX3 char_begin="8774" char_end="8778" type="DATE">July</TIMEX3>
+	<TIMEX3 char_begin="9376" char_end="9388" type="DURATION">a few months</TIMEX3>
+	<TIMEX3 char_begin="10044" char_end="10060" type="DATE">23 December 1969</TIMEX3>
+	<TIMEX3 char_begin="10258" char_end="10277" type="DATE">the end of the year</TIMEX3>
+	<TIMEX3 char_begin="10354" char_end="10368" type="DATE">7 January 1970</TIMEX3>
+	<TIMEX3 char_begin="10553" char_end="10562" type="DATE">9 January</TIMEX3>
+	<TIMEX3 char_begin="10580" char_end="10590" type="DATE">11 January</TIMEX3>
+	<TIMEX3 char_begin="10703" char_end="10718" type="DATE">13 January 1970</TIMEX3>
+	<TIMEX3 char_begin="10725" char_end="10743" type="DATE">a few days earlier</TIMEX3>
+	<TIMEX3 char_begin="11018" char_end="11022" type="TIME">dawn</TIMEX3>
+	<TIMEX3 char_begin="11221" char_end="11224" type="DATE">may</TIMEX3>
+</TimeML>
