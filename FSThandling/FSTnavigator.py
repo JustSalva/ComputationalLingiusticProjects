@@ -73,6 +73,15 @@ def analyzeSentence(sentence):
                 matches.append((indexFirstWord, indexLastWord, temporary_match))
                 print "match" + str(temporary_match)
                 temporary_match = None
+            elif indexFirstWord is not None:
+                recursive_index = indexFirstWord + 1
+                print "no match for path "
+                indexFirstWord, indexLastWord = resetSequenceTaggers()
+                current_state = initial_state
+                oLabel = finalStates.NO_MATCH
+                recursive = True
+                print "recursion index:" + str(recursive_index)
+                break
             current_state = initial_state
             oLabel = finalStates.NO_MATCH
             indexFirstWord, indexLastWord = resetSequenceTaggers()
@@ -141,6 +150,15 @@ def analyzeSentenceAfterWrongPath(sentence, start_index, matches):
                 matches.append((indexFirstWord, indexLastWord, temporary_match))
                 print "match" + str(temporary_match)
                 temporary_match = None
+            elif indexFirstWord is not None:
+                recursive_index = indexFirstWord + 1
+                print "no match for path "
+                indexFirstWord, indexLastWord = resetSequenceTaggers()
+                current_state = initial_state
+                oLabel = finalStates.NO_MATCH
+                recursive = True
+                print "recursion index:" + str(recursive_index)
+                break
             current_state = initial_state
             oLabel = finalStates.NO_MATCH
             indexFirstWord, indexLastWord = resetSequenceTaggers()
@@ -183,12 +201,12 @@ def analyzeEntireText(listOfSentences, text):
     return resultTree
 
 
-"""
-text= reader("data/train/input/train_07.input.tml")
-sentence = [[(u'Another', 13114, 13121, 'APPROXIMATOR', 22), (u'major', 13122, 13127, 'NO_MATCH', 0), (u'event', 13128, 13133, 'NO_MATCH', 0), (u'of', 13134, 13136, 'OF', 28), (u'this', 13137, 13141, 'TEMP_EXPRESSION', 35), (u'year', 13142, 13146, 'TIME_UNIT_SINGULAR', 17), (u'was', 13147, 13150, 'NO_MATCH', 0), (u'the', 13151, 13154, 'THE', 42), (u'revelation', 13155, 13165, 'NO_MATCH', 0), (u'of', 13166, 13168, 'OF', 28), (u'widespread', 13169, 13179, 'NO_MATCH', 0), (u'prisoner', 13180, 13188, 'PARTIAL_MATCH', -2), (u'abuse', 13189, 13194, 'NO_MATCH', 0), (u'at', 13195, 13197, 'AT', 27), (u'Abu', 13198, 13201, 'NO_MATCH', 0), (u'Ghraib', 13202, 13208, 'NO_MATCH', 0), (u'which', 13209, 13214, 'NO_MATCH', 0), (u'received', 13215, 13223, 'NO_MATCH', 0), (u'international', 13224, 13237, 'NO_MATCH', 0), (u'media', 13238, 13243, 'NO_MATCH', 0), (u'attention', 13244, 13253, 'PARTIAL_MATCH', -2), (u'in', 13254, 13256, 'IN', 33), (u'April', 13257, 13262, 'MONTH_IN_LETTERS', 12), (u'2004', 13263, 13267, 'NOT_AMBIGUOUS_YEARS', 18), (u'.', 13267, 13268, 'DOT', 40)]]
+
+text= reader("data/train/input/train_01.input.tml")
+sentence = [[(u'ended', 1171, 1176, 'PARTIAL_MATCH', -2), (u'in', 1177, 1179, 'IN', 33), (u'March', 1180, 1185, 'MONTH_IN_LETTERS', 12), (u'1940', 1186, 1190, 'NOT_AMBIGUOUS_YEARS', 18), (u'with', 1191, 1195, 'NO_MATCH', 0)]]
 matches = analyzeEntireText(sentence, text)
 print matches
-"""
+
 """
 for state in f.states():
     for arc in f.arcs(state):

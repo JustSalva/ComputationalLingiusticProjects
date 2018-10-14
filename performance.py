@@ -14,7 +14,7 @@ def all_performances(original_gold_path, my_gold_path):
 
     return precision_relaxed, recall_relaxed, F1_relaxed, F1_strict
 
-original_file = '/home/fabio/Documenti/ComputationalLingiusticProjects/data/train/annotated/train_01.gold.tml'
-my_file =  '/home/fabio/Documenti/ComputationalLingiusticProjects/train_output.tml'
+original_file = 'data/train/annotated/train_02.gold.tml'
+my_file =  'result/train/train_02.output.tml'
 
 print all_performances( original_file, my_file)
