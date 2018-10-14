@@ -34,7 +34,6 @@
 	<TIMEX3 char_begin="7140" char_end="7150" type="DATE">October 28</TIMEX3>
 	<TIMEX3 char_begin="7247" char_end="7255" type="DATE">November</TIMEX3>
 	<TIMEX3 char_begin="7752" char_end="7766" type="DATE">early December</TIMEX3>
-	<TIMEX3 char_begin="7820" char_end="7826" type="DURATION">season</TIMEX3>
 	<TIMEX3 char_begin="7848" char_end="7854" type="DATE">winter</TIMEX3>
 	<TIMEX3 char_begin="8268" char_end="8287" type="DATE">the end of the year</TIMEX3>
 	<TIMEX3 char_begin="8497" char_end="8512" type="TIME">Christmas night</TIMEX3>
