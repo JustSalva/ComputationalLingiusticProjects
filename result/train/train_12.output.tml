@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="257" char_end="267" type="DATE">March 1980</TIMEX3>
+	<TIMEX3 char_begin="436" char_end="441" type="DATE">April</TIMEX3>
+	<TIMEX3 char_begin="527" char_end="543" type="DATE">three days later</TIMEX3>
+	<TIMEX3 char_begin="669" char_end="678" type="DATE">September</TIMEX3>
+	<TIMEX3 char_begin="693" char_end="705" type="DATE">17 September</TIMEX3>
+	<TIMEX3 char_begin="870" char_end="874" type="DATE">1975</TIMEX3>
+	<TIMEX3 char_begin="1392" char_end="1406" type="DATE">September 1980</TIMEX3>
+	<TIMEX3 char_begin="1471" char_end="1488" type="DATE">22 September 1980</TIMEX3>
+	<TIMEX3 char_begin="1493" char_end="1510" type="DATE">22 September 1980</TIMEX3>
+	<TIMEX3 char_begin="1673" char_end="1685" type="DATE">The next day</TIMEX3>
+	<TIMEX3 char_begin="3238" char_end="3250" type="DATE">24 September</TIMEX3>
+	<TIMEX3 char_begin="3461" char_end="3470" type="DATE">September</TIMEX3>
+	<TIMEX3 char_begin="3652" char_end="3661" type="DATE">1 October</TIMEX3>
+	<TIMEX3 char_begin="3884" char_end="3894" type="DATE">24 October</TIMEX3>
+	<TIMEX3 char_begin="3929" char_end="3937" type="DATE">November</TIMEX3>
+	<TIMEX3 char_begin="4596" char_end="4613" type="DATE">around March 1981</TIMEX3>
+	<TIMEX3 char_begin="4683" char_end="4696" type="DURATION">the first day</TIMEX3>
+	<TIMEX3 char_begin="5063" char_end="5075" type="DATE">the next day</TIMEX3>
+	<TIMEX3 char_begin="5129" char_end="5139" type="DURATION">a few days</TIMEX3>
+	<TIMEX3 char_begin="5498" char_end="5506" type="DATE">November</TIMEX3>
+	<TIMEX3 char_begin="5654" char_end="5666" type="DURATION">about a year</TIMEX3>
+	<TIMEX3 char_begin="5704" char_end="5714" type="DATE">March 1981</TIMEX3>
+	<TIMEX3 char_begin="5770" char_end="5774" type="DATE">1982</TIMEX3>
+	<TIMEX3 char_begin="5848" char_end="5857" type="DATE">June 1982</TIMEX3>
+	<TIMEX3 char_begin="6084" char_end="6095" type="DATE">24 May 1982</TIMEX3>
+	<TIMEX3 char_begin="6371" char_end="6374" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="6582" char_end="6593" type="DATE">6 June 1982</TIMEX3>
+	<TIMEX3 char_begin="6799" char_end="6806" type="DATE">20 June</TIMEX3>
+	<TIMEX3 char_begin="6829" char_end="6836" type="DATE">30 June</TIMEX3>
+	<TIMEX3 char_begin="7473" char_end="7480" type="DATE">21 June</TIMEX3>
+	<TIMEX3 char_begin="7545" char_end="7552" type="DATE">22 June</TIMEX3>
+	<TIMEX3 char_begin="7856" char_end="7860" type="DATE">fall</TIMEX3>
+	<TIMEX3 char_begin="8676" char_end="8683" type="DATE">13 July</TIMEX3>
+	<TIMEX3 char_begin="8972" char_end="8981" type="DURATION">1980-1981</TIMEX3>
+	<TIMEX3 char_begin="9265" char_end="9269" type="DATE">1981</TIMEX3>
+	<TIMEX3 char_begin="9334" char_end="9338" type="DATE">1985</TIMEX3>
+	<TIMEX3 char_begin="9690" char_end="9693" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="9897" char_end="9901" type="DATE">1982</TIMEX3>
+	<TIMEX3 char_begin="10359" char_end="10368" type="DURATION">1983-1985</TIMEX3>
+	<TIMEX3 char_begin="10459" char_end="10463" type="DATE">1982</TIMEX3>
+	<TIMEX3 char_begin="10464" char_end="10470" type="DATE">summer</TIMEX3>
+	<TIMEX3 char_begin="11067" char_end="11071" type="DATE">1983</TIMEX3>
+	<TIMEX3 char_begin="11221" char_end="11234" type="DATE">February 1984</TIMEX3>
+	<TIMEX3 char_begin="11354" char_end="11370" type="DATE">22 February 1984</TIMEX3>
+	<TIMEX3 char_begin="11633" char_end="11644" type="DATE">15 February</TIMEX3>
+	<TIMEX3 char_begin="11822" char_end="11833" type="DATE">22 February</TIMEX3>
+	<TIMEX3 char_begin="11848" char_end="11852" type="TIME">Dawn</TIMEX3>
+	<TIMEX3 char_begin="11866" char_end="11877" type="DATE">24 February</TIMEX3>
+	<TIMEX3 char_begin="11892" char_end="11896" type="TIME">Dawn</TIMEX3>
+	<TIMEX3 char_begin="12361" char_end="12372" type="DATE">24 February</TIMEX3>
+	<TIMEX3 char_begin="12390" char_end="12398" type="DATE">19 March</TIMEX3>
+	<TIMEX3 char_begin="12450" char_end="12461" type="DATE">15 February</TIMEX3>
+	<TIMEX3 char_begin="12801" char_end="12813" type="DATE">January 1985</TIMEX3>
+	<TIMEX3 char_begin="12816" char_end="12829" type="DATE">February 1986</TIMEX3>
+	<TIMEX3 char_begin="12891" char_end="12894" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="13105" char_end="13120" type="DATE">28 January 1985</TIMEX3>
+	<TIMEX3 char_begin="13147" char_end="13157" type="DATE">early 1980</TIMEX3>
+	<TIMEX3 char_begin="13336" char_end="13349" type="DATE">11 March 1985</TIMEX3>
+	<TIMEX3 char_begin="13785" char_end="13789" type="DATE">1984</TIMEX3>
+	<TIMEX3 char_begin="14117" char_end="14121" type="TIME">Dawn</TIMEX3>
+	<TIMEX3 char_begin="14138" char_end="14142" type="TIME">Dawn</TIMEX3>
+	<TIMEX3 char_begin="14547" char_end="14551" type="DATE">1984</TIMEX3>
+	<TIMEX3 char_begin="14854" char_end="14858" type="DATE">1982</TIMEX3>
+	<TIMEX3 char_begin="15058" char_end="15062" type="DATE">1967</TIMEX3>
+	<TIMEX3 char_begin="15063" char_end="15070" type="DURATION">Six-Day</TIMEX3>
+	<TIMEX3 char_begin="15639" char_end="15649" type="DATE">June, 1982</TIMEX3>
+	<TIMEX3 char_begin="15910" char_end="15925" type="DATE">1 November 1986</TIMEX3>
+	<TIMEX3 char_begin="16049" char_end="16053" type="DATE">1987</TIMEX3>
+	<TIMEX3 char_begin="16143" char_end="16155" type="DATE">7 March 1987</TIMEX3>
+	<TIMEX3 char_begin="16519" char_end="16530" type="DATE">17 May 1987</TIMEX3>
+	<TIMEX3 char_begin="17280" char_end="17287" type="DATE">20 July</TIMEX3>
+	<TIMEX3 char_begin="17374" char_end="17386" type="DATE">October 1987</TIMEX3>
+	<TIMEX3 char_begin="17518" char_end="17531" type="DATE">14 April 1988</TIMEX3>
+	<TIMEX3 char_begin="17694" char_end="17702" type="DATE">18 April</TIMEX3>
+	<TIMEX3 char_begin="18099" char_end="18110" type="DATE">3 July 1988</TIMEX3>
+	<TIMEX3 char_begin="19430" char_end="19434" type="DATE">1996</TIMEX3>
+	<TIMEX3 char_begin="19804" char_end="19811" type="DATE">present</TIMEX3>
+	<TIMEX3 char_begin="19931" char_end="19940" type="DATE">July 1988</TIMEX3>
+	<TIMEX3 char_begin="20761" char_end="20765" type="DATE">1985</TIMEX3>
+	<TIMEX3 char_begin="21079" char_end="21091" type="DATE">October 1986</TIMEX3>
+	<TIMEX3 char_begin="21299" char_end="21309" type="DATE">early 1987</TIMEX3>
+	<TIMEX3 char_begin="21380" char_end="21387" type="DURATION">42 days</TIMEX3>
+	<TIMEX3 char_begin="21732" char_end="21736" type="DATE">1987</TIMEX3>
+	<TIMEX3 char_begin="22005" char_end="22009" type="DURATION">year</TIMEX3>
+	<TIMEX3 char_begin="22247" char_end="22251" type="DATE">1987</TIMEX3>
+	<TIMEX3 char_begin="22285" char_end="22292" type="DATE">20 July</TIMEX3>
+	<TIMEX3 char_begin="22671" char_end="22681" type="DATE">April 1988</TIMEX3>
+	<TIMEX3 char_begin="22873" char_end="22877" type="DATE">1986</TIMEX3>
+	<TIMEX3 char_begin="23048" char_end="23057" type="DATE">July 1988</TIMEX3>
+	<TIMEX3 char_begin="23164" char_end="23183" type="DATE">four months earlier</TIMEX3>
+	<TIMEX3 char_begin="23561" char_end="23575" type="DATE">20 August 1988</TIMEX3>
+	<TIMEX3 char_begin="23641" char_end="23648" type="DURATION">ten-day</TIMEX3>
+</TimeML>

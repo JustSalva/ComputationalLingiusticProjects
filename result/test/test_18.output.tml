@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="389" char_end="398" type="DATE">40, eight</TIMEX3>
+	<TIMEX3 char_begin="399" char_end="404" type="DURATION">years</TIMEX3>
+	<TIMEX3 char_begin="410" char_end="413" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="603" char_end="613" type="DURATION">five years</TIMEX3>
+	<TIMEX3 char_begin="692" char_end="696" type="DATE">2011</TIMEX3>
+	<TIMEX3 char_begin="965" char_end="974" type="DATE">this year</TIMEX3>
+	<TIMEX3 char_begin="1090" char_end="1101" type="DURATION">seven years</TIMEX3>
+	<TIMEX3 char_begin="1226" char_end="1235" type="DURATION">Two years</TIMEX3>
+	<TIMEX3 char_begin="1273" char_end="1281" type="DATE">recently</TIMEX3>
+	<TIMEX3 char_begin="1414" char_end="1424" type="DATE">this month</TIMEX3>
+	<TIMEX3 char_begin="1575" char_end="1579" type="DURATION">days</TIMEX3>
+	<TIMEX3 char_begin="1617" char_end="1627" type="DATE">early 2011</TIMEX3>
+</TimeML>

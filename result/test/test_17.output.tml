@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="39" char_end="43" type="DATE">2010</TIMEX3>
+	<TIMEX3 char_begin="208" char_end="211" type="DATE">Now</TIMEX3>
+	<TIMEX3 char_begin="555" char_end="564" type="DATE">last year</TIMEX3>
+	<TIMEX3 char_begin="593" char_end="604" type="DURATION">three-month</TIMEX3>
+	<TIMEX3 char_begin="739" char_end="743" type="DATE">June</TIMEX3>
+	<TIMEX3 char_begin="1404" char_end="1413" type="DATE">currently</TIMEX3>
+</TimeML>

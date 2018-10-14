@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="0" char_end="4" type="DATE">1936</TIMEX3>
+	<TIMEX3 char_begin="58" char_end="65" type="DATE">20 July</TIMEX3>
+	<TIMEX3 char_begin="156" char_end="163" type="DATE">21 July</TIMEX3>
+	<TIMEX3 char_begin="165" char_end="178" type="DURATION">the fifth day</TIMEX3>
+	<TIMEX3 char_begin="399" char_end="403" type="DATE">July</TIMEX3>
+	<TIMEX3 char_begin="407" char_end="416" type="DATE">September</TIMEX3>
+	<TIMEX3 char_begin="494" char_end="505" type="DATE">5 September</TIMEX3>
+	<TIMEX3 char_begin="598" char_end="610" type="DATE">13 September</TIMEX3>
+	<TIMEX3 char_begin="791" char_end="811" type="DATE">the end of September</TIMEX3>
+	<TIMEX3 char_begin="910" char_end="922" type="DATE">21 September</TIMEX3>
+	<TIMEX3 char_begin="954" char_end="966" type="DATE">27 September</TIMEX3>
+	<TIMEX3 char_begin="1373" char_end="1381" type="DURATION">Two days</TIMEX3>
+	<TIMEX3 char_begin="1596" char_end="1603" type="DATE">October</TIMEX3>
+	<TIMEX3 char_begin="1683" char_end="1697" type="DATE">early November</TIMEX3>
+	<TIMEX3 char_begin="1743" char_end="1753" type="DATE">8 November</TIMEX3>
+	<TIMEX3 char_begin="1853" char_end="1863" type="DATE">6 November</TIMEX3>
+	<TIMEX3 char_begin="1954" char_end="1964" type="DATE">8 November</TIMEX3>
+	<TIMEX3 char_begin="1969" char_end="1980" type="DATE">23 November</TIMEX3>
+	<TIMEX3 char_begin="2225" char_end="2248" type="DURATION">the following two years</TIMEX3>
+	<TIMEX3 char_begin="2305" char_end="2309" type="DATE">1937</TIMEX3>
+	<TIMEX3 char_begin="2445" char_end="2452" type="DATE">January</TIMEX3>
+	<TIMEX3 char_begin="2457" char_end="2470" type="DATE">February 1937</TIMEX3>
+	<TIMEX3 char_begin="2493" char_end="2504" type="DATE">21 February</TIMEX3>
+	<TIMEX3 char_begin="2647" char_end="2657" type="DATE">8 February</TIMEX3>
+	<TIMEX3 char_begin="2662" char_end="2669" type="DATE">7 March</TIMEX3>
+	<TIMEX3 char_begin="2754" char_end="2762" type="DATE">26 April</TIMEX3>
+	<TIMEX3 char_begin="2821" char_end="2835" type="DATE">Two days later</TIMEX3>
+	<TIMEX3 char_begin="2879" char_end="2883" type="DATE">fall</TIMEX3>
+	<TIMEX3 char_begin="2977" char_end="2981" type="DATE">July</TIMEX3>
+	<TIMEX3 char_begin="3150" char_end="3156" type="DATE">3 June</TIMEX3>
+	<TIMEX3 char_begin="3165" char_end="3175" type="DATE">early July</TIMEX3>
+	<TIMEX3 char_begin="3189" char_end="3193" type="DATE">fall</TIMEX3>
+	<TIMEX3 char_begin="3207" char_end="3211" type="DATE">June</TIMEX3>
+	<TIMEX3 char_begin="3439" char_end="3445" type="DATE">August</TIMEX3>
+	<TIMEX3 char_begin="3559" char_end="3569" type="DURATION">two months</TIMEX3>
+	<TIMEX3 char_begin="3624" char_end="3636" type="DATE">late October</TIMEX3>
+	<TIMEX3 char_begin="3682" char_end="3701" type="DATE">the end of November</TIMEX3>
+	<TIMEX3 char_begin="3807" char_end="3811" type="DATE">1938</TIMEX3>
+	<TIMEX3 char_begin="3972" char_end="3979" type="DATE">January</TIMEX3>
+	<TIMEX3 char_begin="4050" char_end="4061" type="DATE">22 February</TIMEX3>
+	<TIMEX3 char_begin="4190" char_end="4197" type="DATE">7 March</TIMEX3>
+	<TIMEX3 char_begin="4250" char_end="4258" type="DATE">14 April</TIMEX3>
+	<TIMEX3 char_begin="4411" char_end="4414" type="DATE">May</TIMEX3>
+	<TIMEX3 char_begin="4482" char_end="4486" type="DATE">July</TIMEX3>
+	<TIMEX3 char_begin="4833" char_end="4840" type="DATE">24 July</TIMEX3>
+	<TIMEX3 char_begin="4847" char_end="4858" type="DATE">26 November</TIMEX3>
+	<TIMEX3 char_begin="5191" char_end="5201" type="DURATION">Eight days</TIMEX3>
+	<TIMEX3 char_begin="5217" char_end="5221" type="DURATION">year</TIMEX3>
+	<TIMEX3 char_begin="5283" char_end="5287" type="DATE">1939</TIMEX3>
+	<TIMEX3 char_begin="5356" char_end="5384" type="DATE">the first two months of 1939</TIMEX3>
+	<TIMEX3 char_begin="5404" char_end="5414" type="DATE">14 January</TIMEX3>
+	<TIMEX3 char_begin="5441" char_end="5451" type="DATE">26 January</TIMEX3>
+	<TIMEX3 char_begin="5466" char_end="5476" type="DATE">5 February</TIMEX3>
+	<TIMEX3 char_begin="5478" char_end="5487" type="DURATION">Five days</TIMEX3>
+	<TIMEX3 char_begin="5498" char_end="5502" type="DATE">fall</TIMEX3>
+	<TIMEX3 char_begin="5562" char_end="5573" type="DATE">27 February</TIMEX3>
+	<TIMEX3 char_begin="5720" char_end="5728" type="DATE">28 March</TIMEX3>
+	<TIMEX3 char_begin="5815" char_end="5827" type="DATE">The next day</TIMEX3>
+	<TIMEX3 char_begin="5888" char_end="5897" type="DURATION">two years</TIMEX3>
+	<TIMEX3 char_begin="5970" char_end="5977" type="DATE">1 April</TIMEX3>
+	<TIMEX3 char_begin="7496" char_end="7505" type="DATE">the 1950s</TIMEX3>
+	<TIMEX3 char_begin="7603" char_end="7607" type="DATE">1944</TIMEX3>
+	<TIMEX3 char_begin="7772" char_end="7780" type="DURATION">ten days</TIMEX3>
+</TimeML>

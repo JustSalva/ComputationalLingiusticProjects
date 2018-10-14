@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="730" char_end="733" type="DATE">Now</TIMEX3>
+	<TIMEX3 char_begin="842" char_end="855" type="DATE">two years ago</TIMEX3>
+	<TIMEX3 char_begin="1352" char_end="1357" type="DATE">today</TIMEX3>
+	<TIMEX3 char_begin="1725" char_end="1728" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="1734" char_end="1739" type="DURATION">weeks</TIMEX3>
+</TimeML>

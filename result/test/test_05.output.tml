@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="343" char_end="350" type="DATE">October</TIMEX3>
+	<TIMEX3 char_begin="418" char_end="422" type="DATE">2003</TIMEX3>
+	<TIMEX3 char_begin="782" char_end="791" type="DURATION">18 months</TIMEX3>
+	<TIMEX3 char_begin="809" char_end="813" type="DATE">2003</TIMEX3>
+	<TIMEX3 char_begin="920" char_end="940" type="DATE">the following decade</TIMEX3>
+	<TIMEX3 char_begin="1157" char_end="1161" type="DATE">2011</TIMEX3>
+	<TIMEX3 char_begin="1459" char_end="1462" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="1643" char_end="1647" type="DATE">2008</TIMEX3>
+</TimeML>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="113" char_end="117" type="DATE">2010</TIMEX3>
+	<TIMEX3 char_begin="355" char_end="365" type="DATE">previously</TIMEX3>
+	<TIMEX3 char_begin="575" char_end="583" type="DATE">the past</TIMEX3>
+	<TIMEX3 char_begin="879" char_end="887" type="DATE">May 2010</TIMEX3>
+	<TIMEX3 char_begin="1379" char_end="1385" type="DATE">Friday</TIMEX3>
+	<TIMEX3 char_begin="1386" char_end="1395" type="TIME">afternoon</TIMEX3>
+</TimeML>

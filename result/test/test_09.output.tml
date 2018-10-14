@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="50" char_end="59" type="DATE">this week</TIMEX3>
+	<TIMEX3 char_begin="810" char_end="813" type="DATE">may</TIMEX3>
+	<TIMEX3 char_begin="1887" char_end="1890" type="DURATION">day</TIMEX3>
+</TimeML>

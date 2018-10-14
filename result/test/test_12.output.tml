@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="52" char_end="62" type="DATE">this month</TIMEX3>
+	<TIMEX3 char_begin="588" char_end="595" type="TIME">morning</TIMEX3>
+	<TIMEX3 char_begin="855" char_end="865" type="DATE">Last month</TIMEX3>
+	<TIMEX3 char_begin="1061" char_end="1066" type="DURATION">years</TIMEX3>
+	<TIMEX3 char_begin="1223" char_end="1237" type="DATE">four years ago</TIMEX3>
+	<TIMEX3 char_begin="1535" char_end="1539" type="DATE">2011</TIMEX3>
+	<TIMEX3 char_begin="1777" char_end="1784" type="DATE">Feb. 28</TIMEX3>
+	<TIMEX3 char_begin="1847" char_end="1854" type="DATE">current</TIMEX3>
+	<TIMEX3 char_begin="1953" char_end="1968" type="DATE">the next decade</TIMEX3>
+	<TIMEX3 char_begin="2286" char_end="2290" type="DATE">2030</TIMEX3>
+	<TIMEX3 char_begin="2311" char_end="2314" type="DATE">now</TIMEX3>
+</TimeML>

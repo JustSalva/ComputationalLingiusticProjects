@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="60" char_end="66" type="DATE">Friday</TIMEX3>
+	<TIMEX3 char_begin="192" char_end="196" type="DATE">2010</TIMEX3>
+	<TIMEX3 char_begin="581" char_end="588" type="DURATION">minutes</TIMEX3>
+</TimeML>

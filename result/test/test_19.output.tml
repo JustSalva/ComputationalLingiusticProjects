@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="56" char_end="62" type="DATE">Friday</TIMEX3>
+	<TIMEX3 char_begin="808" char_end="816" type="DATE">May 2010</TIMEX3>
+	<TIMEX3 char_begin="1576" char_end="1594" type="DURATION">the past two years</TIMEX3>
+	<TIMEX3 char_begin="1753" char_end="1762" type="DATE">this week</TIMEX3>
+	<TIMEX3 char_begin="1970" char_end="1979" type="DATE">this week</TIMEX3>
+</TimeML>
