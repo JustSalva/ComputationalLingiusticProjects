@@ -201,11 +201,12 @@ def analyzeEntireText(listOfSentences, text):
     return resultTree
 
 
-
+"""
 text= reader("data/train/input/train_01.input.tml")
 sentence = [[(u'ended', 1171, 1176, 'PARTIAL_MATCH', -2), (u'in', 1177, 1179, 'IN', 33), (u'March', 1180, 1185, 'MONTH_IN_LETTERS', 12), (u'1940', 1186, 1190, 'NOT_AMBIGUOUS_YEARS', 18), (u'with', 1191, 1195, 'NO_MATCH', 0)]]
 matches = analyzeEntireText(sentence, text)
 print matches
+"""
 
 """
 for state in f.states():

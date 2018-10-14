@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="71" char_end="75" type="DATE">1953</TIMEX3>
+	<TIMEX3 char_begin="150" char_end="159" type="DATE">Wednesday</TIMEX3>
+	<TIMEX3 char_begin="332" char_end="336" type="DATE">1953</TIMEX3>
+	<TIMEX3 char_begin="521" char_end="528" type="DATE">1957-58</TIMEX3>
+	<TIMEX3 char_begin="698" char_end="702" type="DATE">1995</TIMEX3>
+	<TIMEX3 char_begin="777" char_end="785" type="DURATION">100 days</TIMEX3>
+	<TIMEX3 char_begin="808" char_end="820" type="DURATION">the 99th day</TIMEX3>
+	<TIMEX3 char_begin="1391" char_end="1395" type="DATE">2005</TIMEX3>
+	<TIMEX3 char_begin="1640" char_end="1643" type="DATE">May</TIMEX3>
+	<TIMEX3 char_begin="1727" char_end="1735" type="DURATION">60 years</TIMEX3>
+	<TIMEX3 char_begin="1986" char_end="1990" type="DATE">1984</TIMEX3>
+	<TIMEX3 char_begin="2172" char_end="2176" type="DATE">1953</TIMEX3>
+	<TIMEX3 char_begin="2205" char_end="2214" type="DATE">last June</TIMEX3>
+</TimeML>

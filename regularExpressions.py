@@ -65,7 +65,7 @@ class regularExpressions:
         self.reList.append(('DAYTIMES_PLURAL', re.compile(constants.DAYTIMES_PLURAL, flags=re.IGNORECASE)))
         self.reList.append(('DAYTIMES_SINGULAR', re.compile(constants.DAYTIMES_SINGULAR, flags=re.IGNORECASE)))
         self.reList.append(('SEASON', re.compile(constants.SEASON, flags=re.IGNORECASE)))
-        self.reList.append(('TIME_UNIT_PLURAL', re.compile('hours|days|weeks|months|years|hrs|minutes',
+        self.reList.append(('TIME_UNIT_PLURAL', re.compile('hours|days|weeks|months|years|hrs|minutes|centuries',
                                                            flags=re.IGNORECASE)))  # NB match before singular
         __STRING_TIMEUNIT_SINGULAR = 'day|month|year|decade|century|week| ' + constants.DAYTIMES_SINGULAR
         self.reList.append(('TIME_UNIT_SINGULAR', re.compile(__STRING_TIMEUNIT_SINGULAR)))
