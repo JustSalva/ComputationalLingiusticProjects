@@ -1,12 +1,11 @@
 # standard libs go here
 import argparse as ap
-import sys
 
 # third-party libs go here
 
 # project libs go here
 from FSThandling.FSTnavigator import analyzeEntireText
-from corpusUtilities import tokenize
+from Corpushandling.corpusUtilities import tokenize
 import XMLparsing.XMLparser as p
 
 

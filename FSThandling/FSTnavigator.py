@@ -4,7 +4,7 @@ import constants.finalStatesConstants as finalStates
 from XMLparsing.XMLparser import createTimeML, addItem, reader
 from constants.finalStatesConstants import printName
 
-PATH_TO_FST = "timextractor.fst"
+PATH_TO_FST = "FSTfiles/timextractor.fst"
 
 
 def nextState(state, inputLabel, f):

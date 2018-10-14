@@ -1,6 +1,6 @@
 from nltk.tokenize import sent_tokenize, word_tokenize
 import XMLparsing.XMLparser as XMLparsing
-import regularExpressions as re
+from REhandling import regularExpressions as re
 
 regExpr = re.regularExpressions()
 
