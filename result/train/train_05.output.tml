@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="10" char_end="19" type="DURATION">1955-1963</TIMEX3>
+	<TIMEX3 char_begin="87" char_end="91" type="DATE">1954</TIMEX3>
+	<TIMEX3 char_begin="188" char_end="200" type="DATE">20 July 1956</TIMEX3>
+	<TIMEX3 char_begin="371" char_end="380" type="DATE">June 1955</TIMEX3>
+	<TIMEX3 char_begin="765" char_end="769" type="DATE">1954</TIMEX3>
+	<TIMEX3 char_begin="1473" char_end="1477" type="DATE">1954</TIMEX3>
+	<TIMEX3 char_begin="2224" char_end="2229" type="DATE">April</TIMEX3>
+	<TIMEX3 char_begin="2234" char_end="2243" type="DATE">June 1955</TIMEX3>
+	<TIMEX3 char_begin="2633" char_end="2664" type="DATE">Beginning in the summer of 1955</TIMEX3>
+	<TIMEX3 char_begin="2910" char_end="2921" type="DATE">August 1956</TIMEX3>
+	<TIMEX3 char_begin="3714" char_end="3719" type="DURATION">years</TIMEX3>
+	<TIMEX3 char_begin="3720" char_end="3729" type="DURATION">1955-1957</TIMEX3>
+	<TIMEX3 char_begin="3737" char_end="3752" type="DATE">the end of 1958</TIMEX3>
+	<TIMEX3 char_begin="3829" char_end="3839" type="DATE">the future</TIMEX3>
+	<TIMEX3 char_begin="4145" char_end="4160" type="DATE">26 October 1955</TIMEX3>
+	<TIMEX3 char_begin="4625" char_end="4628" type="DATE">May</TIMEX3>
+	<TIMEX3 char_begin="4647" char_end="4654" type="DURATION">ten-day</TIMEX3>
+	<TIMEX3 char_begin="4977" char_end="4986" type="DURATION">1956-1960</TIMEX3>
+	<TIMEX3 char_begin="5076" char_end="5080" type="DATE">1954</TIMEX3>
+	<TIMEX3 char_begin="5291" char_end="5304" type="DATE">December 1956</TIMEX3>
+	<TIMEX3 char_begin="6675" char_end="6679" type="DATE">1957</TIMEX3>
+	<TIMEX3 char_begin="7039" char_end="7043" type="DATE">1958</TIMEX3>
+	<TIMEX3 char_begin="7318" char_end="7330" type="DATE">January 1959</TIMEX3>
+	<TIMEX3 char_begin="7681" char_end="7684" type="DATE">May</TIMEX3>
+	<TIMEX3 char_begin="7857" char_end="7873" type="DATE">12 December 1960</TIMEX3>
+	<TIMEX3 char_begin="8272" char_end="8285" type="DATE">November 1960</TIMEX3>
+	<TIMEX3 char_begin="8611" char_end="8620" type="DURATION">1960-1963</TIMEX3>
+	<TIMEX3 char_begin="8651" char_end="8655" type="DATE">1960</TIMEX3>
+	<TIMEX3 char_begin="9153" char_end="9162" type="DATE">June 1961</TIMEX3>
+	<TIMEX3 char_begin="9970" char_end="9974" type="DATE">1961</TIMEX3>
+	<TIMEX3 char_begin="10548" char_end="10551" type="DATE">Now</TIMEX3>
+	<TIMEX3 char_begin="10720" char_end="10728" type="DATE">May 1961</TIMEX3>
+	<TIMEX3 char_begin="11296" char_end="11301" type="DATE">today</TIMEX3>
+	<TIMEX3 char_begin="12077" char_end="12087" type="DATE">April 1962</TIMEX3>
+	<TIMEX3 char_begin="12235" char_end="12239" type="DATE">1963</TIMEX3>
+	<TIMEX3 char_begin="12391" char_end="12395" type="DATE">1961</TIMEX3>
+	<TIMEX3 char_begin="13029" char_end="13041" type="DATE">23 July 1962</TIMEX3>
+	<TIMEX3 char_begin="13370" char_end="13384" type="DATE">2 January 1963</TIMEX3>
+	<TIMEX3 char_begin="14694" char_end="14708" type="DATE">21 August 1963</TIMEX3>
+	<TIMEX3 char_begin="14887" char_end="14905" type="DATE">the summer of 1963</TIMEX3>
+	<TIMEX3 char_begin="15665" char_end="15680" type="DATE">2 November 1963</TIMEX3>
+	<TIMEX3 char_begin="16021" char_end="16024" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="17134" char_end="17148" type="DATE">Christmas 1963</TIMEX3>
+	<TIMEX3 char_begin="17906" char_end="17915" type="DURATION">1963-1969</TIMEX3>
+	<TIMEX3 char_begin="18291" char_end="18307" type="DATE">24 November 1963</TIMEX3>
+	<TIMEX3 char_begin="18808" char_end="18820" type="DATE">January 1964</TIMEX3>
+	<TIMEX3 char_begin="18867" char_end="18886" type="DATE">the end of the year</TIMEX3>
+	<TIMEX3 char_begin="18967" char_end="18980" type="DATE">2 August 1964</TIMEX3>
+	<TIMEX3 char_begin="19187" char_end="19201" type="DATE">two days later</TIMEX3>
+	<TIMEX3 char_begin="19391" char_end="19394" type="DATE">may</TIMEX3>
+	<TIMEX3 char_begin="19649" char_end="19659" type="DATE">same month</TIMEX3>
+	<TIMEX3 char_begin="19869" char_end="19873" type="DATE">2005</TIMEX3>
+	<TIMEX3 char_begin="19921" char_end="19929" type="DATE">4 August</TIMEX3>
+	<TIMEX3 char_begin="20505" char_end="20522" type="DATE">the start of 1959</TIMEX3>
+	<TIMEX3 char_begin="20570" char_end="20585" type="DATE">the end of 1964</TIMEX3>
+	<TIMEX3 char_begin="20596" char_end="20600" type="DATE">1961</TIMEX3>
+	<TIMEX3 char_begin="20605" char_end="20609" type="DATE">1964</TIMEX3>
+	<TIMEX3 char_begin="20780" char_end="20784" type="DATE">1961</TIMEX3>
+	<TIMEX3 char_begin="20814" char_end="20818" type="DATE">1964</TIMEX3>
+	<TIMEX3 char_begin="20923" char_end="20935" type="DATE">2 March 1965</TIMEX3>
+	<TIMEX3 char_begin="21125" char_end="21136" type="DURATION">three years</TIMEX3>
+	<TIMEX3 char_begin="21426" char_end="21436" type="DATE">March 1965</TIMEX3>
+	<TIMEX3 char_begin="21441" char_end="21454" type="DATE">November 1968</TIMEX3>
+	<TIMEX3 char_begin="22343" char_end="22368" type="TIME">the morning of 31 January</TIMEX3>
+	<TIMEX3 char_begin="22369" char_end="22373" type="DATE">1965</TIMEX3>
+	<TIMEX3 char_begin="22555" char_end="22564" type="TIME">3:00 a.m.</TIMEX3>
+	<TIMEX3 char_begin="22647" char_end="22656" type="TIME">afternoon</TIMEX3>
+	<TIMEX3 char_begin="22717" char_end="22730" type="DATE">weeks earlier</TIMEX3>
+	<TIMEX3 char_begin="22984" char_end="22994" type="DATE">6 February</TIMEX3>
+	<TIMEX3 char_begin="22999" char_end="23021" type="DATE">7 February, forty-nine</TIMEX3>
+	<TIMEX3 char_begin="23107" char_end="23115" type="DATE">this day</TIMEX3>
+	<TIMEX3 char_begin="23207" char_end="23217" type="DATE">forty nine</TIMEX3>
+	<TIMEX3 char_begin="23253" char_end="23260" type="TIME">morning</TIMEX3>
+	<TIMEX3 char_begin="23582" char_end="23594" type="DATE">8 March 1965</TIMEX3>
+	<TIMEX3 char_begin="24026" char_end="24038" type="DURATION">twenty years</TIMEX3>
+	<TIMEX3 char_begin="24066" char_end="24078" type="DURATION">twenty years</TIMEX3>
+	<TIMEX3 char_begin="24147" char_end="24156" type="TIME">afternoon</TIMEX3>
+	<TIMEX3 char_begin="24507" char_end="24512" type="DATE">March</TIMEX3>
+	<TIMEX3 char_begin="24548" char_end="24556" type="DATE">December</TIMEX3>
+	<TIMEX3 char_begin="24748" char_end="24751" type="DATE">May</TIMEX3>
+	<TIMEX3 char_begin="24876" char_end="24880" type="DATE">June</TIMEX3>
+	<TIMEX3 char_begin="25646" char_end="25661" type="DATE">the end of 1965</TIMEX3>
+	<TIMEX3 char_begin="25987" char_end="26002" type="DURATION">eighteen months</TIMEX3>
+	<TIMEX3 char_begin="26342" char_end="26357" type="DATE">the end of 1967</TIMEX3>
+	<TIMEX3 char_begin="26782" char_end="26800" type="DURATION">nineteen years old</TIMEX3>
+	<TIMEX3 char_begin="26970" char_end="26974" type="DATE">1995</TIMEX3>
+	<TIMEX3 char_begin="27220" char_end="27228" type="DURATION">26 years</TIMEX3>
+	<TIMEX3 char_begin="27298" char_end="27306" type="DURATION">one-year</TIMEX3>
+	<TIMEX3 char_begin="27389" char_end="27398" type="DURATION">years old</TIMEX3>
+	<TIMEX3 char_begin="27404" char_end="27412" type="DURATION">one-year</TIMEX3>
+	<TIMEX3 char_begin="27518" char_end="27526" type="DURATION">10 years</TIMEX3>
+	<TIMEX3 char_begin="27536" char_end="27544" type="DURATION">one year</TIMEX3>
+	<TIMEX3 char_begin="28155" char_end="28158" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="29222" char_end="29228" type="DATE">coming</TIMEX3>
+	<TIMEX3 char_begin="29304" char_end="29308" type="DATE">1967</TIMEX3>
+	<TIMEX3 char_begin="29370" char_end="29374" type="DATE">1975</TIMEX3>
+	<TIMEX3 char_begin="29988" char_end="30000" type="DATE">October 1967</TIMEX3>
+	<TIMEX3 char_begin="30260" char_end="30265" type="DATE">today</TIMEX3>
+	<TIMEX3 char_begin="30385" char_end="30397" type="DATE">January 1968</TIMEX3>
+	<TIMEX3 char_begin="31720" char_end="31724" type="DATE">1965</TIMEX3>
+	<TIMEX3 char_begin="31990" char_end="32003" type="DATE">November 1967</TIMEX3>
+	<TIMEX3 char_begin="33432" char_end="33437" type="DATE">March</TIMEX3>
+	<TIMEX3 char_begin="33793" char_end="33804" type="DATE">10 May 1968</TIMEX3>
+	<TIMEX3 char_begin="33934" char_end="33945" type="DURATION">five months</TIMEX3>
+	<TIMEX3 char_begin="35024" char_end="35033" type="DURATION">1969-1972</TIMEX3>
+	<TIMEX3 char_begin="35641" char_end="35648" type="DATE">tonight</TIMEX3>
+	<TIMEX3 char_begin="35753" char_end="35759" type="DATE">spring</TIMEX3>
+	<TIMEX3 char_begin="35763" char_end="35772" type="DATE">next year</TIMEX3>
+	<TIMEX3 char_begin="35903" char_end="35916" type="DATE">15 months ago</TIMEX3>
+	<TIMEX3 char_begin="36459" char_end="36473" type="DATE">September 1969</TIMEX3>
+	<TIMEX3 char_begin="36778" char_end="36782" type="DATE">1969</TIMEX3>
+	<TIMEX3 char_begin="37274" char_end="37291" type="DATE">Beginning in 1970</TIMEX3>
+	<TIMEX3 char_begin="37466" char_end="37470" type="DATE">1970</TIMEX3>
+	<TIMEX3 char_begin="37494" char_end="37498" type="DATE">1969</TIMEX3>
+	<TIMEX3 char_begin="37629" char_end="37633" type="DATE">1955</TIMEX3>
+	<TIMEX3 char_begin="37861" char_end="37865" type="DATE">1969</TIMEX3>
+	<TIMEX3 char_begin="38224" char_end="38234" type="DATE">April 1969</TIMEX3>
+	<TIMEX3 char_begin="38370" char_end="38374" type="DATE">1970</TIMEX3>
+	<TIMEX3 char_begin="38958" char_end="38962" type="DATE">1971</TIMEX3>
+	<TIMEX3 char_begin="39260" char_end="39273" type="DATE">February 1971</TIMEX3>
+	<TIMEX3 char_begin="40151" char_end="40164" type="DURATION">fifteen years</TIMEX3>
+	<TIMEX3 char_begin="40246" char_end="40250" type="DATE">1971</TIMEX3>
+	<TIMEX3 char_begin="40406" char_end="40419" type="DATE">February 1972</TIMEX3>
+	<TIMEX3 char_begin="40731" char_end="40737" type="DATE">Easter</TIMEX3>
+	<TIMEX3 char_begin="40751" char_end="40755" type="DATE">1972</TIMEX3>
+	<TIMEX3 char_begin="41245" char_end="41251" type="DATE">August</TIMEX3>
+	<TIMEX3 char_begin="41254" char_end="41258" type="DATE">1972</TIMEX3>
+	<TIMEX3 char_begin="41330" char_end="41334" type="DATE">1972</TIMEX3>
+	<TIMEX3 char_begin="41564" char_end="41576" type="DATE">October 1972</TIMEX3>
+	<TIMEX3 char_begin="42322" char_end="42337" type="DATE">15 January 1973</TIMEX3>
+	<TIMEX3 char_begin="42503" char_end="42518" type="DATE">27 January 1973</TIMEX3>
+	<TIMEX3 char_begin="42762" char_end="42766" type="DATE">1954</TIMEX3>
+	<TIMEX3 char_begin="42859" char_end="42868" type="DURATION">sixty-day</TIMEX3>
+	<TIMEX3 char_begin="43069" char_end="43078" type="DURATION">1962-1975</TIMEX3>
+	<TIMEX3 char_begin="43535" char_end="43539" type="DATE">1954</TIMEX3>
+	<TIMEX3 char_begin="44508" char_end="44512" type="DATE">1812</TIMEX3>
+	<TIMEX3 char_begin="44564" char_end="44569" type="DURATION">years</TIMEX3>
+	<TIMEX3 char_begin="45047" char_end="45053" type="DATE">advent</TIMEX3>
+	<TIMEX3 char_begin="45203" char_end="45219" type="DATE">15 October, 1969</TIMEX3>
+	<TIMEX3 char_begin="45557" char_end="45565" type="DATE">May 1970</TIMEX3>
+	<TIMEX3 char_begin="45651" char_end="45656" type="SET">1960s</TIMEX3>
+	<TIMEX3 char_begin="45991" char_end="45995" type="DATE">1968</TIMEX3>
+	<TIMEX3 char_begin="46212" char_end="46216" type="DATE">1968</TIMEX3>
+	<TIMEX3 char_begin="46587" char_end="46591" type="DATE">1973</TIMEX3>
+	<TIMEX3 char_begin="47021" char_end="47025" type="DATE">1975</TIMEX3>
+	<TIMEX3 char_begin="47083" char_end="47094" type="DATE">same spring</TIMEX3>
+	<TIMEX3 char_begin="47120" char_end="47129" type="DURATION">1973-1975</TIMEX3>
+	<TIMEX3 char_begin="47211" char_end="47226" type="DATE">the final years</TIMEX3>
+	<TIMEX3 char_begin="47302" char_end="47314" type="DATE">5 March 1971</TIMEX3>
+	<TIMEX3 char_begin="47898" char_end="47902" type="DURATION">year</TIMEX3>
+	<TIMEX3 char_begin="48354" char_end="48364" type="DATE">March 1973</TIMEX3>
+	<TIMEX3 char_begin="48728" char_end="48737" type="DURATION">1975-1976</TIMEX3>
+	<TIMEX3 char_begin="49088" char_end="49101" type="DATE">November 1972</TIMEX3>
+	<TIMEX3 char_begin="49227" char_end="49240" type="DATE">15 March 1973</TIMEX3>
+	<TIMEX3 char_begin="49448" char_end="49453" type="DATE">April</TIMEX3>
+	<TIMEX3 char_begin="49699" char_end="49708" type="DATE">June 1973</TIMEX3>
+	<TIMEX3 char_begin="49897" char_end="49908" type="DATE">4 June 1973</TIMEX3>
+	<TIMEX3 char_begin="50013" char_end="50025" type="DATE">October 1973</TIMEX3>
+	<TIMEX3 char_begin="50156" char_end="50168" type="DATE">January 1974</TIMEX3>
+	<TIMEX3 char_begin="50333" char_end="50342" type="DATE">4 January</TIMEX3>
+	<TIMEX3 char_begin="50554" char_end="50567" type="DATE">9 August 1974</TIMEX3>
+	<TIMEX3 char_begin="50703" char_end="50709" type="DURATION">a year</TIMEX3>
+	<TIMEX3 char_begin="50757" char_end="50761" type="DATE">1974</TIMEX3>
+	<TIMEX3 char_begin="50981" char_end="50985" type="DATE">1975</TIMEX3>
+	<TIMEX3 char_begin="51035" char_end="51039" type="DATE">1976</TIMEX3>
+	<TIMEX3 char_begin="51060" char_end="51069" type="DURATION">1973-1974</TIMEX3>
+	<TIMEX3 char_begin="51126" char_end="51138" type="DATE">October 1974</TIMEX3>
+	<TIMEX3 char_begin="51297" char_end="51301" type="DURATION">days</TIMEX3>
+	<TIMEX3 char_begin="51530" char_end="51534" type="DATE">1976</TIMEX3>
+	<TIMEX3 char_begin="51874" char_end="51890" type="DATE">13 December 1974</TIMEX3>
+	<TIMEX3 char_begin="52002" char_end="52016" type="DATE">6 January 1975</TIMEX3>
+	<TIMEX3 char_begin="52139" char_end="52143" type="DATE">fall</TIMEX3>
+	<TIMEX3 char_begin="52657" char_end="52660" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="52666" char_end="52683" type="DATE">the start of 1975</TIMEX3>
+	<TIMEX3 char_begin="53405" char_end="53418" type="DATE">10 March 1975</TIMEX3>
+	<TIMEX3 char_begin="53723" char_end="53727" type="DATE">1976</TIMEX3>
+	<TIMEX3 char_begin="53811" char_end="53819" type="DATE">11 March</TIMEX3>
+	<TIMEX3 char_begin="53889" char_end="53892" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="54013" char_end="54023" type="DURATION">two months</TIMEX3>
+	<TIMEX3 char_begin="54850" char_end="54855" type="DURATION">years</TIMEX3>
+	<TIMEX3 char_begin="55113" char_end="55120" type="DATE">1 April</TIMEX3>
+	<TIMEX3 char_begin="55263" char_end="55271" type="DATE">20 March</TIMEX3>
+	<TIMEX3 char_begin="55532" char_end="55540" type="DATE">22 March</TIMEX3>
+	<TIMEX3 char_begin="55813" char_end="55821" type="DATE">31 March</TIMEX3>
+	<TIMEX3 char_begin="55831" char_end="55840" type="DURATION">three-day</TIMEX3>
+	<TIMEX3 char_begin="55959" char_end="55967" type="DATE">28 March</TIMEX3>
+	<TIMEX3 char_begin="56025" char_end="56033" type="DATE">30 March</TIMEX3>
+	<TIMEX3 char_begin="56136" char_end="56140" type="DATE">fall</TIMEX3>
+	<TIMEX3 char_begin="56495" char_end="56500" type="DATE">1 May</TIMEX3>
+	<TIMEX3 char_begin="56528" char_end="56534" type="DATE">coming</TIMEX3>
+	<TIMEX3 char_begin="56729" char_end="56743" type="DATE">7 April, three</TIMEX3>
+	<TIMEX3 char_begin="56922" char_end="56927" type="DURATION">weeks</TIMEX3>
+	<TIMEX3 char_begin="57040" char_end="57048" type="DATE">21 April</TIMEX3>
+	<TIMEX3 char_begin="57153" char_end="57161" type="DATE">same day</TIMEX3>
+	<TIMEX3 char_begin="57375" char_end="57388" type="DATE">two years ago</TIMEX3>
+	<TIMEX3 char_begin="57633" char_end="57637" type="DURATION">days</TIMEX3>
+	<TIMEX3 char_begin="57818" char_end="57826" type="DATE">25 April</TIMEX3>
+	<TIMEX3 char_begin="58043" char_end="58059" type="DATE">the end of April</TIMEX3>
+	<TIMEX3 char_begin="58215" char_end="58223" type="DATE">27 April</TIMEX3>
+	<TIMEX3 char_begin="58503" char_end="58507" type="DATE">Fall</TIMEX3>
+	<TIMEX3 char_begin="59043" char_end="59066" type="TIME">the morning of 29 April</TIMEX3>
+	<TIMEX3 char_begin="59067" char_end="59071" type="DATE">1975</TIMEX3>
+	<TIMEX3 char_begin="59261" char_end="59269" type="DATE">29 April</TIMEX3>
+	<TIMEX3 char_begin="59692" char_end="59700" type="DATE">23 April</TIMEX3>
+	<TIMEX3 char_begin="59886" char_end="59895" type="DATE">Christmas</TIMEX3>
+	<TIMEX3 char_begin="59960" char_end="59967" type="TIME">morning</TIMEX3>
+	<TIMEX3 char_begin="59968" char_end="59979" type="DATE">hours of 30</TIMEX3>
+	<TIMEX3 char_begin="59980" char_end="59985" type="DATE">April</TIMEX3>
+	<TIMEX3 char_begin="60190" char_end="60203" type="DATE">30 April 1975</TIMEX3>
+	<TIMEX3 char_begin="60360" char_end="60370" type="TIME">11:30 a.m.</TIMEX3>
+	<TIMEX3 char_begin="60763" char_end="60778" type="DATE">the past decade</TIMEX3>
+	<TIMEX3 char_begin="61065" char_end="61074" type="DURATION">116 years</TIMEX3>
+</TimeML>

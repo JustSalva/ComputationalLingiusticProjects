@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf8"?>
+<TimeML>
+	<TIMEX3 char_begin="15" char_end="21" type="DATE">264 BC</TIMEX3>
+	<TIMEX3 char_begin="138" char_end="153" type="DURATION">the 9th century</TIMEX3>
+	<TIMEX3 char_begin="849" char_end="855" type="DATE">264 BC</TIMEX3>
+	<TIMEX3 char_begin="1247" char_end="1253" type="DATE">241 BC</TIMEX3>
+	<TIMEX3 char_begin="1277" char_end="1283" type="DATE">264 BC</TIMEX3>
+	<TIMEX3 char_begin="1286" char_end="1292" type="DATE">241 BC</TIMEX3>
+	<TIMEX3 char_begin="1446" char_end="1454" type="DURATION">20 years</TIMEX3>
+	<TIMEX3 char_begin="1694" char_end="1711" type="DATE">a few years later</TIMEX3>
+	<TIMEX3 char_begin="2186" char_end="2189" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="2394" char_end="2400" type="DATE">261 BC</TIMEX3>
+	<TIMEX3 char_begin="2718" char_end="2724" type="DATE">260 BC</TIMEX3>
+	<TIMEX3 char_begin="2804" char_end="2814" type="DURATION">two months</TIMEX3>
+	<TIMEX3 char_begin="3832" char_end="3838" type="DATE">241 BC</TIMEX3>
+	<TIMEX3 char_begin="4138" char_end="4144" type="DATE">238 BC</TIMEX3>
+	<TIMEX3 char_begin="4443" char_end="4448" type="DURATION">years</TIMEX3>
+	<TIMEX3 char_begin="4691" char_end="4697" type="DATE">219 BC</TIMEX3>
+	<TIMEX3 char_begin="5053" char_end="5059" type="DATE">241 BC</TIMEX3>
+	<TIMEX3 char_begin="6564" char_end="6577" type="DURATION">several years</TIMEX3>
+	<TIMEX3 char_begin="8502" char_end="8505" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="8983" char_end="8989" type="DATE">228 BC</TIMEX3>
+	<TIMEX3 char_begin="9060" char_end="9066" type="DATE">229 BC</TIMEX3>
+	<TIMEX3 char_begin="9102" char_end="9113" type="DURATION">eight years</TIMEX3>
+	<TIMEX3 char_begin="9120" char_end="9126" type="DATE">221 BC</TIMEX3>
+	<TIMEX3 char_begin="9398" char_end="9404" type="DATE">225 BC</TIMEX3>
+	<TIMEX3 char_begin="9409" char_end="9415" type="DATE">220 BC</TIMEX3>
+	<TIMEX3 char_begin="9520" char_end="9526" type="DATE">221 BC</TIMEX3>
+	<TIMEX3 char_begin="9831" char_end="9846" type="DATE">two years later</TIMEX3>
+	<TIMEX3 char_begin="9848" char_end="9854" type="DATE">218 BC</TIMEX3>
+	<TIMEX3 char_begin="10399" char_end="10405" type="DATE">219 BC</TIMEX3>
+	<TIMEX3 char_begin="11955" char_end="11961" type="DATE">218 BC</TIMEX3>
+	<TIMEX3 char_begin="11965" char_end="11971" type="DATE">201 BC</TIMEX3>
+	<TIMEX3 char_begin="11996" char_end="12002" type="DATE">218 BC</TIMEX3>
+	<TIMEX3 char_begin="12005" char_end="12011" type="DATE">201 BC</TIMEX3>
+	<TIMEX3 char_begin="13202" char_end="13208" type="DATE">218 BC</TIMEX3>
+	<TIMEX3 char_begin="15891" char_end="15904" type="DURATION">sixteen years</TIMEX3>
+	<TIMEX3 char_begin="16272" char_end="16279" type="DATE">149 B.C</TIMEX3>
+	<TIMEX3 char_begin="16283" char_end="16290" type="DATE">146 B.C</TIMEX3>
+	<TIMEX3 char_begin="16314" char_end="16321" type="DATE">149 B.C</TIMEX3>
+	<TIMEX3 char_begin="16325" char_end="16332" type="DATE">146 B.C</TIMEX3>
+	<TIMEX3 char_begin="16599" char_end="16610" type="DURATION">fifty years</TIMEX3>
+	<TIMEX3 char_begin="16917" char_end="16928" type="DURATION">fifty years</TIMEX3>
+	<TIMEX3 char_begin="17542" char_end="17548" type="DATE">149 BC</TIMEX3>
+	<TIMEX3 char_begin="17945" char_end="17955" type="DATE">previously</TIMEX3>
+	<TIMEX3 char_begin="18031" char_end="18034" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="18333" char_end="18343" type="DURATION">three-year</TIMEX3>
+	<TIMEX3 char_begin="18449" char_end="18456" type="DATE">146 B.C</TIMEX3>
+	<TIMEX3 char_begin="18527" char_end="18549" type="DURATION">the nineteenth century</TIMEX3>
+</TimeML>
