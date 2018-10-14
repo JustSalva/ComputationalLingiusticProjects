@@ -6,7 +6,7 @@
 	<TIMEX3 char_begin="993" char_end="1007" type="DATE">March 20, 2003</TIMEX3>
 	<TIMEX3 char_begin="1009" char_end="1032" type="TIME">9:34 p.m., March 19 EST</TIMEX3>
 	<TIMEX3 char_begin="1075" char_end="1079" type="DATE">2003</TIMEX3>
-	<TIMEX3 char_begin="2640" char_end="2646" type="DURATION">a year</TIMEX3>
+	<TIMEX3 char_begin="2640" char_end="2654" type="DATE">a year earlier</TIMEX3>
 	<TIMEX3 char_begin="2873" char_end="2880" type="DATE">April 9</TIMEX3>
 	<TIMEX3 char_begin="2922" char_end="2929" type="DURATION">24-year</TIMEX3>
 	<TIMEX3 char_begin="3148" char_end="3161" type="DATE">November 2008</TIMEX3>

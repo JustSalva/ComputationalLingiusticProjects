@@ -27,7 +27,7 @@
 	<TIMEX3 char_begin="7964" char_end="7969" type="DURATION">hours</TIMEX3>
 	<TIMEX3 char_begin="8043" char_end="8046" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="8441" char_end="8445" type="DATE">1913</TIMEX3>
-	<TIMEX3 char_begin="8519" char_end="8535" type="DURATION">less than a week</TIMEX3>
+	<TIMEX3 char_begin="8519" char_end="8541" type="DATE">less than a week later</TIMEX3>
 	<TIMEX3 char_begin="8667" char_end="8676" type="DURATION">1913-1914</TIMEX3>
 	<TIMEX3 char_begin="8682" char_end="8692" type="DATE">early 1913</TIMEX3>
 	<TIMEX3 char_begin="8895" char_end="8903" type="DURATION">ten days</TIMEX3>

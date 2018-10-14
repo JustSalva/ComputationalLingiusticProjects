@@ -214,7 +214,7 @@
 	<TIMEX3 char_begin="50374" char_end="50400" type="DATE">the last week of September</TIMEX3>
 	<TIMEX3 char_begin="50486" char_end="50498" type="DATE">12 September</TIMEX3>
 	<TIMEX3 char_begin="50531" char_end="50543" type="DATE">18 September</TIMEX3>
-	<TIMEX3 char_begin="50584" char_end="50589" type="DURATION">a day</TIMEX3>
+	<TIMEX3 char_begin="50584" char_end="50595" type="DATE">a day later</TIMEX3>
 	<TIMEX3 char_begin="50600" char_end="50612" type="DATE">24 September</TIMEX3>
 	<TIMEX3 char_begin="50852" char_end="50855" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="51031" char_end="51034" type="DATE">now</TIMEX3>

@@ -43,8 +43,8 @@ def tokenizer(text, tokenized_text):
             length = offset + len(usedWord)
 
             if length - offset - len(usedWord) != 0:
-                print "ERROR: something went wrong...!"
-                print length, offset, len(usedWord)
+                #print "ERROR: something went wrong...!"
+                #print length, offset, len(usedWord)
                 exit(0)
             # print usedWord, offset, length, len(usedWord)
             tag, tagNumber = tagText(usedWord)

@@ -50,7 +50,7 @@
 	<TIMEX3 char_begin="18967" char_end="18980" type="DATE">2 August 1964</TIMEX3>
 	<TIMEX3 char_begin="19187" char_end="19201" type="DATE">two days later</TIMEX3>
 	<TIMEX3 char_begin="19391" char_end="19394" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="19649" char_end="19659" type="DATE">same month</TIMEX3>
+	<TIMEX3 char_begin="19645" char_end="19659" type="DATE">the same month</TIMEX3>
 	<TIMEX3 char_begin="19869" char_end="19873" type="DATE">2005</TIMEX3>
 	<TIMEX3 char_begin="19921" char_end="19929" type="DATE">4 August</TIMEX3>
 	<TIMEX3 char_begin="20505" char_end="20522" type="DATE">the start of 1959</TIMEX3>
@@ -192,7 +192,7 @@
 	<TIMEX3 char_begin="56729" char_end="56743" type="DATE">7 April, three</TIMEX3>
 	<TIMEX3 char_begin="56922" char_end="56927" type="DURATION">weeks</TIMEX3>
 	<TIMEX3 char_begin="57040" char_end="57048" type="DATE">21 April</TIMEX3>
-	<TIMEX3 char_begin="57153" char_end="57161" type="DATE">same day</TIMEX3>
+	<TIMEX3 char_begin="57149" char_end="57161" type="DATE">the same day</TIMEX3>
 	<TIMEX3 char_begin="57375" char_end="57388" type="DATE">two years ago</TIMEX3>
 	<TIMEX3 char_begin="57633" char_end="57637" type="DURATION">days</TIMEX3>
 	<TIMEX3 char_begin="57818" char_end="57826" type="DATE">25 April</TIMEX3>

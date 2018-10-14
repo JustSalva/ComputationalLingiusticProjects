@@ -16,7 +16,7 @@
 	<TIMEX3 char_begin="3996" char_end="4014" type="DATE">the following year</TIMEX3>
 	<TIMEX3 char_begin="4017" char_end="4023" type="DATE">490 BC</TIMEX3>
 	<TIMEX3 char_begin="4061" char_end="4067" type="DATE">490 BC</TIMEX3>
-	<TIMEX3 char_begin="4520" char_end="4528" type="DURATION">a decade</TIMEX3>
+	<TIMEX3 char_begin="4520" char_end="4536" type="DATE">a decade earlier</TIMEX3>
 	<TIMEX3 char_begin="5026" char_end="5034" type="DURATION">six days</TIMEX3>
 	<TIMEX3 char_begin="5107" char_end="5122" type="DURATION">the seventh day</TIMEX3>
 	<TIMEX3 char_begin="5720" char_end="5729" type="DURATION">five days</TIMEX3>
@@ -29,8 +29,7 @@
 	<TIMEX3 char_begin="8253" char_end="8259" type="DATE">481 BC</TIMEX3>
 	<TIMEX3 char_begin="8275" char_end="8285" type="DURATION">four years</TIMEX3>
 	<TIMEX3 char_begin="8487" char_end="8493" type="DATE">summer</TIMEX3>
-	<TIMEX3 char_begin="8498" char_end="8504" type="DATE">autumn</TIMEX3>
-	<TIMEX3 char_begin="8508" char_end="8514" type="DATE">481 BC</TIMEX3>
+	<TIMEX3 char_begin="8498" char_end="8514" type="DATE">autumn of 481 BC</TIMEX3>
 	<TIMEX3 char_begin="8645" char_end="8651" type="DATE">winter</TIMEX3>
 	<TIMEX3 char_begin="8653" char_end="8668" type="DATE">Early in spring</TIMEX3>
 	<TIMEX3 char_begin="9971" char_end="9977" type="DURATION">A year</TIMEX3>
@@ -46,26 +45,26 @@
 	<TIMEX3 char_begin="12715" char_end="12721" type="DATE">491 BC</TIMEX3>
 	<TIMEX3 char_begin="12780" char_end="12786" type="DATE">490 BC</TIMEX3>
 	<TIMEX3 char_begin="13593" char_end="13599" type="DATE">481 BC</TIMEX3>
-	<TIMEX3 char_begin="13823" char_end="13841" type="DATE">late autumn of 481</TIMEX3>
+	<TIMEX3 char_begin="13823" char_end="13844" type="DATE">late autumn of 481 BC</TIMEX3>
 	<TIMEX3 char_begin="14886" char_end="14898" type="DATE">Early 480 BC</TIMEX3>
-	<TIMEX3 char_begin="14962" char_end="14971" type="DATE">April 480</TIMEX3>
+	<TIMEX3 char_begin="14962" char_end="14974" type="DATE">April 480 BC</TIMEX3>
 	<TIMEX3 char_begin="15003" char_end="15008" type="DATE">march</TIMEX3>
 	<TIMEX3 char_begin="15027" char_end="15035" type="DURATION">3 months</TIMEX3>
 	<TIMEX3 char_begin="15248" char_end="15253" type="DATE">march</TIMEX3>
-	<TIMEX3 char_begin="15290" char_end="15307" type="DATE">the spring of 480</TIMEX3>
-	<TIMEX3 char_begin="16420" char_end="16430" type="DATE">August 480</TIMEX3>
+	<TIMEX3 char_begin="15290" char_end="15310" type="DATE">the spring of 480 BC</TIMEX3>
+	<TIMEX3 char_begin="16420" char_end="16433" type="DATE">August 480 BC</TIMEX3>
 	<TIMEX3 char_begin="17338" char_end="17348" type="DURATION">three days</TIMEX3>
 	<TIMEX3 char_begin="17662" char_end="17666" type="DURATION">days</TIMEX3>
-	<TIMEX3 char_begin="17763" char_end="17777" type="DURATION">the second day</TIMEX3>
+	<TIMEX3 char_begin="17752" char_end="17777" type="DATE">the end of the second day</TIMEX3>
 	<TIMEX3 char_begin="18064" char_end="18077" type="DATE">the final day</TIMEX3>
 	<TIMEX3 char_begin="18545" char_end="18555" type="DURATION">three days</TIMEX3>
 	<TIMEX3 char_begin="18579" char_end="18586" type="TIME">evening</TIMEX3>
-	<TIMEX3 char_begin="18846" char_end="18859" type="DATE">September 480</TIMEX3>
+	<TIMEX3 char_begin="18846" char_end="18862" type="DATE">September 480 BC</TIMEX3>
 	<TIMEX3 char_begin="19454" char_end="19457" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="19551" char_end="19554" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="19916" char_end="19925" type="DATE">September</TIMEX3>
 	<TIMEX3 char_begin="21120" char_end="21126" type="DATE">winter</TIMEX3>
-	<TIMEX3 char_begin="21129" char_end="21137" type="DATE">June 479</TIMEX3>
+	<TIMEX3 char_begin="21129" char_end="21140" type="DATE">June 479 BC</TIMEX3>
 	<TIMEX3 char_begin="21182" char_end="21188" type="DATE">winter</TIMEX3>
 	<TIMEX3 char_begin="21441" char_end="21447" type="DATE">Spring</TIMEX3>
 	<TIMEX3 char_begin="21923" char_end="21926" type="DATE">now</TIMEX3>
@@ -73,7 +72,7 @@
 	<TIMEX3 char_begin="22575" char_end="22587" type="DURATION">several days</TIMEX3>
 	<TIMEX3 char_begin="23395" char_end="23404" type="TIME">afternoon</TIMEX3>
 	<TIMEX3 char_begin="23655" char_end="23663" type="DATE">same day</TIMEX3>
-	<TIMEX3 char_begin="23853" char_end="23861" type="DATE">same day</TIMEX3>
+	<TIMEX3 char_begin="23849" char_end="23861" type="DATE">the same day</TIMEX3>
 	<TIMEX3 char_begin="23885" char_end="23888" type="DATE">may</TIMEX3>
 	<TIMEX3 char_begin="25123" char_end="25137" type="DURATION">several months</TIMEX3>
 	<TIMEX3 char_begin="25265" char_end="25270" type="TIME">night</TIMEX3>
@@ -90,7 +89,7 @@
 	<TIMEX3 char_begin="31467" char_end="31476" type="DURATION">18 months</TIMEX3>
 	<TIMEX3 char_begin="31620" char_end="31626" type="DATE">451 BC</TIMEX3>
 	<TIMEX3 char_begin="32566" char_end="32572" type="DATE">380 BC</TIMEX3>
-	<TIMEX3 char_begin="32586" char_end="32601" type="DURATION">the 4th century</TIMEX3>
+	<TIMEX3 char_begin="32586" char_end="32604" type="DATE">the 4th century BC</TIMEX3>
 	<TIMEX3 char_begin="32820" char_end="32830" type="DATE">previously</TIMEX3>
 	<TIMEX3 char_begin="33111" char_end="33117" type="DATE">466 BC</TIMEX3>
 	<TIMEX3 char_begin="33342" char_end="33348" type="DATE">461 BC</TIMEX3>

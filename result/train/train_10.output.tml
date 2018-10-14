@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
 	<TIMEX3 char_begin="15" char_end="21" type="DATE">264 BC</TIMEX3>
-	<TIMEX3 char_begin="138" char_end="153" type="DURATION">the 9th century</TIMEX3>
+	<TIMEX3 char_begin="124" char_end="153" type="DATE">the middle of the 9th century</TIMEX3>
 	<TIMEX3 char_begin="849" char_end="855" type="DATE">264 BC</TIMEX3>
 	<TIMEX3 char_begin="1247" char_end="1253" type="DATE">241 BC</TIMEX3>
 	<TIMEX3 char_begin="1277" char_end="1283" type="DATE">264 BC</TIMEX3>

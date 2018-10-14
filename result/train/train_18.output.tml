@@ -3,8 +3,7 @@
 	<TIMEX3 char_begin="0" char_end="4" type="DATE">1979</TIMEX3>
 	<TIMEX3 char_begin="75" char_end="88" type="DATE">December 1978</TIMEX3>
 	<TIMEX3 char_begin="203" char_end="209" type="DATE">spring</TIMEX3>
-	<TIMEX3 char_begin="214" char_end="220" type="DATE">summer</TIMEX3>
-	<TIMEX3 char_begin="224" char_end="228" type="DATE">1979</TIMEX3>
+	<TIMEX3 char_begin="214" char_end="228" type="DATE">summer of 1979</TIMEX3>
 	<TIMEX3 char_begin="340" char_end="354" type="DATE">April 14, 1979</TIMEX3>
 	<TIMEX3 char_begin="468" char_end="475" type="DATE">June 16</TIMEX3>
 	<TIMEX3 char_begin="769" char_end="775" type="DATE">July 7</TIMEX3>
@@ -62,7 +61,7 @@
 	<TIMEX3 char_begin="16675" char_end="16685" type="DATE">April 1985</TIMEX3>
 	<TIMEX3 char_begin="16690" char_end="16702" type="DATE">January 1987</TIMEX3>
 	<TIMEX3 char_begin="17446" char_end="17456" type="DATE">March 1982</TIMEX3>
-	<TIMEX3 char_begin="17539" char_end="17549" type="DATE">same month</TIMEX3>
+	<TIMEX3 char_begin="17535" char_end="17549" type="DATE">the same month</TIMEX3>
 	<TIMEX3 char_begin="17678" char_end="17687" type="DATE">June 1982</TIMEX3>
 	<TIMEX3 char_begin="17847" char_end="17864" type="DATE">September 4, 1985</TIMEX3>
 	<TIMEX3 char_begin="18459" char_end="18467" type="DATE">May 1985</TIMEX3>

@@ -71,7 +71,7 @@
 	<TIMEX3 char_begin="17713" char_end="17721" type="DATE">April 26</TIMEX3>
 	<TIMEX3 char_begin="17843" char_end="17848" type="DATE">May 4</TIMEX3>
 	<TIMEX3 char_begin="18013" char_end="18019" type="DATE">May 10</TIMEX3>
-	<TIMEX3 char_begin="18098" char_end="18106" type="DATE">same day</TIMEX3>
+	<TIMEX3 char_begin="18094" char_end="18106" type="DATE">the same day</TIMEX3>
 	<TIMEX3 char_begin="18189" char_end="18201" type="DATE">the next day</TIMEX3>
 	<TIMEX3 char_begin="18210" char_end="18213" type="DURATION">day</TIMEX3>
 	<TIMEX3 char_begin="18289" char_end="18302" type="DATE">June 23, 1865</TIMEX3>

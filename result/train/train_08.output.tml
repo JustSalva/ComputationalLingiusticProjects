@@ -52,8 +52,7 @@
 	<TIMEX3 char_begin="14698" char_end="14701" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="14806" char_end="14814" type="DATE">December</TIMEX3>
 	<TIMEX3 char_begin="14968" char_end="14977" type="DURATION">two years</TIMEX3>
-	<TIMEX3 char_begin="14982" char_end="14988" type="DATE">autumn</TIMEX3>
-	<TIMEX3 char_begin="14992" char_end="14996" type="DATE">1789</TIMEX3>
+	<TIMEX3 char_begin="14982" char_end="14996" type="DATE">autumn of 1789</TIMEX3>
 	<TIMEX3 char_begin="15041" char_end="15057" type="DATE">13 February 1790</TIMEX3>
 	<TIMEX3 char_begin="15235" char_end="15247" type="DATE">12 July 1790</TIMEX3>
 	<TIMEX3 char_begin="15556" char_end="15569" type="DATE">November 1790</TIMEX3>
@@ -83,7 +82,7 @@
 	<TIMEX3 char_begin="25465" char_end="25474" type="DURATION">1791-1792</TIMEX3>
 	<TIMEX3 char_begin="25543" char_end="25547" type="DATE">1791</TIMEX3>
 	<TIMEX3 char_begin="25780" char_end="25794" type="DATE">1 October 1791</TIMEX3>
-	<TIMEX3 char_begin="25823" char_end="25839" type="DURATION">less than a year</TIMEX3>
+	<TIMEX3 char_begin="25823" char_end="25845" type="DATE">less than a year later</TIMEX3>
 	<TIMEX3 char_begin="25867" char_end="25871" type="DATE">1911</TIMEX3>
 	<TIMEX3 char_begin="26473" char_end="26483" type="DURATION">eight days</TIMEX3>
 	<TIMEX3 char_begin="26568" char_end="26574" type="DURATION">a year</TIMEX3>

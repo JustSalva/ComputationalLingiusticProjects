@@ -110,7 +110,7 @@
 	<TIMEX3 char_begin="41588" char_end="41591" type="DURATION">day</TIMEX3>
 	<TIMEX3 char_begin="41595" char_end="41600" type="DATE">March</TIMEX3>
 	<TIMEX3 char_begin="41745" char_end="41758" type="DATE">June 17, 1962</TIMEX3>
-	<TIMEX3 char_begin="41767" char_end="41777" type="DATE">same month</TIMEX3>
+	<TIMEX3 char_begin="41763" char_end="41777" type="DATE">the same month</TIMEX3>
 	<TIMEX3 char_begin="41894" char_end="41909" type="DATE">the end of June</TIMEX3>
 	<TIMEX3 char_begin="42105" char_end="42115" type="DATE">1962, four</TIMEX3>
 	<TIMEX3 char_begin="42116" char_end="42120" type="DURATION">days</TIMEX3>

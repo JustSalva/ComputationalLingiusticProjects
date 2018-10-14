@@ -9,6 +9,6 @@
 	<TIMEX3 char_begin="916" char_end="925" type="DATE">This year</TIMEX3>
 	<TIMEX3 char_begin="1374" char_end="1397" type="DURATION">the past several months</TIMEX3>
 	<TIMEX3 char_begin="1492" char_end="1506" type="DATE">early December</TIMEX3>
-	<TIMEX3 char_begin="1508" char_end="1515" type="DURATION">a month</TIMEX3>
+	<TIMEX3 char_begin="1508" char_end="1523" type="DATE">a month earlier</TIMEX3>
 	<TIMEX3 char_begin="1561" char_end="1565" type="DURATION">year</TIMEX3>
 </TimeML>
