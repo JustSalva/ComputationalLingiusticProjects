@@ -73,8 +73,7 @@
 	<TIMEX3 char_begin="21452" char_end="21455" type="DURATION">day</TIMEX3>
 	<TIMEX3 char_begin="21569" char_end="21581" type="DATE">2 April 1791</TIMEX3>
 	<TIMEX3 char_begin="21594" char_end="21613" type="DATE">the end of the year</TIMEX3>
-	<TIMEX3 char_begin="21991" char_end="22011" type="TIME">the night of 20 June</TIMEX3>
-	<TIMEX3 char_begin="22012" char_end="22016" type="DATE">1791</TIMEX3>
+	<TIMEX3 char_begin="21991" char_end="22016" type="TIME">the night of 20 June 1791</TIMEX3>
 	<TIMEX3 char_begin="22135" char_end="22147" type="DATE">the next day</TIMEX3>
 	<TIMEX3 char_begin="22232" char_end="22239" type="DATE">21 June</TIMEX3>
 	<TIMEX3 char_begin="24606" char_end="24609" type="DATE">now</TIMEX3>
@@ -88,8 +87,7 @@
 	<TIMEX3 char_begin="25867" char_end="25871" type="DATE">1911</TIMEX3>
 	<TIMEX3 char_begin="26473" char_end="26483" type="DURATION">eight days</TIMEX3>
 	<TIMEX3 char_begin="26568" char_end="26574" type="DURATION">a year</TIMEX3>
-	<TIMEX3 char_begin="26661" char_end="26683" type="TIME">the night of 10 August</TIMEX3>
-	<TIMEX3 char_begin="26684" char_end="26688" type="DATE">1792</TIMEX3>
+	<TIMEX3 char_begin="26661" char_end="26688" type="TIME">the night of 10 August 1792</TIMEX3>
 	<TIMEX3 char_begin="26929" char_end="26936" type="DATE">present</TIMEX3>
 	<TIMEX3 char_begin="27133" char_end="27137" type="DATE">1400</TIMEX3>
 	<TIMEX3 char_begin="27391" char_end="27408" type="DATE">20 September 1792</TIMEX3>

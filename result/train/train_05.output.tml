@@ -63,8 +63,7 @@
 	<TIMEX3 char_begin="21125" char_end="21136" type="DURATION">three years</TIMEX3>
 	<TIMEX3 char_begin="21426" char_end="21436" type="DATE">March 1965</TIMEX3>
 	<TIMEX3 char_begin="21441" char_end="21454" type="DATE">November 1968</TIMEX3>
-	<TIMEX3 char_begin="22343" char_end="22368" type="TIME">the morning of 31 January</TIMEX3>
-	<TIMEX3 char_begin="22369" char_end="22373" type="DATE">1965</TIMEX3>
+	<TIMEX3 char_begin="22343" char_end="22373" type="TIME">the morning of 31 January 1965</TIMEX3>
 	<TIMEX3 char_begin="22555" char_end="22564" type="TIME">3:00 a.m.</TIMEX3>
 	<TIMEX3 char_begin="22647" char_end="22656" type="TIME">afternoon</TIMEX3>
 	<TIMEX3 char_begin="22717" char_end="22730" type="DATE">weeks earlier</TIMEX3>
@@ -200,8 +199,7 @@
 	<TIMEX3 char_begin="58043" char_end="58059" type="DATE">the end of April</TIMEX3>
 	<TIMEX3 char_begin="58215" char_end="58223" type="DATE">27 April</TIMEX3>
 	<TIMEX3 char_begin="58503" char_end="58507" type="DATE">Fall</TIMEX3>
-	<TIMEX3 char_begin="59043" char_end="59066" type="TIME">the morning of 29 April</TIMEX3>
-	<TIMEX3 char_begin="59067" char_end="59071" type="DATE">1975</TIMEX3>
+	<TIMEX3 char_begin="59043" char_end="59071" type="TIME">the morning of 29 April 1975</TIMEX3>
 	<TIMEX3 char_begin="59261" char_end="59269" type="DATE">29 April</TIMEX3>
 	<TIMEX3 char_begin="59692" char_end="59700" type="DATE">23 April</TIMEX3>
 	<TIMEX3 char_begin="59886" char_end="59895" type="DATE">Christmas</TIMEX3>

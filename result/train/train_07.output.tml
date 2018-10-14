@@ -210,7 +210,7 @@
 	<TIMEX3 char_begin="43111" char_end="43115" type="DATE">2010</TIMEX3>
 	<TIMEX3 char_begin="43134" char_end="43138" type="DATE">2011</TIMEX3>
 	<TIMEX3 char_begin="43144" char_end="43147" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="43465" char_end="43469" type="DURATION">year</TIMEX3>
+	<TIMEX3 char_begin="43459" char_end="43469" type="DATE">Sixth year</TIMEX3>
 	<TIMEX3 char_begin="43495" char_end="43508" type="DATE">April 9, 2009</TIMEX3>
 	<TIMEX3 char_begin="43545" char_end="43549" type="DATE">fall</TIMEX3>
 	<TIMEX3 char_begin="43660" char_end="43664" type="DATE">fall</TIMEX3>

@@ -15,8 +15,7 @@
 	<TIMEX3 char_begin="1384" char_end="1389" type="DURATION">month</TIMEX3>
 	<TIMEX3 char_begin="1514" char_end="1523" type="DATE">October 2</TIMEX3>
 	<TIMEX3 char_begin="1656" char_end="1666" type="DATE">early 1920</TIMEX3>
-	<TIMEX3 char_begin="1922" char_end="1934" type="DATE">early summer</TIMEX3>
-	<TIMEX3 char_begin="1935" char_end="1939" type="DATE">1919</TIMEX3>
+	<TIMEX3 char_begin="1922" char_end="1939" type="DATE">early summer 1919</TIMEX3>
 	<TIMEX3 char_begin="3054" char_end="3058" type="DATE">1919</TIMEX3>
 	<TIMEX3 char_begin="3521" char_end="3525" type="DATE">1919</TIMEX3>
 	<TIMEX3 char_begin="3985" char_end="3994" type="DATE">late 1919</TIMEX3>

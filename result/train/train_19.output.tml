@@ -6,8 +6,7 @@
 	<TIMEX3 char_begin="643" char_end="655" type="DATE">October 1907</TIMEX3>
 	<TIMEX3 char_begin="672" char_end="687" type="DATE">26 January 1910</TIMEX3>
 	<TIMEX3 char_begin="1044" char_end="1048" type="DATE">1904</TIMEX3>
-	<TIMEX3 char_begin="1383" char_end="1406" type="TIME">the night of 8 February</TIMEX3>
-	<TIMEX3 char_begin="1407" char_end="1411" type="DATE">1904</TIMEX3>
+	<TIMEX3 char_begin="1383" char_end="1411" type="TIME">the night of 8 February 1904</TIMEX3>
 	<TIMEX3 char_begin="1762" char_end="1769" type="TIME">morning</TIMEX3>
 	<TIMEX3 char_begin="2091" char_end="2104" type="DATE">13 April 1904</TIMEX3>
 	<TIMEX3 char_begin="2266" char_end="2282" type="DATE">the end of April</TIMEX3>
@@ -62,7 +61,7 @@
 	<TIMEX3 char_begin="12960" char_end="12968" type="DATE">May 1905</TIMEX3>
 	<TIMEX3 char_begin="13536" char_end="13539" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="14285" char_end="14291" type="DATE">advent</TIMEX3>
-	<TIMEX3 char_begin="14421" char_end="14428" type="DURATION">century</TIMEX3>
+	<TIMEX3 char_begin="14416" char_end="14428" type="DATE">21st century</TIMEX3>
 	<TIMEX3 char_begin="14448" char_end="14451" type="DATE">now</TIMEX3>
 	<TIMEX3 char_begin="14636" char_end="14645" type="DURATION">1904-1905</TIMEX3>
 </TimeML>

@@ -17,6 +17,7 @@
 7
 6   8   THE     <eps>
 7   10  OF  <eps>
+7   76  NOT_AMBIGUOUS_YEARS DATE
 8   9   SEASON  <eps>
 8   9   FALL  <eps>
 9   10  OF  <eps>
@@ -32,6 +33,7 @@
 15  16  MONTH_IN_LETTERS  TIME
 16
 16  17  NUMBER  TIME
+16  17  NOT_AMBIGUOUS_YEARS TIME
 17
 16  18  COMMA  <eps>
 18  17  NUMBER  TIME
@@ -178,5 +180,7 @@
 0   74  COMPARATOR  <eps>
 74  75  THAN    <eps>
 75  66  QUANTITY    <eps>
-
+76
+0   77 ORDINAL_NUMBERS <eps>
+77  78 TIME_UNIT_SINGULAR    DATE
 
