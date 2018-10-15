@@ -16,7 +16,7 @@ def list_creator(path_to_file):
     root = tree.getroot()
     list1 = []
     for child in root:
-        list1.append((child.text, child.get("type"), child.get("char_begin"), child.get("char_end")))
+        list1.append((child.text, child.get("type"), child.get("char_begin"), child.get("char_end"),child.get("tid")))
     return list1
 
 def list_compare_strict(list_old,list_new):
@@ -28,10 +28,21 @@ def list_compare_strict(list_old,list_new):
     to_not_be_seen_positions_list_old = []
     for num_old in range(len(list_old)):
         for num_new in range(len(list_new)):
-            if list_old[num_old]==list_new[num_new]:
+            if list_old[num_old][0:4]==list_new[num_new][0:4]:
                 cnt = cnt + 1
                 to_not_be_seen_positions_list_new.append(num_new)
                 to_not_be_seen_positions_list_old.append(num_old)
+    for num_old_1 in range(len(list_old)):
+        if '1000'<=list_old[num_old_1][0]<='2020' and list_old[num_old_1][1]=="DURATION" and num_old_1 not in to_not_be_seen_positions_list_old:
+            for num_old_2 in range(len(list_old)):
+                if list_old[num_old_1][0]!=list_old[num_old_2][0] and list_old[num_old_2][1]=="DURATION" and list_old[num_old_2][4]==list_old[num_old_1][4] and num_old_2 not in to_not_be_seen_positions_list_old:
+                    for num_new in range(len(list_new)):
+                        if list_new[num_new][0]==str(list_old[num_old_1][0])+"-"+str(list_old[num_old_2][0]) and list_new[num_new][1]=="DURATION" and num_new not in to_not_be_seen_positions_list_new:
+                            print "MATCHING AN YEAR INTERVAL!"
+                            cnt = cnt + 1
+                            to_not_be_seen_positions_list_old.append(num_old_1)
+                            to_not_be_seen_positions_list_old.append(num_old_2)
+                            to_not_be_seen_positions_list_new.append(num_new)
 
     for num_new in range(len(list_new)):
         if num_new not in to_not_be_seen_positions_list_new:
@@ -39,6 +50,7 @@ def list_compare_strict(list_old,list_new):
     for num_old in range(len(list_old)):
         if num_old not in to_not_be_seen_positions_list_old:
                 print "NOT MATCHED IN ORIGINAL FILE: ",list_old[num_old]
+    print "cnt is:", cnt
     return cnt
 
 def list_compare_relaxed(list_old,list_new):
@@ -51,10 +63,22 @@ def list_compare_relaxed(list_old,list_new):
     '''First of all strict matches must be counted and excluded for future matching'''
     for num_old in range(len(list_old)):
         for num_new in range(len(list_new)):
-            if list_old[num_old]==list_new[num_new] and num_old not in to_not_be_seen_positions_list_old and num_new not in to_not_be_seen_positions_list_new:
-                cnt = cnt+1
-                to_not_be_seen_positions_list_old.append(num_old)
+            if list_old[num_old][0:4]==list_new[num_new][0:4]:
+                cnt = cnt + 1
                 to_not_be_seen_positions_list_new.append(num_new)
+                to_not_be_seen_positions_list_old.append(num_old)
+    for num_old_1 in range(len(list_old)):
+        if '1000'<=list_old[num_old_1][0]<='2020' and list_old[num_old_1][1]=="DURATION" and num_old_1 not in to_not_be_seen_positions_list_old:
+            for num_old_2 in range(len(list_old)):
+                if list_old[num_old_1][0]!=list_old[num_old_2][0] and list_old[num_old_2][1]=="DURATION" and list_old[num_old_2][4]==list_old[num_old_1][4] and num_old_2 not in to_not_be_seen_positions_list_old:
+                    for num_new in range(len(list_new)):
+                        if list_new[num_new][0]==str(list_old[num_old_1][0])+"-"+str(list_old[num_old_2][0]) and list_new[num_new][1]=="DURATION" and num_new not in to_not_be_seen_positions_list_new:
+                            print "MATCHING AN YEAR INTERVAL!"
+                            cnt = cnt + 1
+                            to_not_be_seen_positions_list_old.append(num_old_1)
+                            to_not_be_seen_positions_list_old.append(num_old_2)
+                            to_not_be_seen_positions_list_new.append(num_new)
+
     '''Now we check the positions of expressions. Overlap variable is used to check char_begin and 
     char_end. max_length is used to memorize which is the longest variable to match in my expressions,
     in order to match with maximal length.'''
@@ -88,9 +112,9 @@ def list_compare_relaxed(list_old,list_new):
                 print "NOT MATCHED IN ORIGINAL FILE: ",list_old[num_old]
     return cnt
 
-'''
-file1=list_creator('/data/train/annotated/train_02.gold.tml')
-file2=list_creator('/ComputationalLingiusticProjects/train_02_output.tml')
+
+file1=list_creator('/home/fabio/Documenti/ComputationalLingiusticProjects/data/train/annotated/train_05.gold.tml')
+file2=list_creator('/home/fabio/Documenti/ComputationalLingiusticProjects/result/train/train_05.output.tml')
 
 #print file2
 print 'NUMBER OF EXPRESSIONS OF ORIGINAL GOLD STANDARD:'
@@ -99,7 +123,9 @@ print 'NUMBER OF EXPRESSIONS OF OUR GOLD STANDARD:'
 print len(file2)
 print 'NUMBER OF MATCHED TIME EXPRESSIONS IS:'
 print list_compare_strict(file1 , file2)
-'''
+print 'NUMBER OF MATCHED TIME EXPRESSIONS IS:'
+print list_compare_relaxed(file1 , file2)
+
 def counter_matches(original_file_path, my_file_path):
     '''Creating lists of elements from file path'''
     or_file = list_creator(original_file_path)
