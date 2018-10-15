@@ -1,223 +1,223 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="0" char_end="4" type="DATE">2003</TIMEX3>
-	<TIMEX3 char_begin="84" char_end="97" type="DATE">July 10, 2002</TIMEX3>
-	<TIMEX3 char_begin="969" char_end="976" type="TIME">5:34 AM</TIMEX3>
-	<TIMEX3 char_begin="993" char_end="1007" type="DATE">March 20, 2003</TIMEX3>
-	<TIMEX3 char_begin="1009" char_end="1032" type="TIME">9:34 p.m., March 19 EST</TIMEX3>
-	<TIMEX3 char_begin="1075" char_end="1079" type="DATE">2003</TIMEX3>
-	<TIMEX3 char_begin="2640" char_end="2654" type="DATE">a year earlier</TIMEX3>
-	<TIMEX3 char_begin="2873" char_end="2880" type="DATE">April 9</TIMEX3>
-	<TIMEX3 char_begin="2922" char_end="2929" type="DURATION">24-year</TIMEX3>
-	<TIMEX3 char_begin="3148" char_end="3161" type="DATE">November 2008</TIMEX3>
-	<TIMEX3 char_begin="3264" char_end="3268" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="3813" char_end="3821" type="DATE">April 15</TIMEX3>
-	<TIMEX3 char_begin="3910" char_end="3915" type="DATE">March</TIMEX3>
-	<TIMEX3 char_begin="4564" char_end="4568" type="DATE">1483</TIMEX3>
-	<TIMEX3 char_begin="4570" char_end="4582" type="DATE">May 22, 2003</TIMEX3>
-	<TIMEX3 char_begin="4747" char_end="4761" type="DATE">April 21, 2003</TIMEX3>
-	<TIMEX3 char_begin="4788" char_end="4801" type="DATE">June 28, 2004</TIMEX3>
-	<TIMEX3 char_begin="4918" char_end="4930" type="DATE">May 11, 2003</TIMEX3>
-	<TIMEX3 char_begin="5022" char_end="5031" type="DATE">July 2004</TIMEX3>
-	<TIMEX3 char_begin="5257" char_end="5261" type="DATE">2004</TIMEX3>
-	<TIMEX3 char_begin="5364" char_end="5375" type="DATE">May 1, 2003</TIMEX3>
-	<TIMEX3 char_begin="5554" char_end="5557" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="6645" char_end="6661" type="DATE">December 5, 2006</TIMEX3>
-	<TIMEX3 char_begin="7098" char_end="7102" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="7530" char_end="7536" type="DATE">summer</TIMEX3>
-	<TIMEX3 char_begin="7567" char_end="7582" type="DATE">the end of 2003</TIMEX3>
-	<TIMEX3 char_begin="7808" char_end="7813" type="DURATION">month</TIMEX3>
-	<TIMEX3 char_begin="8354" char_end="8362" type="DURATION">a decade</TIMEX3>
-	<TIMEX3 char_begin="8565" char_end="8583" type="DATE">the summer of 2003</TIMEX3>
-	<TIMEX3 char_begin="8681" char_end="8688" type="DATE">July 22</TIMEX3>
-	<TIMEX3 char_begin="9034" char_end="9051" type="DATE">December 13, 2003</TIMEX3>
-	<TIMEX3 char_begin="9091" char_end="9095" type="TIME">Dawn</TIMEX3>
-	<TIMEX3 char_begin="9676" char_end="9682" type="DATE">future</TIMEX3>
-	<TIMEX3 char_begin="10340" char_end="10344" type="DATE">2004</TIMEX3>
-	<TIMEX3 char_begin="10372" char_end="10389" type="DATE">The start of 2004</TIMEX3>
-	<TIMEX3 char_begin="10604" char_end="10610" type="DATE">Spring</TIMEX3>
-	<TIMEX3 char_begin="10623" char_end="10627" type="DATE">2004</TIMEX3>
-	<TIMEX3 char_begin="10987" char_end="11006" type="DURATION">the next few months</TIMEX3>
-	<TIMEX3 char_begin="11539" char_end="11553" type="DATE">March 31, 2004</TIMEX3>
-	<TIMEX3 char_begin="12273" char_end="12283" type="DATE">April 2004</TIMEX3>
-	<TIMEX3 char_begin="12314" char_end="12327" type="DATE">November 2004</TIMEX3>
-	<TIMEX3 char_begin="12856" char_end="12862" type="DURATION">46-day</TIMEX3>
-	<TIMEX3 char_begin="13137" char_end="13146" type="DATE">this year</TIMEX3>
-	<TIMEX3 char_begin="13257" char_end="13267" type="DATE">April 2004</TIMEX3>
-	<TIMEX3 char_begin="13445" char_end="13455" type="DURATION">60 Minutes</TIMEX3>
-	<TIMEX3 char_begin="13472" char_end="13480" type="DATE">April 28</TIMEX3>
-	<TIMEX3 char_begin="13553" char_end="13561" type="DATE">April 30</TIMEX3>
-	<TIMEX3 char_begin="13775" char_end="13779" type="DATE">2005</TIMEX3>
-	<TIMEX3 char_begin="13823" char_end="13833" type="DATE">January 31</TIMEX3>
-	<TIMEX3 char_begin="14061" char_end="14071" type="DATE">February 4</TIMEX3>
-	<TIMEX3 char_begin="14227" char_end="14241" type="DATE">the next month</TIMEX3>
-	<TIMEX3 char_begin="14243" char_end="14251" type="DATE">February</TIMEX3>
-	<TIMEX3 char_begin="14255" char_end="14260" type="DATE">April</TIMEX3>
-	<TIMEX3 char_begin="14294" char_end="14300" type="DURATION">months</TIMEX3>
-	<TIMEX3 char_begin="14328" char_end="14336" type="DATE">November</TIMEX3>
-	<TIMEX3 char_begin="14341" char_end="14348" type="DATE">January</TIMEX3>
-	<TIMEX3 char_begin="14386" char_end="14391" type="DURATION">a day</TIMEX3>
-	<TIMEX3 char_begin="14507" char_end="14510" type="DATE">May</TIMEX3>
-	<TIMEX3 char_begin="14529" char_end="14534" type="DURATION">month</TIMEX3>
-	<TIMEX3 char_begin="14794" char_end="14799" type="DURATION">month</TIMEX3>
-	<TIMEX3 char_begin="14828" char_end="14846" type="DATE">The summer of 2005</TIMEX3>
-	<TIMEX3 char_begin="14991" char_end="14997" type="DATE">autumn</TIMEX3>
-	<TIMEX3 char_begin="15103" char_end="15113" type="DATE">October 15</TIMEX3>
-	<TIMEX3 char_begin="15206" char_end="15214" type="DATE">December</TIMEX3>
-	<TIMEX3 char_begin="15313" char_end="15317" type="DATE">2005</TIMEX3>
-	<TIMEX3 char_begin="15381" char_end="15398" type="DATE">the previous year</TIMEX3>
-	<TIMEX3 char_begin="15401" char_end="15405" type="DATE">2006</TIMEX3>
-	<TIMEX3 char_begin="15449" char_end="15470" type="DATE">The beginning of 2006</TIMEX3>
-	<TIMEX3 char_begin="15707" char_end="15724" type="DATE">February 22, 2006</TIMEX3>
-	<TIMEX3 char_begin="15977" char_end="15995" type="DATE">the following days</TIMEX3>
-	<TIMEX3 char_begin="16050" char_end="16061" type="DATE">February 23</TIMEX3>
-	<TIMEX3 char_begin="16254" char_end="16257" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="16262" char_end="16266" type="DATE">2006</TIMEX3>
-	<TIMEX3 char_begin="16345" char_end="16352" type="DATE">current</TIMEX3>
-	<TIMEX3 char_begin="16387" char_end="16399" type="DATE">May 20, 2006</TIMEX3>
-	<TIMEX3 char_begin="16504" char_end="16517" type="DATE">December 2005</TIMEX3>
-	<TIMEX3 char_begin="16684" char_end="16695" type="DATE">November 23</TIMEX3>
-	<TIMEX3 char_begin="17128" char_end="17144" type="DATE">December 6, 2006</TIMEX3>
-	<TIMEX3 char_begin="17606" char_end="17617" type="DATE">December 18</TIMEX3>
-	<TIMEX3 char_begin="17691" char_end="17697" type="DURATION">a week</TIMEX3>
-	<TIMEX3 char_begin="17742" char_end="17746" type="DATE">2005</TIMEX3>
-	<TIMEX3 char_begin="17957" char_end="17970" type="DATE">November 2005</TIMEX3>
-	<TIMEX3 char_begin="18115" char_end="18132" type="DATE">December 30, 2006</TIMEX3>
-	<TIMEX3 char_begin="18229" char_end="18233" type="DATE">2007</TIMEX3>
-	<TIMEX3 char_begin="18256" char_end="18272" type="DATE">January 10, 2007</TIMEX3>
-	<TIMEX3 char_begin="18453" char_end="18469" type="DATE">January 23, 2007</TIMEX3>
-	<TIMEX3 char_begin="18477" char_end="18481" type="DATE">2007</TIMEX3>
-	<TIMEX3 char_begin="18616" char_end="18633" type="DATE">February 10, 2007</TIMEX3>
-	<TIMEX3 char_begin="18956" char_end="18960" type="DATE">2007</TIMEX3>
-	<TIMEX3 char_begin="19022" char_end="19034" type="DATE">May 10, 2007</TIMEX3>
-	<TIMEX3 char_begin="19172" char_end="19184" type="DATE">June 3, 2007</TIMEX3>
-	<TIMEX3 char_begin="19431" char_end="19448" type="DATE">December 18, 2007</TIMEX3>
-	<TIMEX3 char_begin="19612" char_end="19622" type="DATE">early 2007</TIMEX3>
-	<TIMEX3 char_begin="19822" char_end="19828" type="DATE">autumn</TIMEX3>
-	<TIMEX3 char_begin="19989" char_end="19998" type="DATE">late 2008</TIMEX3>
-	<TIMEX3 char_begin="20003" char_end="20007" type="DATE">July</TIMEX3>
-	<TIMEX3 char_begin="20249" char_end="20267" type="DATE">September 10, 2007</TIMEX3>
-	<TIMEX3 char_begin="20338" char_end="20349" type="DATE">next summer</TIMEX3>
-	<TIMEX3 char_begin="20390" char_end="20399" type="DATE">September</TIMEX3>
-	<TIMEX3 char_begin="20406" char_end="20418" type="DATE">September 14</TIMEX3>
-	<TIMEX3 char_begin="20517" char_end="20531" type="DATE">Christmas 2007</TIMEX3>
-	<TIMEX3 char_begin="20574" char_end="20583" type="DATE">July 2008</TIMEX3>
-	<TIMEX3 char_begin="20659" char_end="20680" type="DATE">the beginning of 2007</TIMEX3>
-	<TIMEX3 char_begin="20883" char_end="20893" type="DATE">March 2008</TIMEX3>
-	<TIMEX3 char_begin="21186" char_end="21200" type="DATE">previous weeks</TIMEX3>
-	<TIMEX3 char_begin="21282" char_end="21288" type="DURATION">28-day</TIMEX3>
-	<TIMEX3 char_begin="21680" char_end="21701" type="DURATION">the first seven weeks</TIMEX3>
-	<TIMEX3 char_begin="21816" char_end="21831" type="DATE">August 14, 2007</TIMEX3>
-	<TIMEX3 char_begin="22191" char_end="22194" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="22259" char_end="22263" type="DURATION">year</TIMEX3>
-	<TIMEX3 char_begin="22520" char_end="22538" type="DATE">September 13, 2007</TIMEX3>
-	<TIMEX3 char_begin="22927" char_end="22935" type="DATE">Thursday</TIMEX3>
-	<TIMEX3 char_begin="22984" char_end="22991" type="DURATION">a month</TIMEX3>
-	<TIMEX3 char_begin="23068" char_end="23076" type="DATE">May 2007</TIMEX3>
-	<TIMEX3 char_begin="23155" char_end="23169" type="DURATION">the first year</TIMEX3>
-	<TIMEX3 char_begin="23471" char_end="23479" type="DATE">February</TIMEX3>
-	<TIMEX3 char_begin="23709" char_end="23722" type="DATE">December 2006</TIMEX3>
-	<TIMEX3 char_begin="23727" char_end="23736" type="DATE">late 2007</TIMEX3>
-	<TIMEX3 char_begin="23830" char_end="23834" type="DATE">2006</TIMEX3>
-	<TIMEX3 char_begin="23969" char_end="23976" type="DATE">2007-08</TIMEX3>
-	<TIMEX3 char_begin="24034" char_end="24041" type="DATE">2006-07</TIMEX3>
-	<TIMEX3 char_begin="24116" char_end="24130" type="DATE">September 2008</TIMEX3>
-	<TIMEX3 char_begin="24841" char_end="24846" type="TIME">night</TIMEX3>
-	<TIMEX3 char_begin="25356" char_end="25365" type="DURATION">2007-2008</TIMEX3>
-	<TIMEX3 char_begin="26221" char_end="26236" type="DATE">the end of 2008</TIMEX3>
-	<TIMEX3 char_begin="26486" char_end="26493" type="DATE">present</TIMEX3>
-	<TIMEX3 char_begin="26897" char_end="26901" type="DATE">2007</TIMEX3>
-	<TIMEX3 char_begin="27173" char_end="27182" type="DATE">August 16</TIMEX3>
-	<TIMEX3 char_begin="27253" char_end="27262" type="DATE">August 23</TIMEX3>
-	<TIMEX3 char_begin="27833" char_end="27851" type="DATE">the Autumn of 2007</TIMEX3>
-	<TIMEX3 char_begin="27856" char_end="27873" type="DATE">November 21, 2007</TIMEX3>
-	<TIMEX3 char_begin="28360" char_end="28376" type="DATE">the fall of 2007</TIMEX3>
-	<TIMEX3 char_begin="28706" char_end="28714" type="DATE">November</TIMEX3>
-	<TIMEX3 char_begin="29292" char_end="29310" type="DATE">September 17, 2007</TIMEX3>
-	<TIMEX3 char_begin="29701" char_end="29710" type="DATE">currently</TIMEX3>
-	<TIMEX3 char_begin="29861" char_end="29864" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="29917" char_end="29921" type="DATE">2008</TIMEX3>
-	<TIMEX3 char_begin="29952" char_end="29956" type="DATE">2008</TIMEX3>
-	<TIMEX3 char_begin="30133" char_end="30146" type="DATE">December 2008</TIMEX3>
-	<TIMEX3 char_begin="30242" char_end="30254" type="DATE">January 2007</TIMEX3>
-	<TIMEX3 char_begin="30383" char_end="30387" type="DATE">2008</TIMEX3>
-	<TIMEX3 char_begin="30423" char_end="30427" type="DATE">2007</TIMEX3>
-	<TIMEX3 char_begin="30511" char_end="30524" type="DATE">November 2008</TIMEX3>
-	<TIMEX3 char_begin="30545" char_end="30557" type="DATE">January 2007</TIMEX3>
-	<TIMEX3 char_begin="30640" char_end="30644" type="DURATION">week</TIMEX3>
-	<TIMEX3 char_begin="30667" char_end="30671" type="DATE">2008</TIMEX3>
-	<TIMEX3 char_begin="30713" char_end="30724" type="DATE">summer 2007</TIMEX3>
-	<TIMEX3 char_begin="30787" char_end="30792" type="DURATION">month</TIMEX3>
-	<TIMEX3 char_begin="30815" char_end="30819" type="DATE">2008</TIMEX3>
-	<TIMEX3 char_begin="30850" char_end="30861" type="DATE">summer 2007</TIMEX3>
-	<TIMEX3 char_begin="30939" char_end="30945" type="DATE">spring</TIMEX3>
-	<TIMEX3 char_begin="31019" char_end="31029" type="DATE">previously</TIMEX3>
-	<TIMEX3 char_begin="31089" char_end="31094" type="DATE">March</TIMEX3>
-	<TIMEX3 char_begin="31251" char_end="31258" type="DATE">October</TIMEX3>
-	<TIMEX3 char_begin="31550" char_end="31554" type="DATE">2008</TIMEX3>
-	<TIMEX3 char_begin="31735" char_end="31738" type="DATE">May</TIMEX3>
-	<TIMEX3 char_begin="31991" char_end="32010" type="DATE">the end of the year</TIMEX3>
-	<TIMEX3 char_begin="32136" char_end="32147" type="DATE">February 21</TIMEX3>
-	<TIMEX3 char_begin="32235" char_end="32247" type="DURATION">the nine day</TIMEX3>
-	<TIMEX3 char_begin="32406" char_end="32410" type="DATE">1995</TIMEX3>
-	<TIMEX3 char_begin="32637" char_end="32648" type="DATE">February 29</TIMEX3>
-	<TIMEX3 char_begin="32676" char_end="32686" type="DATE">the future</TIMEX3>
-	<TIMEX3 char_begin="32984" char_end="32988" type="DATE">2008</TIMEX3>
-	<TIMEX3 char_begin="33130" char_end="33143" type="DATE">December 2008</TIMEX3>
-	<TIMEX3 char_begin="33146" char_end="33152" type="DATE">Spring</TIMEX3>
-	<TIMEX3 char_begin="33185" char_end="33201" type="DATE">the end of March</TIMEX3>
-	<TIMEX3 char_begin="34080" char_end="34094" type="DATE">March 31, 2008</TIMEX3>
-	<TIMEX3 char_begin="34178" char_end="34190" type="DATE">May 12, 2008</TIMEX3>
-	<TIMEX3 char_begin="34341" char_end="34344" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="34693" char_end="34700" type="DURATION">one day</TIMEX3>
-	<TIMEX3 char_begin="34706" char_end="34716" type="DATE">late April</TIMEX3>
-	<TIMEX3 char_begin="34767" char_end="34774" type="DATE">January</TIMEX3>
-	<TIMEX3 char_begin="34810" char_end="34818" type="DATE">May 2007</TIMEX3>
-	<TIMEX3 char_begin="34828" char_end="34837" type="DATE">early May</TIMEX3>
-	<TIMEX3 char_begin="34921" char_end="34928" type="DURATION">40 days</TIMEX3>
-	<TIMEX3 char_begin="35148" char_end="35161" type="DATE">April 8, 2008</TIMEX3>
-	<TIMEX3 char_begin="36091" char_end="36102" type="DATE">this spring</TIMEX3>
-	<TIMEX3 char_begin="36235" char_end="36242" type="DATE">current</TIMEX3>
-	<TIMEX3 char_begin="36387" char_end="36396" type="DATE">This year</TIMEX3>
-	<TIMEX3 char_begin="36974" char_end="36980" type="DATE">summer</TIMEX3>
-	<TIMEX3 char_begin="37307" char_end="37316" type="DATE">late 2008</TIMEX3>
-	<TIMEX3 char_begin="37427" char_end="37440" type="DATE">June 30, 2009</TIMEX3>
-	<TIMEX3 char_begin="37501" char_end="37518" type="DATE">December 31, 2011</TIMEX3>
-	<TIMEX3 char_begin="37648" char_end="37651" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="37699" char_end="37717" type="DATE">the middle of 2010</TIMEX3>
-	<TIMEX3 char_begin="37781" char_end="37789" type="DURATION">24 hours</TIMEX3>
-	<TIMEX3 char_begin="38037" char_end="38040" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="38395" char_end="38404" type="DATE">currently</TIMEX3>
-	<TIMEX3 char_begin="38680" char_end="38697" type="DATE">November 16, 2008</TIMEX3>
-	<TIMEX3 char_begin="38741" char_end="38758" type="DATE">November 27, 2008</TIMEX3>
-	<TIMEX3 char_begin="38808" char_end="38824" type="DATE">December 4, 2008</TIMEX3>
-	<TIMEX3 char_begin="39065" char_end="39069" type="DATE">2011</TIMEX3>
-	<TIMEX3 char_begin="39407" char_end="39428" type="DURATION">five years previously</TIMEX3>
-	<TIMEX3 char_begin="39577" char_end="39581" type="DATE">2011</TIMEX3>
-	<TIMEX3 char_begin="39586" char_end="39602" type="DATE">December 4, 2008</TIMEX3>
-	<TIMEX3 char_begin="39724" char_end="39728" type="DATE">2011</TIMEX3>
-	<TIMEX3 char_begin="40268" char_end="40275" type="DATE">present</TIMEX3>
-	<TIMEX3 char_begin="40398" char_end="40404" type="DATE">Friday</TIMEX3>
-	<TIMEX3 char_begin="40640" char_end="40649" type="DATE">next year</TIMEX3>
-	<TIMEX3 char_begin="40652" char_end="40656" type="DATE">2009</TIMEX3>
-	<TIMEX3 char_begin="40718" char_end="40733" type="DATE">January 1, 2009</TIMEX3>
-	<TIMEX3 char_begin="41013" char_end="41022" type="DATE">January 1</TIMEX3>
-	<TIMEX3 char_begin="41535" char_end="41551" type="DATE">January 31, 2009</TIMEX3>
-	<TIMEX3 char_begin="42198" char_end="42215" type="DATE">February 27, 2009</TIMEX3>
-	<TIMEX3 char_begin="42399" char_end="42414" type="DATE">August 31, 2010</TIMEX3>
-	<TIMEX3 char_begin="42580" char_end="42583" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="42597" char_end="42612" type="DATE">the end of 2011</TIMEX3>
-	<TIMEX3 char_begin="43111" char_end="43115" type="DATE">2010</TIMEX3>
-	<TIMEX3 char_begin="43134" char_end="43138" type="DATE">2011</TIMEX3>
-	<TIMEX3 char_begin="43144" char_end="43147" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="43459" char_end="43469" type="DATE">Sixth year</TIMEX3>
-	<TIMEX3 char_begin="43495" char_end="43508" type="DATE">April 9, 2009</TIMEX3>
-	<TIMEX3 char_begin="43545" char_end="43549" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="43660" char_end="43664" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="44268" char_end="44282" type="DATE">April 30, 2009</TIMEX3>
-	<TIMEX3 char_begin="44617" char_end="44632" type="DATE">the end of June</TIMEX3>
-	<TIMEX3 char_begin="44686" char_end="44699" type="DATE">June 29, 2009</TIMEX3>
-	<TIMEX3 char_begin="44739" char_end="44756" type="DATE">November 30, 2009</TIMEX3>
-	<TIMEX3 char_begin="44866" char_end="44874" type="DATE">November</TIMEX3>
-	<TIMEX3 char_begin="44885" char_end="44889" type="DATE">2003</TIMEX3>
+	<TIMEX3 char_begin="0" char_end="4" tid="" type="DATE" value="">2003</TIMEX3>
+	<TIMEX3 char_begin="84" char_end="97" tid="" type="DATE" value="">July 10, 2002</TIMEX3>
+	<TIMEX3 char_begin="969" char_end="976" tid="" type="TIME" value="">5:34 AM</TIMEX3>
+	<TIMEX3 char_begin="993" char_end="1007" tid="" type="DATE" value="">March 20, 2003</TIMEX3>
+	<TIMEX3 char_begin="1009" char_end="1032" tid="" type="TIME" value="">9:34 p.m., March 19 EST</TIMEX3>
+	<TIMEX3 char_begin="1075" char_end="1079" tid="" type="DATE" value="">2003</TIMEX3>
+	<TIMEX3 char_begin="2640" char_end="2654" tid="" type="DATE" value="">a year earlier</TIMEX3>
+	<TIMEX3 char_begin="2873" char_end="2880" tid="" type="DATE" value="">April 9</TIMEX3>
+	<TIMEX3 char_begin="2922" char_end="2929" tid="" type="DURATION" value="">24-year</TIMEX3>
+	<TIMEX3 char_begin="3148" char_end="3161" tid="" type="DATE" value="">November 2008</TIMEX3>
+	<TIMEX3 char_begin="3264" char_end="3268" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="3813" char_end="3821" tid="" type="DATE" value="">April 15</TIMEX3>
+	<TIMEX3 char_begin="3910" char_end="3915" tid="" type="DATE" value="">March</TIMEX3>
+	<TIMEX3 char_begin="4564" char_end="4568" tid="" type="DATE" value="">1483</TIMEX3>
+	<TIMEX3 char_begin="4570" char_end="4582" tid="" type="DATE" value="">May 22, 2003</TIMEX3>
+	<TIMEX3 char_begin="4747" char_end="4761" tid="" type="DATE" value="">April 21, 2003</TIMEX3>
+	<TIMEX3 char_begin="4788" char_end="4801" tid="" type="DATE" value="">June 28, 2004</TIMEX3>
+	<TIMEX3 char_begin="4918" char_end="4930" tid="" type="DATE" value="">May 11, 2003</TIMEX3>
+	<TIMEX3 char_begin="5022" char_end="5031" tid="" type="DATE" value="">July 2004</TIMEX3>
+	<TIMEX3 char_begin="5257" char_end="5261" tid="" type="DATE" value="">2004</TIMEX3>
+	<TIMEX3 char_begin="5364" char_end="5375" tid="" type="DATE" value="">May 1, 2003</TIMEX3>
+	<TIMEX3 char_begin="5554" char_end="5557" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="6645" char_end="6661" tid="" type="DATE" value="">December 5, 2006</TIMEX3>
+	<TIMEX3 char_begin="7098" char_end="7102" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="7530" char_end="7536" tid="" type="DATE" value="">summer</TIMEX3>
+	<TIMEX3 char_begin="7567" char_end="7582" tid="" type="DATE" value="">the end of 2003</TIMEX3>
+	<TIMEX3 char_begin="7808" char_end="7813" tid="" type="DURATION" value="">month</TIMEX3>
+	<TIMEX3 char_begin="8354" char_end="8362" tid="" type="DURATION" value="">a decade</TIMEX3>
+	<TIMEX3 char_begin="8565" char_end="8583" tid="" type="DATE" value="">the summer of 2003</TIMEX3>
+	<TIMEX3 char_begin="8681" char_end="8688" tid="" type="DATE" value="">July 22</TIMEX3>
+	<TIMEX3 char_begin="9034" char_end="9051" tid="" type="DATE" value="">December 13, 2003</TIMEX3>
+	<TIMEX3 char_begin="9091" char_end="9095" tid="" type="TIME" value="">Dawn</TIMEX3>
+	<TIMEX3 char_begin="9676" char_end="9682" tid="" type="DATE" value="">future</TIMEX3>
+	<TIMEX3 char_begin="10340" char_end="10344" tid="" type="DATE" value="">2004</TIMEX3>
+	<TIMEX3 char_begin="10372" char_end="10389" tid="" type="DATE" value="">The start of 2004</TIMEX3>
+	<TIMEX3 char_begin="10604" char_end="10610" tid="" type="DATE" value="">Spring</TIMEX3>
+	<TIMEX3 char_begin="10623" char_end="10627" tid="" type="DATE" value="">2004</TIMEX3>
+	<TIMEX3 char_begin="10987" char_end="11006" tid="" type="DURATION" value="">the next few months</TIMEX3>
+	<TIMEX3 char_begin="11539" char_end="11553" tid="" type="DATE" value="">March 31, 2004</TIMEX3>
+	<TIMEX3 char_begin="12273" char_end="12283" tid="" type="DATE" value="">April 2004</TIMEX3>
+	<TIMEX3 char_begin="12314" char_end="12327" tid="" type="DATE" value="">November 2004</TIMEX3>
+	<TIMEX3 char_begin="12856" char_end="12862" tid="" type="DURATION" value="">46-day</TIMEX3>
+	<TIMEX3 char_begin="13137" char_end="13146" tid="" type="DATE" value="">this year</TIMEX3>
+	<TIMEX3 char_begin="13257" char_end="13267" tid="" type="DATE" value="">April 2004</TIMEX3>
+	<TIMEX3 char_begin="13445" char_end="13455" tid="" type="DURATION" value="">60 Minutes</TIMEX3>
+	<TIMEX3 char_begin="13472" char_end="13480" tid="" type="DATE" value="">April 28</TIMEX3>
+	<TIMEX3 char_begin="13553" char_end="13561" tid="" type="DATE" value="">April 30</TIMEX3>
+	<TIMEX3 char_begin="13775" char_end="13779" tid="" type="DATE" value="">2005</TIMEX3>
+	<TIMEX3 char_begin="13823" char_end="13833" tid="" type="DATE" value="">January 31</TIMEX3>
+	<TIMEX3 char_begin="14061" char_end="14071" tid="" type="DATE" value="">February 4</TIMEX3>
+	<TIMEX3 char_begin="14227" char_end="14241" tid="" type="DATE" value="">the next month</TIMEX3>
+	<TIMEX3 char_begin="14243" char_end="14251" tid="" type="DATE" value="">February</TIMEX3>
+	<TIMEX3 char_begin="14255" char_end="14260" tid="" type="DATE" value="">April</TIMEX3>
+	<TIMEX3 char_begin="14294" char_end="14300" tid="" type="DURATION" value="">months</TIMEX3>
+	<TIMEX3 char_begin="14328" char_end="14336" tid="" type="DATE" value="">November</TIMEX3>
+	<TIMEX3 char_begin="14341" char_end="14348" tid="" type="DATE" value="">January</TIMEX3>
+	<TIMEX3 char_begin="14386" char_end="14391" tid="" type="DURATION" value="">a day</TIMEX3>
+	<TIMEX3 char_begin="14507" char_end="14510" tid="" type="DATE" value="">May</TIMEX3>
+	<TIMEX3 char_begin="14529" char_end="14534" tid="" type="DURATION" value="">month</TIMEX3>
+	<TIMEX3 char_begin="14794" char_end="14799" tid="" type="DURATION" value="">month</TIMEX3>
+	<TIMEX3 char_begin="14828" char_end="14846" tid="" type="DATE" value="">The summer of 2005</TIMEX3>
+	<TIMEX3 char_begin="14991" char_end="14997" tid="" type="DATE" value="">autumn</TIMEX3>
+	<TIMEX3 char_begin="15103" char_end="15113" tid="" type="DATE" value="">October 15</TIMEX3>
+	<TIMEX3 char_begin="15206" char_end="15214" tid="" type="DATE" value="">December</TIMEX3>
+	<TIMEX3 char_begin="15313" char_end="15317" tid="" type="DATE" value="">2005</TIMEX3>
+	<TIMEX3 char_begin="15381" char_end="15398" tid="" type="DATE" value="">the previous year</TIMEX3>
+	<TIMEX3 char_begin="15401" char_end="15405" tid="" type="DATE" value="">2006</TIMEX3>
+	<TIMEX3 char_begin="15449" char_end="15470" tid="" type="DATE" value="">The beginning of 2006</TIMEX3>
+	<TIMEX3 char_begin="15707" char_end="15724" tid="" type="DATE" value="">February 22, 2006</TIMEX3>
+	<TIMEX3 char_begin="15977" char_end="15995" tid="" type="DATE" value="">the following days</TIMEX3>
+	<TIMEX3 char_begin="16050" char_end="16061" tid="" type="DATE" value="">February 23</TIMEX3>
+	<TIMEX3 char_begin="16254" char_end="16257" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="16262" char_end="16266" tid="" type="DATE" value="">2006</TIMEX3>
+	<TIMEX3 char_begin="16345" char_end="16352" tid="" type="DATE" value="">current</TIMEX3>
+	<TIMEX3 char_begin="16387" char_end="16399" tid="" type="DATE" value="">May 20, 2006</TIMEX3>
+	<TIMEX3 char_begin="16504" char_end="16517" tid="" type="DATE" value="">December 2005</TIMEX3>
+	<TIMEX3 char_begin="16684" char_end="16695" tid="" type="DATE" value="">November 23</TIMEX3>
+	<TIMEX3 char_begin="17128" char_end="17144" tid="" type="DATE" value="">December 6, 2006</TIMEX3>
+	<TIMEX3 char_begin="17606" char_end="17617" tid="" type="DATE" value="">December 18</TIMEX3>
+	<TIMEX3 char_begin="17691" char_end="17697" tid="" type="DURATION" value="">a week</TIMEX3>
+	<TIMEX3 char_begin="17742" char_end="17746" tid="" type="DATE" value="">2005</TIMEX3>
+	<TIMEX3 char_begin="17957" char_end="17970" tid="" type="DATE" value="">November 2005</TIMEX3>
+	<TIMEX3 char_begin="18115" char_end="18132" tid="" type="DATE" value="">December 30, 2006</TIMEX3>
+	<TIMEX3 char_begin="18229" char_end="18233" tid="" type="DATE" value="">2007</TIMEX3>
+	<TIMEX3 char_begin="18256" char_end="18272" tid="" type="DATE" value="">January 10, 2007</TIMEX3>
+	<TIMEX3 char_begin="18453" char_end="18469" tid="" type="DATE" value="">January 23, 2007</TIMEX3>
+	<TIMEX3 char_begin="18477" char_end="18481" tid="" type="DATE" value="">2007</TIMEX3>
+	<TIMEX3 char_begin="18616" char_end="18633" tid="" type="DATE" value="">February 10, 2007</TIMEX3>
+	<TIMEX3 char_begin="18956" char_end="18960" tid="" type="DATE" value="">2007</TIMEX3>
+	<TIMEX3 char_begin="19022" char_end="19034" tid="" type="DATE" value="">May 10, 2007</TIMEX3>
+	<TIMEX3 char_begin="19172" char_end="19184" tid="" type="DATE" value="">June 3, 2007</TIMEX3>
+	<TIMEX3 char_begin="19431" char_end="19448" tid="" type="DATE" value="">December 18, 2007</TIMEX3>
+	<TIMEX3 char_begin="19612" char_end="19622" tid="" type="DATE" value="">early 2007</TIMEX3>
+	<TIMEX3 char_begin="19822" char_end="19828" tid="" type="DATE" value="">autumn</TIMEX3>
+	<TIMEX3 char_begin="19989" char_end="19998" tid="" type="DATE" value="">late 2008</TIMEX3>
+	<TIMEX3 char_begin="20003" char_end="20007" tid="" type="DATE" value="">July</TIMEX3>
+	<TIMEX3 char_begin="20249" char_end="20267" tid="" type="DATE" value="">September 10, 2007</TIMEX3>
+	<TIMEX3 char_begin="20338" char_end="20349" tid="" type="DATE" value="">next summer</TIMEX3>
+	<TIMEX3 char_begin="20390" char_end="20399" tid="" type="DATE" value="">September</TIMEX3>
+	<TIMEX3 char_begin="20406" char_end="20418" tid="" type="DATE" value="">September 14</TIMEX3>
+	<TIMEX3 char_begin="20517" char_end="20531" tid="" type="DATE" value="">Christmas 2007</TIMEX3>
+	<TIMEX3 char_begin="20574" char_end="20583" tid="" type="DATE" value="">July 2008</TIMEX3>
+	<TIMEX3 char_begin="20659" char_end="20680" tid="" type="DATE" value="">the beginning of 2007</TIMEX3>
+	<TIMEX3 char_begin="20883" char_end="20893" tid="" type="DATE" value="">March 2008</TIMEX3>
+	<TIMEX3 char_begin="21186" char_end="21200" tid="" type="DATE" value="">previous weeks</TIMEX3>
+	<TIMEX3 char_begin="21282" char_end="21288" tid="" type="DURATION" value="">28-day</TIMEX3>
+	<TIMEX3 char_begin="21680" char_end="21701" tid="" type="DURATION" value="">the first seven weeks</TIMEX3>
+	<TIMEX3 char_begin="21816" char_end="21831" tid="" type="DATE" value="">August 14, 2007</TIMEX3>
+	<TIMEX3 char_begin="22191" char_end="22194" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="22259" char_end="22263" tid="" type="DURATION" value="">year</TIMEX3>
+	<TIMEX3 char_begin="22520" char_end="22538" tid="" type="DATE" value="">September 13, 2007</TIMEX3>
+	<TIMEX3 char_begin="22927" char_end="22935" tid="" type="DATE" value="">Thursday</TIMEX3>
+	<TIMEX3 char_begin="22984" char_end="22991" tid="" type="DURATION" value="">a month</TIMEX3>
+	<TIMEX3 char_begin="23068" char_end="23076" tid="" type="DATE" value="">May 2007</TIMEX3>
+	<TIMEX3 char_begin="23155" char_end="23169" tid="" type="DURATION" value="">the first year</TIMEX3>
+	<TIMEX3 char_begin="23471" char_end="23479" tid="" type="DATE" value="">February</TIMEX3>
+	<TIMEX3 char_begin="23709" char_end="23722" tid="" type="DATE" value="">December 2006</TIMEX3>
+	<TIMEX3 char_begin="23727" char_end="23736" tid="" type="DATE" value="">late 2007</TIMEX3>
+	<TIMEX3 char_begin="23830" char_end="23834" tid="" type="DATE" value="">2006</TIMEX3>
+	<TIMEX3 char_begin="23969" char_end="23976" tid="" type="DATE" value="">2007-08</TIMEX3>
+	<TIMEX3 char_begin="24034" char_end="24041" tid="" type="DATE" value="">2006-07</TIMEX3>
+	<TIMEX3 char_begin="24116" char_end="24130" tid="" type="DATE" value="">September 2008</TIMEX3>
+	<TIMEX3 char_begin="24841" char_end="24846" tid="" type="TIME" value="">night</TIMEX3>
+	<TIMEX3 char_begin="25356" char_end="25365" tid="" type="DURATION" value="">2007-2008</TIMEX3>
+	<TIMEX3 char_begin="26221" char_end="26236" tid="" type="DATE" value="">the end of 2008</TIMEX3>
+	<TIMEX3 char_begin="26486" char_end="26493" tid="" type="DATE" value="">present</TIMEX3>
+	<TIMEX3 char_begin="26897" char_end="26901" tid="" type="DATE" value="">2007</TIMEX3>
+	<TIMEX3 char_begin="27173" char_end="27182" tid="" type="DATE" value="">August 16</TIMEX3>
+	<TIMEX3 char_begin="27253" char_end="27262" tid="" type="DATE" value="">August 23</TIMEX3>
+	<TIMEX3 char_begin="27833" char_end="27851" tid="" type="DATE" value="">the Autumn of 2007</TIMEX3>
+	<TIMEX3 char_begin="27856" char_end="27873" tid="" type="DATE" value="">November 21, 2007</TIMEX3>
+	<TIMEX3 char_begin="28360" char_end="28376" tid="" type="DATE" value="">the fall of 2007</TIMEX3>
+	<TIMEX3 char_begin="28706" char_end="28714" tid="" type="DATE" value="">November</TIMEX3>
+	<TIMEX3 char_begin="29292" char_end="29310" tid="" type="DATE" value="">September 17, 2007</TIMEX3>
+	<TIMEX3 char_begin="29701" char_end="29710" tid="" type="DATE" value="">currently</TIMEX3>
+	<TIMEX3 char_begin="29861" char_end="29864" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="29917" char_end="29921" tid="" type="DATE" value="">2008</TIMEX3>
+	<TIMEX3 char_begin="29952" char_end="29956" tid="" type="DATE" value="">2008</TIMEX3>
+	<TIMEX3 char_begin="30133" char_end="30146" tid="" type="DATE" value="">December 2008</TIMEX3>
+	<TIMEX3 char_begin="30242" char_end="30254" tid="" type="DATE" value="">January 2007</TIMEX3>
+	<TIMEX3 char_begin="30383" char_end="30387" tid="" type="DATE" value="">2008</TIMEX3>
+	<TIMEX3 char_begin="30423" char_end="30427" tid="" type="DATE" value="">2007</TIMEX3>
+	<TIMEX3 char_begin="30511" char_end="30524" tid="" type="DATE" value="">November 2008</TIMEX3>
+	<TIMEX3 char_begin="30545" char_end="30557" tid="" type="DATE" value="">January 2007</TIMEX3>
+	<TIMEX3 char_begin="30640" char_end="30644" tid="" type="DURATION" value="">week</TIMEX3>
+	<TIMEX3 char_begin="30667" char_end="30671" tid="" type="DATE" value="">2008</TIMEX3>
+	<TIMEX3 char_begin="30713" char_end="30724" tid="" type="DATE" value="">summer 2007</TIMEX3>
+	<TIMEX3 char_begin="30787" char_end="30792" tid="" type="DURATION" value="">month</TIMEX3>
+	<TIMEX3 char_begin="30815" char_end="30819" tid="" type="DATE" value="">2008</TIMEX3>
+	<TIMEX3 char_begin="30850" char_end="30861" tid="" type="DATE" value="">summer 2007</TIMEX3>
+	<TIMEX3 char_begin="30939" char_end="30945" tid="" type="DATE" value="">spring</TIMEX3>
+	<TIMEX3 char_begin="31019" char_end="31029" tid="" type="DATE" value="">previously</TIMEX3>
+	<TIMEX3 char_begin="31089" char_end="31094" tid="" type="DATE" value="">March</TIMEX3>
+	<TIMEX3 char_begin="31251" char_end="31258" tid="" type="DATE" value="">October</TIMEX3>
+	<TIMEX3 char_begin="31550" char_end="31554" tid="" type="DATE" value="">2008</TIMEX3>
+	<TIMEX3 char_begin="31735" char_end="31738" tid="" type="DATE" value="">May</TIMEX3>
+	<TIMEX3 char_begin="31991" char_end="32010" tid="" type="DATE" value="">the end of the year</TIMEX3>
+	<TIMEX3 char_begin="32136" char_end="32147" tid="" type="DATE" value="">February 21</TIMEX3>
+	<TIMEX3 char_begin="32235" char_end="32247" tid="" type="DURATION" value="">the nine day</TIMEX3>
+	<TIMEX3 char_begin="32406" char_end="32410" tid="" type="DATE" value="">1995</TIMEX3>
+	<TIMEX3 char_begin="32637" char_end="32648" tid="" type="DATE" value="">February 29</TIMEX3>
+	<TIMEX3 char_begin="32676" char_end="32686" tid="" type="DATE" value="">the future</TIMEX3>
+	<TIMEX3 char_begin="32984" char_end="32988" tid="" type="DATE" value="">2008</TIMEX3>
+	<TIMEX3 char_begin="33130" char_end="33143" tid="" type="DATE" value="">December 2008</TIMEX3>
+	<TIMEX3 char_begin="33146" char_end="33152" tid="" type="DATE" value="">Spring</TIMEX3>
+	<TIMEX3 char_begin="33185" char_end="33201" tid="" type="DATE" value="">the end of March</TIMEX3>
+	<TIMEX3 char_begin="34080" char_end="34094" tid="" type="DATE" value="">March 31, 2008</TIMEX3>
+	<TIMEX3 char_begin="34178" char_end="34190" tid="" type="DATE" value="">May 12, 2008</TIMEX3>
+	<TIMEX3 char_begin="34341" char_end="34344" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="34693" char_end="34700" tid="" type="DURATION" value="">one day</TIMEX3>
+	<TIMEX3 char_begin="34706" char_end="34716" tid="" type="DATE" value="">late April</TIMEX3>
+	<TIMEX3 char_begin="34767" char_end="34774" tid="" type="DATE" value="">January</TIMEX3>
+	<TIMEX3 char_begin="34810" char_end="34818" tid="" type="DATE" value="">May 2007</TIMEX3>
+	<TIMEX3 char_begin="34828" char_end="34837" tid="" type="DATE" value="">early May</TIMEX3>
+	<TIMEX3 char_begin="34921" char_end="34928" tid="" type="DURATION" value="">40 days</TIMEX3>
+	<TIMEX3 char_begin="35148" char_end="35161" tid="" type="DATE" value="">April 8, 2008</TIMEX3>
+	<TIMEX3 char_begin="36091" char_end="36102" tid="" type="DATE" value="">this spring</TIMEX3>
+	<TIMEX3 char_begin="36235" char_end="36242" tid="" type="DATE" value="">current</TIMEX3>
+	<TIMEX3 char_begin="36387" char_end="36396" tid="" type="DATE" value="">This year</TIMEX3>
+	<TIMEX3 char_begin="36974" char_end="36980" tid="" type="DATE" value="">summer</TIMEX3>
+	<TIMEX3 char_begin="37307" char_end="37316" tid="" type="DATE" value="">late 2008</TIMEX3>
+	<TIMEX3 char_begin="37427" char_end="37440" tid="" type="DATE" value="">June 30, 2009</TIMEX3>
+	<TIMEX3 char_begin="37501" char_end="37518" tid="" type="DATE" value="">December 31, 2011</TIMEX3>
+	<TIMEX3 char_begin="37648" char_end="37651" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="37699" char_end="37717" tid="" type="DATE" value="">the middle of 2010</TIMEX3>
+	<TIMEX3 char_begin="37781" char_end="37789" tid="" type="DURATION" value="">24 hours</TIMEX3>
+	<TIMEX3 char_begin="38037" char_end="38040" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="38395" char_end="38404" tid="" type="DATE" value="">currently</TIMEX3>
+	<TIMEX3 char_begin="38680" char_end="38697" tid="" type="DATE" value="">November 16, 2008</TIMEX3>
+	<TIMEX3 char_begin="38741" char_end="38758" tid="" type="DATE" value="">November 27, 2008</TIMEX3>
+	<TIMEX3 char_begin="38808" char_end="38824" tid="" type="DATE" value="">December 4, 2008</TIMEX3>
+	<TIMEX3 char_begin="39065" char_end="39069" tid="" type="DATE" value="">2011</TIMEX3>
+	<TIMEX3 char_begin="39407" char_end="39428" tid="" type="DURATION" value="">five years previously</TIMEX3>
+	<TIMEX3 char_begin="39577" char_end="39581" tid="" type="DATE" value="">2011</TIMEX3>
+	<TIMEX3 char_begin="39586" char_end="39602" tid="" type="DATE" value="">December 4, 2008</TIMEX3>
+	<TIMEX3 char_begin="39724" char_end="39728" tid="" type="DATE" value="">2011</TIMEX3>
+	<TIMEX3 char_begin="40268" char_end="40275" tid="" type="DATE" value="">present</TIMEX3>
+	<TIMEX3 char_begin="40398" char_end="40404" tid="" type="DATE" value="">Friday</TIMEX3>
+	<TIMEX3 char_begin="40640" char_end="40649" tid="" type="DATE" value="">next year</TIMEX3>
+	<TIMEX3 char_begin="40652" char_end="40656" tid="" type="DATE" value="">2009</TIMEX3>
+	<TIMEX3 char_begin="40718" char_end="40733" tid="" type="DATE" value="">January 1, 2009</TIMEX3>
+	<TIMEX3 char_begin="41013" char_end="41022" tid="" type="DATE" value="">January 1</TIMEX3>
+	<TIMEX3 char_begin="41535" char_end="41551" tid="" type="DATE" value="">January 31, 2009</TIMEX3>
+	<TIMEX3 char_begin="42198" char_end="42215" tid="" type="DATE" value="">February 27, 2009</TIMEX3>
+	<TIMEX3 char_begin="42399" char_end="42414" tid="" type="DATE" value="">August 31, 2010</TIMEX3>
+	<TIMEX3 char_begin="42580" char_end="42583" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="42597" char_end="42612" tid="" type="DATE" value="">the end of 2011</TIMEX3>
+	<TIMEX3 char_begin="43111" char_end="43115" tid="" type="DATE" value="">2010</TIMEX3>
+	<TIMEX3 char_begin="43134" char_end="43138" tid="" type="DATE" value="">2011</TIMEX3>
+	<TIMEX3 char_begin="43144" char_end="43147" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="43459" char_end="43469" tid="" type="DATE" value="">Sixth year</TIMEX3>
+	<TIMEX3 char_begin="43495" char_end="43508" tid="" type="DATE" value="">April 9, 2009</TIMEX3>
+	<TIMEX3 char_begin="43545" char_end="43549" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="43660" char_end="43664" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="44268" char_end="44282" tid="" type="DATE" value="">April 30, 2009</TIMEX3>
+	<TIMEX3 char_begin="44617" char_end="44632" tid="" type="DATE" value="">the end of June</TIMEX3>
+	<TIMEX3 char_begin="44686" char_end="44699" tid="" type="DATE" value="">June 29, 2009</TIMEX3>
+	<TIMEX3 char_begin="44739" char_end="44756" tid="" type="DATE" value="">November 30, 2009</TIMEX3>
+	<TIMEX3 char_begin="44866" char_end="44874" tid="" type="DATE" value="">November</TIMEX3>
+	<TIMEX3 char_begin="44885" char_end="44889" tid="" type="DATE" value="">2003</TIMEX3>
 </TimeML>

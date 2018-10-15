@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="868" char_end="871" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="903" char_end="912" type="DATE">last year</TIMEX3>
-	<TIMEX3 char_begin="1328" char_end="1332" type="DATE">2010</TIMEX3>
-	<TIMEX3 char_begin="2006" char_end="2010" type="DATE">2008</TIMEX3>
-	<TIMEX3 char_begin="2948" char_end="2955" type="DATE">current</TIMEX3>
-	<TIMEX3 char_begin="3209" char_end="3218" type="DATE">this week</TIMEX3>
-	<TIMEX3 char_begin="3799" char_end="3803" type="DATE">2007</TIMEX3>
+	<TIMEX3 char_begin="868" char_end="871" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="903" char_end="912" tid="" type="DATE" value="">last year</TIMEX3>
+	<TIMEX3 char_begin="1328" char_end="1332" tid="" type="DATE" value="">2010</TIMEX3>
+	<TIMEX3 char_begin="2006" char_end="2010" tid="" type="DATE" value="">2008</TIMEX3>
+	<TIMEX3 char_begin="2948" char_end="2955" tid="" type="DATE" value="">current</TIMEX3>
+	<TIMEX3 char_begin="3209" char_end="3218" tid="" type="DATE" value="">this week</TIMEX3>
+	<TIMEX3 char_begin="3799" char_end="3803" tid="" type="DATE" value="">2007</TIMEX3>
 </TimeML>

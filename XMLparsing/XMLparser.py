@@ -91,8 +91,8 @@ def addItem(tree, char_begin, char_end, type, content):
     timeX3.set('char_end', str(char_end))
     timeX3.set('type', type)
     # not required
-    # timeX3.set('tid', tid)
-    # timeX3.set('value', value)
+    timeX3.set('tid', "")
+    timeX3.set('value', "")
     timeX3.text = content
 
 

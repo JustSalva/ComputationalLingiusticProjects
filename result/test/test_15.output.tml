@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="464" char_end="475" type="DURATION">January day</TIMEX3>
-	<TIMEX3 char_begin="479" char_end="483" type="DATE">2011</TIMEX3>
-	<TIMEX3 char_begin="680" char_end="688" type="DURATION">90 years</TIMEX3>
-	<TIMEX3 char_begin="794" char_end="802" type="DURATION">24 hours</TIMEX3>
-	<TIMEX3 char_begin="879" char_end="882" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="972" char_end="988" type="DURATION">the 20th century</TIMEX3>
-	<TIMEX3 char_begin="1072" char_end="1075" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="1310" char_end="1318" type="TIME">annually</TIMEX3>
-	<TIMEX3 char_begin="1629" char_end="1638" type="DATE">last year</TIMEX3>
-	<TIMEX3 char_begin="2055" char_end="2068" type="DATE">six years ago</TIMEX3>
-	<TIMEX3 char_begin="2915" char_end="2919" type="DATE">2010</TIMEX3>
-	<TIMEX3 char_begin="2981" char_end="2990" type="DATE">This year</TIMEX3>
+	<TIMEX3 char_begin="464" char_end="475" tid="" type="DURATION" value="">January day</TIMEX3>
+	<TIMEX3 char_begin="479" char_end="483" tid="" type="DATE" value="">2011</TIMEX3>
+	<TIMEX3 char_begin="680" char_end="688" tid="" type="DURATION" value="">90 years</TIMEX3>
+	<TIMEX3 char_begin="794" char_end="802" tid="" type="DURATION" value="">24 hours</TIMEX3>
+	<TIMEX3 char_begin="879" char_end="882" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="972" char_end="988" tid="" type="DURATION" value="">the 20th century</TIMEX3>
+	<TIMEX3 char_begin="1072" char_end="1075" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="1310" char_end="1318" tid="" type="TIME" value="">annually</TIMEX3>
+	<TIMEX3 char_begin="1629" char_end="1638" tid="" type="DATE" value="">last year</TIMEX3>
+	<TIMEX3 char_begin="2055" char_end="2068" tid="" type="DATE" value="">six years ago</TIMEX3>
+	<TIMEX3 char_begin="2915" char_end="2919" tid="" type="DATE" value="">2010</TIMEX3>
+	<TIMEX3 char_begin="2981" char_end="2990" tid="" type="DATE" value="">This year</TIMEX3>
 </TimeML>

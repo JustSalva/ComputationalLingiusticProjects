@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="415" char_end="420" type="TIME">15:00</TIMEX3>
-	<TIMEX3 char_begin="425" char_end="433" type="DATE">Saturday</TIMEX3>
-	<TIMEX3 char_begin="580" char_end="586" type="DURATION">a week</TIMEX3>
-	<TIMEX3 char_begin="615" char_end="621" type="DATE">Summer</TIMEX3>
-	<TIMEX3 char_begin="723" char_end="729" type="DATE">Friday</TIMEX3>
+	<TIMEX3 char_begin="415" char_end="420" tid="" type="TIME" value="">15:00</TIMEX3>
+	<TIMEX3 char_begin="425" char_end="433" tid="" type="DATE" value="">Saturday</TIMEX3>
+	<TIMEX3 char_begin="580" char_end="586" tid="" type="DURATION" value="">a week</TIMEX3>
+	<TIMEX3 char_begin="615" char_end="621" tid="" type="DATE" value="">Summer</TIMEX3>
+	<TIMEX3 char_begin="723" char_end="729" tid="" type="DATE" value="">Friday</TIMEX3>
 </TimeML>

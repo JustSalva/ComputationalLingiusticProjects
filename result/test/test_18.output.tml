@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="389" char_end="398" type="DATE">40, eight</TIMEX3>
-	<TIMEX3 char_begin="399" char_end="404" type="DURATION">years</TIMEX3>
-	<TIMEX3 char_begin="410" char_end="413" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="603" char_end="613" type="DURATION">five years</TIMEX3>
-	<TIMEX3 char_begin="692" char_end="696" type="DATE">2011</TIMEX3>
-	<TIMEX3 char_begin="965" char_end="974" type="DATE">this year</TIMEX3>
-	<TIMEX3 char_begin="1090" char_end="1101" type="DURATION">seven years</TIMEX3>
-	<TIMEX3 char_begin="1226" char_end="1235" type="DURATION">Two years</TIMEX3>
-	<TIMEX3 char_begin="1273" char_end="1281" type="DATE">recently</TIMEX3>
-	<TIMEX3 char_begin="1414" char_end="1424" type="DATE">this month</TIMEX3>
-	<TIMEX3 char_begin="1486" char_end="1493" type="TIME">3:07:35</TIMEX3>
-	<TIMEX3 char_begin="1575" char_end="1579" type="DURATION">days</TIMEX3>
-	<TIMEX3 char_begin="1617" char_end="1627" type="DATE">early 2011</TIMEX3>
+	<TIMEX3 char_begin="389" char_end="398" tid="" type="DATE" value="">40, eight</TIMEX3>
+	<TIMEX3 char_begin="399" char_end="404" tid="" type="DURATION" value="">years</TIMEX3>
+	<TIMEX3 char_begin="410" char_end="413" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="603" char_end="613" tid="" type="DURATION" value="">five years</TIMEX3>
+	<TIMEX3 char_begin="692" char_end="696" tid="" type="DATE" value="">2011</TIMEX3>
+	<TIMEX3 char_begin="965" char_end="974" tid="" type="DATE" value="">this year</TIMEX3>
+	<TIMEX3 char_begin="1090" char_end="1101" tid="" type="DURATION" value="">seven years</TIMEX3>
+	<TIMEX3 char_begin="1226" char_end="1235" tid="" type="DURATION" value="">Two years</TIMEX3>
+	<TIMEX3 char_begin="1273" char_end="1281" tid="" type="DATE" value="">recently</TIMEX3>
+	<TIMEX3 char_begin="1414" char_end="1424" tid="" type="DATE" value="">this month</TIMEX3>
+	<TIMEX3 char_begin="1486" char_end="1493" tid="" type="TIME" value="">3:07:35</TIMEX3>
+	<TIMEX3 char_begin="1575" char_end="1579" tid="" type="DURATION" value="">days</TIMEX3>
+	<TIMEX3 char_begin="1617" char_end="1627" tid="" type="DATE" value="">early 2011</TIMEX3>
 </TimeML>

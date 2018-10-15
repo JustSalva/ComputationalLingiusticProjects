@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="51" char_end="62" type="DATE">last summer</TIMEX3>
-	<TIMEX3 char_begin="101" char_end="109" type="DATE">Thursday</TIMEX3>
-	<TIMEX3 char_begin="273" char_end="282" type="DATE">last July</TIMEX3>
-	<TIMEX3 char_begin="290" char_end="301" type="DURATION">22-year-old</TIMEX3>
-	<TIMEX3 char_begin="322" char_end="334" type="DURATION">Several days</TIMEX3>
-	<TIMEX3 char_begin="529" char_end="532" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="885" char_end="897" type="DATE">early August</TIMEX3>
-	<TIMEX3 char_begin="983" char_end="991" type="DATE">Thursday</TIMEX3>
-	<TIMEX3 char_begin="1070" char_end="1077" type="DURATION">90 days</TIMEX3>
-	<TIMEX3 char_begin="1090" char_end="1100" type="DURATION">five years</TIMEX3>
-	<TIMEX3 char_begin="1315" char_end="1321" type="DATE">August</TIMEX3>
-	<TIMEX3 char_begin="1398" char_end="1402" type="DATE">July</TIMEX3>
-	<TIMEX3 char_begin="1592" char_end="1598" type="DATE">Sunday</TIMEX3>
-	<TIMEX3 char_begin="1599" char_end="1604" type="TIME">night</TIMEX3>
-	<TIMEX3 char_begin="1608" char_end="1612" type="TIME">8 PM</TIMEX3>
-	<TIMEX3 char_begin="1676" char_end="1679" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="1986" char_end="1992" type="DATE">August</TIMEX3>
-	<TIMEX3 char_begin="2151" char_end="2159" type="DATE">Thursday</TIMEX3>
-	<TIMEX3 char_begin="2179" char_end="2182" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="2299" char_end="2304" type="DURATION">weeks</TIMEX3>
+	<TIMEX3 char_begin="51" char_end="62" tid="" type="DATE" value="">last summer</TIMEX3>
+	<TIMEX3 char_begin="101" char_end="109" tid="" type="DATE" value="">Thursday</TIMEX3>
+	<TIMEX3 char_begin="273" char_end="282" tid="" type="DATE" value="">last July</TIMEX3>
+	<TIMEX3 char_begin="290" char_end="301" tid="" type="DURATION" value="">22-year-old</TIMEX3>
+	<TIMEX3 char_begin="322" char_end="334" tid="" type="DURATION" value="">Several days</TIMEX3>
+	<TIMEX3 char_begin="529" char_end="532" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="885" char_end="897" tid="" type="DATE" value="">early August</TIMEX3>
+	<TIMEX3 char_begin="983" char_end="991" tid="" type="DATE" value="">Thursday</TIMEX3>
+	<TIMEX3 char_begin="1070" char_end="1077" tid="" type="DURATION" value="">90 days</TIMEX3>
+	<TIMEX3 char_begin="1090" char_end="1100" tid="" type="DURATION" value="">five years</TIMEX3>
+	<TIMEX3 char_begin="1315" char_end="1321" tid="" type="DATE" value="">August</TIMEX3>
+	<TIMEX3 char_begin="1398" char_end="1402" tid="" type="DATE" value="">July</TIMEX3>
+	<TIMEX3 char_begin="1592" char_end="1598" tid="" type="DATE" value="">Sunday</TIMEX3>
+	<TIMEX3 char_begin="1599" char_end="1604" tid="" type="TIME" value="">night</TIMEX3>
+	<TIMEX3 char_begin="1608" char_end="1612" tid="" type="TIME" value="">8 PM</TIMEX3>
+	<TIMEX3 char_begin="1676" char_end="1679" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="1986" char_end="1992" tid="" type="DATE" value="">August</TIMEX3>
+	<TIMEX3 char_begin="2151" char_end="2159" tid="" type="DATE" value="">Thursday</TIMEX3>
+	<TIMEX3 char_begin="2179" char_end="2182" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="2299" char_end="2304" tid="" type="DURATION" value="">weeks</TIMEX3>
 </TimeML>

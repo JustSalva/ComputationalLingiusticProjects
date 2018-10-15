@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="52" char_end="62" type="DATE">this month</TIMEX3>
-	<TIMEX3 char_begin="582" char_end="595" type="SET">every morning</TIMEX3>
-	<TIMEX3 char_begin="855" char_end="865" type="DATE">Last month</TIMEX3>
-	<TIMEX3 char_begin="1061" char_end="1066" type="DURATION">years</TIMEX3>
-	<TIMEX3 char_begin="1223" char_end="1237" type="DATE">four years ago</TIMEX3>
-	<TIMEX3 char_begin="1535" char_end="1539" type="DATE">2011</TIMEX3>
-	<TIMEX3 char_begin="1777" char_end="1784" type="DATE">Feb. 28</TIMEX3>
-	<TIMEX3 char_begin="1847" char_end="1854" type="DATE">current</TIMEX3>
-	<TIMEX3 char_begin="1953" char_end="1968" type="DATE">the next decade</TIMEX3>
-	<TIMEX3 char_begin="2286" char_end="2290" type="DATE">2030</TIMEX3>
-	<TIMEX3 char_begin="2311" char_end="2314" type="DATE">now</TIMEX3>
+	<TIMEX3 char_begin="52" char_end="62" tid="" type="DATE" value="">this month</TIMEX3>
+	<TIMEX3 char_begin="582" char_end="595" tid="" type="SET" value="">every morning</TIMEX3>
+	<TIMEX3 char_begin="855" char_end="865" tid="" type="DATE" value="">Last month</TIMEX3>
+	<TIMEX3 char_begin="1061" char_end="1066" tid="" type="DURATION" value="">years</TIMEX3>
+	<TIMEX3 char_begin="1223" char_end="1237" tid="" type="DATE" value="">four years ago</TIMEX3>
+	<TIMEX3 char_begin="1535" char_end="1539" tid="" type="DATE" value="">2011</TIMEX3>
+	<TIMEX3 char_begin="1777" char_end="1784" tid="" type="DATE" value="">Feb. 28</TIMEX3>
+	<TIMEX3 char_begin="1847" char_end="1854" tid="" type="DATE" value="">current</TIMEX3>
+	<TIMEX3 char_begin="1953" char_end="1968" tid="" type="DATE" value="">the next decade</TIMEX3>
+	<TIMEX3 char_begin="2286" char_end="2290" tid="" type="DATE" value="">2030</TIMEX3>
+	<TIMEX3 char_begin="2311" char_end="2314" tid="" type="DATE" value="">now</TIMEX3>
 </TimeML>

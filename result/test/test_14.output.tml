@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="46" char_end="54" type="DATE">Thursday</TIMEX3>
-	<TIMEX3 char_begin="244" char_end="248" type="DATE">2007</TIMEX3>
-	<TIMEX3 char_begin="754" char_end="762" type="DATE">last May</TIMEX3>
+	<TIMEX3 char_begin="46" char_end="54" tid="" type="DATE" value="">Thursday</TIMEX3>
+	<TIMEX3 char_begin="244" char_end="248" tid="" type="DATE" value="">2007</TIMEX3>
+	<TIMEX3 char_begin="754" char_end="762" tid="" type="DATE" value="">last May</TIMEX3>
 </TimeML>

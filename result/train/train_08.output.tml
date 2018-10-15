@@ -1,160 +1,160 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="205" char_end="216" type="DURATION">Seven Years</TIMEX3>
-	<TIMEX3 char_begin="281" char_end="289" type="DATE">May 1776</TIMEX3>
-	<TIMEX3 char_begin="351" char_end="364" type="DATE">The next year</TIMEX3>
-	<TIMEX3 char_begin="1553" char_end="1561" type="DATE">May 1789</TIMEX3>
-	<TIMEX3 char_begin="1642" char_end="1646" type="DATE">1789</TIMEX3>
-	<TIMEX3 char_begin="1824" char_end="1828" type="DATE">1614</TIMEX3>
-	<TIMEX3 char_begin="2056" char_end="2060" type="DATE">1614</TIMEX3>
-	<TIMEX3 char_begin="2066" char_end="2070" type="DATE">1614</TIMEX3>
-	<TIMEX3 char_begin="2900" char_end="2911" type="DATE">27 December</TIMEX3>
-	<TIMEX3 char_begin="3017" char_end="3035" type="DATE">the spring of 1789</TIMEX3>
-	<TIMEX3 char_begin="3137" char_end="3145" type="DURATION">25 years</TIMEX3>
-	<TIMEX3 char_begin="3495" char_end="3501" type="DURATION">months</TIMEX3>
-	<TIMEX3 char_begin="3616" char_end="3622" type="DATE">future</TIMEX3>
-	<TIMEX3 char_begin="3919" char_end="3931" type="DATE">January 1789</TIMEX3>
-	<TIMEX3 char_begin="4008" char_end="4011" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="4128" char_end="4138" type="DATE">5 May 1789</TIMEX3>
-	<TIMEX3 char_begin="5010" char_end="5014" type="DATE">1789</TIMEX3>
-	<TIMEX3 char_begin="5020" char_end="5032" type="DATE">10 June 1789</TIMEX3>
-	<TIMEX3 char_begin="5074" char_end="5077" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="5265" char_end="5279" type="DATE">two days later</TIMEX3>
-	<TIMEX3 char_begin="5307" char_end="5314" type="DATE">17 June</TIMEX3>
-	<TIMEX3 char_begin="5835" char_end="5843" type="DURATION">two days</TIMEX3>
-	<TIMEX3 char_begin="6020" char_end="6032" type="DATE">20 June 1789</TIMEX3>
-	<TIMEX3 char_begin="6223" char_end="6230" type="DATE">27 June</TIMEX3>
-	<TIMEX3 char_begin="6469" char_end="6478" type="DURATION">1789-1791</TIMEX3>
-	<TIMEX3 char_begin="6834" char_end="6846" type="DATE">11 July 1789</TIMEX3>
-	<TIMEX3 char_begin="7170" char_end="7182" type="DATE">the next day</TIMEX3>
-	<TIMEX3 char_begin="7645" char_end="7652" type="DATE">14 July</TIMEX3>
-	<TIMEX3 char_begin="7825" char_end="7838" type="DURATION">several hours</TIMEX3>
-	<TIMEX3 char_begin="7871" char_end="7880" type="TIME">afternoon</TIMEX3>
-	<TIMEX3 char_begin="8786" char_end="8793" type="DATE">17 July</TIMEX3>
-	<TIMEX3 char_begin="9447" char_end="9456" type="DATE">late July</TIMEX3>
-	<TIMEX3 char_begin="10024" char_end="10037" type="DATE">4 August 1789</TIMEX3>
-	<TIMEX3 char_begin="10216" char_end="10222" type="DATE">August</TIMEX3>
-	<TIMEX3 char_begin="10357" char_end="10368" type="DURATION">a few hours</TIMEX3>
-	<TIMEX3 char_begin="10537" char_end="10551" type="DATE">26 August 1789</TIMEX3>
-	<TIMEX3 char_begin="11129" char_end="11132" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="11499" char_end="11508" type="DATE">late 1789</TIMEX3>
-	<TIMEX3 char_begin="11599" char_end="11602" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="11711" char_end="11716" type="DATE">March</TIMEX3>
-	<TIMEX3 char_begin="11789" char_end="11803" type="DATE">1 October 1789</TIMEX3>
-	<TIMEX3 char_begin="11861" char_end="11875" type="DATE">5 October 1789</TIMEX3>
-	<TIMEX3 char_begin="12416" char_end="12421" type="DATE">march</TIMEX3>
-	<TIMEX3 char_begin="12784" char_end="12798" type="DATE">6 October 1789</TIMEX3>
-	<TIMEX3 char_begin="13862" char_end="13869" type="DURATION">one day</TIMEX3>
-	<TIMEX3 char_begin="14019" char_end="14030" type="DATE">May of 1789</TIMEX3>
-	<TIMEX3 char_begin="14153" char_end="14162" type="DATE">June 1789</TIMEX3>
-	<TIMEX3 char_begin="14384" char_end="14397" type="DATE">4 August 1789</TIMEX3>
-	<TIMEX3 char_begin="14525" char_end="14540" type="DATE">2 November 1789</TIMEX3>
-	<TIMEX3 char_begin="14698" char_end="14701" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="14806" char_end="14814" type="DATE">December</TIMEX3>
-	<TIMEX3 char_begin="14968" char_end="14977" type="DURATION">two years</TIMEX3>
-	<TIMEX3 char_begin="14982" char_end="14996" type="DATE">autumn of 1789</TIMEX3>
-	<TIMEX3 char_begin="15041" char_end="15057" type="DATE">13 February 1790</TIMEX3>
-	<TIMEX3 char_begin="15235" char_end="15247" type="DATE">12 July 1790</TIMEX3>
-	<TIMEX3 char_begin="15556" char_end="15569" type="DATE">November 1790</TIMEX3>
-	<TIMEX3 char_begin="16658" char_end="16662" type="DATE">1801</TIMEX3>
-	<TIMEX3 char_begin="16925" char_end="16941" type="DATE">11 December 1905</TIMEX3>
-	<TIMEX3 char_begin="18507" char_end="18519" type="DATE">14 July 1790</TIMEX3>
-	<TIMEX3 char_begin="18529" char_end="18541" type="DURATION">several days</TIMEX3>
-	<TIMEX3 char_begin="18615" char_end="18619" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="18923" char_end="18927" type="DURATION">year</TIMEX3>
-	<TIMEX3 char_begin="19085" char_end="19088" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="19141" char_end="19144" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="19297" char_end="19306" type="DATE">late 1790</TIMEX3>
-	<TIMEX3 char_begin="20130" char_end="20144" type="DATE">10 August 1790</TIMEX3>
-	<TIMEX3 char_begin="20261" char_end="20264" type="DATE">'89</TIMEX3>
-	<TIMEX3 char_begin="20597" char_end="20609" type="DATE">January 1791</TIMEX3>
-	<TIMEX3 char_begin="21246" char_end="21264" type="DATE">the winter of 1791</TIMEX3>
-	<TIMEX3 char_begin="21452" char_end="21455" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="21569" char_end="21581" type="DATE">2 April 1791</TIMEX3>
-	<TIMEX3 char_begin="21594" char_end="21613" type="DATE">the end of the year</TIMEX3>
-	<TIMEX3 char_begin="21991" char_end="22016" type="TIME">the night of 20 June 1791</TIMEX3>
-	<TIMEX3 char_begin="22135" char_end="22147" type="DATE">the next day</TIMEX3>
-	<TIMEX3 char_begin="22232" char_end="22239" type="DATE">21 June</TIMEX3>
-	<TIMEX3 char_begin="24606" char_end="24609" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="24810" char_end="24818" type="DATE">recently</TIMEX3>
-	<TIMEX3 char_begin="25149" char_end="25166" type="DATE">29 September 1791</TIMEX3>
-	<TIMEX3 char_begin="25208" char_end="25212" type="DATE">1791</TIMEX3>
-	<TIMEX3 char_begin="25465" char_end="25474" type="DURATION">1791-1792</TIMEX3>
-	<TIMEX3 char_begin="25543" char_end="25547" type="DATE">1791</TIMEX3>
-	<TIMEX3 char_begin="25780" char_end="25794" type="DATE">1 October 1791</TIMEX3>
-	<TIMEX3 char_begin="25823" char_end="25845" type="DATE">less than a year later</TIMEX3>
-	<TIMEX3 char_begin="25867" char_end="25871" type="DATE">1911</TIMEX3>
-	<TIMEX3 char_begin="26473" char_end="26483" type="DURATION">eight days</TIMEX3>
-	<TIMEX3 char_begin="26568" char_end="26574" type="DURATION">a year</TIMEX3>
-	<TIMEX3 char_begin="26661" char_end="26688" type="TIME">the night of 10 August 1792</TIMEX3>
-	<TIMEX3 char_begin="26929" char_end="26936" type="DATE">present</TIMEX3>
-	<TIMEX3 char_begin="27133" char_end="27137" type="DATE">1400</TIMEX3>
-	<TIMEX3 char_begin="27391" char_end="27408" type="DATE">20 September 1792</TIMEX3>
-	<TIMEX3 char_begin="27459" char_end="27471" type="DATE">The next day</TIMEX3>
-	<TIMEX3 char_begin="27658" char_end="27667" type="DURATION">1792-1797</TIMEX3>
-	<TIMEX3 char_begin="28317" char_end="28320" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="28362" char_end="28374" type="DATE">1 March 1792</TIMEX3>
-	<TIMEX3 char_begin="28408" char_end="28421" type="DATE">20 April 1792</TIMEX3>
-	<TIMEX3 char_begin="28463" char_end="28480" type="DATE">a few weeks later</TIMEX3>
-	<TIMEX3 char_begin="28571" char_end="28588" type="DATE">20 September 1792</TIMEX3>
-	<TIMEX3 char_begin="28713" char_end="28721" type="DATE">the past</TIMEX3>
-	<TIMEX3 char_begin="28745" char_end="28754" type="DURATION">1792-1795</TIMEX3>
-	<TIMEX3 char_begin="29031" char_end="29046" type="DATE">17 January 1793</TIMEX3>
-	<TIMEX3 char_begin="29331" char_end="29334" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="29421" char_end="29436" type="DATE">21 January 1793</TIMEX3>
-	<TIMEX3 char_begin="29449" char_end="29452" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="30103" char_end="30113" type="DATE">21 January</TIMEX3>
-	<TIMEX3 char_begin="30256" char_end="30266" type="DATE">16 October</TIMEX3>
-	<TIMEX3 char_begin="31104" char_end="31121" type="DATE">September of 1793</TIMEX3>
-	<TIMEX3 char_begin="31429" char_end="31447" type="DATE">the spring of 1794</TIMEX3>
-	<TIMEX3 char_begin="31520" char_end="31524" type="DURATION">days</TIMEX3>
-	<TIMEX3 char_begin="31600" char_end="31604" type="DATE">July</TIMEX3>
-	<TIMEX3 char_begin="31613" char_end="31617" type="DURATION">year</TIMEX3>
-	<TIMEX3 char_begin="31825" char_end="31834" type="DURATION">1793-1794</TIMEX3>
-	<TIMEX3 char_begin="32054" char_end="32057" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="32128" char_end="32139" type="DATE">2 June 1793</TIMEX3>
-	<TIMEX3 char_begin="32644" char_end="32651" type="DATE">10 June</TIMEX3>
-	<TIMEX3 char_begin="32699" char_end="32706" type="DATE">13 July</TIMEX3>
-	<TIMEX3 char_begin="32945" char_end="32956" type="DATE">August 1792</TIMEX3>
-	<TIMEX3 char_begin="33237" char_end="33244" type="DATE">24 June</TIMEX3>
-	<TIMEX3 char_begin="33366" char_end="33370" type="DATE">1793</TIMEX3>
-	<TIMEX3 char_begin="33717" char_end="33721" type="DATE">1793</TIMEX3>
-	<TIMEX3 char_begin="33827" char_end="33831" type="DATE">1790</TIMEX3>
-	<TIMEX3 char_begin="35239" char_end="35242" type="DATE">may</TIMEX3>
-	<TIMEX3 char_begin="36202" char_end="36211" type="DATE">17 August</TIMEX3>
-	<TIMEX3 char_begin="36581" char_end="36592" type="DATE">9 September</TIMEX3>
-	<TIMEX3 char_begin="36749" char_end="36761" type="DATE">17 September</TIMEX3>
-	<TIMEX3 char_begin="36900" char_end="36912" type="DATE">29 September</TIMEX3>
-	<TIMEX3 char_begin="38486" char_end="38501" type="DATE">24 October 1793</TIMEX3>
-	<TIMEX3 char_begin="38751" char_end="38762" type="DATE">10 November</TIMEX3>
-	<TIMEX3 char_begin="39105" char_end="39120" type="DATE">the end of 1793</TIMEX3>
-	<TIMEX3 char_begin="39221" char_end="39225" type="DATE">1794</TIMEX3>
-	<TIMEX3 char_begin="39351" char_end="39369" type="DATE">the spring of 1794</TIMEX3>
-	<TIMEX3 char_begin="39537" char_end="39543" type="DATE">7 June</TIMEX3>
-	<TIMEX3 char_begin="39565" char_end="39575" type="DATE">previously</TIMEX3>
-	<TIMEX3 char_begin="39745" char_end="39757" type="DATE">27 July 1794</TIMEX3>
-	<TIMEX3 char_begin="40282" char_end="40296" type="DATE">22 August 1795</TIMEX3>
-	<TIMEX3 char_begin="40453" char_end="40470" type="DATE">23 September 1795</TIMEX3>
-	<TIMEX3 char_begin="40512" char_end="40529" type="DATE">27 September 1795</TIMEX3>
-	<TIMEX3 char_begin="40547" char_end="40556" type="DURATION">1795-1799</TIMEX3>
-	<TIMEX3 char_begin="40900" char_end="40908" type="TIME">annually</TIMEX3>
-	<TIMEX3 char_begin="41028" char_end="41032" type="DATE">1793</TIMEX3>
-	<TIMEX3 char_begin="43490" char_end="43494" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="43743" char_end="43758" type="DATE">9 November 1799</TIMEX3>
-	<TIMEX3 char_begin="43939" char_end="43943" type="DATE">1804</TIMEX3>
-	<TIMEX3 char_begin="44506" char_end="44511" type="DURATION">years</TIMEX3>
-	<TIMEX3 char_begin="44512" char_end="44521" type="DURATION">1751-1777</TIMEX3>
-	<TIMEX3 char_begin="45303" char_end="45309" type="DATE">future</TIMEX3>
-	<TIMEX3 char_begin="45887" char_end="45892" type="DATE">March</TIMEX3>
-	<TIMEX3 char_begin="46312" char_end="46316" type="DATE">1791</TIMEX3>
-	<TIMEX3 char_begin="46346" char_end="46350" type="DATE">1793</TIMEX3>
-	<TIMEX3 char_begin="46371" char_end="46384" type="DATE">March 6, 1792</TIMEX3>
-	<TIMEX3 char_begin="46744" char_end="46757" type="DATE">Later in 1792</TIMEX3>
-	<TIMEX3 char_begin="46971" char_end="46978" type="DATE">June 20</TIMEX3>
-	<TIMEX3 char_begin="46982" char_end="46986" type="DATE">1792</TIMEX3>
-	<TIMEX3 char_begin="47259" char_end="47272" type="DATE">July 13, 1793</TIMEX3>
-	<TIMEX3 char_begin="47585" char_end="47597" type="DATE">May 10, 1793</TIMEX3>
-	<TIMEX3 char_begin="47881" char_end="47893" type="DATE">May 20, 1793</TIMEX3>
-	<TIMEX3 char_begin="47974" char_end="47978" type="DATE">1793</TIMEX3>
-	<TIMEX3 char_begin="50344" char_end="50348" type="DATE">1789</TIMEX3>
+	<TIMEX3 char_begin="205" char_end="216" tid="" type="DURATION" value="">Seven Years</TIMEX3>
+	<TIMEX3 char_begin="281" char_end="289" tid="" type="DATE" value="">May 1776</TIMEX3>
+	<TIMEX3 char_begin="351" char_end="364" tid="" type="DATE" value="">The next year</TIMEX3>
+	<TIMEX3 char_begin="1553" char_end="1561" tid="" type="DATE" value="">May 1789</TIMEX3>
+	<TIMEX3 char_begin="1642" char_end="1646" tid="" type="DATE" value="">1789</TIMEX3>
+	<TIMEX3 char_begin="1824" char_end="1828" tid="" type="DATE" value="">1614</TIMEX3>
+	<TIMEX3 char_begin="2056" char_end="2060" tid="" type="DATE" value="">1614</TIMEX3>
+	<TIMEX3 char_begin="2066" char_end="2070" tid="" type="DATE" value="">1614</TIMEX3>
+	<TIMEX3 char_begin="2900" char_end="2911" tid="" type="DATE" value="">27 December</TIMEX3>
+	<TIMEX3 char_begin="3017" char_end="3035" tid="" type="DATE" value="">the spring of 1789</TIMEX3>
+	<TIMEX3 char_begin="3137" char_end="3145" tid="" type="DURATION" value="">25 years</TIMEX3>
+	<TIMEX3 char_begin="3495" char_end="3501" tid="" type="DURATION" value="">months</TIMEX3>
+	<TIMEX3 char_begin="3616" char_end="3622" tid="" type="DATE" value="">future</TIMEX3>
+	<TIMEX3 char_begin="3919" char_end="3931" tid="" type="DATE" value="">January 1789</TIMEX3>
+	<TIMEX3 char_begin="4008" char_end="4011" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="4128" char_end="4138" tid="" type="DATE" value="">5 May 1789</TIMEX3>
+	<TIMEX3 char_begin="5010" char_end="5014" tid="" type="DATE" value="">1789</TIMEX3>
+	<TIMEX3 char_begin="5020" char_end="5032" tid="" type="DATE" value="">10 June 1789</TIMEX3>
+	<TIMEX3 char_begin="5074" char_end="5077" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="5265" char_end="5279" tid="" type="DATE" value="">two days later</TIMEX3>
+	<TIMEX3 char_begin="5307" char_end="5314" tid="" type="DATE" value="">17 June</TIMEX3>
+	<TIMEX3 char_begin="5835" char_end="5843" tid="" type="DURATION" value="">two days</TIMEX3>
+	<TIMEX3 char_begin="6020" char_end="6032" tid="" type="DATE" value="">20 June 1789</TIMEX3>
+	<TIMEX3 char_begin="6223" char_end="6230" tid="" type="DATE" value="">27 June</TIMEX3>
+	<TIMEX3 char_begin="6469" char_end="6478" tid="" type="DURATION" value="">1789-1791</TIMEX3>
+	<TIMEX3 char_begin="6834" char_end="6846" tid="" type="DATE" value="">11 July 1789</TIMEX3>
+	<TIMEX3 char_begin="7170" char_end="7182" tid="" type="DATE" value="">the next day</TIMEX3>
+	<TIMEX3 char_begin="7645" char_end="7652" tid="" type="DATE" value="">14 July</TIMEX3>
+	<TIMEX3 char_begin="7825" char_end="7838" tid="" type="DURATION" value="">several hours</TIMEX3>
+	<TIMEX3 char_begin="7871" char_end="7880" tid="" type="TIME" value="">afternoon</TIMEX3>
+	<TIMEX3 char_begin="8786" char_end="8793" tid="" type="DATE" value="">17 July</TIMEX3>
+	<TIMEX3 char_begin="9447" char_end="9456" tid="" type="DATE" value="">late July</TIMEX3>
+	<TIMEX3 char_begin="10024" char_end="10037" tid="" type="DATE" value="">4 August 1789</TIMEX3>
+	<TIMEX3 char_begin="10216" char_end="10222" tid="" type="DATE" value="">August</TIMEX3>
+	<TIMEX3 char_begin="10357" char_end="10368" tid="" type="DURATION" value="">a few hours</TIMEX3>
+	<TIMEX3 char_begin="10537" char_end="10551" tid="" type="DATE" value="">26 August 1789</TIMEX3>
+	<TIMEX3 char_begin="11129" char_end="11132" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="11499" char_end="11508" tid="" type="DATE" value="">late 1789</TIMEX3>
+	<TIMEX3 char_begin="11599" char_end="11602" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="11711" char_end="11716" tid="" type="DATE" value="">March</TIMEX3>
+	<TIMEX3 char_begin="11789" char_end="11803" tid="" type="DATE" value="">1 October 1789</TIMEX3>
+	<TIMEX3 char_begin="11861" char_end="11875" tid="" type="DATE" value="">5 October 1789</TIMEX3>
+	<TIMEX3 char_begin="12416" char_end="12421" tid="" type="DATE" value="">march</TIMEX3>
+	<TIMEX3 char_begin="12784" char_end="12798" tid="" type="DATE" value="">6 October 1789</TIMEX3>
+	<TIMEX3 char_begin="13862" char_end="13869" tid="" type="DURATION" value="">one day</TIMEX3>
+	<TIMEX3 char_begin="14019" char_end="14030" tid="" type="DATE" value="">May of 1789</TIMEX3>
+	<TIMEX3 char_begin="14153" char_end="14162" tid="" type="DATE" value="">June 1789</TIMEX3>
+	<TIMEX3 char_begin="14384" char_end="14397" tid="" type="DATE" value="">4 August 1789</TIMEX3>
+	<TIMEX3 char_begin="14525" char_end="14540" tid="" type="DATE" value="">2 November 1789</TIMEX3>
+	<TIMEX3 char_begin="14698" char_end="14701" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="14806" char_end="14814" tid="" type="DATE" value="">December</TIMEX3>
+	<TIMEX3 char_begin="14968" char_end="14977" tid="" type="DURATION" value="">two years</TIMEX3>
+	<TIMEX3 char_begin="14982" char_end="14996" tid="" type="DATE" value="">autumn of 1789</TIMEX3>
+	<TIMEX3 char_begin="15041" char_end="15057" tid="" type="DATE" value="">13 February 1790</TIMEX3>
+	<TIMEX3 char_begin="15235" char_end="15247" tid="" type="DATE" value="">12 July 1790</TIMEX3>
+	<TIMEX3 char_begin="15556" char_end="15569" tid="" type="DATE" value="">November 1790</TIMEX3>
+	<TIMEX3 char_begin="16658" char_end="16662" tid="" type="DATE" value="">1801</TIMEX3>
+	<TIMEX3 char_begin="16925" char_end="16941" tid="" type="DATE" value="">11 December 1905</TIMEX3>
+	<TIMEX3 char_begin="18507" char_end="18519" tid="" type="DATE" value="">14 July 1790</TIMEX3>
+	<TIMEX3 char_begin="18529" char_end="18541" tid="" type="DURATION" value="">several days</TIMEX3>
+	<TIMEX3 char_begin="18615" char_end="18619" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="18923" char_end="18927" tid="" type="DURATION" value="">year</TIMEX3>
+	<TIMEX3 char_begin="19085" char_end="19088" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="19141" char_end="19144" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="19297" char_end="19306" tid="" type="DATE" value="">late 1790</TIMEX3>
+	<TIMEX3 char_begin="20130" char_end="20144" tid="" type="DATE" value="">10 August 1790</TIMEX3>
+	<TIMEX3 char_begin="20261" char_end="20264" tid="" type="DATE" value="">'89</TIMEX3>
+	<TIMEX3 char_begin="20597" char_end="20609" tid="" type="DATE" value="">January 1791</TIMEX3>
+	<TIMEX3 char_begin="21246" char_end="21264" tid="" type="DATE" value="">the winter of 1791</TIMEX3>
+	<TIMEX3 char_begin="21452" char_end="21455" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="21569" char_end="21581" tid="" type="DATE" value="">2 April 1791</TIMEX3>
+	<TIMEX3 char_begin="21594" char_end="21613" tid="" type="DATE" value="">the end of the year</TIMEX3>
+	<TIMEX3 char_begin="21991" char_end="22016" tid="" type="TIME" value="">the night of 20 June 1791</TIMEX3>
+	<TIMEX3 char_begin="22135" char_end="22147" tid="" type="DATE" value="">the next day</TIMEX3>
+	<TIMEX3 char_begin="22232" char_end="22239" tid="" type="DATE" value="">21 June</TIMEX3>
+	<TIMEX3 char_begin="24606" char_end="24609" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="24810" char_end="24818" tid="" type="DATE" value="">recently</TIMEX3>
+	<TIMEX3 char_begin="25149" char_end="25166" tid="" type="DATE" value="">29 September 1791</TIMEX3>
+	<TIMEX3 char_begin="25208" char_end="25212" tid="" type="DATE" value="">1791</TIMEX3>
+	<TIMEX3 char_begin="25465" char_end="25474" tid="" type="DURATION" value="">1791-1792</TIMEX3>
+	<TIMEX3 char_begin="25543" char_end="25547" tid="" type="DATE" value="">1791</TIMEX3>
+	<TIMEX3 char_begin="25780" char_end="25794" tid="" type="DATE" value="">1 October 1791</TIMEX3>
+	<TIMEX3 char_begin="25823" char_end="25845" tid="" type="DATE" value="">less than a year later</TIMEX3>
+	<TIMEX3 char_begin="25867" char_end="25871" tid="" type="DATE" value="">1911</TIMEX3>
+	<TIMEX3 char_begin="26473" char_end="26483" tid="" type="DURATION" value="">eight days</TIMEX3>
+	<TIMEX3 char_begin="26568" char_end="26574" tid="" type="DURATION" value="">a year</TIMEX3>
+	<TIMEX3 char_begin="26661" char_end="26688" tid="" type="TIME" value="">the night of 10 August 1792</TIMEX3>
+	<TIMEX3 char_begin="26929" char_end="26936" tid="" type="DATE" value="">present</TIMEX3>
+	<TIMEX3 char_begin="27133" char_end="27137" tid="" type="DATE" value="">1400</TIMEX3>
+	<TIMEX3 char_begin="27391" char_end="27408" tid="" type="DATE" value="">20 September 1792</TIMEX3>
+	<TIMEX3 char_begin="27459" char_end="27471" tid="" type="DATE" value="">The next day</TIMEX3>
+	<TIMEX3 char_begin="27658" char_end="27667" tid="" type="DURATION" value="">1792-1797</TIMEX3>
+	<TIMEX3 char_begin="28317" char_end="28320" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="28362" char_end="28374" tid="" type="DATE" value="">1 March 1792</TIMEX3>
+	<TIMEX3 char_begin="28408" char_end="28421" tid="" type="DATE" value="">20 April 1792</TIMEX3>
+	<TIMEX3 char_begin="28463" char_end="28480" tid="" type="DATE" value="">a few weeks later</TIMEX3>
+	<TIMEX3 char_begin="28571" char_end="28588" tid="" type="DATE" value="">20 September 1792</TIMEX3>
+	<TIMEX3 char_begin="28713" char_end="28721" tid="" type="DATE" value="">the past</TIMEX3>
+	<TIMEX3 char_begin="28745" char_end="28754" tid="" type="DURATION" value="">1792-1795</TIMEX3>
+	<TIMEX3 char_begin="29031" char_end="29046" tid="" type="DATE" value="">17 January 1793</TIMEX3>
+	<TIMEX3 char_begin="29331" char_end="29334" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="29421" char_end="29436" tid="" type="DATE" value="">21 January 1793</TIMEX3>
+	<TIMEX3 char_begin="29449" char_end="29452" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="30103" char_end="30113" tid="" type="DATE" value="">21 January</TIMEX3>
+	<TIMEX3 char_begin="30256" char_end="30266" tid="" type="DATE" value="">16 October</TIMEX3>
+	<TIMEX3 char_begin="31104" char_end="31121" tid="" type="DATE" value="">September of 1793</TIMEX3>
+	<TIMEX3 char_begin="31429" char_end="31447" tid="" type="DATE" value="">the spring of 1794</TIMEX3>
+	<TIMEX3 char_begin="31520" char_end="31524" tid="" type="DURATION" value="">days</TIMEX3>
+	<TIMEX3 char_begin="31600" char_end="31604" tid="" type="DATE" value="">July</TIMEX3>
+	<TIMEX3 char_begin="31613" char_end="31617" tid="" type="DURATION" value="">year</TIMEX3>
+	<TIMEX3 char_begin="31825" char_end="31834" tid="" type="DURATION" value="">1793-1794</TIMEX3>
+	<TIMEX3 char_begin="32054" char_end="32057" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="32128" char_end="32139" tid="" type="DATE" value="">2 June 1793</TIMEX3>
+	<TIMEX3 char_begin="32644" char_end="32651" tid="" type="DATE" value="">10 June</TIMEX3>
+	<TIMEX3 char_begin="32699" char_end="32706" tid="" type="DATE" value="">13 July</TIMEX3>
+	<TIMEX3 char_begin="32945" char_end="32956" tid="" type="DATE" value="">August 1792</TIMEX3>
+	<TIMEX3 char_begin="33237" char_end="33244" tid="" type="DATE" value="">24 June</TIMEX3>
+	<TIMEX3 char_begin="33366" char_end="33370" tid="" type="DATE" value="">1793</TIMEX3>
+	<TIMEX3 char_begin="33717" char_end="33721" tid="" type="DATE" value="">1793</TIMEX3>
+	<TIMEX3 char_begin="33827" char_end="33831" tid="" type="DATE" value="">1790</TIMEX3>
+	<TIMEX3 char_begin="35239" char_end="35242" tid="" type="DATE" value="">may</TIMEX3>
+	<TIMEX3 char_begin="36202" char_end="36211" tid="" type="DATE" value="">17 August</TIMEX3>
+	<TIMEX3 char_begin="36581" char_end="36592" tid="" type="DATE" value="">9 September</TIMEX3>
+	<TIMEX3 char_begin="36749" char_end="36761" tid="" type="DATE" value="">17 September</TIMEX3>
+	<TIMEX3 char_begin="36900" char_end="36912" tid="" type="DATE" value="">29 September</TIMEX3>
+	<TIMEX3 char_begin="38486" char_end="38501" tid="" type="DATE" value="">24 October 1793</TIMEX3>
+	<TIMEX3 char_begin="38751" char_end="38762" tid="" type="DATE" value="">10 November</TIMEX3>
+	<TIMEX3 char_begin="39105" char_end="39120" tid="" type="DATE" value="">the end of 1793</TIMEX3>
+	<TIMEX3 char_begin="39221" char_end="39225" tid="" type="DATE" value="">1794</TIMEX3>
+	<TIMEX3 char_begin="39351" char_end="39369" tid="" type="DATE" value="">the spring of 1794</TIMEX3>
+	<TIMEX3 char_begin="39537" char_end="39543" tid="" type="DATE" value="">7 June</TIMEX3>
+	<TIMEX3 char_begin="39565" char_end="39575" tid="" type="DATE" value="">previously</TIMEX3>
+	<TIMEX3 char_begin="39745" char_end="39757" tid="" type="DATE" value="">27 July 1794</TIMEX3>
+	<TIMEX3 char_begin="40282" char_end="40296" tid="" type="DATE" value="">22 August 1795</TIMEX3>
+	<TIMEX3 char_begin="40453" char_end="40470" tid="" type="DATE" value="">23 September 1795</TIMEX3>
+	<TIMEX3 char_begin="40512" char_end="40529" tid="" type="DATE" value="">27 September 1795</TIMEX3>
+	<TIMEX3 char_begin="40547" char_end="40556" tid="" type="DURATION" value="">1795-1799</TIMEX3>
+	<TIMEX3 char_begin="40900" char_end="40908" tid="" type="TIME" value="">annually</TIMEX3>
+	<TIMEX3 char_begin="41028" char_end="41032" tid="" type="DATE" value="">1793</TIMEX3>
+	<TIMEX3 char_begin="43490" char_end="43494" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="43743" char_end="43758" tid="" type="DATE" value="">9 November 1799</TIMEX3>
+	<TIMEX3 char_begin="43939" char_end="43943" tid="" type="DATE" value="">1804</TIMEX3>
+	<TIMEX3 char_begin="44506" char_end="44511" tid="" type="DURATION" value="">years</TIMEX3>
+	<TIMEX3 char_begin="44512" char_end="44521" tid="" type="DURATION" value="">1751-1777</TIMEX3>
+	<TIMEX3 char_begin="45303" char_end="45309" tid="" type="DATE" value="">future</TIMEX3>
+	<TIMEX3 char_begin="45887" char_end="45892" tid="" type="DATE" value="">March</TIMEX3>
+	<TIMEX3 char_begin="46312" char_end="46316" tid="" type="DATE" value="">1791</TIMEX3>
+	<TIMEX3 char_begin="46346" char_end="46350" tid="" type="DATE" value="">1793</TIMEX3>
+	<TIMEX3 char_begin="46371" char_end="46384" tid="" type="DATE" value="">March 6, 1792</TIMEX3>
+	<TIMEX3 char_begin="46744" char_end="46757" tid="" type="DATE" value="">Later in 1792</TIMEX3>
+	<TIMEX3 char_begin="46971" char_end="46978" tid="" type="DATE" value="">June 20</TIMEX3>
+	<TIMEX3 char_begin="46982" char_end="46986" tid="" type="DATE" value="">1792</TIMEX3>
+	<TIMEX3 char_begin="47259" char_end="47272" tid="" type="DATE" value="">July 13, 1793</TIMEX3>
+	<TIMEX3 char_begin="47585" char_end="47597" tid="" type="DATE" value="">May 10, 1793</TIMEX3>
+	<TIMEX3 char_begin="47881" char_end="47893" tid="" type="DATE" value="">May 20, 1793</TIMEX3>
+	<TIMEX3 char_begin="47974" char_end="47978" tid="" type="DATE" value="">1793</TIMEX3>
+	<TIMEX3 char_begin="50344" char_end="50348" tid="" type="DATE" value="">1789</TIMEX3>
 </TimeML>

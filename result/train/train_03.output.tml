@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="utf8"?>
 <TimeML>
-	<TIMEX3 char_begin="407" char_end="411" type="DATE">1860</TIMEX3>
-	<TIMEX3 char_begin="483" char_end="496" type="DATE">February 1861</TIMEX3>
-	<TIMEX3 char_begin="553" char_end="563" type="DATE">February 7</TIMEX3>
-	<TIMEX3 char_begin="729" char_end="737" type="DATE">February</TIMEX3>
-	<TIMEX3 char_begin="758" char_end="762" type="DATE">1861</TIMEX3>
-	<TIMEX3 char_begin="1334" char_end="1347" type="DATE">March 4, 1861</TIMEX3>
-	<TIMEX3 char_begin="2667" char_end="2675" type="DATE">April 12</TIMEX3>
-	<TIMEX3 char_begin="2934" char_end="2941" type="DURATION">90 days</TIMEX3>
-	<TIMEX3 char_begin="2947" char_end="2953" type="DURATION">months</TIMEX3>
-	<TIMEX3 char_begin="3065" char_end="3077" type="DATE">the next day</TIMEX3>
-	<TIMEX3 char_begin="3127" char_end="3137" type="DURATION">eight days</TIMEX3>
-	<TIMEX3 char_begin="3294" char_end="3297" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="3860" char_end="3864" type="DATE">1861</TIMEX3>
-	<TIMEX3 char_begin="4259" char_end="4267" type="DATE">May 1861</TIMEX3>
-	<TIMEX3 char_begin="4529" char_end="4538" type="DATE">late 1861</TIMEX3>
-	<TIMEX3 char_begin="5044" char_end="5057" type="DATE">March 8, 1862</TIMEX3>
-	<TIMEX3 char_begin="5219" char_end="5231" type="DATE">the next day</TIMEX3>
-	<TIMEX3 char_begin="5716" char_end="5728" type="DATE">January 1865</TIMEX3>
-	<TIMEX3 char_begin="5821" char_end="5830" type="DURATION">1861-1863</TIMEX3>
-	<TIMEX3 char_begin="5927" char_end="5936" type="DATE">July 1861</TIMEX3>
-	<TIMEX3 char_begin="5940" char_end="5945" type="DATE">march</TIMEX3>
-	<TIMEX3 char_begin="6562" char_end="6569" type="DATE">July 25</TIMEX3>
-	<TIMEX3 char_begin="6578" char_end="6582" type="DURATION">year</TIMEX3>
-	<TIMEX3 char_begin="6752" char_end="6759" type="DATE">July 26</TIMEX3>
-	<TIMEX3 char_begin="6934" char_end="6938" type="DATE">1862</TIMEX3>
-	<TIMEX3 char_begin="7046" char_end="7064" type="DATE">the spring of 1862</TIMEX3>
-	<TIMEX3 char_begin="7406" char_end="7416" type="DURATION">Seven Days</TIMEX3>
-	<TIMEX3 char_begin="7975" char_end="7986" type="DATE">September 5</TIMEX3>
-	<TIMEX3 char_begin="8119" char_end="8137" type="DATE">September 17, 1862</TIMEX3>
-	<TIMEX3 char_begin="8160" char_end="8163" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="8623" char_end="8640" type="DATE">December 13, 1862</TIMEX3>
-	<TIMEX3 char_begin="9006" char_end="9014" type="DATE">May 1863</TIMEX3>
-	<TIMEX3 char_begin="9104" char_end="9108" type="DATE">June</TIMEX3>
-	<TIMEX3 char_begin="9158" char_end="9164" type="DATE">July 1</TIMEX3>
-	<TIMEX3 char_begin="9168" char_end="9180" type="DATE">July 3, 1863</TIMEX3>
-	<TIMEX3 char_begin="9291" char_end="9297" type="DATE">July 3</TIMEX3>
-	<TIMEX3 char_begin="9545" char_end="9562" type="DATE">the following day</TIMEX3>
-	<TIMEX3 char_begin="9731" char_end="9735" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="9830" char_end="9839" type="DURATION">1861-1863</TIMEX3>
-	<TIMEX3 char_begin="10230" char_end="10243" type="DATE">early in 1862</TIMEX3>
-	<TIMEX3 char_begin="10486" char_end="10494" type="DATE">May 1862</TIMEX3>
-	<TIMEX3 char_begin="12014" char_end="12023" type="DURATION">1861-1865</TIMEX3>
-	<TIMEX3 char_begin="12472" char_end="12476" type="DATE">1862</TIMEX3>
-	<TIMEX3 char_begin="12538" char_end="12542" type="DATE">1863</TIMEX3>
-	<TIMEX3 char_begin="12746" char_end="12750" type="DATE">1863</TIMEX3>
-	<TIMEX3 char_begin="12816" char_end="12825" type="DURATION">1864-1865</TIMEX3>
-	<TIMEX3 char_begin="12830" char_end="12851" type="DATE">the beginning of 1864</TIMEX3>
-	<TIMEX3 char_begin="13680" char_end="13685" type="DATE">march</TIMEX3>
-	<TIMEX3 char_begin="13940" char_end="13944" type="DATE">past</TIMEX3>
-	<TIMEX3 char_begin="14192" char_end="14196" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="14411" char_end="14422" type="DURATION">seven weeks</TIMEX3>
-	<TIMEX3 char_begin="14609" char_end="14620" type="DURATION">nine months</TIMEX3>
-	<TIMEX3 char_begin="14736" char_end="14740" type="DATE">1864</TIMEX3>
-	<TIMEX3 char_begin="15169" char_end="15173" type="DATE">fall</TIMEX3>
-	<TIMEX3 char_begin="15189" char_end="15206" type="DATE">September 2, 1864</TIMEX3>
-	<TIMEX3 char_begin="15732" char_end="15737" type="DATE">March</TIMEX3>
-	<TIMEX3 char_begin="15805" char_end="15818" type="DATE">December 1864</TIMEX3>
-	<TIMEX3 char_begin="15916" char_end="15921" type="DATE">March</TIMEX3>
-	<TIMEX3 char_begin="16137" char_end="16140" type="DATE">now</TIMEX3>
-	<TIMEX3 char_begin="16235" char_end="16242" type="DATE">April 1</TIMEX3>
-	<TIMEX3 char_begin="16658" char_end="16671" type="DATE">April 9, 1865</TIMEX3>
-	<TIMEX3 char_begin="16947" char_end="16961" type="DATE">April 14, 1865</TIMEX3>
-	<TIMEX3 char_begin="17019" char_end="17026" type="TIME">morning</TIMEX3>
-	<TIMEX3 char_begin="17194" char_end="17201" type="DATE">April 6</TIMEX3>
-	<TIMEX3 char_begin="17268" char_end="17275" type="DATE">April 8</TIMEX3>
-	<TIMEX3 char_begin="17444" char_end="17456" type="DATE">the next day</TIMEX3>
-	<TIMEX3 char_begin="17612" char_end="17619" type="DATE">April 9</TIMEX3>
-	<TIMEX3 char_begin="17624" char_end="17632" type="DATE">April 21</TIMEX3>
-	<TIMEX3 char_begin="17713" char_end="17721" type="DATE">April 26</TIMEX3>
-	<TIMEX3 char_begin="17843" char_end="17848" type="DATE">May 4</TIMEX3>
-	<TIMEX3 char_begin="18013" char_end="18019" type="DATE">May 10</TIMEX3>
-	<TIMEX3 char_begin="18094" char_end="18106" type="DATE">the same day</TIMEX3>
-	<TIMEX3 char_begin="18189" char_end="18201" type="DATE">the next day</TIMEX3>
-	<TIMEX3 char_begin="18210" char_end="18213" type="DURATION">day</TIMEX3>
-	<TIMEX3 char_begin="18289" char_end="18302" type="DATE">June 23, 1865</TIMEX3>
-	<TIMEX3 char_begin="18630" char_end="18638" type="DATE">August 2</TIMEX3>
-	<TIMEX3 char_begin="18792" char_end="18808" type="DATE">November 6, 1865</TIMEX3>
+	<TIMEX3 char_begin="407" char_end="411" tid="" type="DATE" value="">1860</TIMEX3>
+	<TIMEX3 char_begin="483" char_end="496" tid="" type="DATE" value="">February 1861</TIMEX3>
+	<TIMEX3 char_begin="553" char_end="563" tid="" type="DATE" value="">February 7</TIMEX3>
+	<TIMEX3 char_begin="729" char_end="737" tid="" type="DATE" value="">February</TIMEX3>
+	<TIMEX3 char_begin="758" char_end="762" tid="" type="DATE" value="">1861</TIMEX3>
+	<TIMEX3 char_begin="1334" char_end="1347" tid="" type="DATE" value="">March 4, 1861</TIMEX3>
+	<TIMEX3 char_begin="2667" char_end="2675" tid="" type="DATE" value="">April 12</TIMEX3>
+	<TIMEX3 char_begin="2934" char_end="2941" tid="" type="DURATION" value="">90 days</TIMEX3>
+	<TIMEX3 char_begin="2947" char_end="2953" tid="" type="DURATION" value="">months</TIMEX3>
+	<TIMEX3 char_begin="3065" char_end="3077" tid="" type="DATE" value="">the next day</TIMEX3>
+	<TIMEX3 char_begin="3127" char_end="3137" tid="" type="DURATION" value="">eight days</TIMEX3>
+	<TIMEX3 char_begin="3294" char_end="3297" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="3860" char_end="3864" tid="" type="DATE" value="">1861</TIMEX3>
+	<TIMEX3 char_begin="4259" char_end="4267" tid="" type="DATE" value="">May 1861</TIMEX3>
+	<TIMEX3 char_begin="4529" char_end="4538" tid="" type="DATE" value="">late 1861</TIMEX3>
+	<TIMEX3 char_begin="5044" char_end="5057" tid="" type="DATE" value="">March 8, 1862</TIMEX3>
+	<TIMEX3 char_begin="5219" char_end="5231" tid="" type="DATE" value="">the next day</TIMEX3>
+	<TIMEX3 char_begin="5716" char_end="5728" tid="" type="DATE" value="">January 1865</TIMEX3>
+	<TIMEX3 char_begin="5821" char_end="5830" tid="" type="DURATION" value="">1861-1863</TIMEX3>
+	<TIMEX3 char_begin="5927" char_end="5936" tid="" type="DATE" value="">July 1861</TIMEX3>
+	<TIMEX3 char_begin="5940" char_end="5945" tid="" type="DATE" value="">march</TIMEX3>
+	<TIMEX3 char_begin="6562" char_end="6569" tid="" type="DATE" value="">July 25</TIMEX3>
+	<TIMEX3 char_begin="6578" char_end="6582" tid="" type="DURATION" value="">year</TIMEX3>
+	<TIMEX3 char_begin="6752" char_end="6759" tid="" type="DATE" value="">July 26</TIMEX3>
+	<TIMEX3 char_begin="6934" char_end="6938" tid="" type="DATE" value="">1862</TIMEX3>
+	<TIMEX3 char_begin="7046" char_end="7064" tid="" type="DATE" value="">the spring of 1862</TIMEX3>
+	<TIMEX3 char_begin="7406" char_end="7416" tid="" type="DURATION" value="">Seven Days</TIMEX3>
+	<TIMEX3 char_begin="7975" char_end="7986" tid="" type="DATE" value="">September 5</TIMEX3>
+	<TIMEX3 char_begin="8119" char_end="8137" tid="" type="DATE" value="">September 17, 1862</TIMEX3>
+	<TIMEX3 char_begin="8160" char_end="8163" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="8623" char_end="8640" tid="" type="DATE" value="">December 13, 1862</TIMEX3>
+	<TIMEX3 char_begin="9006" char_end="9014" tid="" type="DATE" value="">May 1863</TIMEX3>
+	<TIMEX3 char_begin="9104" char_end="9108" tid="" type="DATE" value="">June</TIMEX3>
+	<TIMEX3 char_begin="9158" char_end="9164" tid="" type="DATE" value="">July 1</TIMEX3>
+	<TIMEX3 char_begin="9168" char_end="9180" tid="" type="DATE" value="">July 3, 1863</TIMEX3>
+	<TIMEX3 char_begin="9291" char_end="9297" tid="" type="DATE" value="">July 3</TIMEX3>
+	<TIMEX3 char_begin="9545" char_end="9562" tid="" type="DATE" value="">the following day</TIMEX3>
+	<TIMEX3 char_begin="9731" char_end="9735" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="9830" char_end="9839" tid="" type="DURATION" value="">1861-1863</TIMEX3>
+	<TIMEX3 char_begin="10230" char_end="10243" tid="" type="DATE" value="">early in 1862</TIMEX3>
+	<TIMEX3 char_begin="10486" char_end="10494" tid="" type="DATE" value="">May 1862</TIMEX3>
+	<TIMEX3 char_begin="12014" char_end="12023" tid="" type="DURATION" value="">1861-1865</TIMEX3>
+	<TIMEX3 char_begin="12472" char_end="12476" tid="" type="DATE" value="">1862</TIMEX3>
+	<TIMEX3 char_begin="12538" char_end="12542" tid="" type="DATE" value="">1863</TIMEX3>
+	<TIMEX3 char_begin="12746" char_end="12750" tid="" type="DATE" value="">1863</TIMEX3>
+	<TIMEX3 char_begin="12816" char_end="12825" tid="" type="DURATION" value="">1864-1865</TIMEX3>
+	<TIMEX3 char_begin="12830" char_end="12851" tid="" type="DATE" value="">the beginning of 1864</TIMEX3>
+	<TIMEX3 char_begin="13680" char_end="13685" tid="" type="DATE" value="">march</TIMEX3>
+	<TIMEX3 char_begin="13940" char_end="13944" tid="" type="DATE" value="">past</TIMEX3>
+	<TIMEX3 char_begin="14192" char_end="14196" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="14411" char_end="14422" tid="" type="DURATION" value="">seven weeks</TIMEX3>
+	<TIMEX3 char_begin="14609" char_end="14620" tid="" type="DURATION" value="">nine months</TIMEX3>
+	<TIMEX3 char_begin="14736" char_end="14740" tid="" type="DATE" value="">1864</TIMEX3>
+	<TIMEX3 char_begin="15169" char_end="15173" tid="" type="DATE" value="">fall</TIMEX3>
+	<TIMEX3 char_begin="15189" char_end="15206" tid="" type="DATE" value="">September 2, 1864</TIMEX3>
+	<TIMEX3 char_begin="15732" char_end="15737" tid="" type="DATE" value="">March</TIMEX3>
+	<TIMEX3 char_begin="15805" char_end="15818" tid="" type="DATE" value="">December 1864</TIMEX3>
+	<TIMEX3 char_begin="15916" char_end="15921" tid="" type="DATE" value="">March</TIMEX3>
+	<TIMEX3 char_begin="16137" char_end="16140" tid="" type="DATE" value="">now</TIMEX3>
+	<TIMEX3 char_begin="16235" char_end="16242" tid="" type="DATE" value="">April 1</TIMEX3>
+	<TIMEX3 char_begin="16658" char_end="16671" tid="" type="DATE" value="">April 9, 1865</TIMEX3>
+	<TIMEX3 char_begin="16947" char_end="16961" tid="" type="DATE" value="">April 14, 1865</TIMEX3>
+	<TIMEX3 char_begin="17019" char_end="17026" tid="" type="TIME" value="">morning</TIMEX3>
+	<TIMEX3 char_begin="17194" char_end="17201" tid="" type="DATE" value="">April 6</TIMEX3>
+	<TIMEX3 char_begin="17268" char_end="17275" tid="" type="DATE" value="">April 8</TIMEX3>
+	<TIMEX3 char_begin="17444" char_end="17456" tid="" type="DATE" value="">the next day</TIMEX3>
+	<TIMEX3 char_begin="17612" char_end="17619" tid="" type="DATE" value="">April 9</TIMEX3>
+	<TIMEX3 char_begin="17624" char_end="17632" tid="" type="DATE" value="">April 21</TIMEX3>
+	<TIMEX3 char_begin="17713" char_end="17721" tid="" type="DATE" value="">April 26</TIMEX3>
+	<TIMEX3 char_begin="17843" char_end="17848" tid="" type="DATE" value="">May 4</TIMEX3>
+	<TIMEX3 char_begin="18013" char_end="18019" tid="" type="DATE" value="">May 10</TIMEX3>
+	<TIMEX3 char_begin="18094" char_end="18106" tid="" type="DATE" value="">the same day</TIMEX3>
+	<TIMEX3 char_begin="18189" char_end="18201" tid="" type="DATE" value="">the next day</TIMEX3>
+	<TIMEX3 char_begin="18210" char_end="18213" tid="" type="DURATION" value="">day</TIMEX3>
+	<TIMEX3 char_begin="18289" char_end="18302" tid="" type="DATE" value="">June 23, 1865</TIMEX3>
+	<TIMEX3 char_begin="18630" char_end="18638" tid="" type="DATE" value="">August 2</TIMEX3>
+	<TIMEX3 char_begin="18792" char_end="18808" tid="" type="DATE" value="">November 6, 1865</TIMEX3>
 </TimeML>
