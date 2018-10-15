@@ -32,17 +32,32 @@ def list_compare_strict(list_old,list_new):
                 cnt = cnt + 1
                 to_not_be_seen_positions_list_new.append(num_new)
                 to_not_be_seen_positions_list_old.append(num_old)
+    """This part is for matching the expressions as YYYY-YYYY, I do search for elements in old list,
+    the I repeat again for old list. If tid is the same, I look for the union on new list, plus an overlap 
+    check.
+    """
     for num_old_1 in range(len(list_old)):
         if '1000'<=list_old[num_old_1][0]<='2020' and list_old[num_old_1][1]=="DURATION" and num_old_1 not in to_not_be_seen_positions_list_old:
             for num_old_2 in range(len(list_old)):
+                begin_old_2 = int(list_old[num_old_2][2])
+                end_old_2 = int(list_old[num_old_2][3])
                 if list_old[num_old_1][0]!=list_old[num_old_2][0] and list_old[num_old_2][1]=="DURATION" and list_old[num_old_2][4]==list_old[num_old_1][4] and num_old_2 not in to_not_be_seen_positions_list_old:
                     for num_new in range(len(list_new)):
-                        if list_new[num_new][0]==str(list_old[num_old_1][0])+"-"+str(list_old[num_old_2][0]) and list_new[num_new][1]=="DURATION" and num_new not in to_not_be_seen_positions_list_new:
+                        begin_new = int(list_new[num_new][2])
+                        end_new = int(list_new[num_new][3])
+                        overlap = (begin_old_2 <= begin_new and end_old_2 >= end_new) or (
+                                    begin_new <= begin_old_2 and end_new >= end_old_2) or \
+                                  (begin_old_2 <= begin_new <= end_old_2) or (begin_new <= begin_old_2 <= end_new) or \
+                                  (begin_old_2 <= end_new <= end_old_2) or (begin_new <= end_old_2 <= end_new)
+                        if list_new[num_new][0]==str(list_old[num_old_1][0])+"-"+str(list_old[num_old_2][0]) and list_new[num_new][1]=="DURATION" and overlap and num_new not in to_not_be_seen_positions_list_new:
                             print "MATCHING AN YEAR INTERVAL!"
                             cnt = cnt + 1
                             to_not_be_seen_positions_list_old.append(num_old_1)
                             to_not_be_seen_positions_list_old.append(num_old_2)
                             to_not_be_seen_positions_list_new.append(num_new)
+                            print list_old[num_old_1]
+                            print list_old[num_old_2],"\n MATCHES"
+                            print list_new[num_new]
 
     for num_new in range(len(list_new)):
         if num_new not in to_not_be_seen_positions_list_new:
@@ -67,17 +82,32 @@ def list_compare_relaxed(list_old,list_new):
                 cnt = cnt + 1
                 to_not_be_seen_positions_list_new.append(num_new)
                 to_not_be_seen_positions_list_old.append(num_old)
+    """This part is for matching the expressions as YYYY-YYYY, I do search for elements in old list,
+    the I repeat again for old list. If tid is the same, I look for the union on new list, plus an overlap 
+    check.
+    """
     for num_old_1 in range(len(list_old)):
         if '1000'<=list_old[num_old_1][0]<='2020' and list_old[num_old_1][1]=="DURATION" and num_old_1 not in to_not_be_seen_positions_list_old:
             for num_old_2 in range(len(list_old)):
+                begin_old_2 = int(list_old[num_old_2][2])
+                end_old_2 = int(list_old[num_old_2][3])
                 if list_old[num_old_1][0]!=list_old[num_old_2][0] and list_old[num_old_2][1]=="DURATION" and list_old[num_old_2][4]==list_old[num_old_1][4] and num_old_2 not in to_not_be_seen_positions_list_old:
                     for num_new in range(len(list_new)):
-                        if list_new[num_new][0]==str(list_old[num_old_1][0])+"-"+str(list_old[num_old_2][0]) and list_new[num_new][1]=="DURATION" and num_new not in to_not_be_seen_positions_list_new:
+                        begin_new = int(list_new[num_new][2])
+                        end_new = int(list_new[num_new][3])
+                        overlap = (begin_old_2 <= begin_new and end_old_2 >= end_new) or (
+                                    begin_new <= begin_old_2 and end_new >= end_old_2) or \
+                                  (begin_old_2 <= begin_new <= end_old_2) or (begin_new <= begin_old_2 <= end_new) or \
+                                  (begin_old_2 <= end_new <= end_old_2) or (begin_new <= end_old_2 <= end_new)
+                        if list_new[num_new][0]==str(list_old[num_old_1][0])+"-"+str(list_old[num_old_2][0]) and list_new[num_new][1]=="DURATION" and overlap and num_new not in to_not_be_seen_positions_list_new:
                             print "MATCHING AN YEAR INTERVAL!"
                             cnt = cnt + 1
                             to_not_be_seen_positions_list_old.append(num_old_1)
                             to_not_be_seen_positions_list_old.append(num_old_2)
                             to_not_be_seen_positions_list_new.append(num_new)
+                            print list_old[num_old_1]
+                            print list_old[num_old_2],"\n MATCHES"
+                            print list_new[num_new]
 
     '''Now we check the positions of expressions. Overlap variable is used to check char_begin and 
     char_end. max_length is used to memorize which is the longest variable to match in my expressions,
@@ -112,7 +142,7 @@ def list_compare_relaxed(list_old,list_new):
                 print "NOT MATCHED IN ORIGINAL FILE: ",list_old[num_old]
     return cnt
 
-
+'''
 file1=list_creator('/home/fabio/Documenti/ComputationalLingiusticProjects/data/train/annotated/train_05.gold.tml')
 file2=list_creator('/home/fabio/Documenti/ComputationalLingiusticProjects/result/train/train_05.output.tml')
 
@@ -125,7 +155,7 @@ print 'NUMBER OF MATCHED TIME EXPRESSIONS IS:'
 print list_compare_strict(file1 , file2)
 print 'NUMBER OF MATCHED TIME EXPRESSIONS IS:'
 print list_compare_relaxed(file1 , file2)
-
+'''
 def counter_matches(original_file_path, my_file_path):
     '''Creating lists of elements from file path'''
     or_file = list_creator(original_file_path)
