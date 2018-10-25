@@ -54,6 +54,7 @@ def tokenizer(text, tokenized_text):
 
         # print tokenized_sentence
         tokenized_text.append(tokenized_sentence)
+        
 
     if length != totalLength:
         print "ERROR: the total lenght does not match the index of the last token!"
