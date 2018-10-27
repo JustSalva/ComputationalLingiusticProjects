@@ -9,12 +9,12 @@ dumas_test:
 per sostituire tags:
     cat dataSets/dumas_train | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_train_replaced
     cat dataSets/dumas_test | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_test_replaced
-
+    N.B. if an import error is shown just write in the terminal "export PYTHONPATH='.'" before launching the commands
 per costruire nuovi files:
-    launch restrictedLexiconBuilder cambiando la stringa filescope con "train" o "test"
+    launch restrictedLexiconBuilder
 
 restricted lexicon size = 10640
 
-10 most frequent words in train:
-    (launch countFrequentWords.py)
-    see "dataSets/mostFrequentWords" file
+10 most frequent words in train and tag frequencies:
+    (launch countFrequentWordsAndTagFrequencies.py)
+    see "dataSets/mostFrequentWords" and "dataSets/POS_tagSet_train" files

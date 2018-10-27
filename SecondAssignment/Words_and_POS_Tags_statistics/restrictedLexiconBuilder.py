@@ -1,19 +1,6 @@
-import sys
-
-possibleTags = [line.rstrip('\n') for line in open('./../dataSets/Penn_TreeBank_tagSet_TAGS')]
+from Utilities.utility import *
 dictionary = dict()
 wordFrequencies = dict()
-
-
-def isInTagSet(tag):
-    return tag in possibleTags
-
-
-def splitWordAndToken(token):
-    word, tag = token.split('/', 1)
-    if not isInTagSet(tag):
-        word, tag = handleMultipleSlashes(token)
-    return word, tag
 
 
 def addToDictionary(token):
@@ -44,19 +31,6 @@ def addToDictionary(token):
         print(e.with_traceback())
         print('error!!!: ' + token)
         exit(-1)
-
-
-def handleMultipleSlashes(token):
-    i = 0
-    found = False
-    while not found:
-        i += 1
-        split = token.split('/', i)
-        temp_word = '/'.join(split[:i])
-        temp_tag = split[i]
-        if isInTagSet(temp_tag):
-            found = True
-    return temp_word, temp_tag
 
 
 def replaceWordIfNotFrequent(token):

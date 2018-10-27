@@ -1,10 +1,6 @@
 import sys
 
-possibleTags = [line.rstrip('\n') for line in open('dataSets/Penn_TreeBank_tagSet_TAGS')]
-
-
-def isInTagSet(tag):
-    return tag in possibleTags
+from Utilities.utility import *
 
 
 def checkTag(token):
@@ -21,20 +17,6 @@ def checkTag(token):
         return token
 
     return word + "/" + tag
-
-
-def handleMultipleSlashes(token):
-    #print("multiple token: " + token)
-    i = 0
-    found = False
-    while not found:
-        i += 1
-        split = token.split("/", i)
-        temp_word = "/".join(split[:i])
-        temp_tag = split[i]
-        if isInTagSet(temp_tag):
-            found = True
-    return temp_word, temp_tag
 
 
 for line in sys.stdin:
