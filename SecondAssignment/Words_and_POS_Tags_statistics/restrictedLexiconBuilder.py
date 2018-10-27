@@ -73,7 +73,7 @@ print('restricted lexicon size = ' + str(lexiconSize))
 # create new train and test files
 for fileScope in ['train', 'test']:
     with open('./../dataSets/dumas_' + fileScope + '_replaced', 'r') as dataset:
-        with open('./../dataSets/' + fileScope, 'w') as finalDataset:
+        with open('./../dataSets/final/' + fileScope, 'w') as finalDataset:
             for line in dataset:
                 list = []
                 for token in line.split():

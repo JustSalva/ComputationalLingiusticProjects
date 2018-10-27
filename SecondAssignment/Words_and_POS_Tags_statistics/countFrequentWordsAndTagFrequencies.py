@@ -35,7 +35,7 @@ def transformMapInList(list, dictionary):
         list.append((element, int(dictionary[element])))
 
 
-with open('./../dataSets/train', 'r') as dataset:
+with open('./../dataSets/final/train', 'r') as dataset:
     for line in dataset:
         # add every word to the dictionary (added only if its support reaches value 4)
         for token in line.split():
@@ -50,12 +50,12 @@ wordFrequencyList = sorted(wordFrequencyList, key=itemgetter(1), reverse=True)
 transformMapInList(tagFrequencyList, tagFrequencies)
 tagFrequencyList = sorted(tagFrequencyList, key=itemgetter(1), reverse=True)
 
-with open('./../results/mostFrequentWords', 'w') as frequentWords:
+with open('./../results/2/mostFrequentWords', 'w') as frequentWords:
     for i in range(0, 10):
         word, frequency = wordFrequencyList[i]
         print(word + " " + str(frequency), file=frequentWords)
 
-with open('./../results/POS_tagSet_train', 'w') as POStagset:
+with open('./../results/2/POS_tagSet_train', 'w') as POStagset:
     for element in tagFrequencyList:
         print(element[0] + " " + str(element[1]), file=POStagset)
 
