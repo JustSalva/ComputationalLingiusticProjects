@@ -56,13 +56,27 @@ def extractElementWithMaxNumberOfTags(listTagStatisticsPerWord):
     return maxElement, maxNumberOfTags
 
 
-with open('./../dataSets/final/train', 'r') as dataset:
-    for line in dataset:
-        # add every word to the dictionary (added only if its support reaches value 4)
-        for token in line.split():
-            addTagToWordDictionary(token)
-        toPrint = ''
+def initializeWordDictionary():
+    with open('./../dataSets/final/train', 'r') as dataset:
+        for line in dataset:
+            # add every word to the dictionary (added only if its support reaches value 4)
+            for token in line.split():
+                addTagToWordDictionary(token)
+            toPrint = ''
 
+
+def writeResultsForBaselineTagger():
+    with open('./../results/3/baselineTaggerWordTagAssociations', 'w') as dataset:
+        for element in listTagStatisticsPerWord:
+            print(element[0] + " " + element[1][0][0], file=dataset)  # element and tag with max value
+
+
+def writeResultsForBaselineTagger():
+    with open('./../results/3/wordTagFrequenciesForHMMTagger', 'w') as dataset:
+        for element in listTagStatisticsPerWord:
+            print(element, file=dataset)
+
+initializeWordDictionary()
 listNumberOfTagsPerWord = []
 listTagStatisticsPerWord = []
 for element in wordDictionary:
@@ -75,9 +89,8 @@ for element in wordDictionary:
     tempList = sorted(tempList, key=itemgetter(1), reverse=True)
     listTagStatisticsPerWord.append((element, tempList))
 
-with open('./../results/3/baselineTaggerWordTagAssociations', 'w') as dataset:
-    for element in listTagStatisticsPerWord:
-        print(element[0] + " " + element[1][0][0], file=dataset)  # element and tag with max value
+writeResultsForBaselineTagger()
+writeResultsForBaselineTagger()
 
 print("Words associated to a single POStag: " + str(countNumberOfAssociations(listNumberOfTagsPerWord, 1)))
 print("Words associated to 2 POStags: " + str(countNumberOfAssociations(listNumberOfTagsPerWord, 2)))
