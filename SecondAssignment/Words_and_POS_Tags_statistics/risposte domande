@@ -1,0 +1,13 @@
+1. how many word/TAG tokens and how many sentences?
+dumas_train:
+    numberOfLines: 80244
+    numberOfTokens: 1595392
+dumas_test:
+    numberOfLines: 200
+    numberOfTokens: 3111
+
+per sostituire tags:
+cat dataSets/dumas_train | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_train_replaced
+cat dataSets/dumas_test | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_test_replaced
+
+per costruire nuovi files:

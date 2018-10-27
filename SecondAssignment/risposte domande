@@ -1,8 +1,0 @@
-1. how many word/TAG tokens and how many sentences?
-dumas_train:
-    numberOfLines: 80244
-    numberOfTokens: 1595392
-dumas_test:
-    numberOfLines: 200
-    numberOfTokens: 3111
-
