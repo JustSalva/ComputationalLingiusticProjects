@@ -11,3 +11,6 @@ cat dataSets/dumas_train | python Words_and_POS_Tags_statistics/replaceTaggedWor
 cat dataSets/dumas_test | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_test_replaced
 
 per costruire nuovi files:
+launch restrictedLexiconBuilder cambiando la stringa filescope con "train" o "test"
+
+restricted lexicon size = 10640
