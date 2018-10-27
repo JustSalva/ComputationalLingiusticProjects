@@ -7,10 +7,14 @@ dumas_test:
     numberOfTokens: 3111
 
 per sostituire tags:
-cat dataSets/dumas_train | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_train_replaced
-cat dataSets/dumas_test | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_test_replaced
+    cat dataSets/dumas_train | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_train_replaced
+    cat dataSets/dumas_test | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_test_replaced
 
 per costruire nuovi files:
-launch restrictedLexiconBuilder cambiando la stringa filescope con "train" o "test"
+    launch restrictedLexiconBuilder cambiando la stringa filescope con "train" o "test"
 
 restricted lexicon size = 10640
+
+10 most frequent words in train:
+    (launch countFrequentWords.py)
+    see "dataSets/mostFrequentWords" file

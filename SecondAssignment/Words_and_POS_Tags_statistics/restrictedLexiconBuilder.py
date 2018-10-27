@@ -68,7 +68,6 @@ def replaceWordIfNotFrequent(token):
     return '<UNK>' + '/' + tag
 
 
-
 # build frequency and restricted lexicon tables
 with open('./../dataSets/dumas_train_replaced', 'r') as dataset:
     with open('./../dataSets/train_dictionary', 'w') as tagDictionary:
@@ -82,7 +81,7 @@ with open('./../dataSets/dumas_train_replaced', 'r') as dataset:
         for key in dictionary:
             toPrint = ''
             for word in dictionary[key]:
-                toPrint = toPrint + word + '(' + str(wordFrequencies[word]) + ')' + ' '
+                toPrint = toPrint + word + ' '
 
             toPrint = key + ':' + toPrint
             # print(toPrint)
