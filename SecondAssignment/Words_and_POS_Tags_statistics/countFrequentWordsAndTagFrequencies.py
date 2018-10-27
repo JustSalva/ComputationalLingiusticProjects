@@ -60,16 +60,7 @@ with open('./../results/2/POS_tagSet_train', 'w') as POStagset:
         print(element[0] + " " + str(element[1]), file=POStagset)
 
 """
-frequencyList = []
-with open('./../dataSets/train_frequencies', 'r') as dataset:
-    for line in dataset:
-        word, frequency = line.split(' ', 1)
-        frequencyList.append((word, int(frequency)))
-
-frequencyList = sorted(frequencyList, key=itemgetter(1), reverse=True)
-print(frequencyList)
-with open('./../dataSets/mostFrequentWords', 'w') as frequentWords:
-    for i in range(0, 10):
-        word, frequency = frequencyList[i]
-        print(word + " " + str(frequency), file=frequentWords)
+with open('./../results/2/allWordsDictionary', 'w') as allFrequentWords:
+    for element in wordFrequencyList:
+        print(element[0], file=allFrequentWords)
 """

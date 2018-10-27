@@ -1,20 +1,30 @@
-1. how many word/TAG tokens and how many sentences?
-dumas_train:
-    numberOfLines: 80244
-    numberOfTokens: 1595392
-dumas_test:
-    numberOfLines: 200
-    numberOfTokens: 3111
+2. Words and POS Tags statistics
+    how many word/TAG tokens and how many sentences?
+    dumas_train:
+        numberOfLines: 80244
+        numberOfTokens: 1595392
+    dumas_test:
+        numberOfLines: 200
+        numberOfTokens: 3111
 
-per sostituire tags:
-    cat dataSets/dumas_train | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_train_replaced
-    cat dataSets/dumas_test | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_test_replaced
-    N.B. if an import error is shown just write in the terminal "export PYTHONPATH='.'" before launching the commands
-per costruire nuovi files:
-    launch restrictedLexiconBuilder
+    per sostituire tags:
+        cat dataSets/dumas_train | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_train_replaced
+        cat dataSets/dumas_test | python Words_and_POS_Tags_statistics/replaceTaggedWordTokens.py > dumas_test_replaced
+        N.B. if an import error is shown just write in the terminal "export PYTHONPATH='.'" before launching the commands
+    per costruire nuovi files:
+        launch restrictedLexiconBuilder
 
-restricted lexicon size = 10640
+    restricted lexicon size = 10640
 
-10 most frequent words in train and tag frequencies:
-    (launch countFrequentWordsAndTagFrequencies.py)
-    see "dataSets/mostFrequentWords" and "dataSets/POS_tagSet_train" files
+    10 most frequent words in train and tag frequencies:
+        (launch countFrequentWordsAndTagFrequencies.py)
+        see "dataSets/mostFrequentWords" and "dataSets/POS_tagSet_train" files
+
+3. Baseline tagger
+    Words associated to a single POStag: 7367
+    Words associated to 2 POStags: 2530
+    Words associated to 3 POStags: 658
+    Words associated to 4 or more POStags: 86
+    "start" statistics: ('start', [('VB', 45), ('NN', 26), ('VBP', 5)])
+    Word with max number of tags: (('<UNK>', [('NN', 6555), ('NNS', 3737), ('JJ', 3425), ('VBG', 1458), ('VB', 1145), ('VBN', 1049), ('RB', 922), ('VBD', 705), ('VBZ', 703), ('VBP', 224), ('FW', 176), ('JJS', 120), ('JJR', 70), ('IN', 31), ('SYM', 11), ('UH', 8), ('MD', 5), ('DT', 5), ('PRP', 4), ('WP', 3), ('PRP$', 3), ('WDT', 3), ('LS', 2), ('RBR', 2), ('CC', 2), ('$', 1), ('-LRB-', 1), ('-RRB-', 1)]), 28)
+        (sono 28)
