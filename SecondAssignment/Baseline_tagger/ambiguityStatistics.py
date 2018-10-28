@@ -71,10 +71,11 @@ def writeResultsForBaselineTagger():
             print(element[0] + " " + element[1][0][0], file=dataset)  # element and tag with max value
 
 
-def writeResultsForBaselineTagger():
+def writeResultsForHMMTagger():
     with open('./../results/3/wordTagFrequenciesForHMMTagger', 'w') as dataset:
         for element in listTagStatisticsPerWord:
             print(element, file=dataset)
+
 
 initializeWordDictionary()
 listNumberOfTagsPerWord = []
@@ -90,7 +91,7 @@ for element in wordDictionary:
     listTagStatisticsPerWord.append((element, tempList))
 
 writeResultsForBaselineTagger()
-writeResultsForBaselineTagger()
+writeResultsForHMMTagger()
 
 print("Words associated to a single POStag: " + str(countNumberOfAssociations(listNumberOfTagsPerWord, 1)))
 print("Words associated to 2 POStags: " + str(countNumberOfAssociations(listNumberOfTagsPerWord, 2)))
