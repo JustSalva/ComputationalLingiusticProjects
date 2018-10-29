@@ -3,7 +3,8 @@ from Utilities.utility import splitWordAndToken
 
 def initialState():
     return states[0]
-
+epsilonA = 0.1
+epsilonB = 0.1
 wordList = []
 states = '<S>', 'CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'PDT', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'RBS', 'RP', 'SYM', 'TO', 'UH', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'WDT', 'WP', 'WP$', 'WRB', '$', '#', '``', '\'\'', '-LRB-', '-RRB-', ',', '.', ':'
 with open('./../results/2/allWordsDictionary', 'r') as words:
@@ -44,7 +45,7 @@ with open('./../dataSets/final/train', 'r') as dataset:
             else:
                 numberOfWordsObservedPerState[state][word] += 1
 
-            if word not in numberOfTimesStateIsFollowedByState[state]:
+            if tag not in numberOfTimesStateIsFollowedByState[state]:
                 numberOfTimesStateIsFollowedByState[state][tag] = 1
             else:
                 numberOfTimesStateIsFollowedByState[state][tag] += 1
@@ -61,17 +62,21 @@ with open('./../dataSets/final/train', 'r') as dataset:
                 numberOfVisitsPerState[state] = 0
 
 for state in states:
-    if(state in numberOfVisitsPerState) and (state in numberOfWordsObservedPerState):
-        for word in wordList:
-            if word in numberOfWordsObservedPerState[state]:
-                B[word][state] = numberOfWordsObservedPerState[state][word] / numberOfVisitsPerState[state]
-for secondState in states:
-    if (secondState in numberOfTimesStateIsFollowedByState) and (secondState in numberOfVisitsPerState):
-        for state in states:
-            if state in numberOfTimesStateIsFollowedByState[secondState]:
-                A[state][secondState] = numberOfTimesStateIsFollowedByState[secondState][state] / numberOfVisitsPerState[secondState]
+    for word in wordList:
+        if (state in numberOfVisitsPerState) and (state in numberOfWordsObservedPerState) and (word in numberOfWordsObservedPerState[state]):
+            B[word][state] = (numberOfWordsObservedPerState[state][word] +epsilonB )/ (numberOfVisitsPerState[state] + epsilonB*numberOfWords)
+        else:
+            if(epsilonB != 0):
+                B[word][state] = 1 / numberOfWords
+for state in states:
+    for secondState in states:
+        if (state in numberOfVisitsPerState) and (state in numberOfWordsObservedPerState) and (secondState in numberOfTimesStateIsFollowedByState[state]):
+            A[state][secondState] = (numberOfTimesStateIsFollowedByState[state][secondState] + epsilonA)/ (numberOfVisitsPerState[state] +epsilonA*numberOfStates)
+        else:
+            if(epsilonA != 0):
+                A[state][secondState] = 1 / numberOfStates
 print("A")
-for state in states:   
+for state in states:
     print(A[state])
 print("B")
 for word in wordList:
