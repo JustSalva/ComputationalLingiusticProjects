@@ -71,7 +71,7 @@ for secondState in states:
             if state in numberOfTimesStateIsFollowedByState[secondState]:
                 A[state][secondState] = numberOfTimesStateIsFollowedByState[secondState][state] / numberOfVisitsPerState[secondState]
 print("A")
-for state in states:
+for state in states:   
     print(A[state])
 print("B")
 for word in wordList:
