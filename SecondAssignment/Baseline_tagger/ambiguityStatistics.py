@@ -19,18 +19,22 @@ def addTagToWordDictionary(token):
 
 def countNumberOfAssociations(listNumberOfTagsPerWord, numberOfOccurrences):
     counter = 0
+    sumOfOccurrences = 0
     for element in listNumberOfTagsPerWord:
         if element[1] == numberOfOccurrences:
             counter += 1
-    return counter
+            sumOfOccurrences += element[2]
+    return counter, sumOfOccurrences
 
 
 def countNumberOfAssociationsGivenLowerBound(listNumberOfTagsPerWord, numberOfOccurrences):
     counter = 0
+    sumOfOccurrences = 0
     for element in listNumberOfTagsPerWord:
         if element[1] >= numberOfOccurrences:
             counter += 1
-    return counter
+            sumOfOccurrences += element[2]
+    return counter, sumOfOccurrences
 
 
 def extractWordStatistics(listTagStatisticsPerWord, word):
@@ -62,7 +66,6 @@ def initializeWordDictionary():
             # add every word to the dictionary (added only if its support reaches value 4)
             for token in line.split():
                 addTagToWordDictionary(token)
-            toPrint = ''
 
 
 def writeResultsForBaselineTagger():
@@ -71,33 +74,29 @@ def writeResultsForBaselineTagger():
             print(element[0] + " " + element[1][0][0], file=dataset)  # element and tag with max value
 
 
-def writeResultsForHMMTagger():
-    with open('./../results/3/wordTagFrequenciesForHMMTagger', 'w') as dataset:
-        for element in listTagStatisticsPerWord:
-            print(element, file=dataset)
-
 
 initializeWordDictionary()
 listNumberOfTagsPerWord = []
 listTagStatisticsPerWord = []
 for element in wordDictionary:
     tagCounter = 0
+    numberOfOccurrences = 0
     tempList = []
     for tag in wordDictionary[element]:
         tagCounter += 1
+        numberOfOccurrences += wordDictionary[element][tag]
         tempList.append((tag, wordDictionary[element][tag]))
-    listNumberOfTagsPerWord.append((element, tagCounter))
+    listNumberOfTagsPerWord.append((element, tagCounter, numberOfOccurrences))
     tempList = sorted(tempList, key=itemgetter(1), reverse=True)
     listTagStatisticsPerWord.append((element, tempList))
 
 writeResultsForBaselineTagger()
-writeResultsForHMMTagger()
-
-print("Words associated to a single POStag: " + str(countNumberOfAssociations(listNumberOfTagsPerWord, 1)))
-print("Words associated to 2 POStags: " + str(countNumberOfAssociations(listNumberOfTagsPerWord, 2)))
-print("Words associated to 3 POStags: " + str(countNumberOfAssociations(listNumberOfTagsPerWord, 3)))
+print(listNumberOfTagsPerWord)
+print("Words associated to a single POStag (number and occurrences): " + str(countNumberOfAssociations(listNumberOfTagsPerWord, 1)))
+print("Words associated to 2 POStags: (number and occurrences)" + str(countNumberOfAssociations(listNumberOfTagsPerWord, 2)))
+print("Words associated to 3 POStags: (number and occurrences)" + str(countNumberOfAssociations(listNumberOfTagsPerWord, 3)))
 print(
-    "Words associated to 4 or more POStags: " + str(
+    "Words associated to 4 or more POStags: (number and occurrences)" + str(
         countNumberOfAssociationsGivenLowerBound(listNumberOfTagsPerWord, 4)))
 print("\"start\" statistics: " + str(extractWordStatistics(listTagStatisticsPerWord, "start")))
 print("Word with max number of tags: " + str(extractElementWithMaxNumberOfTags(listTagStatisticsPerWord)))

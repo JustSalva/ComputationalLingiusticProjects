@@ -25,14 +25,6 @@ def incrementDictionaryCounter(tag, dictionary):
         dictionary[tag] = 1
 
 
-def incrementCorrectMatchCount(predictedTag):
-    incrementDictionaryCounter(predictedTag, correctMatchesPerTag)
-
-
-def incrementIncorrectMatchCount(predictedTag):
-    incrementDictionaryCounter(predictedTag, wrongMatchesPerTag)
-
-
 def incrementTotalTagOccurrences(actualTag):
     incrementDictionaryCounter(actualTag, totalTagOccurrences)
 
