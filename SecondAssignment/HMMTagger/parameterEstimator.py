@@ -1,6 +1,6 @@
 from Utilities.utility import splitWordAndToken
 import numpy as np
-
+import hmms
 def initialState():
     return states[0]
 
@@ -117,4 +117,6 @@ print(B)
 print(actualStates)
 """
 
-#dhmm = hmms.DtHMM(A,B,Pi)
+dhmm = hmms.DtHMM(A,B,pi)
+
+dhmm.save_params('./../results/4/hmmParameters')

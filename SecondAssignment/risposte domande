@@ -54,3 +54,10 @@
 
 
 
+NB to install hmms:
+    python -m pip install numpy cython
+    python -m pip install hmms
+    if you encounter problems: https://github.com/lopatovsky/HMMs/issues/4, in particular:
+        python3.6 -m pip uninstall cython
+        python3.6 -m pip install cython==0.25.2
+        python3.6 -m pip install hmms
