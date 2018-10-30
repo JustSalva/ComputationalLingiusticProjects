@@ -113,6 +113,18 @@ def getBestEpsilons(performances):
     return 0, 0  # TODO
 
 
+def initializeMappings():
+    with open('./../results/4/tagMapping', 'r') as tagMappingFile:
+        for line in tagMappingFile:
+            list = line.split()
+            tagMapping[list[0]] = int(list[1])
+
+    with open('./../results/4/wordMapping', 'r') as wordMappingFile:
+        for line in wordMappingFile:
+            list = line.split()
+            wordMapping[list[0]] = int(list[1])
+
+
 """
 def printMappingToFile():
     with open('./../results/4/tagMapping', 'w') as tagMappingFile:
@@ -149,6 +161,9 @@ epsilonA = 0
 epsilonB = 0
 epsilon_possible_values = [0.000001, 0.000005, 0.00001, 0.00005, 0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5]
 performances = []
+tagMapping = dict()
+wordMapping = dict()
+initializeMappings()
 for i in range(0, k):
     temp_performances = []
     numberOfWordsObservedPerState = dict()  # of states
