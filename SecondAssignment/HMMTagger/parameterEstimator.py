@@ -4,6 +4,52 @@ import hmms
 from random import shuffle
 
 
+
+
+def incrementDictionaryCounter(tag, dictionary):
+    if tag in dictionary:
+        dictionary[tag] += 1
+    else:
+        dictionary[tag] = 1
+
+def incrementTotalTagOccurrences(actualTag):
+    incrementDictionaryCounter(actualTag, totalTagOccurrences)
+
+
+def insertIntoMatchesMatrix(actualTag, predictedTag):
+    if actualTag in matchesMatrix:
+        incrementDictionaryCounter(predictedTag, matchesMatrix[actualTag])
+    else:
+        matchesMatrix[actualTag] = dict()
+        matchesMatrix[actualTag][predictedTag] = 1
+
+
+def buildConfusionMatrix():
+    for actualTag in matchesMatrix:
+        confusionMatrix[actualTag] = dict()
+        for predictedTag in matchesMatrix[actualTag]:
+            if predictedTag == actualTag:
+                confusionMatrix[actualTag][predictedTag] = 0
+            else:
+                count = matchesMatrix[actualTag][predictedTag]
+                errorPercentage = count / totalTagOccurrences[actualTag]
+                confusionMatrix[actualTag][predictedTag] = errorPercentage
+
+def computeErrorRates():
+    totalSumOfWeightedErrors = 0
+    totalNumberOfTagsOccurrences = 0
+    errorRatePerTag = dict()
+    for actualTag in confusionMatrix:
+        sumOfErrors = 0
+        tagFrequency = totalTagOccurrences[actualTag]
+        totalNumberOfTagsOccurrences += tagFrequency
+        for predictedTag in confusionMatrix[actualTag]:
+            sumOfErrors += confusionMatrix[actualTag][predictedTag]
+        totalSumOfWeightedErrors += tagFrequency * sumOfErrors
+        errorRatePerTag[actualTag] = sumOfErrors
+    return totalSumOfWeightedErrors / totalNumberOfTagsOccurrences, errorRatePerTag
+
+
 def loadTrainSet():
     with open('./../dataSets/final/train', 'r') as dataset:
         for line in dataset:
@@ -105,8 +151,19 @@ def computeParameters(epsilonA, epsilonB):
     # printMappingToFile()
 
 
-def evaluate(tempTestSet):
-    print()  # TODO
+def evaluate(tempTestSet, dhmm):
+    for i in range(0, len(tempTestSet)):
+        testLine = tempTestSet[i]
+        wordSequence_temp_list= []
+        for k in range(0, len(testLine)):
+            wordSequence_temp_list.append( testLine[k][0] ) # TODO convert in numpy array and convert words in numbers
+        (log_prob, state_sequence) = dhmm.viterbi(wordSequence_temp_list)
+        for j in range(0, len(testLine)):
+            word, actualTag = testLine[j][0], testLine[j][1]
+            predictedTag = state_sequence[j]
+            insertIntoMatchesMatrix(actualTag, predictedTag)
+            incrementTotalTagOccurrences(actualTag)
+    return computeErrorRates()
 
 
 def getBestEpsilons(performances):
@@ -165,13 +222,12 @@ tagMapping = dict()
 wordMapping = dict()
 initializeMappings()
 for i in range(0, k):
-    temp_performances = []
+    temp_performances = [] # TODO transform it into an hash => sum values
     numberOfWordsObservedPerState = dict()  # of states
     numberOfTimesStateIsFollowedByState = dict()  # of states
     numberOfVisitsPerState = dict()  # of states
     numberOfWordsObservedPerState[initialState()] = dict()
     numberOfTimesStateIsFollowedByState[initialState()] = dict()
-    computeParameters(epsilonA, epsilonB)
     tempTrainSet = []
     tempTestSet = []
     for i in range(0, len(trainSet)):
@@ -187,7 +243,11 @@ for i in range(0, k):
             B = np.zeros((numberOfStates, numberOfWords))
             computeParameters(epsilonA, epsilonB)
             dhmm = hmms.DtHMM(A, B, pi)
-            temp_performances.append(evaluate(tempTestSet))
+
+            totalTagOccurrences = dict()
+            matchesMatrix = dict()
+            confusionMatrix = dict()
+            temp_performances.append((evaluate(tempTestSet, dhmm), epsilonA, epsilonB))
     performances.append(temp_performances)
 
 epsilonA, epsilonB = getBestEpsilons(performances)
