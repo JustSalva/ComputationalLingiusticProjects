@@ -179,9 +179,9 @@ def addToPerformanceList(taggingErrorRate, epsilonA, epsilonB):
     else:
         performanceErrors[epsilonA] = dict()
         performanceErrors[epsilonA][epsilonB] = taggingErrorRate
-    #print("tagging error rate: " + str(taggingErrorRate))
-    #print("epsilonA: " + str(epsilonA))
-    #print("epsilonB: " + str(epsilonB))
+    # print("tagging error rate: " + str(taggingErrorRate))
+    # print("epsilonA: " + str(epsilonA))
+    # print("epsilonB: " + str(epsilonB))
 
 
 def getBestEpsilons(performanceErrors):
@@ -244,12 +244,13 @@ shuffle(trainSet)
 epsilonA = 0
 epsilonB = 0
 # epsilon_possible_values = [0.000001, 0.000005, 0.00001, 0.00005, 0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5]
-epsilon_possible_values = [0.01, 0.025, 0.05, 0.075, 0.1, 0.25, 0.5, 0.75]
+epsilon_possible_valuesA = [0.95]
+epsilon_possible_valuesB = [0.2]
 performanceErrors = dict()
 tagMapping = dict()
 wordMapping = dict()
 initializeMappings()
-
+"""
 for i in range(0, k):
     print(" crossvalidation with fold = " + str(i))
     numberOfWordsObservedPerState = dict()  # of states
@@ -265,8 +266,8 @@ for i in range(0, k):
         else:
             tempTestSet.append(trainSet[i])
     computeCounters(tempTrainSet)
-    for epsilonA in epsilon_possible_values:
-        for epsilonB in epsilon_possible_values:
+    for epsilonA in epsilon_possible_valuesA:
+        for epsilonB in epsilon_possible_valuesB:
             A = np.zeros((numberOfStates, numberOfStates))
             pi = np.zeros(numberOfStates)
             B = np.zeros((numberOfStates, numberOfWords))
@@ -277,8 +278,9 @@ for i in range(0, k):
             confusionMatrix = dict()
             taggingErrorRate = evaluate(tempTestSet, dhmm)
             addToPerformanceList(taggingErrorRate, epsilonA, epsilonB)
-
-epsilonA, epsilonB = getBestEpsilons(performanceErrors)
+"""
+#epsilonA, epsilonB = getBestEpsilons(performanceErrors)
+epsilonA, epsilonB = 0.95, 0.2
 print("optimal epsilonA: " + str(epsilonA))
 print("optimal epsilonB: " + str(epsilonB))
 print(performanceErrors)
