@@ -2,8 +2,7 @@ from Utilities.utility import splitWordAndToken
 import numpy as np
 import hmms
 from random import shuffle
-
-
+import math
 
 
 def incrementDictionaryCounter(tag, dictionary):
@@ -11,6 +10,7 @@ def incrementDictionaryCounter(tag, dictionary):
         dictionary[tag] += 1
     else:
         dictionary[tag] = 1
+
 
 def incrementTotalTagOccurrences(actualTag):
     incrementDictionaryCounter(actualTag, totalTagOccurrences)
@@ -34,6 +34,7 @@ def buildConfusionMatrix():
                 count = matchesMatrix[actualTag][predictedTag]
                 errorPercentage = count / totalTagOccurrences[actualTag]
                 confusionMatrix[actualTag][predictedTag] = errorPercentage
+
 
 def computeErrorRates():
     totalSumOfWeightedErrors = 0
@@ -154,27 +155,50 @@ def computeParameters(epsilonA, epsilonB):
 def evaluate(tempTestSet, dhmm):
     for i in range(0, len(tempTestSet)):
         testLine = tempTestSet[i]
-        wordSequence_temp_list= []
+        wordSequence_temp_list = np.zeros(len(testLine), dtype=int)
+
         for k in range(0, len(testLine)):
-            wordSequence_temp_list.append( testLine[k][0] ) # TODO convert in numpy array and convert words in numbers
+            wordSequence_temp_list[k] = wordMapping[testLine[k][0]]
         (log_prob, state_sequence) = dhmm.viterbi(wordSequence_temp_list)
         for j in range(0, len(testLine)):
             word, actualTag = testLine[j][0], testLine[j][1]
-            predictedTag = state_sequence[j]
+            predictedTag = tagMapping[state_sequence[j]]
             insertIntoMatchesMatrix(actualTag, predictedTag)
             incrementTotalTagOccurrences(actualTag)
-    return computeErrorRates()
+    buildConfusionMatrix()
+    taggingErrorRate, tagRates = computeErrorRates()
+    return taggingErrorRate
 
 
-def getBestEpsilons(performances):
-    return 0, 0  # TODO
+def addToPerformanceList(taggingErrorRate, epsilonA, epsilonB):
+    if epsilonA in performanceErrors:
+        if epsilonB in performanceErrors[epsilonA]:
+            performanceErrors[epsilonA][epsilonB] += taggingErrorRate
+        else:
+            performanceErrors[epsilonA][epsilonB] = taggingErrorRate
+    else:
+        performanceErrors[epsilonA] = dict()
+        performanceErrors[epsilonA][epsilonB] = taggingErrorRate
+
+
+def getBestEpsilons(performanceErrors):
+    bestEpsilonA = 0
+    bestEpsilonB = 0
+    minError = math.inf
+    for epsilonA in performanceErrors:
+        for epsilonB in performanceErrors[epsilonB]:
+            if performanceErrors[epsilonA][epsilonB] <= minError:
+                minError = performanceErrors[epsilonA][epsilonB]
+                bestEpsilonA = epsilonA
+                bestEpsilonB = epsilonB
+    return bestEpsilonA, bestEpsilonB
 
 
 def initializeMappings():
     with open('./../results/4/tagMapping', 'r') as tagMappingFile:
         for line in tagMappingFile:
             list = line.split()
-            tagMapping[list[0]] = int(list[1])
+            tagMapping[int(list[1])] = list[0]
 
     with open('./../results/4/wordMapping', 'r') as wordMappingFile:
         for line in wordMappingFile:
@@ -217,12 +241,11 @@ shuffle(trainSet)
 epsilonA = 0
 epsilonB = 0
 epsilon_possible_values = [0.000001, 0.000005, 0.00001, 0.00005, 0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5]
-performances = []
+performanceErrors = dict()
 tagMapping = dict()
 wordMapping = dict()
 initializeMappings()
 for i in range(0, k):
-    temp_performances = [] # TODO transform it into an hash => sum values
     numberOfWordsObservedPerState = dict()  # of states
     numberOfTimesStateIsFollowedByState = dict()  # of states
     numberOfVisitsPerState = dict()  # of states
@@ -247,10 +270,13 @@ for i in range(0, k):
             totalTagOccurrences = dict()
             matchesMatrix = dict()
             confusionMatrix = dict()
-            temp_performances.append((evaluate(tempTestSet, dhmm), epsilonA, epsilonB))
-    performances.append(temp_performances)
+            taggingErrorRate = evaluate(tempTestSet, dhmm)
+            addToPerformanceList(taggingErrorRate, epsilonA, epsilonB)
 
-epsilonA, epsilonB = getBestEpsilons(performances)
+epsilonA, epsilonB = getBestEpsilons(performanceErrors)
+print("optimal epsilonA: " + epsilonA)
+print("optimal epsilonB: " + epsilonB)
+print(performanceErrors)
 A = np.zeros((numberOfStates, numberOfStates))
 pi = np.zeros(numberOfStates)
 B = np.zeros((numberOfStates, numberOfWords))
@@ -261,6 +287,7 @@ numberOfWordsObservedPerState[initialState()] = dict()
 numberOfTimesStateIsFollowedByState[initialState()] = dict()
 computeCounters(trainSet)
 computeParameters(epsilonA, epsilonB)
+
 """
 print("pi")
 print(pi)
