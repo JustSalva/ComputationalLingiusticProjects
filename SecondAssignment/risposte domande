@@ -18,7 +18,7 @@
 
     10 most frequent words in train and tag frequencies:
         (launch countFrequentWordsAndTagFrequencies.py)
-        see "dataSets/mostFrequentWords" and "dataSets/POS_tagSet_train" files
+        see "results/mostFrequentWords" and "result/POS_tagSet_train" files
 
 3. Baseline tagger
     Words associated to a single POStag: 7367
@@ -53,11 +53,21 @@
      relative 0.2923) and NN (4 times, relative 0.061538)
 
 
-4.
-    first run of crossvalidation
-    optimal epsilonA: 0.5
-    optimal epsilonB: 0.05
-    train error rate = 0.07011192233632862
+4.  if epsilon = 0
+
+    first crossvalidation run:
+        optimal epsilonA: 0.01
+        optimal epsilonB: 1e-05
+        Training error rate: 0.030044026797175865
+    second:
+        optimal epsilonA: 0.005
+        optimal epsilonB: 5e-06
+        Training error rate: 0.030019581394415917
+    third:
+        optimal epsilonA: 0.003
+        optimal epsilonB: 2e-06
+        Training error rate: 0.0300014040436457
+    Test tagging error rate: 0.02507232401157184
 NB to install hmms:
     python -m pip install numpy cython
     python -m pip install hmms

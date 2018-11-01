@@ -109,11 +109,18 @@ def computeParameters(epsilonA, epsilonB):
     i = 0
     for state in states:
         j = 0
+        if not (state in numberOfVisitsPerState):
+            visits = 0
+        else:
+            visits = numberOfVisitsPerState[state]
         for word in wordList:
-            if (state in numberOfVisitsPerState) and (state in numberOfWordsObservedPerState) and (
-                    word in numberOfWordsObservedPerState[state]):
-                B[i][j] = (numberOfWordsObservedPerState[state][word] + epsilonB) / (
-                        numberOfVisitsPerState[state] + epsilonB * numberOfWords)
+            if (not (state in numberOfWordsObservedPerState)) or (not (word in numberOfWordsObservedPerState[state])):
+                observedWords = 0
+            else:
+                observedWords = numberOfWordsObservedPerState[state][word]
+            if visits != 0 or epsilonB != 0:
+                B[i][j] = (float(observedWords + epsilonB)) / (
+                    float(visits + epsilonB * numberOfWords))
             else:
                 if epsilonB != 0:
                     B[i][j] = 1 / numberOfWords
@@ -125,11 +132,19 @@ def computeParameters(epsilonA, epsilonB):
     i = 0
     for state in states:
         j = 0
+        if not (state in numberOfVisitsPerState):
+            visits = 0
+        else:
+            visits = numberOfVisitsPerState[state]
         for secondState in states:
-            if (state in numberOfVisitsPerState) and (state in numberOfWordsObservedPerState) and (
-                    secondState in numberOfTimesStateIsFollowedByState[state]):
-                A[i][j] = (numberOfTimesStateIsFollowedByState[state][secondState] + epsilonA) / (
-                        numberOfVisitsPerState[state] + epsilonA * numberOfStates)
+            if (not (state in numberOfTimesStateIsFollowedByState)) or (
+                    not (secondState in numberOfTimesStateIsFollowedByState[state])):
+                followingStateCount = 0
+            else:
+                followingStateCount = numberOfTimesStateIsFollowedByState[state][secondState]
+            if visits != 0 or followingStateCount != 0:
+                A[i][j] = (float(followingStateCount + epsilonA)) / (
+                    float(visits + epsilonA * numberOfStates))
             else:
                 if epsilonA != 0:
                     A[i][j] = 1 / numberOfStates
@@ -139,10 +154,19 @@ def computeParameters(epsilonA, epsilonB):
         i += 1
     i = 0
     for state in states:
-        if (initialState() in numberOfVisitsPerState) and (initialState() in numberOfWordsObservedPerState) and (
-                state in numberOfTimesStateIsFollowedByState[initialState()]):
-            pi[i] = (numberOfTimesStateIsFollowedByState[initialState()][state] + epsilonA) / (
-                    numberOfVisitsPerState[initialState()] + epsilonA * numberOfStates)
+        if not (initialState() in numberOfVisitsPerState):
+            visits = 0
+        else:
+            visits = numberOfVisitsPerState[initialState()]
+        if (not (initialState() in numberOfTimesStateIsFollowedByState)) or (
+                not (state in numberOfTimesStateIsFollowedByState[initialState()])):
+            followingStateCount = 0
+        else:
+            followingStateCount = numberOfTimesStateIsFollowedByState[initialState()][state]
+        if () and (initialState() in numberOfWordsObservedPerState) and (
+        ):
+            pi[i] = (float(followingStateCount + epsilonA)) / (
+                float(visits + (epsilonA * numberOfStates)))
         else:
             if epsilonA != 0:
                 pi[i] = 1 / numberOfStates
@@ -244,8 +268,8 @@ shuffle(trainSet)
 epsilonA = 0
 epsilonB = 0
 # epsilon_possible_values = [0.000001, 0.000005, 0.00001, 0.00005, 0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5]
-epsilon_possible_valuesA = [0.95]
-epsilon_possible_valuesB = [0.2]
+epsilon_possible_valuesA = [0.002, 0.0025, 0.003, 0.0035, 0.004]
+epsilon_possible_valuesB = [0.000001, 0.0000015,0.000002,0.0000025]
 performanceErrors = dict()
 tagMapping = dict()
 wordMapping = dict()
@@ -279,8 +303,8 @@ for i in range(0, k):
             taggingErrorRate = evaluate(tempTestSet, dhmm)
             addToPerformanceList(taggingErrorRate, epsilonA, epsilonB)
 """
-#epsilonA, epsilonB = getBestEpsilons(performanceErrors)
-epsilonA, epsilonB = 0.95, 0.2
+# epsilonA, epsilonB = getBestEpsilons(performanceErrors)
+epsilonA, epsilonB = 0.003, 0.000002
 print("optimal epsilonA: " + str(epsilonA))
 print("optimal epsilonB: " + str(epsilonB))
 print(performanceErrors)
