@@ -53,7 +53,11 @@
      relative 0.2923) and NN (4 times, relative 0.061538)
 
 
-
+4.
+    first run of crossvalidation
+    optimal epsilonA: 0.5
+    optimal epsilonB: 0.05
+    train error rate = 0.07011192233632862
 NB to install hmms:
     python -m pip install numpy cython
     python -m pip install hmms

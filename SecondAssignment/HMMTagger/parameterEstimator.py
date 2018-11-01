@@ -94,7 +94,6 @@ def computeCounters(trainSet):
             numberOfVisitsPerState[state] += 1
             state = tag
 
-
             if state not in numberOfTimesStateIsFollowedByState:
                 numberOfTimesStateIsFollowedByState[state] = dict()
 
@@ -180,9 +179,9 @@ def addToPerformanceList(taggingErrorRate, epsilonA, epsilonB):
     else:
         performanceErrors[epsilonA] = dict()
         performanceErrors[epsilonA][epsilonB] = taggingErrorRate
-    print("tagging error rate: " + str(taggingErrorRate))
-    print("epsilonA: " + str(epsilonA))
-    print("epsilonB: " + str(epsilonB))
+    #print("tagging error rate: " + str(taggingErrorRate))
+    #print("epsilonA: " + str(epsilonA))
+    #print("epsilonB: " + str(epsilonB))
 
 
 def getBestEpsilons(performanceErrors):
@@ -244,7 +243,8 @@ k = 10
 shuffle(trainSet)
 epsilonA = 0
 epsilonB = 0
-epsilon_possible_values = [0.000001, 0.000005, 0.00001, 0.00005, 0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5]
+# epsilon_possible_values = [0.000001, 0.000005, 0.00001, 0.00005, 0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5]
+epsilon_possible_values = [0.01, 0.025, 0.05, 0.075, 0.1, 0.25, 0.5, 0.75]
 performanceErrors = dict()
 tagMapping = dict()
 wordMapping = dict()

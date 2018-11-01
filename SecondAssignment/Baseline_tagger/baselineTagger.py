@@ -7,6 +7,10 @@ confusionMatrix = dict()
 
 
 def loadWordTagMapping():
+    """
+    Loads the word - tag mapping from file, ad saves it in a dictionary
+    (N.B. the baseline tagger associates a word with its most frequent tag in the train set
+    """
     with open('./../results/3/baselineTaggerWordTagAssociations', 'r') as dataset:
         for line in dataset:
             # add every word to the dictionary (added only if its support reaches value 4)
@@ -15,10 +19,20 @@ def loadWordTagMapping():
 
 
 def tagWord(word):
+    """
+    Tags a word with its defined tag
+    :param word: word to be tagged
+    :return: the word's tag
+    """
     return wordTags[word]
 
 
 def incrementDictionaryCounter(tag, dictionary):
+    """
+    Increment the counter of a tag inside the dictionary
+    :param tag: tag whose counter is to be incremented
+    :param dictionary: dictionary that contains the tag
+    """
     if tag in dictionary:
         dictionary[tag] += 1
     else:
@@ -26,10 +40,19 @@ def incrementDictionaryCounter(tag, dictionary):
 
 
 def incrementTotalTagOccurrences(actualTag):
+    """
+    Increments the total tag occurrences of a specific tag by one
+    :param actualTag: tag whose counter is to be incremented
+    """
     incrementDictionaryCounter(actualTag, totalTagOccurrences)
 
 
 def insertIntoMatchesMatrix(actualTag, predictedTag):
+    """
+    Increments the counter of a match into the matrix containing all possible matches for all possible couples of tags
+    :param actualTag: correct tag
+    :param predictedTag: tag predicted by the baseline tagger
+    """
     if actualTag in matchesMatrix:
         incrementDictionaryCounter(predictedTag, matchesMatrix[actualTag])
     else:
@@ -38,6 +61,9 @@ def insertIntoMatchesMatrix(actualTag, predictedTag):
 
 
 def buildConfusionMatrix():
+    """
+    From the matrix of counters it builds the confusion matrix, computing the errors
+    """
     for actualTag in matchesMatrix:
         confusionMatrix[actualTag] = dict()
         for predictedTag in matchesMatrix[actualTag]:
@@ -50,6 +76,10 @@ def buildConfusionMatrix():
 
 
 def computeErrorRates():
+    """
+    Computes the tagging error rate and the error rates for every tag
+    :return: the computed errors
+    """
     totalSumOfWeightedErrors = 0
     totalNumberOfTagsOccurrences = 0
     errorRatePerTag = dict()
@@ -65,6 +95,9 @@ def computeErrorRates():
 
 
 def tagger():
+    """
+    Tags the test-set according to the baseline tagger's word-tag pairings
+    """
     testSetArray = []
     untaggedTestSetArray = []
     with open('./../dataSets/final/test', 'r') as testSet:
