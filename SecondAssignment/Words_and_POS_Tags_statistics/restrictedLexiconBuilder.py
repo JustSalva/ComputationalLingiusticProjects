@@ -73,11 +73,11 @@ with open('./../dataSets/dumas_train_replaced', 'r') as dataset:
 
 
 # saves into a file the frequent words
-with open('./../dataSets/train_frequencies', 'w') as frequencies:
+with open('./../dataSets/restricted_lexicon', 'w') as frequencies:
     lexiconSize = 0
     for word in wordFrequencies:
-        print(word + ' ' + str(wordFrequencies[word]), file=frequencies)
         if wordFrequencies[word] >= 4:
+            print(word + ' ' + str(wordFrequencies[word]), file=frequencies)
             lexiconSize += 1
 
 print('restricted lexicon size = ' + str(lexiconSize))
