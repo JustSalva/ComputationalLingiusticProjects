@@ -4,6 +4,11 @@ wordFrequencies = dict()
 
 
 def addToDictionary(token):
+    """
+    Adds the couple (word, tag) to a dictionary that contains a list of words for each tag
+    Also it increments the word frequencies counters
+    :param token: token that contains the pair (word, tag)
+    """
     try:
         word, tag = splitWordAndToken(token)
         if tag in dictionary:
@@ -34,6 +39,11 @@ def addToDictionary(token):
 
 
 def replaceWordIfNotFrequent(token):
+    """
+    If a word is not frequent it is replaced by a '<UNK>' tag
+    :param token: couple (word, tag)  to be analyzed
+    :return: the replaced token
+    """
     word, tag = splitWordAndToken(token)
 
     if (word in wordFrequencies) and (wordFrequencies[word]) >= 4:
@@ -42,7 +52,7 @@ def replaceWordIfNotFrequent(token):
     return '<UNK>' + '/' + tag
 
 
-# build frequency and restricted lexicon tables
+# Builds frequency and restricted lexicon tables
 with open('./../dataSets/dumas_train_replaced', 'r') as dataset:
     with open('./../dataSets/train_dictionary', 'w') as tagDictionary:
 
@@ -61,6 +71,8 @@ with open('./../dataSets/dumas_train_replaced', 'r') as dataset:
             # print(toPrint)
             print(toPrint, file=tagDictionary)
 
+
+# saves into a file the frequent words
 with open('./../dataSets/train_frequencies', 'w') as frequencies:
     lexiconSize = 0
     for word in wordFrequencies:
