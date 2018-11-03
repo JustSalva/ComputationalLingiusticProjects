@@ -51,6 +51,7 @@ def transformMapInList(list, dictionary):
     for element in dictionary:
         list.append((element, int(dictionary[element])))
 
+
 # the dataset is read in order to increment the counters
 with open('./../dataSets/final/train', 'r') as dataset:
     for line in dataset:

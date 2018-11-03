@@ -135,5 +135,6 @@ tagger()
 actualTestTaggingErrorRate, testErrorRatePerTag = computeErrorRates()
 print("Test tagging error rate: " + str(actualTestTaggingErrorRate))
 print("Test error rate per tag: " + str(testErrorRatePerTag))
-print("matches matrix: "+ str(matchesMatrix))
+print("matches matrix: " + str(matchesMatrix))
+
 

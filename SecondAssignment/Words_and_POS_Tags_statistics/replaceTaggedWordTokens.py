@@ -23,6 +23,7 @@ def checkTag(token):
 
     return word + "/" + tag
 
+
 """
     This small script simply replace the tokens, as specified into the assignment,
     of a file printed on the standard output and prints the result
@@ -30,9 +31,9 @@ def checkTag(token):
 for line in sys.stdin:
     list = []
     for token in line.split():
-        list.append( checkTag(token))
+        list.append(checkTag(token))
     toPrint = ""
-    for i in range(0, len(list)-1):
-        toPrint = toPrint + list[i]+" "
-    toPrint = toPrint + list[len(list)-1]
+    for i in range(0, len(list) - 1):
+        toPrint = toPrint + list[i] + " "
+    toPrint = toPrint + list[len(list) - 1]
     print(toPrint)

@@ -1,4 +1,6 @@
-possibleTags = 'CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'PDT', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'RBS', 'RP', 'SYM', 'TO', 'UH', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'WDT', 'WP', 'WP$', 'WRB', '$', '#', '``', '\'\'', '-LRB-', '-RRB-', ',', '.', ':'
+possibleTags = 'CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'PDT', \
+               'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'RBS', 'RP', 'SYM', 'TO', 'UH', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', \
+               'VBZ', 'WDT', 'WP', 'WP$', 'WRB', '$', '#', '``', '\'\'', '-LRB-', '-RRB-', ',', '.', ':'
 
 
 # possibleTags = [line.rstrip('\n') for line in open('dataSets/Penn_TreeBank_tagSet_TAGS')]
@@ -15,7 +17,8 @@ def isInTagSet(tag):
 
 def splitWordAndToken(token):
     """
-    From a token, read from file obtain the couple word and tag, considering also the case in which there are multiple '/'
+    From a token, read from file obtain the couple word and tag, considering also the case in which
+        there are multiple '/' characters
     :param token: token to be split
     :return: the word and the tag contained in the token
     """

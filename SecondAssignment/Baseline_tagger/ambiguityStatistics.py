@@ -25,7 +25,8 @@ def addTagToWordDictionary(token):
 def countNumberOfAssociations(listNumberOfTagsPerWord, numberOfOccurrences):
     """
     Counts how many words are associated to a certain number of POS tags and the number of occurrences of those words
-    :param listNumberOfTagsPerWord: list in which elements contains the following info: (word, tagCounter, numberOfOccurrences)
+    :param listNumberOfTagsPerWord: list in which elements contains the following info:
+                                        (word, tagCounter, numberOfOccurrences)
     :param numberOfOccurrences: requested number of occurrences
     :return: how many words are associated to a certain number of POS tags and the number of occurrences of those words
     """
@@ -42,7 +43,8 @@ def countNumberOfAssociationsGivenLowerBound(listNumberOfTagsPerWord, numberOfOc
     """
     Counts how many words are associated to a number of POS tags that is greater or equal to a specified one
     and the number of occurrences of those words
-    :param listNumberOfTagsPerWord: list in which elements contains the following info: (word, tagCounter, numberOfOccurrences)
+    :param listNumberOfTagsPerWord: list in which elements contains the following info:
+                                        (word, tagCounter, numberOfOccurrences)
     :param numberOfOccurrences: requested number of occurrences
     :return: how many words are associated to a number of POS tags that is greater or equal to a specified one
                 and the number of occurrences of those words
