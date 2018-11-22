@@ -1,0 +1,4 @@
+Tutto quello da installare - e come fare a installarlo è da mettere qui, così ci ricordiamo.
+
+1) nltk==3.2.5 (from project's description) - ora è alla 3.4, se da problemi faremo un downgrade
+2) PyYAML==3.12 (from project's description)
