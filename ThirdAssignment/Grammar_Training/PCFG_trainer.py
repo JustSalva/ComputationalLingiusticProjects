@@ -2,6 +2,7 @@ leftHandSideCounter = dict()  # dictionary of non terminal symbols appearing in 
 ruleCounter = dict()  # contains key = left hand side, value = dict(key = left hand side, value = )
 terminalCounter = dict()
 
+vocabulary = dict()
 
 def incrementDictionary(key, dictionary):
     if key in dictionary:
@@ -10,13 +11,15 @@ def incrementDictionary(key, dictionary):
         dictionary[key] = 1
 
 
+def incrementVocabulary(terminal):
+    incrementDictionary(terminal, vocabulary)
+
+
 def incrementLeftHandSideCounter(nonTerminal):
     incrementDictionary(nonTerminal, leftHandSideCounter)
 
-
 def incrementTerminalCounter(terminal):
     incrementDictionary(terminal, terminalCounter)
-
 
 def incrementRuleCounter(leftNonTerminal, rightRule):
     global numberOfRules
@@ -34,24 +37,38 @@ def incrementRuleCounter(leftNonTerminal, rightRule):
 
 def printRules(filepath):
     rulesSumOfProbabilities = dict()
-    if(filepath != None):
-        with open(filepath, 'w') as dataset:
-            for leftHandSide in ruleCounter:
-                sum = 0
-                for rightHandSide in ruleCounter[leftHandSide]:
-                    probability = ruleCounter[leftHandSide][rightHandSide] / leftHandSideCounter[leftHandSide]
-                    print(leftHandSide + " → " + rightHandSide + " [" + str(probability) + "]", file=dataset)
-                    sum += probability
-                rulesSumOfProbabilities[leftHandSide] = sum
+    if filepath is not None:
+        with open(filepath + 'rules', 'w') as rulesDataset:
+            with open(filepath + 'terminalRules', 'w') as terminalRulesDataset:
+                for leftHandSide in ruleCounter:
+                    sum = 0
+                    for rightHandSide in ruleCounter[leftHandSide]:
+                        probability = ruleCounter[leftHandSide][rightHandSide] / leftHandSideCounter[leftHandSide]
+                        print(leftHandSide + "→" + rightHandSide + "[" + str(probability) + "]", file=rulesDataset)
+                        if " " not in rightHandSide:
+                            print(leftHandSide + "→" + rightHandSide + "[" + str(probability) + "]", file=terminalRulesDataset)
+                        sum += probability
+                    rulesSumOfProbabilities[leftHandSide] = sum
+
+        with open(filepath + 'vocabulary', 'w') as vocabularyDataset:
+            for word in vocabulary:
+                print(word, file=vocabularyDataset)
+
+        with open(filepath + 'nonTerminalsMapping', 'w') as nonTerminalDataset:
+            i = 0
+            for nonTerminal in leftHandSideCounter:
+                print(nonTerminal + " " + str(i), file=nonTerminalDataset)
+                i += 1
     else:
         for leftHandSide in ruleCounter:
             sum = 0
             for rightHandSide in ruleCounter[leftHandSide]:
                 probability = ruleCounter[leftHandSide][rightHandSide] / leftHandSideCounter[leftHandSide]
-                print(leftHandSide + " → " + rightHandSide + " [" + str(probability) + "]", file=dataset)
+                print(leftHandSide + " → " + rightHandSide + " [" + str(probability) + "]")
                 sum += probability
             rulesSumOfProbabilities[leftHandSide] = sum
     return rulesSumOfProbabilities
+
 
 def printRequestedRules(listOfRulesLeftHandSizeToPrint):
     for leftHandSide in listOfRulesLeftHandSizeToPrint:
@@ -59,8 +76,9 @@ def printRequestedRules(listOfRulesLeftHandSizeToPrint):
         for rightHandSide in ruleCounter[leftHandSide]:
             probability = ruleCounter[leftHandSide][rightHandSide] / leftHandSideCounter[leftHandSide]
             print(leftHandSide + " → " + rightHandSide + " [" + str(probability) + "]")
+
+
 def readTree(text, ind):
-    # verbose = True
     """The basic idea here is to represent the file contents as a long string
     and iterate through it character-by-character (the 'ind' variable
     points to the current character). Whenever we get to a new tree,
@@ -97,12 +115,12 @@ def readTree(text, ind):
         ind += 1
         assert (text[ind] == ")")
         ind += 1
-        if (len(tree) == 2):
+        if len(tree) == 2:
             # rule of type "A-> terminal"
             terminal = tree[1]
             incrementRuleCounter(tree[0], terminal)  # tree[0] == label
             incrementTerminalCounter(terminal)
-        elif (len(tree) == 3):
+        elif len(tree) == 3:
             # rule of type "A-> BC"
             rightHandSide = tree[1][0] + " " + tree[2][0]
             incrementRuleCounter(tree[0], rightHandSide)
@@ -123,7 +141,7 @@ def readTree(text, ind):
         while not text[ind].isspace() and text[ind] != ")":
             word += text[ind]
             ind += 1
-
+        incrementVocabulary(word)
         # Read in word: "word"
 
         return word, ind
@@ -143,11 +161,10 @@ with open('./../data/train/train.unknown.txt', 'r') as dataset:
             # print(ruleCounter)
 print("leftHandSideCounter: " + str(leftHandSideCounter))
 print("ruleCounter: " + str(ruleCounter))
-print("number of nonterminals = " + str(len(leftHandSideCounter)))
+print("number of non-terminals = " + str(len(leftHandSideCounter)))
 print("number of terminals = " + str(len(terminalCounter)))
 print("number of rules: " + str(numberOfRules))
 listOfRulesLeftHandSizeToPrint = ["QP", "WRB"]
-rulesSumOfProbabilities = printRules("./../data/projectFiles/rules")
+rulesSumOfProbabilities = printRules("./../data/projectFiles/")
 printRequestedRules(listOfRulesLeftHandSizeToPrint)
 print("sum of probabilities for each rule's left hand size: " + str(rulesSumOfProbabilities))
-
