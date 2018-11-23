@@ -6,7 +6,8 @@ terminalrules = dict()
 inversedTerminalRules = dict()  # key = right hand side, value = dict with key = left hand side, value = probability
 inversedNonTerminalRules = dict()
 vocabulary = dict()
-nonTerminalsMapping = dict() # key = nonTerminal, value = its mapping int value
+nonTerminalsMapping = dict()  # key = nonTerminal, value = its mapping int value
+nonTerminalsMappingReversed = dict()
 initialSymbol = "SBARQ"
 
 
@@ -62,7 +63,6 @@ def addRule(leftHandSide, rightHandSide, probability):
         writeInDictionaryOfDictionary(nonTerminalrules, leftHandSide, rightHandSide, probability)
 
 
-
 def addInversedRule(leftHandSide, rightHandSide, probability):
     if " " not in rightHandSide:
         writeInDictionaryOfDictionary(inversedTerminalRules, rightHandSide, leftHandSide, probability)
@@ -73,8 +73,6 @@ def addInversedRule(leftHandSide, rightHandSide, probability):
 def addToRulesDictionaries(leftHandSide, rightHandSide, probability):
     addRule(leftHandSide, rightHandSide, log(probability))  # N.B. log probabilities!
     addInversedRule(leftHandSide, rightHandSide, probability)
-
-
 
 
 def initializeRules():
@@ -89,16 +87,20 @@ def initializeVocabulary():
         for word in vocabularyDataset:
             vocabulary[word] = True  # just to mark an element as present
 
+
 def initializeNonTerminalMapping():
     with open('./../data/projectFiles/nonTerminalsMapping', 'r') as nonTerminalMappingDataset:
         for line in nonTerminalMappingDataset:
             nonTerminal, indexString = line.split()
             nonTerminalsMapping[nonTerminal] = int(indexString)
+            nonTerminalsMappingReversed[int(indexString)] = nonTerminal
+
 
 def initializeStructures():
     initializeRules()
     initializeVocabulary()
     initializeNonTerminalMapping()
+
 
 def replaceOOVWords(words):
     newWords = []
@@ -111,43 +113,60 @@ def replaceOOVWords(words):
 
 
 def splitNonTerminalRightHandSide(rightHandSide):
-    leftNonTerminal, rightNonTerminal = rightHandSide.split(" ",1)
+    leftNonTerminal, rightNonTerminal = rightHandSide.split(" ", 1)
     return leftNonTerminal, rightNonTerminal
 
-def buildTree(back):
-    print()  # TODO
+
+def buildTree(lowerPos, higherPos, symbolIndex, back):
+    treeNode = TreeNode(nonTerminalsMappingReversed[symbolIndex])
+    if back[lowerPos][higherPos][symbolIndex] is not None:
+        k, leftNonTerminal, rightNonTerminal = back[lowerPos][higherPos][symbolIndex]
+
+        leftNonTerminalIndex = nonTerminalsMapping[leftNonTerminal]  # = B
+        rightNonTerminalIndex = nonTerminalsMapping[rightNonTerminal]  # = C
+
+        treeNode.setLeft_rightHandSide(buildTree(lowerPos, k, leftNonTerminalIndex, back))
+        treeNode.setRight_rightHandSide(buildTree(k,higherPos,rightNonTerminalIndex,back))
+        return treeNode
+    else:
+        return treeNode
+
+
 
 def startProbabilisticCYK(words):
     words = replaceOOVWords(words)
-    back = [[[None for k in range(0, len(nonTerminalsMapping))] for j in range(0, len(words))] for i in range(0, len(words))]
-    table = [[[0 for k in range(0, len(nonTerminalsMapping))] for j in range(0, len(words))] for i in range(0, len(words))]
-    for j in range(1, len(words)+1):
-        #init with terminal rules
+    back = [[[None for k in range(0, len(nonTerminalsMapping))] for j in range(0, len(words))] for i in
+            range(0, len(words))]
+    table = [[[0 for k in range(0, len(nonTerminalsMapping))] for j in range(0, len(words))] for i in
+             range(0, len(words))]
+    for j in range(1, len(words) + 1):
+        # init with terminal rules
         for nonTerminal in inversedTerminalRules[words[j]]:
             nonTerminalIndex = nonTerminalsMapping[nonTerminal]
-            table[j-1][j][nonTerminalIndex] = inversedTerminalRules[words[j]][nonTerminal]
+            table[j - 1][j][nonTerminalIndex] = inversedTerminalRules[words[j]][nonTerminal]
 
-        for i in range(j-2, -1, -1):  # i ← j − 2 down to 0
-            for k in range(i+1, j):
+        for i in range(j - 2, -1, -1):  # i ← j − 2 down to 0
+            for k in range(i + 1, j):
                 for leftHandSide in nonTerminalrules:
 
-                    leftHandSideIndex =  nonTerminalsMapping[leftHandSide] # = A
+                    leftHandSideIndex = nonTerminalsMapping[leftHandSide]  # = A
 
                     for rightHandSide in nonTerminalrules[leftHandSide]:
 
                         leftNonTerminal, rightNonTerminal = splitNonTerminalRightHandSide(rightHandSide)
 
-                        leftNonTerminalIndex = nonTerminalsMapping[leftNonTerminal] # = B
-                        rightNonTerminalIndex = nonTerminalsMapping[rightNonTerminal] # = C
+                        leftNonTerminalIndex = nonTerminalsMapping[leftNonTerminal]  # = B
+                        rightNonTerminalIndex = nonTerminalsMapping[rightNonTerminal]  # = C
 
-                        if table[i][j][leftNonTerminalIndex] >0 and table[k][j][rightNonTerminalIndex]:
+                        if table[i][j][leftNonTerminalIndex] > 0 and table[k][j][rightNonTerminalIndex]:
                             conditionValue = nonTerminalrules[leftHandSide][rightHandSide] \
                                              * table[i][j][leftNonTerminalIndex] \
                                              * table[k][j][rightNonTerminalIndex]
                             if table[i][j][leftHandSideIndex] < conditionValue:
                                 table[i][j][leftHandSideIndex] = conditionValue
-                                table[i][j][leftHandSideIndex] = (k, leftNonTerminalIndex, rightNonTerminalIndex)
-    return buildTree(back[0][len(words)][nonTerminalsMapping[initialSymbol]]), table[0][len(words)][nonTerminalsMapping[initialSymbol]]
+                                back[i][j][leftHandSideIndex] = (k, leftNonTerminal, rightNonTerminal)
+    return buildTree(0, len(words), nonTerminalsMapping[initialSymbol], back), table[0][len(words)][
+        nonTerminalsMapping[initialSymbol]]
 
 
 initializeStructures()
