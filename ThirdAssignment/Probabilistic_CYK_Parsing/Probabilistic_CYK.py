@@ -1,7 +1,8 @@
 import sys
 from math import log
 
-rules = dict()  # key = left hand side, value = dict with key = right hand side, value = probability
+nonTerminalrules = dict()  # key = left hand side, value = dict with key = right hand side, value = probability
+terminalrules = dict()
 inversedRules = dict()  # key = right hand side, value = dict with key = left hand side, value = probability
 vocabulary = dict()
 nonTerminalsMapping = dict() # key = nonTerminal, value = its mapping int value
@@ -42,8 +43,8 @@ def splitRuleLine(line):
 
 
 def writeInDictionaryOfDictionary(dictionary, firstKey, secondKey, value):
-    if firstKey in rules:
-        if secondKey not in rules[firstKey]:
+    if firstKey in dictionary:
+        if secondKey not in dictionary[firstKey]:
             dictionary[firstKey][secondKey] = value
 
         else:
@@ -54,7 +55,11 @@ def writeInDictionaryOfDictionary(dictionary, firstKey, secondKey, value):
 
 
 def addRule(leftHandSide, rightHandSide, probability):
-    writeInDictionaryOfDictionary(rules, leftHandSide, rightHandSide, probability)
+    if " " not in rightHandSide:
+        writeInDictionaryOfDictionary(terminalrules, leftHandSide, rightHandSide, probability)
+    else:
+        writeInDictionaryOfDictionary(nonTerminalrules, leftHandSide, rightHandSide, probability)
+
 
 
 def addInversedRule(leftHandSide, rightHandSide, probability):
@@ -104,10 +109,17 @@ def startProbabilisticCYK(words):
     words = replaceOOVWords(words)
     back = [[[None for k in range(0, len(nonTerminalsMapping))] for j in range(0, len(words))] for i in range(0, len(words))]
     table = [[[0 for k in range(0, len(nonTerminalsMapping))] for j in range(0, len(words))] for i in range(0, len(words))]
-    for j in range(1, len(words)):
-        # nonTerminal, probability= TODO
-        nonTerminalIndex = nonTerminalsMapping[nonTerminal]
-        table[j - 1][j][]
+    for j in range(1, len(words)+1):
+        #init with terminal rules
+        for nonTerminal in inversedRules[words[j]]:
+            nonTerminalIndex = nonTerminalsMapping[nonTerminal]
+            table[j-1][j][nonTerminalIndex] = inversedRules[words[j]][nonTerminal]
+
+        for i in range(j-2,-1, -1):  # i ← j − 2 down to 0
+            for k in range(i+1,j):
+                for leftHandSide in nonTerminalrules:
+                    print() # TODO
+
 
 
 initializeStructures()
