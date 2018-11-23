@@ -1,16 +1,20 @@
 Risposte alle domande, stampe dei programmi....
 
 1)
-NUMBER OF SENTENCES IN TRAIN IS: 3601
+NUMBER OF SENTENCES IN TRAIN IS: 3601 (3640 if I use the function sent_tokenize, even on the assignment it seems every question is a sentence)
 NUMBER OF TYPES IN TRAIN IS: 6012
 NUMBER OF TOKENS IN TRAIN IS: 34947
 NUMBER OF HAPAX LEGOMENA IN TRAIN IS: 3752
 
 
-NUMBER OF SENTENCES IN TEST IS: 400
+NUMBER OF SENTENCES IN TEST IS: 400 (405)
 NUMBER OF TYPES IN TEST IS: 1316
 NUMBER OF TOKENS IN TEST IS: 3866
 NUMBER OF HAPAX LEGOMENA IN TEST IS: 1027
+
+NUMBER OF UNKNOWN TOKENS IS: 3757 (why there is a difference of 5 with hapax legomena?)
+
+Vocabulary size is: #Types-#Hapax+1(OOV), so 2261
 
 2)
 number of nonterminals = 56
