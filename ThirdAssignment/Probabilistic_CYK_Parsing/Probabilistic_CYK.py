@@ -21,8 +21,9 @@ class TreeNode(object):
         self.leftHandSide = leftHandSide
         self.left_rightHandSide = None
         self.right_rightHandSide = None
-        self.logProbability = None
+        # self.logProbability = None
         self.isTerminal = False
+        self.wordCounter = -1
 
     def setLeft_rightHandSide(self, leftNode):
         self.left_rightHandSide = leftNode
@@ -30,11 +31,14 @@ class TreeNode(object):
     def setRight_rightHandSide(self, RightNode):
         self.right_rightHandSide = RightNode
 
-    def setLogProbability(self, probability):
-        self.logProbability = probability
+    # def setLogProbability(self, probability):
+    #     self.logProbability = probability
 
     def setIsTerminal(self, isTerminal):
         self.isTerminal = isTerminal
+
+    def setWordCounter(self, wordCounter):
+        self.wordCounter = wordCounter
 
 
 def splitRuleLine(line):
@@ -127,10 +131,18 @@ def buildTree(lowerPos, higherPos, symbolIndex, back):
 
         treeNode.setLeft_rightHandSide(buildTree(lowerPos, k, leftNonTerminalIndex, back))
         treeNode.setRight_rightHandSide(buildTree(k, higherPos, rightNonTerminalIndex, back))
+        treeNode.setIsTerminal(False)
         return treeNode
     else:
+        treeNode.setIsTerminal(True)
+        treeNode.setWordCounter(higherPos - 1)
         return treeNode
 
+def printTree(tree, words):
+    if not tree.isTerminal:
+        return "(" + tree.leftHandSide + " " + printTree(tree.left_rightHandSide, words)+printTree(tree.right_rightHandSide, words) + ")"
+    else:
+        return "(" + tree.leftHandSide + " " + words[tree.wordCounter] + ")"
 
 def startProbabilisticCYK(words):
     words = replaceOOVWords(words)
@@ -149,24 +161,12 @@ def startProbabilisticCYK(words):
 
         for i in range(j - 2, -1, -1):  # i ← j − 2 down to 0
             for k in range(i + 1, j):
-                # for leftHandSide in nonTerminalrules:
-                #
-                #     leftHandSideIndex = nonTerminalsMapping[leftHandSide]  # = A
-                #
-                #     for rightHandSide in nonTerminalrules[leftHandSide]:
-                #
-                #         leftNonTerminal, rightNonTerminal = splitNonTerminalRightHandSide(rightHandSide)
-                #
-                #         leftNonTerminalIndex = nonTerminalsMapping[leftNonTerminal]  # = B
-                #         rightNonTerminalIndex = nonTerminalsMapping[rightNonTerminal]  # = C
-                #
-                #         if table[i][k][leftNonTerminalIndex] > 0 and table[k][j][rightNonTerminalIndex] > 0:
                 for leftNonTerminal in nonTerminalsMapping:
                     leftNonTerminalIndex = nonTerminalsMapping[leftNonTerminal]  # = B
-                    if table[i][k][leftNonTerminalIndex] > 0:
+                    if table[i][k][leftNonTerminalIndex] > 0:  # check first non-terminal in right hand side of the rule
                         for rightNonTerminal in nonTerminalsMapping:
                             rightNonTerminalIndex = nonTerminalsMapping[rightNonTerminal]  # = C
-                            if table[k][j][rightNonTerminalIndex] > 0:
+                            if table[k][j][rightNonTerminalIndex] > 0:  # check second non-terminal in right hand side of the rule
                                 rightHandSide = leftNonTerminal + " " + rightNonTerminal
                                 if rightHandSide in inversedNonTerminalRules:
                                     for leftHandSide in inversedNonTerminalRules[rightHandSide]:
@@ -186,4 +186,5 @@ initializeStructures()
 with open('./../data/two_sentences.txt', 'r') as sentencesDataset:
     for sentence in sentencesDataset:
         words = sentence.split()
-        print(startProbabilisticCYK(words))
+        tree, probability = startProbabilisticCYK(words)
+        print(printTree(tree, words))
