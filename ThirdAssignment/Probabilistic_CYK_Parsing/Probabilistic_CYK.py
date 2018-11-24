@@ -183,8 +183,10 @@ def startProbabilisticCYK(words):
 
 
 initializeStructures()
+
 with open('./../data/two_sentences.txt', 'r') as sentencesDataset:
     for sentence in sentencesDataset:
         words = sentence.split()
         tree, probability = startProbabilisticCYK(words)
         print(printTree(tree, words))
+
