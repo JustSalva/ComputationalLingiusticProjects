@@ -1,6 +1,10 @@
 from nltk.tokenize import word_tokenize, sent_tokenize
 
 def file_counters(file):
+    '''Reading a file, I tokenize every line (increasing the sentence counter) and
+    I set up a dictionary with key as word and the iterations as value. The hapax legomena
+    are the keys whose value is 1.'''
+    hapax_list=[]
     sentence_counter=0
     token_counter = 0
     word_dict = dict()
@@ -10,7 +14,13 @@ def file_counters(file):
             #all_sentences = sent_tokenize(question)
             sentence_counter += 1 #len(all_sentences)
             sentence_tokens = word_tokenize(question)
-            print(sentence_tokens)
+            #ALTERNATIVELY:
+            #sentence_tokens=[]
+            #for sentence in all_sentences:
+            #    all_tokens = word_tokenize(sentence)
+            #    for token in all_tokens:
+            #        sentence_tokens.append(token)
+            #print(sentence_tokens, sentence_counter)
             for token in sentence_tokens:
                 token_counter += 1
                 if token in word_dict:
@@ -20,14 +30,19 @@ def file_counters(file):
         for key in word_dict:
             if word_dict[key]==1:
                 hapax_counter += 1
+                hapax_list.append(key)
                 #print(key)
 
-    return sentence_counter, word_dict, token_counter, hapax_counter
+    return sentence_counter, word_dict, token_counter, hapax_counter, hapax_list
 
 def unknown_tokens_counter(file):
+    '''The idea is that I tokenize the parsed text, and I look for the
+    <unknown> token using two sentinels: 'open' look at the '<' token, and
+    unk look at the 'unknown' token. If sentinels are True and I find
+    '>' token, I increase the counter.'''
     unk_token_counter = 0
     sentinel_open = False
-    sentilen_unk = False
+    sentinel_unk = False
     with open(file,'r') as dataset:
         for tree in dataset:
             tree_tokens = word_tokenize(tree)
@@ -49,19 +64,20 @@ def unknown_tokens_counter(file):
 
 
 
-s_counter, w_dict, t_counter, h_counter = file_counters('/data/train/train.input.txt')
+s_counter, w_dict, t_counter, h_counter, h_list = file_counters('/home/fabio/Documenti/ComputationalLingiusticProjects/ThirdAssignment/data/train/train.input.txt')
 print('NUMBER OF SENTENCES IN TRAIN IS:',s_counter)
 print('NUMBER OF TYPES IN TRAIN IS:', len(w_dict.keys()))
 print('NUMBER OF TOKENS IN TRAIN IS:',t_counter)
 print('NUMBER OF HAPAX LEGOMENA IN TRAIN IS:',h_counter,'\n\n')
+print(h_list, len(h_list))
 
-s_counter, w_dict, t_counter, h_counter = file_counters('/data/test/test.input.txt')
+s_counter, w_dict, t_counter, h_counter, h_list = file_counters('/home/fabio/Documenti/ComputationalLingiusticProjects/ThirdAssignment/data/test/test.input.txt')
 print('NUMBER OF SENTENCES IN TEST IS:',s_counter)
 print('NUMBER OF TYPES IN TEST IS:', len(w_dict.keys()))
 print('NUMBER OF TOKENS IN TEST IS:',t_counter)
 print('NUMBER OF HAPAX LEGOMENA IN TEST IS:',h_counter,'\n\n')
 
-number_of_unknown_tokens = unknown_tokens_counter('/data/train/train.unknown.txt')
+number_of_unknown_tokens = unknown_tokens_counter('/home/fabio/Documenti/ComputationalLingiusticProjects/ThirdAssignment/data/train/train.unknown.txt')
 print('NUMBER OF UNKNOWN TOKENS IS:',number_of_unknown_tokens)
 
 
