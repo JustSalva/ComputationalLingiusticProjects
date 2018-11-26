@@ -62,3 +62,7 @@ train:
       f1_score: 0.8615506698408253
       precision: 0.8615506698408253
       recall: 0.8615506698408253
+
+      Temporary answer: We see that precision and recall are identical (so the F1). This should
+      be the effect of the CNF, since having only binary rules and non-terminal rules shouldm imply
+      that P and G of the definitions are identical, because the rules are the same.
