@@ -13,7 +13,7 @@ def file_counters(file):
         for question in dataset:
             #all_sentences = sent_tokenize(question)
             sentence_counter += 1 #len(all_sentences)
-            sentence_tokens = word_tokenize(question)
+            sentence_tokens = question.split()
             #ALTERNATIVELY:
             #sentence_tokens=[]
             #for sentence in all_sentences:
@@ -64,20 +64,20 @@ def unknown_tokens_counter(file):
 
 
 
-s_counter, w_dict, t_counter, h_counter, h_list = file_counters('/home/fabio/Documenti/ComputationalLingiusticProjects/ThirdAssignment/data/train/train.input.txt')
+s_counter, w_dict, t_counter, h_counter, h_list = file_counters('./../data/train/train.input.txt')
 print('NUMBER OF SENTENCES IN TRAIN IS:',s_counter)
 print('NUMBER OF TYPES IN TRAIN IS:', len(w_dict.keys()))
 print('NUMBER OF TOKENS IN TRAIN IS:',t_counter)
 print('NUMBER OF HAPAX LEGOMENA IN TRAIN IS:',h_counter,'\n\n')
 print(h_list, len(h_list))
 
-s_counter, w_dict, t_counter, h_counter, h_list = file_counters('/home/fabio/Documenti/ComputationalLingiusticProjects/ThirdAssignment/data/test/test.input.txt')
+s_counter, w_dict, t_counter, h_counter, h_list = file_counters('./../data/test/test.input.txt')
 print('NUMBER OF SENTENCES IN TEST IS:',s_counter)
 print('NUMBER OF TYPES IN TEST IS:', len(w_dict.keys()))
 print('NUMBER OF TOKENS IN TEST IS:',t_counter)
 print('NUMBER OF HAPAX LEGOMENA IN TEST IS:',h_counter,'\n\n')
 
-number_of_unknown_tokens = unknown_tokens_counter('/home/fabio/Documenti/ComputationalLingiusticProjects/ThirdAssignment/data/train/train.unknown.txt')
+number_of_unknown_tokens = unknown_tokens_counter('./../data/train/train.unknown.txt')
 print('NUMBER OF UNKNOWN TOKENS IS:',number_of_unknown_tokens)
 
 
