@@ -138,11 +138,14 @@ def buildTree(lowerPos, higherPos, symbolIndex, back):
         treeNode.setWordCounter(higherPos - 1)
         return treeNode
 
+
 def printTree(tree, words):
     if not tree.isTerminal:
-        return "(" + tree.leftHandSide + " " + printTree(tree.left_rightHandSide, words)+printTree(tree.right_rightHandSide, words) + ")"
+        return "(" + tree.leftHandSide + " " + printTree(tree.left_rightHandSide, words) + printTree(
+            tree.right_rightHandSide, words) + ")"
     else:
         return "(" + tree.leftHandSide + " " + words[tree.wordCounter] + ")"
+
 
 def startProbabilisticCYK(words):
     words = replaceOOVWords(words)
@@ -166,7 +169,8 @@ def startProbabilisticCYK(words):
                     if table[i][k][leftNonTerminalIndex] > 0:  # check first non-terminal in right hand side of the rule
                         for rightNonTerminal in nonTerminalsMapping:
                             rightNonTerminalIndex = nonTerminalsMapping[rightNonTerminal]  # = C
-                            if table[k][j][rightNonTerminalIndex] > 0:  # check second non-terminal in right hand side of the rule
+                            if table[k][j][
+                                rightNonTerminalIndex] > 0:  # check second non-terminal in right hand side of the rule
                                 rightHandSide = leftNonTerminal + " " + rightNonTerminal
                                 if rightHandSide in inversedNonTerminalRules:
                                     for leftHandSide in inversedNonTerminalRules[rightHandSide]:
@@ -178,15 +182,25 @@ def startProbabilisticCYK(words):
                                         if table[i][j][leftHandSideIndex] < conditionValue:
                                             table[i][j][leftHandSideIndex] = conditionValue
                                             back[i][j][leftHandSideIndex] = (k, leftNonTerminal, rightNonTerminal)
-    return buildTree(0, len(words), nonTerminalsMapping[initialSymbol], back), table[0][len(words)][
-        nonTerminalsMapping[initialSymbol]]
+    if back[0][len(words)][nonTerminalsMapping[initialSymbol]] is not None:
+        return buildTree(0, len(words), nonTerminalsMapping[initialSymbol], back), table[0][len(words)][
+            nonTerminalsMapping[initialSymbol]]
+    else:
+        return "()", 0
 
 
 initializeStructures()
 
-with open('./../data/two_sentences.txt', 'r') as sentencesDataset:
-    for sentence in sentencesDataset:
-        words = sentence.split()
-        tree, probability = startProbabilisticCYK(words)
-        print(printTree(tree, words))
-
+# with open('./../data/two_sentences.txt', 'r') as sentencesDataset:
+#     for sentence in sentencesDataset:
+#         words = sentence.split()
+#         tree, probability = startProbabilisticCYK(words)
+#         print(printTree(tree, words))
+fileNames = ["train", "test"]
+for fileName in fileNames:
+    with open('./../data/' + fileName + '/' + fileName + '.input.txt', 'r') as sentencesDataset:
+        with open('./../data/results/' + fileName + ".system.txt", 'w') as outputDataset:
+            for sentence in sentencesDataset:
+                words = sentence.split()
+                tree, probability = startProbabilisticCYK(words)
+                print(printTree(tree, words), file=outputDataset)

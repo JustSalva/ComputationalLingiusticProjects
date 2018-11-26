@@ -40,3 +40,25 @@ sum of probabilities for each rule's left hand size: {'WHNP': 1.0000000000000002
 (SBARQ (WHADVP when)(SBARQ (SQ (VBD did)(SQ (NP i)(VP (PP (IN shoot)(NP (DT an)(NP elephant)))(PP (IN in)(NP (PRPS my)(NNS pajamas))))))(PUNCT ?)))
 (SBARQ (WHNP (WDT what)(S (VBZ is)(NP (DT the)(NN name))))(SBARQ (SQ (PP (IN of)(NP (NNP roy)(NP (NNP roger)(POS <s))))(NP dog))(PUNCT ?)))
 (SBARQ (WHNP (WDT what)(NP (JJ european)(NN country)))(SBARQ (SQ (VBZ is)(NP (NP home)(PP (TO to)(NP (DT the)(NP (PP (IN beer-producing)(NP city))(PP (IN of)(NP budweis)))))))(PUNCT ?)))
+
+
+4)
+test:
+    labeled:
+      f1_score: 0.6963835155592936
+      precision: 0.6963835155592936
+      recall: 0.6963835155592936
+    unlabeled:
+      f1_score: 0.8610877488085226
+      precision: 0.8610877488085226
+      recall: 0.8610877488085226
+
+train:
+    labeled:
+      f1_score: 0.7082574802782057
+      precision: 0.7082574802782057
+      recall: 0.7082574802782057
+    unlabeled:
+      f1_score: 0.8615506698408253
+      precision: 0.8615506698408253
+      recall: 0.8615506698408253
