@@ -1,5 +1,5 @@
 import sys
-from math import log
+from math import log, inf
 
 nonTerminalrules = dict()  # key = left hand side, value = dict with key = right hand side, value = probability
 terminalrules = dict()
@@ -76,7 +76,7 @@ def addInversedRule(leftHandSide, rightHandSide, probability):
 
 def addToRulesDictionaries(leftHandSide, rightHandSide, probability):
     addRule(leftHandSide, rightHandSide, log(probability))  # N.B. log probabilities!
-    addInversedRule(leftHandSide, rightHandSide, probability)
+    addInversedRule(leftHandSide, rightHandSide, log(probability))
 
 
 def initializeRules():
@@ -140,6 +140,8 @@ def buildTree(lowerPos, higherPos, symbolIndex, back):
 
 
 def printTree(tree, words):
+    if tree is None:
+        return "()", 0
     if not tree.isTerminal:
         return "(" + tree.leftHandSide + " " + printTree(tree.left_rightHandSide, words) + printTree(
             tree.right_rightHandSide, words) + ")"
@@ -152,7 +154,7 @@ def startProbabilisticCYK(words):
     back = [[[None for _ in range(len(nonTerminalsMapping))] for _ in range(len(words) + 1)]
             for _ in range(len(words) + 1)]
 
-    table = [[[0 for _ in range(len(nonTerminalsMapping))] for _ in range(len(words) + 1)]
+    table = [[[ - inf for _ in range(len(nonTerminalsMapping))] for _ in range(len(words) + 1)]
              for _ in range(len(words) + 1)]
 
     for j in range(1, len(words) + 1):
@@ -166,11 +168,11 @@ def startProbabilisticCYK(words):
             for k in range(i + 1, j):
                 for leftNonTerminal in nonTerminalsMapping:
                     leftNonTerminalIndex = nonTerminalsMapping[leftNonTerminal]  # = B
-                    if table[i][k][leftNonTerminalIndex] > 0:  # check first non-terminal in right hand side of the rule
+                    if table[i][k][leftNonTerminalIndex] > -inf:  # check first non-terminal in right hand side of the rule
                         for rightNonTerminal in nonTerminalsMapping:
                             rightNonTerminalIndex = nonTerminalsMapping[rightNonTerminal]  # = C
                             if table[k][j][
-                                rightNonTerminalIndex] > 0:  # check second non-terminal in right hand side of the rule
+                                rightNonTerminalIndex] > -inf:  # check second non-terminal in right hand side of the rule
                                 rightHandSide = leftNonTerminal + " " + rightNonTerminal
                                 if rightHandSide in inversedNonTerminalRules:
                                     for leftHandSide in inversedNonTerminalRules[rightHandSide]:
@@ -186,16 +188,16 @@ def startProbabilisticCYK(words):
         return buildTree(0, len(words), nonTerminalsMapping[initialSymbol], back), table[0][len(words)][
             nonTerminalsMapping[initialSymbol]]
     else:
-        return "()", 0
+        return None, 0
 
 
 initializeStructures()
 
-# with open('./../data/two_sentences.txt', 'r') as sentencesDataset:
-#     for sentence in sentencesDataset:
-#         words = sentence.split()
-#         tree, probability = startProbabilisticCYK(words)
-#         print(printTree(tree, words))
+with open('./../data/two_sentences.txt', 'r') as sentencesDataset:
+    for sentence in sentencesDataset:
+        words = sentence.split()
+        tree, probability = startProbabilisticCYK(words)
+        print(printTree(tree, words))
 fileNames = ["train", "test"]
 for fileName in fileNames:
     with open('./../data/' + fileName + '/' + fileName + '.input.txt', 'r') as sentencesDataset:

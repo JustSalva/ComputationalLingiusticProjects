@@ -17,7 +17,7 @@ NUMBER OF UNKNOWN TOKENS IS: 3757 (why there is a difference of 5 with hapax leg
 Vocabulary size is: #Types-#Hapax+1(OOV), so 2261
 
 2)
-number of nonterminals = 56
+number of non-terminals = 56
 number of terminals = 2261
 number of rules: 4157
 Rules with QP as left hand side
@@ -45,23 +45,24 @@ sum of probabilities for each rule's left hand size: {'WHNP': 1.0000000000000002
 4)
 test:
     labeled:
-      f1_score: 0.6963835155592936
-      precision: 0.6963835155592936
-      recall: 0.6963835155592936
+      f1_score: 0.8599663582842725
+      precision: 0.8599663582842725
+      recall: 0.8599663582842725
     unlabeled:
-      f1_score: 0.8610877488085226
-      precision: 0.8610877488085226
-      recall: 0.8610877488085226
+      f1_score: 0.9379029997196524
+      precision: 0.9379029997196524
+      recall: 0.9379029997196524
 
 train:
     labeled:
-      f1_score: 0.7082574802782057
-      precision: 0.7082574802782057
-      recall: 0.7082574802782057
+      f1_score: 0.8679923446762825
+      precision: 0.8679923446762825
+      recall: 0.8679923446762825
     unlabeled:
-      f1_score: 0.8615506698408253
-      precision: 0.8615506698408253
-      recall: 0.8615506698408253
+      f1_score: 0.9388040890631564
+      precision: 0.9388040890631564
+      recall: 0.9388040890631564
+
 
       Temporary answer: We see that precision and recall are identical (so the F1). This should
       be the effect of the CNF, since having only binary rules and non-terminal rules shouldm imply
