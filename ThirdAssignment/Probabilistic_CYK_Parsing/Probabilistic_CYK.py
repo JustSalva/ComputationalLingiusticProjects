@@ -1,10 +1,10 @@
 import sys
 from math import log, inf
 
-nonTerminalrules = dict()  # key = left hand side, value = dict with key = right hand side, value = probability
-terminalrules = dict()
-inversedTerminalRules = dict()  # key = right hand side, value = dict with key = left hand side, value = probability
-inversedNonTerminalRules = dict()
+nonTerminalRules = dict()  # key = left hand side, value = dict with key = right hand side, value = probability
+terminalRules = dict()
+invertedTerminalRules = dict()  # key = right hand side, value = dict with key = left hand side, value = probability
+invertedNonTerminalRules = dict()
 vocabulary = dict()
 nonTerminalsMapping = dict()  # key = nonTerminal, value = its mapping int value
 nonTerminalsMappingReversed = dict()
@@ -13,8 +13,7 @@ initialSymbol = "SBARQ"
 
 class TreeNode(object):
     """
-    class used to construct the syntax trees that are built during the search
-
+    Class used to construct the syntax trees that are built during the search
     """
 
     def __init__(self, leftHandSide):
@@ -26,10 +25,18 @@ class TreeNode(object):
         self.wordCounter = -1
 
     def setLeft_rightHandSide(self, leftNode):
+        """
+        Sets the "B" left hand side rule (NB rules are A-> BC, C might be missing)
+        :param leftNode: left hand side rule node's to be added
+        """
         self.left_rightHandSide = leftNode
 
-    def setRight_rightHandSide(self, RightNode):
-        self.right_rightHandSide = RightNode
+    def setRight_rightHandSide(self, rightNode):
+        """
+        Sets the "C" left hand side rule (NB rules are A-> BC, C might be missing)
+        :param rightNode: left hand side rule node's to be added
+        """
+        self.right_rightHandSide = rightNode
 
     # def setLogProbability(self, probability):
     #     self.logProbability = probability
@@ -38,10 +45,20 @@ class TreeNode(object):
         self.isTerminal = isTerminal
 
     def setWordCounter(self, wordCounter):
+        """
+        Word counters ar used when we must recover a word that has been substituted with the "unknown" tag
+        This method is used to set it
+        :param wordCounter: counter of the word
+        """
         self.wordCounter = wordCounter
 
 
 def splitRuleLine(line):
+    """
+    Splits a file line into the rule's left and right hand sides and in its probability
+    :param line: line to be split
+    :return: the three elements in which the line is split
+    """
     leftHandSide, rightHandSideWithProbability = line.split('→', 1)
     rightHandSide, stringProbability = rightHandSideWithProbability.split('[', 1)
     probability = float(stringProbability.replace("]", ""))
@@ -49,37 +66,67 @@ def splitRuleLine(line):
 
 
 def writeInDictionaryOfDictionary(dictionary, firstKey, secondKey, value):
+    """
+    Generic function used to write in a two-levels dictionary structure a value
+    :param dictionary: dictionary in which the value must be written
+    :param firstKey: key that identifies the first level of the dictionary
+    :param secondKey: key that identifies the second level of the dictionary
+    :param value: value to be written in the dictionary
+    """
     if firstKey in dictionary:
         if secondKey not in dictionary[firstKey]:
             dictionary[firstKey][secondKey] = value
 
         else:
-            sys.exit("The rule file contains duplicates... Aborting")
+            sys.exit("The dictionary file contains duplicates... Aborting")
     else:
         dictionary[firstKey] = dict()
         dictionary[firstKey][secondKey] = value
 
 
 def addRule(leftHandSide, rightHandSide, probability):
+    """
+    Adds a rule into the rule dictionary mappings (either terminal or non-terminal)
+    :param leftHandSide: left hand side of the rule (string)
+    :param rightHandSide: right hand side of the rule (string)
+    :param probability: probability of the rule
+    """
     if " " not in rightHandSide:
-        writeInDictionaryOfDictionary(terminalrules, leftHandSide, rightHandSide, probability)
+        writeInDictionaryOfDictionary(terminalRules, leftHandSide, rightHandSide, probability)
     else:
-        writeInDictionaryOfDictionary(nonTerminalrules, leftHandSide, rightHandSide, probability)
+        writeInDictionaryOfDictionary(nonTerminalRules, leftHandSide, rightHandSide, probability)
 
 
 def addInversedRule(leftHandSide, rightHandSide, probability):
+    """
+    Adds a rule into the inverted rule dictionary mappings (either terminal or non-terminal)
+    This inverted mappings structures are very useful duing the CYK probabilistic parsing
+    :param leftHandSide: left hand side of the rule (string)
+    :param rightHandSide: right hand side of the rule (string)
+    :param probability: probability of the rule
+    """
     if " " not in rightHandSide:
-        writeInDictionaryOfDictionary(inversedTerminalRules, rightHandSide, leftHandSide, probability)
+        writeInDictionaryOfDictionary(invertedTerminalRules, rightHandSide, leftHandSide, probability)
     else:
-        writeInDictionaryOfDictionary(inversedNonTerminalRules, rightHandSide, leftHandSide, probability)
+        writeInDictionaryOfDictionary(invertedNonTerminalRules, rightHandSide, leftHandSide, probability)
 
 
 def addToRulesDictionaries(leftHandSide, rightHandSide, probability):
+    """
+    Adds a rule into either inverted or not rule dictionary mappings (either terminal or non-terminal)
+    This inverted mappings structures are very useful duing the CYK probabilistic parsing
+    :param leftHandSide: left hand side of the rule (string)
+    :param rightHandSide: right hand side of the rule (string)
+    :param probability: probability of the rule
+    """
     addRule(leftHandSide, rightHandSide, log(probability))  # N.B. log probabilities!
     addInversedRule(leftHandSide, rightHandSide, log(probability))
 
 
 def initializeRules():
+    """
+    Loads the rules from file
+    """
     with open('./../data/projectFiles/rules', 'r') as dataset:
         for line in dataset:
             leftHandSide, rightHandSide, probability = splitRuleLine(line)
@@ -87,12 +134,18 @@ def initializeRules():
 
 
 def initializeVocabulary():
+    """
+    Loads the word's dictionary from file
+    """
     with open('./../data/projectFiles/vocabulary', 'r') as vocabularyDataset:
         for word in vocabularyDataset:
             vocabulary[word.replace("\n", "")] = True  # just to mark an element as present
 
 
 def initializeNonTerminalMapping():
+    """
+    Loads the nonTerminal's to integer key mappings from file
+    """
     with open('./../data/projectFiles/nonTerminalsMapping', 'r') as nonTerminalMappingDataset:
         for line in nonTerminalMappingDataset:
             nonTerminal, indexString = line.split()
@@ -101,12 +154,20 @@ def initializeNonTerminalMapping():
 
 
 def initializeStructures():
+    """
+    Initialize the structures used to perform the parsing
+    """
     initializeRules()
     initializeVocabulary()
     initializeNonTerminalMapping()
 
 
 def replaceOOVWords(words):
+    """
+    Replaces, in a list of words, the ones that are not in the parser's vocabulary with the "<unknown>" placeholder
+    :param words: list to be analyzed
+    :return: the corrected list
+    """
     newWords = []
     for word in words:
         if word in vocabulary:
@@ -117,11 +178,24 @@ def replaceOOVWords(words):
 
 
 def splitNonTerminalRightHandSide(rightHandSide):
+    """
+    Splits the right hand side of a rule into the two non-terminals
+    :param rightHandSide: right hand side  to be splitted
+    :return: the two non-terminals
+    """
     leftNonTerminal, rightNonTerminal = rightHandSide.split(" ", 1)
     return leftNonTerminal, rightNonTerminal
 
 
 def buildTree(lowerPos, higherPos, symbolIndex, back):
+    """
+    From the search results recursively build the parsing tree
+    :param lowerPos: word position in the sentence from which the current node's rule starts
+    :param higherPos: word position in the sentence in which the current node's rule ends
+    :param symbolIndex: index of the left hand side non-terminal symbol
+    :param back: triangular pointer's table built during the probabilistic CYK parsing
+    :return: the built tree
+    """
     treeNode = TreeNode(nonTerminalsMappingReversed[symbolIndex])
     if back[lowerPos][higherPos][symbolIndex] is not None:
         k, leftNonTerminal, rightNonTerminal = back[lowerPos][higherPos][symbolIndex]
@@ -140,6 +214,12 @@ def buildTree(lowerPos, higherPos, symbolIndex, back):
 
 
 def printTree(tree, words):
+    """
+    Prints the tree as a string
+    :param tree: tree to be printed
+    :param words: initial sentence word's list
+    :return: the string that represent the tree
+    """
     if tree is None:
         return "()", 0
     if not tree.isTerminal:
@@ -150,33 +230,39 @@ def printTree(tree, words):
 
 
 def startProbabilisticCYK(words):
+    """
+    Performs the probabilistic parsing of a sentence
+    :param words: sentence word's list
+    :return: the obtained parse tree
+    """
     words = replaceOOVWords(words)
     back = [[[None for _ in range(len(nonTerminalsMapping))] for _ in range(len(words) + 1)]
             for _ in range(len(words) + 1)]
 
-    table = [[[ - inf for _ in range(len(nonTerminalsMapping))] for _ in range(len(words) + 1)]
+    table = [[[- inf for _ in range(len(nonTerminalsMapping))] for _ in range(len(words) + 1)]
              for _ in range(len(words) + 1)]
 
     for j in range(1, len(words) + 1):
         # init with terminal rules
-        for nonTerminal in inversedTerminalRules[words[j - 1]]:
+        for nonTerminal in invertedTerminalRules[words[j - 1]]:
             nonTerminalIndex = nonTerminalsMapping[nonTerminal]
-            ruleValue = inversedTerminalRules[words[j - 1]][nonTerminal]
+            ruleValue = invertedTerminalRules[words[j - 1]][nonTerminal]
             table[j - 1][j][nonTerminalIndex] = ruleValue
 
         for i in range(j - 2, -1, -1):  # i ← j − 2 down to 0
             for k in range(i + 1, j):
                 for leftNonTerminal in nonTerminalsMapping:
                     leftNonTerminalIndex = nonTerminalsMapping[leftNonTerminal]  # = B
-                    if table[i][k][leftNonTerminalIndex] > -inf:  # check first non-terminal in right hand side of the rule
+                    # check first non-terminal in right hand side of the rule
+                    if table[i][k][leftNonTerminalIndex] > -inf:
                         for rightNonTerminal in nonTerminalsMapping:
                             rightNonTerminalIndex = nonTerminalsMapping[rightNonTerminal]  # = C
-                            if table[k][j][
-                                rightNonTerminalIndex] > -inf:  # check second non-terminal in right hand side of the rule
+                            # check second non-terminal in right hand side of the rule
+                            if table[k][j][rightNonTerminalIndex] > -inf:
                                 rightHandSide = leftNonTerminal + " " + rightNonTerminal
-                                if rightHandSide in inversedNonTerminalRules:
-                                    for leftHandSide in inversedNonTerminalRules[rightHandSide]:
-                                        probability = inversedNonTerminalRules[rightHandSide][leftHandSide]
+                                if rightHandSide in invertedNonTerminalRules:
+                                    for leftHandSide in invertedNonTerminalRules[rightHandSide]:
+                                        probability = invertedNonTerminalRules[rightHandSide][leftHandSide]
                                         leftHandSideIndex = nonTerminalsMapping[leftHandSide]  # = A
                                         conditionValue = probability \
                                                          + table[i][k][leftNonTerminalIndex] \

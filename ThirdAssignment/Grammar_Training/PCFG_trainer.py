@@ -5,6 +5,11 @@ terminalCounter = dict()
 vocabulary = dict()
 
 def incrementDictionary(key, dictionary):
+    """
+    Increment a specified dictionary counter
+    :param key: key whose counter is to be incremented
+    :param dictionary: dictionary whose counter is to be incremented
+    """
     if key in dictionary:
         dictionary[key] += 1
     else:
@@ -12,16 +17,33 @@ def incrementDictionary(key, dictionary):
 
 
 def incrementVocabulary(terminal):
+    """
+    Increment a specified terminal word counter => vocabulary frequency
+    :param terminal: terminal word whose counter is to be incremented
+    """
     incrementDictionary(terminal, vocabulary)
 
 
 def incrementLeftHandSideCounter(nonTerminal):
+    """
+    Increments the counter of a left hand side rule
+    :param nonTerminal: non terminal left hand side rule
+    """
     incrementDictionary(nonTerminal, leftHandSideCounter)
 
 def incrementTerminalCounter(terminal):
+    """
+    Increments the counter of a left hand side terminal rule
+    :param terminal: terminal left hand side rule
+    """
     incrementDictionary(terminal, terminalCounter)
 
 def incrementRuleCounter(leftNonTerminal, rightRule):
+    """
+    Increment the rule's counters to compute the FCPG parameters
+    :param leftNonTerminal: left hand side of the rule
+    :param rightRule: right hand side of the rule
+    """
     global numberOfRules
     if leftNonTerminal in ruleCounter:
         if rightRule not in ruleCounter[leftNonTerminal]:
@@ -36,6 +58,12 @@ def incrementRuleCounter(leftNonTerminal, rightRule):
 
 
 def printRules(filepath):
+    """
+    Prints the rules in a file, if filepath is defined, otherwise it outputs them in the standard output.
+    This function prints also the vocabulary and non terminal mapping files, to be used later for the CYK algorithm
+    :param filepath: path of the file the print has to be saved to
+    :return: the sum of probabilities for every rule, computed as a safety check.
+    """
     rulesSumOfProbabilities = dict()
     if filepath is not None:
         with open(filepath + 'rules', 'w') as rulesDataset:
@@ -71,6 +99,10 @@ def printRules(filepath):
 
 
 def printRequestedRules(listOfRulesLeftHandSizeToPrint):
+    """
+    Prints only some specific rules to the standard output
+    :param listOfRulesLeftHandSizeToPrint: list of rules to print
+    """
     for leftHandSide in listOfRulesLeftHandSizeToPrint:
         print("Rules with " + leftHandSide + " as left hand side")
         for rightHandSide in ruleCounter[leftHandSide]:
