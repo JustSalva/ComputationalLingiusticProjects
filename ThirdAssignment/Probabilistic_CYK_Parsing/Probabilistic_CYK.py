@@ -284,6 +284,7 @@ with open('./../data/two_sentences.txt', 'r') as sentencesDataset:
         words = sentence.split()
         tree, probability = startProbabilisticCYK(words)
         print(printTree(tree, words))
+        print(probability)
 fileNames = ["train", "test"]
 for fileName in fileNames:
     with open('./../data/' + fileName + '/' + fileName + '.input.txt', 'r') as sentencesDataset:
