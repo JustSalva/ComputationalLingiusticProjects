@@ -1,4 +1,4 @@
-from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.tokenize import word_tokenize
 
 def file_counters(file):
     '''Reading a file, I tokenize every line (increasing the sentence counter) and
